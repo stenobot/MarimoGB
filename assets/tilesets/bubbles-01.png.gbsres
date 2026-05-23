@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "0a1b5069-ea60-4007-a97c-b7fe6bf444e5",
+  "name": "bubbles-01",
+  "symbol": "tileset_bubbles_01",
+  "width": 10,
+  "height": 1,
+  "imageWidth": 80,
+  "imageHeight": 8,
+  "filename": "bubbles-01.png"
+}

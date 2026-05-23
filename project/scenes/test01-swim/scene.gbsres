@@ -30,7 +30,8 @@
       "args": {
         "actorId": "$self$",
         "spriteStateId": "Swimming",
-        "loopAnim": true
+        "loopAnim": true,
+        "__collapse": true
       },
       "id": "7969426b-c118-4e32-be5b-ec6a9141504a"
     },
@@ -40,7 +41,8 @@
         "timer": 1,
         "duration": 0.8,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -81,7 +83,7 @@
         "duration": 1.4,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -214,5 +216,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": false
 }
