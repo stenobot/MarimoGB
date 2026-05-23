@@ -10,7 +10,7 @@
   "type": "ADVENTURE",
   "colorModeOverride": "none",
   "paletteIds": [
-    "9a194040-cb3e-465d-8a1f-221dffe36e96",
+    "d0736541-6a34-44fc-9d6c-6eeb4e3ac9b5",
     "5217eb21-b9a1-4a5d-8fd4-9be569fac4cb",
     "0b13d316-7592-4570-9dfd-88075da0e8d4",
     "default-bg-4"
@@ -66,7 +66,7 @@
               },
               "variable": "L0",
               "__comment": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "9ac1a5dd-8de8-44dc-a98d-474aa92a06e6"
           }
@@ -90,7 +90,7 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 11
+                "value": 9
               },
               "y": {
                 "type": "number",

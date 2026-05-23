@@ -5,6 +5,41 @@
       "id": "0",
       "name": "animState",
       "symbol": "var_animstate"
+    },
+    {
+      "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
+      "name": "pipeEntranceState",
+      "symbol": "var_pipeentrancestate"
+    },
+    {
+      "id": "9c98076a-4fda-40fe-81fe-4e4fe466f7d8__L0",
+      "name": "pipeExitLeftState",
+      "symbol": "var_pipeexitleftstate"
+    },
+    {
+      "id": "9c98076a-4fda-40fe-81fe-4e4fe466f7d8__L1",
+      "name": "pipeCalmOneState",
+      "symbol": "var_pipecalmonestate"
+    },
+    {
+      "id": "9c98076a-4fda-40fe-81fe-4e4fe466f7d8__L2",
+      "name": "pipeCalmTwoState",
+      "symbol": "var_pipecalmtwostate"
+    },
+    {
+      "id": "9c98076a-4fda-40fe-81fe-4e4fe466f7d8__L3",
+      "name": "pipeCalmThreeState",
+      "symbol": "var_pipecalmthreestate"
+    },
+    {
+      "id": "9c98076a-4fda-40fe-81fe-4e4fe466f7d8__L4",
+      "name": "pipeCalmFourState",
+      "symbol": "var_pipecalmfourstate"
+    },
+    {
+      "id": "9c98076a-4fda-40fe-81fe-4e4fe466f7d8__L5",
+      "name": "pipeCalmFiveState",
+      "symbol": "var_pipecalmfivestate"
     }
   ],
   "constants": []
