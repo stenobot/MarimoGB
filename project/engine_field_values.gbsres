@@ -64,6 +64,18 @@
     {
       "id": "adv_walk_vel",
       "value": 3031
+    },
+    {
+      "id": "FEAT_PLATFORM_WALL_JUMP",
+      "value": 1
+    },
+    {
+      "id": "plat_wall_slide",
+      "value": 1
+    },
+    {
+      "id": "PLATFORM_WALL_SLIDE_ANIM",
+      "value": "WallSlide"
     }
   ]
 }
