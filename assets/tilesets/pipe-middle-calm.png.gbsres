@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "369cc599-7dc7-4c8b-b09b-e2c6841caa0a",
+  "name": "pipe-middle-calm",
+  "symbol": "tileset_pipe_middle_calm",
+  "width": 7,
+  "height": 1,
+  "imageWidth": 56,
+  "imageHeight": 8,
+  "filename": "pipe-middle-calm.png"
+}

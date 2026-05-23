@@ -7,11 +7,11 @@
     },
     {
       "id": "FEAT_PLATFORM_COYOTE_TIME",
-      "value": 0
+      "value": 1
     },
     {
       "id": "FEAT_PLATFORM_DROP_THROUGH",
-      "value": 0
+      "value": 1
     },
     {
       "id": "SHOOTER_MOVEMENT_TYPE",
@@ -27,7 +27,7 @@
     },
     {
       "id": "FEAT_PLATFORM_RUN",
-      "value": 1
+      "value": 0
     },
     {
       "id": "plat_jump_vel",
