@@ -29,9 +29,17 @@
         "actorId": "$self$",
         "spriteStateId": "Swimming",
         "loopAnim": true,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "4d6fa402-518f-4b14-8e1d-aa47beafe62b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15
+      },
+      "id": "4fc8954b-2a73-4496-8817-9b82f7207ea5"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -39,7 +47,8 @@
         "timer": 1,
         "duration": 0.8,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -100,9 +109,10 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 2,
-        "duration": 1.5,
+        "duration": 1.2,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -138,9 +148,10 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 3,
-        "duration": 2.1,
+        "duration": 1.9,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
