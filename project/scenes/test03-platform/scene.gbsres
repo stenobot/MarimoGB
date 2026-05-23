@@ -1,0 +1,37 @@
+{
+  "_resourceType": "scene",
+  "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61",
+  "_index": 3,
+  "name": "Test03-Platform",
+  "backgroundId": "075296b2-be0c-4495-950e-df064fd22c20",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "9a194040-cb3e-465d-8a1f-221dffe36e96"
+  ],
+  "spritePaletteIds": [
+    "59f86781-0cb7-466d-8ca6-4d6a7118502a"
+  ],
+  "collisions": "009a+0f3+0027+0f!004+0f7+001c+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!001a+0f2+006+0f!004+0f!005+0f1e+004+0f!005+0f2+0020+0f2+002+0f3+0098+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 780,
+  "y": 476,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "68d0e638-57bb-4486-a250-efdcee4def6b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

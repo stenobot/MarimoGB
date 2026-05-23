@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "075296b2-be0c-4495-950e-df064fd22c20",
+  "name": "test-level-03-platform",
+  "symbol": "bg_test_level_03_platform",
+  "tileColors": "",
+  "filename": "test-level-03-platform.png",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144
+}
