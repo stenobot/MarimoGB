@@ -9,7 +9,7 @@
     {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
-      "symbol": "var_pipeentrancestate"
+      "symbol": "var_pipeentrancestate_0"
     },
     {
       "id": "9c98076a-4fda-40fe-81fe-4e4fe466f7d8__L0",
@@ -40,6 +40,21 @@
       "id": "9c98076a-4fda-40fe-81fe-4e4fe466f7d8__L5",
       "name": "pipeCalmFiveState",
       "symbol": "var_pipecalmfivestate"
+    },
+    {
+      "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L1",
+      "name": "starTwinkleTwoState",
+      "symbol": "var_startwinkletwostate"
+    },
+    {
+      "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L2",
+      "name": "starTwinkleThreeState",
+      "symbol": "var_startwinklethreestate"
+    },
+    {
+      "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L3",
+      "name": "starTwinkleOneState",
+      "symbol": "var_startwinkleonestate"
     }
   ],
   "constants": []

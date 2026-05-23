@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "47beb51f-1911-46e1-8ef1-234f98bd7a3e",
+  "name": "star-twinkle-02",
+  "symbol": "tileset_star_twinkle_02",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "star-twinkle-02.png"
+}
