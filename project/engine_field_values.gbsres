@@ -48,6 +48,10 @@
     {
       "id": "plat_max_fall_vel",
       "value": 15769
+    },
+    {
+      "id": "plat_climb_vel",
+      "value": 2048
     }
   ]
 }

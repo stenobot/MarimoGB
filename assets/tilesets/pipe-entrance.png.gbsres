@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "281912f6-dc1a-4f58-a0db-889656b1befc",
+  "name": "pipe-entrance",
+  "symbol": "tileset_pipe_entrance",
+  "width": 6,
+  "height": 8,
+  "imageWidth": 48,
+  "imageHeight": 64,
+  "filename": "pipe-entrance.png"
+}
