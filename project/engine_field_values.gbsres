@@ -52,6 +52,18 @@
     {
       "id": "plat_climb_vel",
       "value": 2048
+    },
+    {
+      "id": "adv_dec",
+      "value": 81
+    },
+    {
+      "id": "adv_walk_acc",
+      "value": 983
+    },
+    {
+      "id": "adv_walk_vel",
+      "value": 3031
     }
   ]
 }
