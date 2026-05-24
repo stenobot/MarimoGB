@@ -76,6 +76,10 @@
     {
       "id": "PLATFORM_WALL_SLIDE_ANIM",
       "value": "WallSlide"
+    },
+    {
+      "id": "INPUT_PLATFORM_INTERACT",
+      "value": "INPUT_B"
     }
   ]
 }

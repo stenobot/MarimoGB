@@ -3,8 +3,18 @@
   "variables": [
     {
       "id": "0",
-      "name": "animState",
-      "symbol": "var_animstate"
+      "name": "playerX",
+      "symbol": "var_playerx"
+    },
+    {
+      "id": "1",
+      "name": "playerY",
+      "symbol": "var_playery"
+    },
+    {
+      "id": "2",
+      "name": "isMuckleActive",
+      "symbol": "var_ismuckleactive"
     },
     {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
@@ -80,6 +90,16 @@
       "id": "7a7f1de7-3de9-40ec-8e3d-d1f572442d30__L3",
       "name": "bubblesThreeState",
       "symbol": "var_bubblesthreestate"
+    },
+    {
+      "id": "3",
+      "name": "robotX",
+      "symbol": "var_robotx"
+    },
+    {
+      "id": "4",
+      "name": "robotY",
+      "symbol": "var_roboty"
     }
   ],
   "constants": []
