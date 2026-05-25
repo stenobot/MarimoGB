@@ -1,13 +1,13 @@
 {
   "_resourceType": "sprite",
   "id": "1e9310e1-bb98-47a7-a028-badd4ebb99f8",
-  "name": "muckle-trance",
+  "name": "muckle-trance-shadow",
   "symbol": "sprite_muckle_trance",
   "states": [
     {
       "id": "813a9266-b99a-45e3-9cf8-95f65ed539e4",
       "name": "",
-      "animationType": "fixed",
+      "animationType": "horizontal",
       "flipLeft": true,
       "animations": [
         {
@@ -271,7 +271,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "muckle-trance.png",
+  "filename": "muckle-trance-shadow.png",
   "width": 80,
   "height": 16,
   "checksum": "a8d9bb40a4d5edbef36ca1537771fb6bdff042b4"

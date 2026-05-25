@@ -2,31 +2,11 @@
   "_resourceType": "script",
   "id": "49c8748d-d85b-4694-a442-a566b820659e",
   "name": "MucklePsychicControl",
-  "description": "Muckle activates psychic control over another creature. Switch player from Muckle to Robot, and set position at Robot's last position.",
+  "description": "Muckle activates psychic control over another creature. Switch player from Muckle to Robot, and set player position at Robot's last position. Additionally, we set variables so that Robot actor and Trance Shadow actor can react in their own update events.",
   "variables": {},
-  "actors": {
-    "0": {
-      "id": "0",
-      "name": "MuckleScanning"
-    },
-    "1": {
-      "id": "1",
-      "name": "Robot"
-    }
-  },
+  "actors": {},
   "symbol": "script_2",
   "script": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "5",
-        "value": {
-          "type": "false"
-        },
-        "__collapse": true
-      },
-      "id": "15023c34-8a07-470e-b934-c6e73ca35d9f"
-    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -43,23 +23,46 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "2",
+              "variable": "5",
               "value": {
                 "type": "false"
               },
               "__collapse": true
             },
-            "id": "f2f4f34e-a1ce-4ce2-bb07-1c52a35f44ad"
+            "id": "15023c34-8a07-470e-b934-c6e73ca35d9f"
           },
           {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "9",
               "value": {
-                "type": "true"
-              }
+                "type": "false"
+              },
+              "__collapse": true
             },
             "id": "6f96f401-c42e-4a95-b3f1-522bec18d762"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "4a62f4fa-5e4c-4596-a81a-46382d7bbcdc"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "c81277fb-9510-4cb1-ae95-dd10debd71e6"
           },
           {
             "command": "EVENT_ACTOR_GET_POSITION",
@@ -123,9 +126,22 @@
               "axis": [
                 "x",
                 "y"
-              ]
+              ],
+              "__collapse": true,
+              "__comment": true
             },
             "id": "f3185dc5-627b-4c17-aa5f-e4ef4df49a12"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "f2f4f34e-a1ce-4ce2-bb07-1c52a35f44ad"
           }
         ],
         "false": [
@@ -160,36 +176,12 @@
             "id": "b5b586d8-b0e7-4886-9cbf-f989a2740b9a"
           },
           {
-            "command": "EVENT_ACTOR_HIDE",
-            "args": {
-              "actorId": "0",
-              "__collapse": true
-            },
-            "id": "870a51e7-b31b-406c-acb5-1da015dc7f22"
-          },
-          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
               "__collapse": true
             },
             "id": "ab6c5cb7-cab4-4d4d-af5e-e014310baafa"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_POSITION",
-            "args": {
-              "actorId": "1",
-              "x": {
-                "type": "variable",
-                "value": "3"
-              },
-              "y": {
-                "type": "variable",
-                "value": "4"
-              },
-              "__collapse": true
-            },
-            "id": "5c49da59-16dd-4371-8881-05ce1568cf9d"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
@@ -206,14 +198,6 @@
               "__collapse": true
             },
             "id": "42537d7f-cf79-498b-aa57-023364545bc8"
-          },
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "1",
-              "__collapse": true
-            },
-            "id": "552b1173-3241-4000-9b26-489fde058907"
           },
           {
             "command": "EVENT_REMOVE_INPUT_SCRIPT",

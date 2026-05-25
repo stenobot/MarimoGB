@@ -123,8 +123,18 @@
     },
     {
       "id": "9",
-      "name": "isRobotPossessed",
-      "symbol": "var_isrobotpossessed"
+      "name": "isUnpossessedRobotActive",
+      "symbol": "var_isunpossessedrobotactiv"
+    },
+    {
+      "id": "10",
+      "name": "isTranceShadowActive",
+      "symbol": "var_istranceshadowactive"
+    },
+    {
+      "id": "11",
+      "name": "setRobotSpriteSheet",
+      "symbol": "var_setrobotspritesheet"
     }
   ],
   "constants": []

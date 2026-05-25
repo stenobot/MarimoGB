@@ -19,6 +19,28 @@
       "id": "e8ac0490-25b7-4e80-9bbe-e03c7c68f52c"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "cf260f77-9585-4933-9969-56d0d876ab96"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "81e3bc9c-0b61-4a3c-81eb-a9e3ca31e564"
+    },
+    {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
         "actorId": "$self$",
@@ -128,7 +150,9 @@
         "axis": [
           "x",
           "y"
-        ]
+        ],
+        "__collapse": true,
+        "__comment": true
       },
       "id": "93094e67-55b0-4651-b4ff-7939776a4a73"
     }

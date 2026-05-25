@@ -1965,11 +1965,101 @@
               "id": "917721a1-c70c-4596-96fe-b85fac56df59",
               "tiles": [
                 {
-                  "id": "5096c04f-c9e5-4861-aec9-03fdf1772425",
+                  "id": "2ebf436f-cf31-4bc6-9e39-1bf314424b7a",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
-                  "sliceY": 0,
+                  "sliceY": 80,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "5c97298b-7a7b-4bc0-937b-88b7b82b251d",
+              "tiles": [
+                {
+                  "id": "b900864a-c5ea-423c-ac6e-c83d0a8d33fe",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 80,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "0d13d010-e8d2-49e1-ac8e-d471815f016a",
+              "tiles": [
+                {
+                  "id": "7cdcf871-744d-4d8a-918a-030c60250dab",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 80,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "aad6307d-60de-46f8-9218-32253691bf91",
+              "tiles": [
+                {
+                  "id": "5d081beb-001c-4133-bbdf-74a0de0cdf02",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 80,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "71b91544-e48c-4195-a78c-15f8463424e1",
+              "tiles": [
+                {
+                  "id": "ea13428a-2ad8-44cf-971b-03eebd3a32bd",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 80,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "634808ef-b7d1-4252-9722-1578a7a2db88",
+              "tiles": [
+                {
+                  "id": "05939680-312e-4fc2-9643-f47bcdf59d90",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 80,
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
@@ -2135,7 +2225,7 @@
       "flipLeft": true
     }
   ],
-  "numTiles": 21,
+  "numTiles": 27,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 8,
@@ -2147,6 +2237,6 @@
   "animSpeed": 15,
   "filename": "muckle.png",
   "width": 48,
-  "height": 80,
-  "checksum": "a141a50563f1f129fc80cd976adddedff7636351"
+  "height": 96,
+  "checksum": "644be0fb7e53ea0d3ceac46a978ad9f0080e31ca"
 }
