@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "af9d638a-4745-47b5-9d78-3d2240960cc0",
+  "name": "muckle-lightning-swim",
+  "symbol": "sprite_muckle_lightning_swi",
+  "states": [
+    {
+      "id": "d36e9580-7f38-4d7d-a0fa-f0edb00b4e8b",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "4b8ddfbb-b84b-470d-8c8f-7a4ffdad0f82",
+          "frames": [
+            {
+              "id": "bcf936ff-a0dc-4930-a4f6-2d4449647ca9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "93a67a82-0c7a-4992-885c-52d526798bc5",
+          "frames": [
+            {
+              "id": "74009798-5de4-4d0a-9832-a0bfb9c9bf07",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6cd46ea0-3b6e-49a2-9545-2ea23ac1c68c",
+          "frames": [
+            {
+              "id": "987cf421-4979-4831-b827-4523f09393da",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2588025b-6e8d-41f2-a583-c7a6859004d8",
+          "frames": [
+            {
+              "id": "3e36ee42-f579-4049-bce2-57aac6bf6648",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0a4c6759-fd5d-4a3e-bece-0e4718276631",
+          "frames": [
+            {
+              "id": "a936101a-8edc-48fe-94fd-e4f78f189f83",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "771c3e11-9d04-422d-a277-68ee35e46492",
+          "frames": [
+            {
+              "id": "4949d2db-5f63-4bc0-9932-f683d654fc8d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b9c58afa-56da-4379-adb4-849849900d96",
+          "frames": [
+            {
+              "id": "8da9d813-5a29-43e5-a7eb-dfc7894b9c91",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b48339ae-705c-4af1-8baa-0b3c20507011",
+          "frames": [
+            {
+              "id": "aa4e5594-03e7-40f2-ba94-901d9f95207f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "muckle-lightning-swim.png",
+  "width": 320,
+  "height": 32,
+  "checksum": "d935c76f3ba3082d384ce1642ee9345cf363885c"
+}

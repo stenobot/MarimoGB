@@ -20,29 +20,16 @@
   "collisions": "009a+0f3+0027+0f!004+0f7+008+0f!0013+0f!004+0f!00e+0f9+007+0f!003+0f!004+0f!0016+0f9+003+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!001a+0f2+006+0f!004+0f!005+0f1e+004+0f!005+0f2+0020+0f2+002+0f3+0098+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 780,
-  "y": 476,
+  "x": 784,
+  "y": 480,
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_STATE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "$self$",
-        "spriteStateId": "",
-        "loopAnim": true,
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
         "__collapse": true
       },
-      "id": "68d0e638-57bb-4486-a250-efdcee4def6b"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "2",
-        "value": {
-          "type": "true"
-        },
-        "__collapse": true
-      },
-      "id": "0710a42d-b846-4416-aa7b-44cf05056a1d"
+      "id": "9c3d04b5-fa5e-4aad-b8f6-a13ee957b20b"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -50,21 +37,38 @@
         "input": [
           "b"
         ],
-        "override": false,
+        "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": false,
+        "__comment": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_IF",
             "args": {
-              "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
-              "$actor[0]$": "376390f7-7770-4e5b-9c24-18d68763a306",
-              "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
-              "__collapse": true
+              "condition": {
+                "type": "variable",
+                "value": "2"
+              },
+              "__collapseElse": true
             },
-            "id": "516a3240-8e35-4ed2-99ec-35b5ef0b2fb3"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
+                    "$actor[0]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "__collapse": false
+                  },
+                  "id": "516a3240-8e35-4ed2-99ec-35b5ef0b2fb3"
+                }
+              ],
+              "false": []
+            },
+            "id": "92113219-ab01-43fb-a5ff-d31c7c60d462"
           }
         ]
       },

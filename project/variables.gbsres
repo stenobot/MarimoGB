@@ -100,6 +100,26 @@
       "id": "4",
       "name": "robotY",
       "symbol": "var_roboty"
+    },
+    {
+      "id": "5",
+      "name": "isMuckleScanning",
+      "symbol": "var_ismucklescanning"
+    },
+    {
+      "id": "6",
+      "name": "playerWalkSpd",
+      "symbol": "var_playerwalkspd"
+    },
+    {
+      "id": "7",
+      "name": "playerJumpSpd",
+      "symbol": "var_playerjumpspd"
+    },
+    {
+      "id": "8",
+      "name": "Variable 8",
+      "symbol": "var_variable_8"
     }
   ],
   "constants": []

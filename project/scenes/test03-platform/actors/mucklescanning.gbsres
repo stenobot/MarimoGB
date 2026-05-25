@@ -1,0 +1,98 @@
+{
+  "_resourceType": "actor",
+  "id": "376390f7-7770-4e5b-9c24-18d68763a306",
+  "name": "MuckleScanning",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1e9310e1-bb98-47a7-a028-badd4ebb99f8",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "11d24476-ebd9-4efe-af08-d7333727a2a2"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "2"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "0"
+              },
+              "y": {
+                "type": "variable",
+                "value": "1"
+              },
+              "__collapse": true
+            },
+            "id": "924b4afc-06e9-4824-adbe-658d1a5fa775"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "6ecf0d7e-b98d-4945-baa4-0cfd4512d2b3"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 7,
+              "__collapse": true
+            },
+            "id": "14c144ec-f033-48a8-8ee6-444700d4a1e0"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "4a8776ac-0750-457c-a718-02dfd3a5d007"
+          }
+        ]
+      },
+      "id": "7f5e999f-9041-44fe-93aa-219d9987bd64"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 0,
+  "y": 0,
+  "_index": 1
+}

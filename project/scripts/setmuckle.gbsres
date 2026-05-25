@@ -1,0 +1,50 @@
+{
+  "_resourceType": "script",
+  "id": "40429d15-954f-4724-82d9-d46a9886638f",
+  "name": "SetMuckle",
+  "description": "Sets various properties for Muckle on scene init",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "7214fe2c-e782-432d-aaab-ddd677dca0e4"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_STORE",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": "6",
+        "__collapse": true
+      },
+      "id": "049fe5dc-7d2e-49cd-be3d-415373d52c40"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_STORE",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": "7",
+        "__collapse": true
+      },
+      "id": "cf166bef-2fcc-44d7-9901-49bc96d57b56"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "0040765a-f210-4495-bbbc-0aef7afc600f"
+    }
+  ]
+}

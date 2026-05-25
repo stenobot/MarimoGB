@@ -1,21 +1,32 @@
 {
   "_resourceType": "script",
-  "id": "7aeaa8f6-95c3-4304-a875-de03386607cd",
-  "name": "PsychicControl",
-  "description": "",
+  "id": "49c8748d-d85b-4694-a442-a566b820659e",
+  "name": "MucklePsychicControl",
+  "description": "Muckle activates psychic control over another creature. Switch player from Muckle to Robot, and set position at Robot's last position.",
   "variables": {},
   "actors": {
     "0": {
       "id": "0",
-      "name": "PsychicMuckle"
+      "name": "MuckleScanning"
     },
     "1": {
       "id": "1",
       "name": "Robot"
     }
   },
-  "symbol": "script_1",
+  "symbol": "script_2",
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "15023c34-8a07-470e-b934-c6e73ca35d9f"
+    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -23,7 +34,9 @@
           "type": "variable",
           "value": "2"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false,
+        "__comment": false
       },
       "children": {
         "true": [
@@ -36,7 +49,7 @@
               },
               "__collapse": true
             },
-            "id": "3392f469-2fa2-4cce-a7a6-042c00b61274"
+            "id": "f2f4f34e-a1ce-4ce2-bb07-1c52a35f44ad"
           },
           {
             "command": "EVENT_ACTOR_GET_POSITION",
@@ -46,31 +59,7 @@
               "vectorY": "1",
               "__collapse": true
             },
-            "id": "df002b62-4444-4104-b7ef-7fdac5c47875"
-          },
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "0",
-              "__collapse": true
-            },
-            "id": "2245dfdd-066b-49d8-b4e3-8e90db987f3a"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_POSITION",
-            "args": {
-              "actorId": "0",
-              "x": {
-                "type": "variable",
-                "value": "0"
-              },
-              "y": {
-                "type": "variable",
-                "value": "1"
-              },
-              "__collapse": true
-            },
-            "id": "034cdf64-f3b1-4f1c-a90f-7e9ee6980760"
+            "id": "c4e08f5c-c00a-46b4-9800-210071aa019e"
           },
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
@@ -78,15 +67,7 @@
               "spriteSheetId": "64cc096d-84bf-4346-a494-e1741bdda85e",
               "__collapse": true
             },
-            "id": "6c380b11-db5a-4f1a-987d-53d8be42b469"
-          },
-          {
-            "command": "EVENT_ACTOR_HIDE",
-            "args": {
-              "actorId": "1",
-              "__collapse": true
-            },
-            "id": "c291ff79-7d50-45fe-a8dc-42d2270c90d4"
+            "id": "e422be1a-ac95-4b03-86a7-191b4d36ccf2"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
@@ -102,22 +83,19 @@
               },
               "__collapse": true
             },
-            "id": "78e59c7c-a32a-4a87-8b69-f1f527428ba0"
+            "id": "8258039a-e94b-4a7b-81db-5a5caf04de76"
           },
           {
-            "command": "EVENT_SET_INPUT_SCRIPT",
+            "command": "EVENT_ENGINE_FIELD_SET",
             "args": {
-              "input": [
-                "a"
-              ],
-              "override": true,
-              "__scriptTabs": "press",
+              "engineFieldKey": "plat_walk_vel",
+              "value": {
+                "type": "variable",
+                "value": "6"
+              },
               "__collapse": true
             },
-            "children": {
-              "true": []
-            },
-            "id": "1f4b8779-78a8-4fd2-ab02-c1aee1e67fd6"
+            "id": "b23eb95a-3dea-4df2-8535-598f4b392e71"
           }
         ],
         "false": [
@@ -130,7 +108,7 @@
               },
               "__collapse": true
             },
-            "id": "50120d5f-dc80-4138-a933-78ba9f3b5d57"
+            "id": "fe885152-f9fc-4d82-9940-2bd44a4672c8"
           },
           {
             "command": "EVENT_ACTOR_GET_POSITION",
@@ -140,7 +118,7 @@
               "vectorY": "4",
               "__collapse": true
             },
-            "id": "4060ef7f-6b6d-4b74-aa3b-30dfcd70464d"
+            "id": "eb1fb948-a792-4327-ad7c-625f6c1fa04a"
           },
           {
             "command": "EVENT_ACTOR_HIDE",
@@ -148,7 +126,7 @@
               "actorId": "0",
               "__collapse": true
             },
-            "id": "e9622a53-8106-4096-a857-6f9a5e896cd9"
+            "id": "870a51e7-b31b-406c-acb5-1da015dc7f22"
           },
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
@@ -156,7 +134,7 @@
               "spriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
               "__collapse": true
             },
-            "id": "b09b8964-8914-40f7-98dc-b785b53905de"
+            "id": "ab6c5cb7-cab4-4d4d-af5e-e014310baafa"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
@@ -172,7 +150,7 @@
               },
               "__collapse": true
             },
-            "id": "37af1883-36b2-4039-9c9a-a5ef2db2efa2"
+            "id": "5c49da59-16dd-4371-8881-05ce1568cf9d"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
@@ -188,7 +166,7 @@
               },
               "__collapse": true
             },
-            "id": "b0b1fa90-c1fc-4d4c-9d81-6e860b80acf9"
+            "id": "42537d7f-cf79-498b-aa57-023364545bc8"
           },
           {
             "command": "EVENT_ACTOR_SHOW",
@@ -196,7 +174,7 @@
               "actorId": "1",
               "__collapse": true
             },
-            "id": "f4355258-d8f8-438d-ab5f-0c0620b5e461"
+            "id": "552b1173-3241-4000-9b26-489fde058907"
           },
           {
             "command": "EVENT_REMOVE_INPUT_SCRIPT",
@@ -205,11 +183,11 @@
                 "a"
               ]
             },
-            "id": "4f8ee251-18e4-4beb-b7b4-c6b72c5b25b2"
+            "id": "8f6c4b6f-6b22-444c-9c9a-655f054ccf4f"
           }
         ]
       },
-      "id": "d56f601c-601d-4778-a191-6dfa8be99205"
+      "id": "c297af1d-f7ae-48e1-94d2-2934317a172d"
     }
   ]
 }
