@@ -65,8 +65,15 @@
             "command": "EVENT_IF",
             "args": {
               "condition": {
-                "type": "variable",
-                "value": "5"
+                "type": "and",
+                "valueA": {
+                  "type": "variable",
+                  "value": "5"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "12"
+                }
               },
               "__collapseElse": false
             },
