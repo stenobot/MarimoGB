@@ -34,6 +34,15 @@
       "id": "69e37160-742a-4ea3-9a8b-01b622edcbe7"
     },
     {
+      "command": "EVENT_ACTOR_GET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": "8",
+        "__collapse": true
+      },
+      "id": "fa0961f7-d59e-4bd0-9263-5efd162c69fe"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -132,6 +141,22 @@
       "id": "1634c378-291a-485f-9a9c-02c384a1a823"
     },
     {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "expression",
+          "value": "$03$ - 10"
+        },
+        "y": {
+          "type": "expression",
+          "value": "$04$"
+        },
+        "speed": 2,
+        "__collapse": true
+      },
+      "id": "4290a53b-0ba4-4612-a47c-dfd3a354b88a"
+    },
+    {
       "command": "EVENT_LOOP_WHILE",
       "args": {
         "condition": {
@@ -170,7 +195,7 @@
                       "type": "number",
                       "value": 1
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "6e6e04ab-725d-419c-8e64-a3a40753c15a"
                 }
@@ -217,7 +242,8 @@
                   "command": "EVENT_ACTOR_SET_SPRITE",
                   "args": {
                     "actorId": "0",
-                    "spriteSheetId": "64cc096d-84bf-4346-a494-e1741bdda85e"
+                    "spriteSheetId": "64cc096d-84bf-4346-a494-e1741bdda85e",
+                    "__collapse": true
                   },
                   "id": "e48090de-7a7e-4ba8-997e-15aa7669b4f0"
                 }

@@ -19,14 +19,6 @@
       "id": "e8ac0490-25b7-4e80-9bbe-e03c7c68f52c"
     },
     {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "bc904eb0-9e8e-4ed6-88f9-8b97d8b64970"
-    },
-    {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
         "actorId": "$self$",
@@ -43,24 +35,21 @@
       "id": "e00f1aab-9c2a-478e-81d6-63c0f9ef0ada"
     },
     {
-      "command": "EVENT_WAIT",
+      "command": "EVENT_ACTOR_SET_DIRECTION",
       "args": {
-        "time": {
-          "type": "number",
-          "value": 0.1
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
+        "actorId": "$self$",
+        "direction": {
+          "type": "variable",
+          "value": "8"
         },
         "__collapse": true
       },
-      "id": "5bc351d3-4ea2-4700-9669-513cf8511913"
+      "id": "37e1c24c-0c0d-4eac-943d-50edc7922200"
     },
     {
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
-        "spriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
+        "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
         "__collapse": true
       },
       "id": "a845371f-98ba-4547-a894-3523574c880d"
@@ -70,7 +59,7 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 0.1
+          "value": 0.2
         },
         "frames": {
           "type": "number",
@@ -81,12 +70,13 @@
       "id": "37969f6a-2cfd-46d5-8563-bb1cabca8c7a"
     },
     {
-      "command": "EVENT_ACTOR_SHOW",
+      "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
-        "actorId": "$self$",
-        "__collapse": true
+        "spriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
+        "__collapse": true,
+        "__comment": false
       },
-      "id": "6f6e3eb1-a3f8-4186-be48-c6d7177827f9"
+      "id": "2fccd6ad-88ff-4ff8-becb-99ebc6350940"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -130,6 +120,17 @@
         "__collapse": true
       },
       "id": "910617d6-78a0-4141-9c52-9a2859cc79d7"
+    },
+    {
+      "command": "EVENT_CAMERA_LOCK",
+      "args": {
+        "speed": 2,
+        "axis": [
+          "x",
+          "y"
+        ]
+      },
+      "id": "93094e67-55b0-4651-b4ff-7939776a4a73"
     }
   ]
 }

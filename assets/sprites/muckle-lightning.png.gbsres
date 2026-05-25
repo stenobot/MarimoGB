@@ -7,7 +7,7 @@
     {
       "id": "133e3024-e725-4549-b7ad-656fa41700c3",
       "name": "",
-      "animationType": "fixed",
+      "animationType": "horizontal",
       "flipLeft": true,
       "animations": [
         {
@@ -1710,9 +1710,9 @@
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": -8,
+  "boundsY": 0,
   "boundsWidth": 8,
-  "boundsHeight": 16,
+  "boundsHeight": 8,
   "animSpeed": 15,
   "filename": "muckle-lightning.png",
   "width": 320,

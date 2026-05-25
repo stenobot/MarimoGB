@@ -17,6 +17,36 @@
       "symbol": "var_ismuckleactive"
     },
     {
+      "id": "3",
+      "name": "robotX",
+      "symbol": "var_robotx"
+    },
+    {
+      "id": "4",
+      "name": "robotY",
+      "symbol": "var_roboty"
+    },
+    {
+      "id": "5",
+      "name": "isMuckleScanning",
+      "symbol": "var_ismucklescanning"
+    },
+    {
+      "id": "6",
+      "name": "playerWalkSpd",
+      "symbol": "var_playerwalkspd"
+    },
+    {
+      "id": "7",
+      "name": "playerJumpSpd",
+      "symbol": "var_playerjumpspd"
+    },
+    {
+      "id": "8",
+      "name": "playerDir",
+      "symbol": "var_playerdir"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -92,34 +122,9 @@
       "symbol": "var_bubblesthreestate"
     },
     {
-      "id": "3",
-      "name": "robotX",
-      "symbol": "var_robotx"
-    },
-    {
-      "id": "4",
-      "name": "robotY",
-      "symbol": "var_roboty"
-    },
-    {
-      "id": "5",
-      "name": "isMuckleScanning",
-      "symbol": "var_ismucklescanning"
-    },
-    {
-      "id": "6",
-      "name": "playerWalkSpd",
-      "symbol": "var_playerwalkspd"
-    },
-    {
-      "id": "7",
-      "name": "playerJumpSpd",
-      "symbol": "var_playerjumpspd"
-    },
-    {
-      "id": "8",
-      "name": "Variable 8",
-      "symbol": "var_variable_8"
+      "id": "9",
+      "name": "isRobotPossessed",
+      "symbol": "var_isrobotpossessed"
     }
   ],
   "constants": []

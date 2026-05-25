@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+  "name": "muckle-single",
+  "symbol": "sprite_muckle_single",
+  "states": [
+    {
+      "id": "0f741182-b65f-41cb-954f-7bc6b7ff640a",
+      "name": "",
+      "animationType": "horizontal",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "fc06ec2e-1dea-429f-a344-2c70568b6b34",
+          "frames": [
+            {
+              "id": "7a667ad5-4b1d-43b3-9eff-77d67dc431e1",
+              "tiles": [
+                {
+                  "id": "71e968d4-c3d1-48fd-89f8-6a9aa842bd92",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "340f5fe5-46c7-4388-82cb-f9070fc56541",
+          "frames": [
+            {
+              "id": "67b57990-5ec6-4c53-8ada-285bf72271ae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fa3e418d-e733-4b17-8a9e-43ca2453c219",
+          "frames": [
+            {
+              "id": "2f024cbc-5614-4e6c-8172-a8080c4da155",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "235c8e96-ea55-4460-b9be-d1fd1a546b51",
+          "frames": [
+            {
+              "id": "1c9d5669-f755-403c-9925-f75c822e315e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0c00e02d-7a7c-4e2b-8c29-28f79301c991",
+          "frames": [
+            {
+              "id": "a286b262-d10f-49a7-991a-c8e4d969b837",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5838c9cf-e18d-45e7-b5d4-ba49f3baa85b",
+          "frames": [
+            {
+              "id": "c0db5170-e001-4f06-8177-07b12a434aaa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ecd27941-6794-4bd8-a1d3-0630e1c2ac34",
+          "frames": [
+            {
+              "id": "d927465e-90d8-4e34-b0e8-81546eebeba4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a49c0b0a-5c0f-4904-96c5-f1c2dc14f878",
+          "frames": [
+            {
+              "id": "6689bf20-e935-425e-b9d2-4d79335426b0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "muckle-single.png",
+  "width": 8,
+  "height": 16,
+  "checksum": "1ba271ac363482d3bcfacfe67879be2f3a986df9"
+}
