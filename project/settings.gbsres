@@ -2,7 +2,7 @@
   "_resourceType": "settings",
   "startSceneId": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8",
   "startX": 28,
-  "startY": 11,
+  "startY": 12,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "right",
@@ -27,7 +27,7 @@
     "7c645ab4-029c-41fd-b38b-76caa9c2f5eb",
     "4e6cd991-0584-4158-aaa8-0a2f51198bcd",
     "765daa51-61ea-47bb-ac12-458c658615bf",
-    "default-sprite",
+    "bca69fc2-9fb2-4e0c-ac33-a2603e63f596",
     "default-sprite",
     "default-sprite"
   ],

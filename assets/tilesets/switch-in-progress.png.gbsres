@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "192a509d-3a26-4916-bfdb-0aa665cd81d3",
+  "name": "switch-in-progress",
+  "symbol": "tileset_switch_in_progress",
+  "width": 5,
+  "height": 1,
+  "imageWidth": 40,
+  "imageHeight": 8,
+  "filename": "switch-in-progress.png"
+}

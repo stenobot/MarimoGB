@@ -31,7 +31,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -57,7 +57,7 @@
               },
               "variable": "L0",
               "__comment": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "27892392-1594-4c98-b905-f67599ee436e"
           },
@@ -82,7 +82,7 @@
                 "value": 4
               },
               "variable": "L3",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "6a6e55ed-d432-47cb-9beb-1358ebf81c45"
           },
@@ -107,7 +107,7 @@
                 "value": 2
               },
               "variable": "L4",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "e5e5d297-ae39-4674-b579-5287c97047c4"
           }
@@ -147,7 +147,7 @@
                 "value": 4
               },
               "variable": "L1",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "040b8670-433d-45b0-9607-c825255ec7f6"
           }

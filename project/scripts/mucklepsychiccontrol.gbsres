@@ -128,7 +128,7 @@
                 "y"
               ],
               "__collapse": true,
-              "__comment": true
+              "__comment": false
             },
             "id": "f3185dc5-627b-4c17-aa5f-e4ef4df49a12"
           },
@@ -142,6 +142,30 @@
               "__collapse": true
             },
             "id": "f2f4f34e-a1ce-4ce2-bb07-1c52a35f44ad"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 1,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "left",
+                      "right"
+                    ]
+                  },
+                  "id": "11699d45-4af5-48db-ace7-69eded91c8d0"
+                }
+              ]
+            },
+            "id": "396245bf-ad58-4018-b848-418dc95e05ca"
           }
         ],
         "false": [

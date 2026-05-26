@@ -140,6 +140,36 @@
       "id": "12",
       "name": "isRobotInRange",
       "symbol": "var_isrobotinrange"
+    },
+    {
+      "id": "f0702ca7-e766-425e-a313-af02876c89af__L0",
+      "name": "isSwitchOn",
+      "symbol": "var_isswitchon"
+    },
+    {
+      "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L0",
+      "name": "starTwinkleOneState",
+      "symbol": "var_startwinkleonestate_0"
+    },
+    {
+      "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L1",
+      "name": "starTwinkleTwoState",
+      "symbol": "var_startwinkletwostate_0"
+    },
+    {
+      "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L2",
+      "name": "starTwinkleThreeState",
+      "symbol": "var_startwinklethreestate_0"
+    },
+    {
+      "id": "13",
+      "name": "robotDir",
+      "symbol": "var_robotdir"
+    },
+    {
+      "id": "14",
+      "name": "Variable 14",
+      "symbol": "var_variable_14"
     }
   ],
   "constants": []

@@ -5,8 +5,8 @@
   "name": "Test02-Swim",
   "backgroundId": "5ba4803a-d8e3-489c-b306-760ea6fac39c",
   "tilesetId": "",
-  "width": 60,
-  "height": 54,
+  "width": 40,
+  "height": 36,
   "type": "ADVENTURE",
   "colorModeOverride": "none",
   "paletteIds": [
@@ -17,7 +17,7 @@
   "spritePaletteIds": [
     "59f86781-0cb7-466d-8ca6-4d6a7118502a"
   ],
-  "collisions": "007b+0f36+005+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!004+0f!0036+0f!005+0f36+0070b+",
+  "collisions": "00cb+0f22+005+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!005+0f22+00cb+",
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
   "x": 264,
@@ -37,7 +37,8 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 15
+        "speed": 15,
+        "__collapse": true
       },
       "id": "4fc8954b-2a73-4496-8817-9b82f7207ea5"
     },
@@ -48,7 +49,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -57,11 +58,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 5
+                "value": 6
               },
               "y": {
                 "type": "number",
-                "value": 6
+                "value": 9
               },
               "tilesetId": "f45b2d70-9a14-4edf-80d8-796fbe74476f",
               "tileIndex": {
@@ -97,7 +98,8 @@
                 "type": "number",
                 "value": 10
               },
-              "variable": "L1"
+              "variable": "L1",
+              "__collapse": true
             },
             "id": "76774ec3-9dac-4e96-b77f-a3ef9bb36dd1"
           }
@@ -112,7 +114,7 @@
         "duration": 1.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -136,7 +138,8 @@
                 "type": "number",
                 "value": 10
               },
-              "variable": "L2"
+              "variable": "L2",
+              "__collapse": true
             },
             "id": "d3bd2d52-2971-4f67-b66e-8c3457ad1218"
           }
@@ -151,7 +154,7 @@
         "duration": 1.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
