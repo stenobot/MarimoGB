@@ -1,0 +1,163 @@
+{
+  "_resourceType": "script",
+  "id": "f306a28d-4456-4b10-8529-659d1439f11f",
+  "name": "SetBoostCount",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "14",
+        "choices": 9,
+        "__collapseCase0": true,
+        "__collapseCase1": true,
+        "__collapseCase2": true,
+        "__collapseCase3": true,
+        "__collapseCase4": true,
+        "__collapseCase5": true,
+        "__collapseCase6": true,
+        "__collapseCase7": true,
+        "__collapseCase8": true,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false,
+        "value0": {
+          "type": "number",
+          "value": 0
+        },
+        "value1": {
+          "type": "number",
+          "value": 1
+        },
+        "value2": {
+          "type": "number",
+          "value": 2
+        },
+        "value3": {
+          "type": "number",
+          "value": 3
+        },
+        "value4": {
+          "type": "number",
+          "value": 4
+        },
+        "value5": {
+          "type": "number",
+          "value": 5
+        },
+        "value6": {
+          "type": "number",
+          "value": 6
+        },
+        "value7": {
+          "type": "number",
+          "value": 7
+        },
+        "value8": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "876ca42f-281f-423b-bfa9-e426764dacc6"
+            },
+            "id": "768965ef-f453-4a51-9831-c9933baf69b0"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "2f1a5d1e-9769-477c-94b5-df80224dc043"
+            },
+            "id": "28a9ca86-d316-4512-b93e-3206942b97e3"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3caa5770-e29e-4be1-8b6e-18d7da5b9ac7"
+            },
+            "id": "83c5dc9a-a393-49f9-b25a-d5ec1518d1e3"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "525bf8e7-6aa9-4819-bf38-a4657d53ebb2"
+            },
+            "id": "ae38de43-d60a-4ea7-a268-abf1bab3d802"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "d18206a9-db3a-4a2f-8ff0-983bd57ccf27"
+            },
+            "id": "8a226fb8-deb3-4b00-86aa-7600691b1bbe"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "128b3e1a-f7ed-4b5d-a0e2-78139e495093"
+            },
+            "id": "2e6fd66a-bfaf-437f-a15d-829f7005cc18"
+          }
+        ],
+        "true6": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "4b0ad9b9-0edd-4510-98ff-59ab292c75b1"
+            },
+            "id": "28ccdcbe-5182-47f7-aa66-2684b95f4923"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "509ed0ea-f3d5-47df-973c-e0a7e67fd13d"
+            },
+            "id": "e07d2ec9-6c99-486c-be08-ed27f708caa1"
+          }
+        ],
+        "true8": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "bcef4e7e-d0aa-4098-bf70-c017ee9ab0f4"
+            },
+            "id": "61c98bae-a86e-41cd-8d0a-074adea8db63"
+          }
+        ],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "d144c8c6-fb35-4d66-a1e3-14db52218dee"
+    }
+  ]
+}

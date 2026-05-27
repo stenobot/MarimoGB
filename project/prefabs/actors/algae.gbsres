@@ -1,0 +1,28 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "5679b23f-5aab-4eaa-bb5b-6a213d0aa3ec",
+  "name": "Algae",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f79d6061-ec11-479f-9618-1d1c0b53d31b",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "efa0a211-43a8-437d-9fb6-9f412254fd4f"
+      },
+      "id": "5745ddd6-5841-4b40-b7e9-7faf436360d8"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

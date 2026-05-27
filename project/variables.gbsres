@@ -168,8 +168,8 @@
     },
     {
       "id": "14",
-      "name": "Variable 14",
-      "symbol": "var_variable_14"
+      "name": "algaeCount",
+      "symbol": "var_algaecount"
     }
   ],
   "constants": []

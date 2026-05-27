@@ -29,7 +29,8 @@
         "actorId": "$self$",
         "spriteStateId": "Swimming",
         "loopAnim": true,
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "id": "4d6fa402-518f-4b14-8e1d-aa47beafe62b"
     },
@@ -38,9 +39,33 @@
       "args": {
         "actorId": "$self$",
         "speed": 15,
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "id": "4fc8954b-2a73-4496-8817-9b82f7207ea5"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "b77c74a5-577a-401c-932d-89feccc0327a"
+            },
+            "id": "184f1cf0-10f8-4a58-9e3d-bf84d744cfee"
+          }
+        ]
+      },
+      "id": "d0ba46f4-65e5-4fa0-abeb-a4678d2be8e9"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -49,7 +74,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -114,7 +139,7 @@
         "duration": 1.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -154,7 +179,7 @@
         "duration": 1.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -178,7 +203,8 @@
                 "type": "number",
                 "value": 10
               },
-              "variable": "L3"
+              "variable": "L3",
+              "__collapse": true
             },
             "id": "28f7c2de-a561-456c-ba7f-598c5e093e12"
           }
@@ -191,5 +217,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
+  "playerSpriteSheetId": "876ca42f-281f-423b-bfa9-e426764dacc6"
 }

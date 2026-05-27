@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "40429d15-954f-4724-82d9-d46a9886638f",
-  "name": "SetMuckle",
+  "name": "SetMucklePlatform",
   "description": "Sets various properties for Muckle on scene init",
   "variables": {},
   "actors": {},

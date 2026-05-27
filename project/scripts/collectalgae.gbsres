@@ -1,0 +1,37 @@
+{
+  "_resourceType": "script",
+  "id": "efa0a211-43a8-437d-9fb6-9f412254fd4f",
+  "name": "CollectAlgae",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Algae"
+    }
+  },
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "14"
+      },
+      "id": "06b751ab-8cf3-4dc4-a9c4-6a9d496f599c"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "02299b4b-a436-44e2-a89e-c61768bca1a6"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f306a28d-4456-4b10-8529-659d1439f11f"
+      },
+      "id": "8262a3fe-58bc-4e24-a349-e095f2c309f1"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "_resourceType": "sprite",
+  "id": "f79d6061-ec11-479f-9618-1d1c0b53d31b",
+  "name": "algae",
+  "symbol": "sprite_algae",
+  "states": [
+    {
+      "id": "a260c8b7-dcda-45a5-beb4-10dfc43df05a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3887d27f-56a7-4312-9901-857d77c8b25a",
+          "frames": [
+            {
+              "id": "39d67ce2-d341-4fea-a334-42b3cee0b61a",
+              "tiles": [
+                {
+                  "id": "d1a42d3f-e252-40fd-bb5a-7466f2650bcb",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "79d3d56a-483a-4e51-9cf2-73a8a61cff21",
+              "tiles": [
+                {
+                  "id": "fc498d1c-1d7c-4b1b-a403-166b23a4b2c0",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "c229bbb0-3ca1-4c02-a8f3-383f3a0f0a2b",
+              "tiles": [
+                {
+                  "id": "b6ef41e1-c2c1-45ca-b6dc-20d34d9d40c9",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "b94bb813-ce91-468f-bd88-349f1942e3d4",
+              "tiles": [
+                {
+                  "id": "f38ee199-614a-4126-b025-e0a8a317ab56",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "caf0d730-85bb-4cb4-80b4-eba92b9306de",
+              "tiles": [
+                {
+                  "id": "366e36c1-22a6-4227-9b66-4428c69e7acd",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "58c380bd-24b8-4b7d-92b9-7f2371e126fa",
+          "frames": [
+            {
+              "id": "c8b3ecf1-e731-4bb3-8824-86304f8711c9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8a27d816-e78c-4769-9b80-38af8c6e895e",
+          "frames": [
+            {
+              "id": "03fdf818-547a-4029-bfd7-404ef4d29dcf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4edca089-f4f9-4068-863a-b31999d68fb7",
+          "frames": [
+            {
+              "id": "73ee659c-3948-4d65-9353-625f4588439d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e0282fbd-95b4-44b9-b0eb-1b6b136784ac",
+          "frames": [
+            {
+              "id": "ca2dc7b1-2a57-494d-a392-fd748500a2ca",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "26eac51b-2efa-4c5e-9337-3d139a9f30f6",
+          "frames": [
+            {
+              "id": "c3941034-1f65-460f-bac7-a84cd0df30ed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5bb820ca-b97c-410d-ab8a-3b620b8aea65",
+          "frames": [
+            {
+              "id": "237ebde9-58af-4759-b15e-ef9490085211",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e9110da7-b0b5-41bb-a97d-e25bdbc532c1",
+          "frames": [
+            {
+              "id": "2af860c8-bd4e-45b6-ac3d-6ae7b7ff6b17",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 5,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 8,
+  "boundsHeight": 8,
+  "animSpeed": 15,
+  "filename": "algae.png",
+  "width": 40,
+  "height": 16,
+  "checksum": "31f4f3e6a5a07bc33e76a9cfbae494b647893928"
+}
