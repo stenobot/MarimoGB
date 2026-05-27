@@ -146,7 +146,7 @@
           {
             "command": "EVENT_SET_TIMER_SCRIPT",
             "args": {
-              "timer": 1,
+              "timer": 4,
               "duration": 0.6,
               "frames": 30,
               "__scriptTabs": "end"

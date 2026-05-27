@@ -170,6 +170,21 @@
       "id": "14",
       "name": "algaeCount",
       "symbol": "var_algaecount"
+    },
+    {
+      "id": "15",
+      "name": "isMuckleBoosting",
+      "symbol": "var_ismuckleboosting"
+    },
+    {
+      "id": "16",
+      "name": "boostSpd",
+      "symbol": "var_boostspd"
+    },
+    {
+      "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L3",
+      "name": "doorFadeState",
+      "symbol": "var_doorfadestate_1"
     }
   ],
   "constants": []
