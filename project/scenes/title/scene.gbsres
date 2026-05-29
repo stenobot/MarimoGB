@@ -5,8 +5,8 @@
   "type": "LOGO",
   "name": "Title",
   "symbol": "scene_5",
-  "x": 328,
-  "y": 176,
+  "x": 184,
+  "y": 48,
   "width": 20,
   "height": 18,
   "backgroundId": "803be8ef-01f8-4340-842b-0204528e3998",
@@ -44,14 +44,14 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8",
+              "sceneId": "7159345d-79fc-4d70-ac00-01ae1fdf53e5",
               "x": {
                 "type": "number",
-                "value": 12
+                "value": 8
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 8
               },
               "direction": "",
               "fadeSpeed": "2",

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "scene",
+  "id": "d7a99418-330e-42a9-b621-5fd5b1521828",
+  "_index": 10,
+  "name": "Cutscene03",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 176,
+  "y": 648,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "1e2234ea-fb26-4cee-93ee-b4995f2fb4a5"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "start",
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e18df9b7-02cf-415c-93ee-460450c90822",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "b5c26ae3-6688-4c5a-8a7e-25df6f87ef06"
+          }
+        ]
+      },
+      "id": "274fecd7-de29-4d7f-bbd0-48be9a8d8961"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__collapse": true
+      },
+      "id": "f9de6779-5422-45ee-bceb-00c9223b7255"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "...collecting\nfound objects...",
+        "x": 1,
+        "y": 6,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "4cae3047-c5e6-4036-841b-c982ec6843bb"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 20,
+        "y": 0,
+        "speed": 0,
+        "__collapse": false
+      },
+      "id": "3ab6f40f-a480-4b09-bcea-57a3efe0879a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+  "autoFadeEventCollapse": true
+}

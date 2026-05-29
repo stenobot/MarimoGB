@@ -1,0 +1,100 @@
+{
+  "_resourceType": "scene",
+  "id": "e18df9b7-02cf-415c-93ee-460450c90822",
+  "_index": 11,
+  "name": "Cutscene04",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 184,
+  "y": 840,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "937f1a82-ab3e-405b-bd64-86de454e6feb"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "start",
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "22892697-cc3b-43f1-848b-08b0c5b89d1f",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "25da6adb-910c-4d22-b30a-5fd54809e1fd"
+          }
+        ]
+      },
+      "id": "196d6d07-8c97-42df-ab93-afcfb788e86b"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__collapse": true
+      },
+      "id": "34805c45-79f4-403b-8101-ee5b85999330"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "...and living\npeacefully amongst\nthe creatures with\nwhom they share\ntheir habitat.",
+        "x": 1,
+        "y": 6,
+        "location": "overlay",
+        "__collapse": false
+      },
+      "id": "84f3c323-d2fb-4d38-891a-e26f15adf954"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 0,
+        "speed": 0,
+        "__collapse": false
+      },
+      "id": "c6f328e5-67b8-4341-9a7c-42a0ec509136"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+  "autoFadeEventCollapse": true
+}

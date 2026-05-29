@@ -1,0 +1,100 @@
+{
+  "_resourceType": "scene",
+  "id": "7159345d-79fc-4d70-ac00-01ae1fdf53e5",
+  "_index": 5,
+  "name": "Cutscene01",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 176,
+  "y": 248,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "3737f370-eb68-4d40-9dcb-82de496143c2"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "31736f74-018b-42e9-8328-49f65a48b5dc",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "63b413a1-9909-4ed6-855d-3df78302ae18"
+          }
+        ]
+      },
+      "id": "d44f2d8d-2c44-4db3-9e46-bc6cc1bbc892"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__collapse": true
+      },
+      "id": "d5b5e83f-dabb-41b8-acc6-d2dd3b3ea4b8"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "This is Muckle.",
+        "x": 1,
+        "y": 6,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "ede7d826-c090-48f7-8c0e-5cd87cf737f7"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 20,
+        "y": 0,
+        "speed": 0,
+        "__collapse": true
+      },
+      "id": "bd9ed4f5-512c-496b-a121-660bc61fa6fe"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+  "autoFadeEventCollapse": true
+}

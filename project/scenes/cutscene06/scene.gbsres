@@ -1,0 +1,99 @@
+{
+  "_resourceType": "scene",
+  "id": "e6fea264-be80-4c34-9252-efe42a71a318",
+  "_index": 8,
+  "name": "Cutscene06",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 384,
+  "y": 544,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "9a464f3a-01bb-43b2-af11-f2a714bab3b1"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "afb5eb53-7d44-4300-9026-7b82ee1edbce",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ecee124f-e8bc-4111-bc04-a85877fd2f69"
+          }
+        ]
+      },
+      "id": "3dcadc27-f0ee-42d3-b76a-e47cc358428f"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__collapse": true
+      },
+      "id": "70e1c392-6756-449b-874d-87ebded5aabe"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Amidst the chaos\nand destruction,\nMuckle became\ntrapped inside a\nwater pipe and\nlost consciousness.",
+        "x": 1,
+        "y": 6,
+        "location": "overlay",
+        "__collapse": false
+      },
+      "id": "49d6a088-3f62-410a-b1f4-a5c58dbfda34"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 0,
+        "speed": 0
+      },
+      "id": "65253cb8-9ebd-4dfb-a7ae-ed2c814a2fdf"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+  "autoFadeEventCollapse": true
+}

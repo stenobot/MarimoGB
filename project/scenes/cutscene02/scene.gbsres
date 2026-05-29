@@ -1,0 +1,100 @@
+{
+  "_resourceType": "scene",
+  "id": "31736f74-018b-42e9-8328-49f65a48b5dc",
+  "_index": 6,
+  "name": "Cutscene02",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 176,
+  "y": 456,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "90d9f582-8351-4571-bb77-4356a0e0b379"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "start",
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "d7a99418-330e-42a9-b621-5fd5b1521828",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "63665a87-4f22-4612-b97f-9209c1305b64"
+          }
+        ]
+      },
+      "id": "7c626861-f30b-4b6a-b736-8b4ec351a82d"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 20,
+        "y": 0,
+        "__collapse": true
+      },
+      "id": "5763b3c8-7707-41e7-a19a-9ab6122fcdc0"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 0,
+        "speed": 0,
+        "__collapse": false
+      },
+      "id": "db7b1d87-e792-4803-8e36-53a0d94eb1b7"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Muckle spends\ntheir day eating\nalgae...",
+        "x": 1,
+        "y": 6,
+        "location": "overlay",
+        "__collapse": true
+      },
+      "id": "df05a1ed-f031-4b66-a906-1d8ce28e3351"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+  "autoFadeEventCollapse": true
+}
