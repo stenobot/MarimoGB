@@ -6,7 +6,7 @@
   "name": "Title",
   "symbol": "scene_5",
   "x": 184,
-  "y": 48,
+  "y": 256,
   "width": 20,
   "height": 18,
   "backgroundId": "803be8ef-01f8-4340-842b-0204528e3998",
@@ -27,6 +27,14 @@
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "3e368d56-6c5a-4055-b9a3-1f3cbd300506"
+    },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
@@ -368,9 +376,10 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "96d787b7-0649-48d1-964d-18daa7ac6914"
+        "musicId": "96d787b7-0649-48d1-964d-18daa7ac6914",
+        "__collapse": true
       },
-      "id": "5a8fa787-c166-4ebc-837c-ea5a8547549a"
+      "id": "61258320-4214-425f-be93-e5c6f6d55e88"
     }
   ],
   "playerHit1Script": [],

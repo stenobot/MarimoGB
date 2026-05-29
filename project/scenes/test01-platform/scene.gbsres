@@ -5,8 +5,8 @@
   "type": "PLATFORM",
   "name": "Test01-Platform",
   "symbol": "scene_1",
-  "x": 672,
-  "y": 152,
+  "x": 856,
+  "y": 96,
   "width": 40,
   "height": 36,
   "backgroundId": "e5697c44-c6f4-453e-9e46-93cc03c17368",
@@ -21,7 +21,7 @@
   "spritePaletteIds": [
     "59f86781-0cb7-466d-8ca6-4d6a7118502a"
   ],
-  "autoFadeSpeed": 3,
+  "autoFadeSpeed": 5,
   "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
   "script": [
     {
@@ -194,6 +194,13 @@
         ]
       },
       "id": "f15a1b99-23d4-49e3-bc5e-fe4a7225ed08"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4c857ad0-2d88-4c3c-8a9c-0a33ee34c0e9"
+      },
+      "id": "64e59877-6d62-4343-9a3e-e17403947c1c"
     }
   ],
   "playerHit1Script": [],

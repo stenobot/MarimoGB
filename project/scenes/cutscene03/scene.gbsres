@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
-  "id": "d7a99418-330e-42a9-b621-5fd5b1521828",
-  "_index": 10,
+  "id": "e18df9b7-02cf-415c-93ee-460450c90822",
+  "_index": 9,
   "name": "Cutscene03",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
@@ -13,9 +13,9 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_11",
-  "x": 176,
-  "y": 648,
+  "symbol": "scene_12",
+  "x": 376,
+  "y": 656,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -23,7 +23,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "1e2234ea-fb26-4cee-93ee-b4995f2fb4a5"
+      "id": "e29d8105-bc45-4a6f-8144-f01b72658e37"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -42,7 +42,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "e18df9b7-02cf-415c-93ee-460450c90822",
+              "sceneId": "22892697-cc3b-43f1-848b-08b0c5b89d1f",
               "x": {
                 "type": "number",
                 "value": 0
@@ -54,11 +54,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "b5c26ae3-6688-4c5a-8a7e-25df6f87ef06"
+            "id": "25da6adb-910c-4d22-b30a-5fd54809e1fd"
           }
         ]
       },
-      "id": "274fecd7-de29-4d7f-bbd0-48be9a8d8961"
+      "id": "196d6d07-8c97-42df-ab93-afcfb788e86b"
     },
     {
       "command": "EVENT_OVERLAY_SHOW",
@@ -68,18 +68,18 @@
         "y": 0,
         "__collapse": true
       },
-      "id": "f9de6779-5422-45ee-bceb-00c9223b7255"
+      "id": "34805c45-79f4-403b-8101-ee5b85999330"
     },
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "...collecting\nfound objects...",
+        "text": "Muckle is friendly\nwith their \nneighbors.",
         "x": 1,
-        "y": 6,
+        "y": 7,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
-      "id": "4cae3047-c5e6-4036-841b-c982ec6843bb"
+      "id": "84f3c323-d2fb-4d38-891a-e26f15adf954"
     },
     {
       "command": "EVENT_OVERLAY_MOVE_TO",
@@ -87,9 +87,9 @@
         "x": 20,
         "y": 0,
         "speed": 0,
-        "__collapse": false
+        "__collapse": true
       },
-      "id": "3ab6f40f-a480-4b09-bcea-57a3efe0879a"
+      "id": "c6f328e5-67b8-4341-9a7c-42a0ec509136"
     }
   ],
   "playerHit1Script": [],

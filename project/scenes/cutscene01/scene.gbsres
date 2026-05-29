@@ -14,16 +14,15 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 176,
-  "y": 248,
+  "x": 184,
+  "y": 456,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$",
-        "__collapse": true
+        "actorId": "$self$"
       },
-      "id": "3737f370-eb68-4d40-9dcb-82de496143c2"
+      "id": "8171a5dc-aebf-416b-8d68-4f5d1eb299da"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -75,7 +74,7 @@
       "args": {
         "text": "This is Muckle.",
         "x": 1,
-        "y": 6,
+        "y": 8,
         "location": "background",
         "__collapse": true
       },

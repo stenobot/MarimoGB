@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
-  "id": "22892697-cc3b-43f1-848b-08b0c5b89d1f",
-  "_index": 7,
+  "id": "e6fea264-be80-4c34-9252-efe42a71a318",
+  "_index": 8,
   "name": "Cutscene05",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
@@ -13,9 +13,9 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_8",
-  "x": 384,
-  "y": 760,
+  "symbol": "scene_9",
+  "x": 376,
+  "y": 256,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -23,7 +23,7 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "eedc3969-4595-4e69-957b-f3f3a867d637"
+      "id": "9c3fbc9f-b912-493d-b8ce-af9c03186fc7"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -35,14 +35,14 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "e6fea264-be80-4c34-9252-efe42a71a318",
+              "sceneId": "eb4d2ca5-2b93-48fc-b2ca-4e8bd42fdaca",
               "x": {
                 "type": "number",
                 "value": 0
@@ -51,14 +51,26 @@
                 "type": "number",
                 "value": 0
               },
-              "direction": "",
-              "fadeSpeed": "2"
+              "direction": "right",
+              "fadeSpeed": "2",
+              "__collapse": false
             },
-            "id": "2fd336a0-8e3f-408e-ad29-272cd81b7171"
+            "id": "ecee124f-e8bc-4111-bc04-a85877fd2f69"
           }
         ]
       },
-      "id": "42b06d33-b160-4097-9375-2c427abb971d"
+      "id": "3dcadc27-f0ee-42d3-b76a-e47cc358428f"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Amidst the chaos,\nMuckle became\ntrapped inside a\nwater pipe and\nlost consciousness.",
+        "x": 1,
+        "y": 6,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "49d6a088-3f62-410a-b1f4-a5c58dbfda34"
     },
     {
       "command": "EVENT_OVERLAY_SHOW",
@@ -68,18 +80,7 @@
         "y": 0,
         "__collapse": true
       },
-      "id": "b24fc3e5-c2b3-4d31-a722-c3ab0f30cb00"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "One day, massive\nmachines suddenly\nappeared and began\nterraforming the\nearth and water,\ndestroying\nMuckle's home.",
-        "x": 1,
-        "y": 6,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "8a1fd861-61f7-4e5f-a839-5d4181329190"
+      "id": "70e1c392-6756-449b-874d-87ebded5aabe"
     },
     {
       "command": "EVENT_OVERLAY_MOVE_TO",
@@ -87,9 +88,9 @@
         "x": 20,
         "y": 0,
         "speed": 0,
-        "__collapse": false
+        "__collapse": true
       },
-      "id": "1af7c1f3-a0dc-4451-99b2-fde517917c1d"
+      "id": "65253cb8-9ebd-4dfb-a7ae-ed2c814a2fdf"
     }
   ],
   "playerHit1Script": [],
