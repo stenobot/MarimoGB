@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "da960884-f5da-4b9d-8ea8-a02d27987dff",
+  "name": "title-4-6",
+  "symbol": "tileset_title_4_6",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "title-4-6.png"
+}

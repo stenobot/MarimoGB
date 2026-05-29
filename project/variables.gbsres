@@ -47,6 +47,46 @@
       "symbol": "var_playerdir"
     },
     {
+      "id": "9",
+      "name": "isUnpossessedRobotActive",
+      "symbol": "var_isunpossessedrobotactiv"
+    },
+    {
+      "id": "10",
+      "name": "isTranceShadowActive",
+      "symbol": "var_istranceshadowactive"
+    },
+    {
+      "id": "11",
+      "name": "setRobotSpriteSheet",
+      "symbol": "var_setrobotspritesheet"
+    },
+    {
+      "id": "12",
+      "name": "isRobotInRange",
+      "symbol": "var_isrobotinrange"
+    },
+    {
+      "id": "13",
+      "name": "robotDir",
+      "symbol": "var_robotdir"
+    },
+    {
+      "id": "14",
+      "name": "algaeCount",
+      "symbol": "var_algaecount"
+    },
+    {
+      "id": "15",
+      "name": "isMuckleBoosting",
+      "symbol": "var_ismuckleboosting"
+    },
+    {
+      "id": "16",
+      "name": "boostSpd",
+      "symbol": "var_boostspd"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -122,26 +162,6 @@
       "symbol": "var_bubblesthreestate"
     },
     {
-      "id": "9",
-      "name": "isUnpossessedRobotActive",
-      "symbol": "var_isunpossessedrobotactiv"
-    },
-    {
-      "id": "10",
-      "name": "isTranceShadowActive",
-      "symbol": "var_istranceshadowactive"
-    },
-    {
-      "id": "11",
-      "name": "setRobotSpriteSheet",
-      "symbol": "var_setrobotspritesheet"
-    },
-    {
-      "id": "12",
-      "name": "isRobotInRange",
-      "symbol": "var_isrobotinrange"
-    },
-    {
       "id": "f0702ca7-e766-425e-a313-af02876c89af__L0",
       "name": "isSwitchOn",
       "symbol": "var_isswitchon"
@@ -162,29 +182,39 @@
       "symbol": "var_startwinklethreestate_0"
     },
     {
-      "id": "13",
-      "name": "robotDir",
-      "symbol": "var_robotdir"
-    },
-    {
-      "id": "14",
-      "name": "algaeCount",
-      "symbol": "var_algaecount"
-    },
-    {
-      "id": "15",
-      "name": "isMuckleBoosting",
-      "symbol": "var_ismuckleboosting"
-    },
-    {
-      "id": "16",
-      "name": "boostSpd",
-      "symbol": "var_boostspd"
-    },
-    {
       "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L3",
       "name": "doorFadeState",
       "symbol": "var_doorfadestate_1"
+    },
+    {
+      "id": "910ccab9-1fe1-4c0a-ba3d-b02e5983a8d9__L0",
+      "name": "titleOneState",
+      "symbol": "var_titleonestate"
+    },
+    {
+      "id": "910ccab9-1fe1-4c0a-ba3d-b02e5983a8d9__L1",
+      "name": "titleFourState",
+      "symbol": "var_titlefourstate"
+    },
+    {
+      "id": "910ccab9-1fe1-4c0a-ba3d-b02e5983a8d9__L2",
+      "name": "titleThreeState",
+      "symbol": "var_titlethreestate"
+    },
+    {
+      "id": "910ccab9-1fe1-4c0a-ba3d-b02e5983a8d9__L3",
+      "name": "titleTwoState",
+      "symbol": "var_titletwostate_0"
+    },
+    {
+      "id": "910ccab9-1fe1-4c0a-ba3d-b02e5983a8d9__L4",
+      "name": "titleFiveState",
+      "symbol": "var_titlefivestate"
+    },
+    {
+      "id": "910ccab9-1fe1-4c0a-ba3d-b02e5983a8d9__L5",
+      "name": "titleSixState",
+      "symbol": "var_titlesixstate"
     }
   ],
   "constants": []
