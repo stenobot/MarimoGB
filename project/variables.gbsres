@@ -215,6 +215,11 @@
       "id": "910ccab9-1fe1-4c0a-ba3d-b02e5983a8d9__L5",
       "name": "titleSixState",
       "symbol": "var_titlesixstate"
+    },
+    {
+      "id": "6d229189-8f3a-465b-87cf-63a4bee79193__L0",
+      "name": "isMovingRight",
+      "symbol": "var_ismovingright"
     }
   ],
   "constants": []

@@ -3,7 +3,7 @@
   "id": "7159345d-79fc-4d70-ac00-01ae1fdf53e5",
   "_index": 5,
   "name": "Cutscene01",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "ce70ed28-cf21-451d-9fc8-1d8654d0cc00",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -20,7 +20,8 @@
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "8171a5dc-aebf-416b-8d68-4f5d1eb299da"
     },
@@ -51,7 +52,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "63b413a1-9909-4ed6-855d-3df78302ae18"
           }
@@ -72,9 +74,9 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "This is Muckle.",
-        "x": 1,
-        "y": 8,
+        "text": "This is\nMuckle.",
+        "x": 2,
+        "y": 2,
         "location": "background",
         "__collapse": true
       },
