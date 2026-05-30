@@ -235,6 +235,21 @@
       "id": "31736f74-018b-42e9-8328-49f65a48b5dc__L2",
       "name": "starTwinkleThreeState",
       "symbol": "var_startwinklethreestate_1"
+    },
+    {
+      "id": "e18df9b7-02cf-415c-93ee-460450c90822__L0",
+      "name": "bubblesThreeState",
+      "symbol": "var_bubblesthreestate_0"
+    },
+    {
+      "id": "e18df9b7-02cf-415c-93ee-460450c90822__L1",
+      "name": "bubblesTwoState",
+      "symbol": "var_bubblestwostate_0"
+    },
+    {
+      "id": "e18df9b7-02cf-415c-93ee-460450c90822__L2",
+      "name": "bubblesOneState",
+      "symbol": "var_bubblesonestate_0"
     }
   ],
   "constants": []

@@ -75,7 +75,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -125,7 +125,7 @@
                 "value": 10
               },
               "variable": "L1",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "76774ec3-9dac-4e96-b77f-a3ef9bb36dd1"
           }

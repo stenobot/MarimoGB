@@ -3,19 +3,22 @@
   "id": "e18df9b7-02cf-415c-93ee-460450c90822",
   "_index": 9,
   "name": "Cutscene03",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "11122dcb-f9ba-4e65-88cb-3e02d988b9fd",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-bg-6",
+    "default-bg-1"
+  ],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 392,
-  "y": 456,
+  "x": 384,
+  "y": 640,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -52,7 +55,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "25da6adb-910c-4d22-b30a-5fd54809e1fd"
           }
@@ -71,17 +75,6 @@
       "id": "34805c45-79f4-403b-8101-ee5b85999330"
     },
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Muckle is friendly\nwith their \nneighbors.",
-        "x": 1,
-        "y": 7,
-        "location": "background",
-        "__collapse": true
-      },
-      "id": "84f3c323-d2fb-4d38-891a-e26f15adf954"
-    },
-    {
       "command": "EVENT_OVERLAY_MOVE_TO",
       "args": {
         "x": 20,
@@ -90,6 +83,132 @@
         "__collapse": true
       },
       "id": "c6f328e5-67b8-4341-9a7c-42a0ec509136"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Muckle is\nfriendly with \ntheir neighbors.",
+              "x": 2,
+              "y": 13,
+              "location": "background",
+              "__collapse": false
+            },
+            "id": "84f3c323-d2fb-4d38-891a-e26f15adf954"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "tilesetId": "1198bea1-0096-467e-bf40-994c8abb9d52",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "variable": "L0"
+            },
+            "id": "73cbe4ff-d8dc-4a63-8bd0-1fa8bc854afd"
+          }
+        ]
+      },
+      "id": "54e5d71e-266b-4e78-8586-297571039f46"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.7,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "tilesetId": "319a39e0-a97b-4e38-bc8f-8bc53a902d6c",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 10
+              },
+              "variable": "L1"
+            },
+            "id": "e30da9a3-bd96-4d3e-8044-2c48dd9d6c8f"
+          }
+        ]
+      },
+      "id": "7fd3c5fa-cb98-4549-9bb4-be66653fc424"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 3,
+        "duration": 1.2,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "tilesetId": "0a1b5069-ea60-4007-a97c-b7fe6bf444e5",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "variable": "L2"
+            },
+            "id": "07d9de63-4e75-4f4e-bf76-6e12a36d6887"
+          }
+        ]
+      },
+      "id": "0514e4e5-6753-4b52-9ed4-fe153ceb1a60"
     }
   ],
   "playerHit1Script": [],

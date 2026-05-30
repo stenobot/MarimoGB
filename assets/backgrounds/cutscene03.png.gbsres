@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "11122dcb-f9ba-4e65-88cb-3e02d988b9fd",
+  "name": "cutscene03",
+  "symbol": "bg_cutscene03",
+  "tileColors": "0064+0678+00!0613+00!0613+00!0611+004+062+00!066+00!065+003f+",
+  "filename": "cutscene03.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
