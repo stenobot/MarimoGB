@@ -220,6 +220,21 @@
       "id": "6d229189-8f3a-465b-87cf-63a4bee79193__L0",
       "name": "isMovingRight",
       "symbol": "var_ismovingright"
+    },
+    {
+      "id": "31736f74-018b-42e9-8328-49f65a48b5dc__L0",
+      "name": "starTwinkleOneState",
+      "symbol": "var_startwinkleonestate_1"
+    },
+    {
+      "id": "31736f74-018b-42e9-8328-49f65a48b5dc__L1",
+      "name": "starTwinkleTwoState",
+      "symbol": "var_startwinkletwostate_1"
+    },
+    {
+      "id": "31736f74-018b-42e9-8328-49f65a48b5dc__L2",
+      "name": "starTwinkleThreeState",
+      "symbol": "var_startwinklethreestate_1"
     }
   ],
   "constants": []

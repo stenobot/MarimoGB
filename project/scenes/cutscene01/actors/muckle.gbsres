@@ -47,7 +47,7 @@
         "duration": 0.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -154,10 +154,10 @@
             "args": {
               "condition": {
                 "type": "expression",
-                "value": "$00$==9"
+                "value": "$00$==17"
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -203,10 +203,10 @@
             "args": {
               "condition": {
                 "type": "expression",
-                "value": "$00$==13"
+                "value": "$00$==11"
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [

@@ -31,7 +31,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -122,7 +122,7 @@
         "duration": 3.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -198,7 +198,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "4c857ad0-2d88-4c3c-8a9c-0a33ee34c0e9"
+        "musicId": "4c857ad0-2d88-4c3c-8a9c-0a33ee34c0e9",
+        "__collapse": true
       },
       "id": "64e59877-6d62-4343-9a3e-e17403947c1c"
     }
