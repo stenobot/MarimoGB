@@ -1,0 +1,91 @@
+{
+  "_resourceType": "script",
+  "id": "d6bfca80-f23b-458e-b9a7-3e1199c84072",
+  "name": "KillMuckle",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "67533ece-5da6-44ed-bdaa-8daca9fff36e"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "0eb8dae6-b868-46e2-a18b-e512ee5227af",
+        "__collapse": false
+      },
+      "id": "a1eb0b99-1aa2-40bb-9fdb-f2082cb487d9"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7
+      },
+      "id": "011fdb22-b0a3-4f18-8c3e-f77eab987bf1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "b873b988-1589-4846-98dd-44ffc5f4e073"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "676a3dd4-697c-438e-b94e-01799aa7c6e3"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "d4211416-e8bc-4b9c-af58-3f18d6cdafdb"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "a2863cc6-a80c-475d-b60f-cead5b5e6087"
+    }
+  ]
+}

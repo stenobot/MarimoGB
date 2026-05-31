@@ -21,9 +21,16 @@
   "spritePaletteIds": [
     "59f86781-0cb7-466d-8ca6-4d6a7118502a"
   ],
-  "autoFadeSpeed": 5,
+  "autoFadeSpeed": 3,
   "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
   "script": [
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "b4306dde-1c8d-4474-9f5d-95f32cd6ce7d"
+    },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
@@ -31,7 +38,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -122,7 +129,7 @@
         "duration": 3.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

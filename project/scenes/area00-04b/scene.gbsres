@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "colorModeOverride": "none",
   "paletteIds": [
     "d0736541-6a34-44fc-9d6c-6eeb4e3ac9b5"
@@ -18,8 +18,19 @@
   "symbol": "scene_18",
   "x": 1656,
   "y": 800,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Swimming",
+        "loopAnim": true
+      },
+      "id": "6d5f01bc-e7ab-4046-87fb-ab0a564948ef"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
 }
