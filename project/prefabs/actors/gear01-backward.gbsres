@@ -1,0 +1,42 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "f5119bdf-c041-4c50-871b-19e66043abd6",
+  "name": "Gear01-Backward",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b5576ef0-016a-4636-920a-ce7fef2fcb6f",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072",
+        "__collapse": true
+      },
+      "id": "ade497a4-2f5f-4777-a710-a6ff8071980e",
+      "children": {}
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Backwards",
+        "loopAnim": true
+      },
+      "id": "2409400c-0a7b-42fd-85f7-c7e5b33d4196",
+      "children": {}
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,28 +1,25 @@
 {
-  "_resourceType": "actor",
-  "id": "2ea5749d-0423-45fc-adfd-34c1e88d3863",
-  "name": "",
+  "_resourceType": "actorPrefab",
+  "id": "7c498527-1c58-48dc-9971-b7e8a6f49492",
+  "name": "Gear02-Backward",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "b5576ef0-016a-4636-920a-ce7fef2fcb6f",
-  "prefabId": "",
-  "direction": "down",
+  "spriteSheetId": "3b6df77a-e7f9-4218-91bf-be293c4bee30",
   "moveSpeed": 1,
-  "animSpeed": 7,
+  "animSpeed": 15,
   "paletteId": "",
-  "isPinned": false,
   "persistent": false,
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_15",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
       },
-      "id": "52f464d9-8287-4235-8148-c2563caccc9d"
+      "id": "7d85bb39-898b-4aae-9bef-68bec5489f06",
+      "children": {}
     }
   ],
   "startScript": [
@@ -33,15 +30,12 @@
         "spriteStateId": "Backwards",
         "loopAnim": true
       },
-      "id": "d51bdf70-8fff-4cc3-92b8-f64bb1f021f5"
+      "id": "7e657407-f9c9-4e0d-a450-8599fb393ca6",
+      "children": {}
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "coordinateType": "tiles",
-  "x": 19,
-  "y": 12,
-  "_index": 7
+  "hit3Script": []
 }

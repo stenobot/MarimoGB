@@ -1,0 +1,31 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "ebadddfc-f8d4-41a3-9223-b66ef097df8d",
+  "name": "Gear01-Forward",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b5576ef0-016a-4636-920a-ce7fef2fcb6f",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072",
+        "__collapse": true
+      },
+      "id": "1db62005-afc0-4969-8997-05b33676aec8",
+      "children": {}
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
