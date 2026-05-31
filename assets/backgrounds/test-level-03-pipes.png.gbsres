@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d42bb700-2fdd-4ecf-ae60-e2307e12c592",
+  "name": "test-level-03-pipes",
+  "symbol": "bg_test_level_03_pipes",
+  "tileColors": "00a6+02!003b+02!003b+02!003b+02!003b+02!003b+02!003b+02!003b+024+003b+02!003b+02!003b+02!003b+02!003b+02!003b+02!003b+02!003b+02!00a+",
+  "filename": "test-level-03-pipes.png",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144
+}

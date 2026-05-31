@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "b3378b30-9406-412c-a180-527d77d2c4de",
+  "name": "Pipe01",
+  "prefabId": "",
+  "x": 46,
+  "y": 2,
+  "symbol": "trigger_15",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f71bbe8c-07d2-491e-b1fb-54389501fe2d",
+        "x": {
+          "type": "number",
+          "value": 46
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "aa6d8ead-40de-44ff-bfd6-98efb6c3b53d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

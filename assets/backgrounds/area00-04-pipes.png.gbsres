@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9d1eedaa-ec9a-4218-a7d1-229af41dc33b",
+  "name": "area00-04-pipes",
+  "symbol": "bg_area00_04_pipes",
+  "tileColors": "00a+02!0013+02!0013+02!0013+02!0013+02!0010+024+00f9+",
+  "filename": "area00-04-pipes.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

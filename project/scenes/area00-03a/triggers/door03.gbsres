@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "e529c02a-7573-4455-b9f9-da53fbf2a10c",
+  "name": "Door03",
+  "prefabId": "",
+  "x": 38,
+  "y": 11,
+  "symbol": "trigger_14",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "01dbfe0c-222d-48dc-8972-ac29581ea4f6",
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "3852f887-fd24-4a41-a7d7-5154e0478a18"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}
