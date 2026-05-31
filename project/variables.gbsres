@@ -250,6 +250,26 @@
       "id": "e18df9b7-02cf-415c-93ee-460450c90822__L2",
       "name": "bubblesOneState",
       "symbol": "var_bubblesonestate_0"
+    },
+    {
+      "id": "7a7f1de7-3de9-40ec-8e3d-d1f572442d30__L4",
+      "name": "waterRippleOneState",
+      "symbol": "var_waterrippleonestate"
+    },
+    {
+      "id": "7a7f1de7-3de9-40ec-8e3d-d1f572442d30__L5",
+      "name": "waterRippleTwoState",
+      "symbol": "var_waterrippletwostate"
+    },
+    {
+      "id": "79220b60-434c-4714-a6a8-744235ced9ef__L0",
+      "name": "waterRippleOneState",
+      "symbol": "var_waterrippleonestate_0"
+    },
+    {
+      "id": "79220b60-434c-4714-a6a8-744235ced9ef__L1",
+      "name": "waterRippleTwoState",
+      "symbol": "var_waterrippletwostate_0"
     }
   ],
   "constants": []

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "cc46d964-da02-465c-8b4c-e6bc8aba45a6",
+  "name": "water-ripple",
+  "symbol": "tileset_water_ripple",
+  "width": 2,
+  "height": 1,
+  "imageWidth": 16,
+  "imageHeight": 8,
+  "filename": "water-ripple.png"
+}
