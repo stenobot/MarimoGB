@@ -270,6 +270,26 @@
       "id": "79220b60-434c-4714-a6a8-744235ced9ef__L1",
       "name": "waterRippleTwoState",
       "symbol": "var_waterrippletwostate_0"
+    },
+    {
+      "id": "79220b60-434c-4714-a6a8-744235ced9ef__L2",
+      "name": "bubblesOneState",
+      "symbol": "var_bubblesonestate_1"
+    },
+    {
+      "id": "79220b60-434c-4714-a6a8-744235ced9ef__L3",
+      "name": "bubblesTwoState",
+      "symbol": "var_bubblestwostate_1"
+    },
+    {
+      "id": "79220b60-434c-4714-a6a8-744235ced9ef__L4",
+      "name": "starTwinkleOneState",
+      "symbol": "var_startwinkleonestate_2"
+    },
+    {
+      "id": "79220b60-434c-4714-a6a8-744235ced9ef__L5",
+      "name": "starTwinkleThreeState",
+      "symbol": "var_startwinklethreestate_2"
     }
   ],
   "constants": []

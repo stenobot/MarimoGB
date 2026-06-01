@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "a3a80c3f-8913-44bc-ad2c-607ddc7069b6",
-  "name": "Gear02-Backward",
+  "id": "747b94ee-e1c9-4bb9-a6cd-413fb31f49bd",
+  "name": "Gear03-Forward",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3b6df77a-e7f9-4218-91bf-be293c4bee30",
-  "prefabId": "7c498527-1c58-48dc-9971-b7e8a6f49492",
+  "spriteSheetId": "54a3b5d0-5381-4b87-b6d9-87c80007dc78",
+  "prefabId": "c34e09f5-7bba-44a7-a601-0437516af0c2",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -15,33 +15,23 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_21",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
       },
-      "id": "b1071ba0-863b-463e-8cda-58959d86ec10"
+      "id": "fc79dd1d-ebf0-456d-ba21-c843413dd8c8"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "$self$",
-        "spriteStateId": "Backwards",
-        "loopAnim": true
-      },
-      "id": "302af188-f121-48f6-8461-227aec8c6570"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 29,
-  "y": 20,
-  "_index": 7
+  "x": 25,
+  "y": 23,
+  "_index": 13
 }
