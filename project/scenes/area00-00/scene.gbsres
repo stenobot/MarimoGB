@@ -3,21 +3,30 @@
   "id": "4a55c275-d1e3-464d-976e-850b90740355",
   "_index": 13,
   "name": "area00-00",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "19333c07-652f-4533-9007-a14cc579fcb6",
   "tilesetId": "",
-  "width": 20,
+  "width": 60,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "PLATFORM",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "collisions": "003+0f!0033+0f!007+0f!0033+0f!007+0f!0033+0f!007+0f!0033+0f!007+0f!0033+0f!007+0f!0033+0f!007+0f!0033+0f!007+0f!0033+0f!007+0f!0033+0f!007+0f!003+0f2+0029+0f!004+0f!007+0f!004+0f!0029+0f3+002+0f!007+0f!004+0f!0029+0f!004+0f!007+0f!004+0f3+0027+0f!004+0f!007+0f19+014+0f18+00f4+",
+  "autoFadeSpeed": 6,
   "symbol": "scene_14",
-  "x": 904,
-  "y": 72,
-  "script": [],
+  "x": 736,
+  "y": 88,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4c857ad0-2d88-4c3c-8a9c-0a33ee34c0e9"
+      },
+      "id": "fcaec2c3-1260-4ee0-8cce-31336e0634c4"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
 }

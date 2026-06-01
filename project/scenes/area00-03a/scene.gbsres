@@ -81,7 +81,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -114,20 +114,20 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 3
+                "value": 4
               },
               "y": {
                 "type": "number",
-                "value": 13
+                "value": 12
               },
-              "tilesetId": "37c06b91-51b7-4030-bc43-3170f7e53dd5",
+              "tilesetId": "281912f6-dc1a-4f58-a0db-889656b1befc",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
               "frames": {
                 "type": "number",
-                "value": 2
+                "value": 3
               },
               "variable": "L3"
             },
