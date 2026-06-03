@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "4c0ff661-2043-4506-9674-ca8693c9f5c2",
+  "id": "2db5fe84-cb60-4e31-8ebf-1d6f55aad400",
   "name": "Elevator",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
   "prefabId": "eb988bec-0140-4604-9a9c-737da0734417",
-  "direction": "right",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,16 +15,22 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {
+    "a873e565-c7b2-4e85-89e7-6ca72fcb1c69": {
+      "id": "a873e565-c7b2-4e85-89e7-6ca72fcb1c69",
+      "args": {
+        "spriteStateId": "Flipped"
+      }
+    },
     "94b14b8e-47f8-4f8d-8b64-3cf428888eb3": {
       "id": "94b14b8e-47f8-4f8d-8b64-3cf428888eb3",
       "args": {
         "y": {
           "type": "number",
-          "value": 10
+          "value": 12
         },
         "x": {
           "type": "number",
-          "value": 5
+          "value": 14
         }
       }
     },
@@ -33,25 +39,25 @@
       "args": {
         "y": {
           "type": "number",
-          "value": 19
+          "value": 15
         },
         "x": {
           "type": "number",
-          "value": 5
+          "value": 14
         }
       }
     },
-    "344d506e-7c4b-4623-8b22-f40ff98c1e37": {
-      "id": "344d506e-7c4b-4623-8b22-f40ff98c1e37",
+    "7a8347a6-3807-4e69-9293-6ebc915a7b68": {
+      "id": "7a8347a6-3807-4e69-9293-6ebc915a7b68",
       "args": {
-        "direction": {
-          "type": "direction",
-          "value": "right"
+        "condition": {
+          "type": "variable",
+          "value": "17"
         }
       }
     }
   },
-  "symbol": "actor_27",
+  "symbol": "actor_28",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -59,7 +65,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 19,
-  "_index": 1
+  "x": 14,
+  "y": 12,
+  "_index": 0
 }

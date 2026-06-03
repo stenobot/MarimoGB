@@ -15,13 +15,24 @@
   ],
   "prefabScriptOverrides": {},
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "a873e565-c7b2-4e85-89e7-6ca72fcb1c69"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 1
+        "speed": 1,
+        "__collapse": true
       },
       "id": "3e71a272-eb67-4c64-99a8-0546b2488b9b",
       "children": {}
@@ -30,7 +41,8 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 3
+        "speed": 3,
+        "__collapse": true
       },
       "id": "6374b71c-91e6-4414-9e51-26aa56f73b6f"
     },
@@ -51,7 +63,8 @@
           "walls"
         ],
         "lockDirection": [],
-        "moveType": "horizontal"
+        "moveType": "horizontal",
+        "__collapse": true
       },
       "id": "94b14b8e-47f8-4f8d-8b64-3cf428888eb3",
       "children": {}
@@ -66,7 +79,8 @@
         "frames": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "4c834848-c663-41ad-8981-b31bef9ed2a2",
       "children": {}
@@ -75,7 +89,8 @@
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 0.5
+        "speed": 0.5,
+        "__collapse": true
       },
       "id": "4e1b57db-3882-41ce-82dc-5062644beb30",
       "children": {}
@@ -84,7 +99,8 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 15
+        "speed": 15,
+        "__collapse": true
       },
       "id": "23da005f-f4a7-43c2-bcc6-97c71bcc04f9"
     },
@@ -105,7 +121,8 @@
           "walls"
         ],
         "lockDirection": [],
-        "moveType": "horizontal"
+        "moveType": "horizontal",
+        "__collapse": true
       },
       "id": "6750f8d1-a1a6-45cb-ad43-e69c96a4ad58",
       "children": {}
@@ -120,7 +137,8 @@
         "frames": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "9e22f336-4496-424f-be55-9373ec0f95ec",
       "children": {}

@@ -305,6 +305,16 @@
       "id": "1262431e-3593-420d-a886-74f66e11bae2__L0",
       "name": "isSwitchTwoOn",
       "symbol": "var_isswitchtwoon"
+    },
+    {
+      "id": "5f7a667a-f6af-42ef-9084-829fe8b3fe45__L0",
+      "name": "isSwitchOn",
+      "symbol": "var_isswitchon"
+    },
+    {
+      "id": "17",
+      "name": "isSwitchOn_00_06",
+      "symbol": "var_isswitchon_00_06"
     }
   ],
   "constants": []

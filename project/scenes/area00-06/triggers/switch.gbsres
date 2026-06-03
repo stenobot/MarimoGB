@@ -1,0 +1,95 @@
+{
+  "_resourceType": "trigger",
+  "id": "5f7a667a-f6af-42ef-9084-829fe8b3fe45",
+  "name": "Switch",
+  "prefabId": "",
+  "x": 11,
+  "y": 7,
+  "symbol": "trigger_36",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "17"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "17",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "0d97c7ba-8e4d-45a7-8522-1c7b870a37f2"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "05cf390b-1166-4bee-8c30-fe0a7f89be90"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "17",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "ab3f9880-ed14-437e-9489-655f085b6dd6"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "tilesetId": "8566e0cd-ea90-4c32-89ce-e7df94b20cc4",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "a3e6ad16-6644-4202-a866-31a72b7a7b16"
+          }
+        ]
+      },
+      "id": "63fd4349-86e7-4409-9a40-07fa6ab0355d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}
