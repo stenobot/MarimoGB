@@ -811,7 +811,7 @@
       "flipLeft": true
     }
   ],
-  "numTiles": 22,
+  "numTiles": 24,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 32,
@@ -824,5 +824,5 @@
   "filename": "gear03.png",
   "width": 96,
   "height": 32,
-  "checksum": "188d2b960be99fde1822405ad6bda47fc4ac135d"
+  "checksum": "2cf19a905e981a9b865b416e693a26c17a07b736"
 }

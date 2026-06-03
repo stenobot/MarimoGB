@@ -1,0 +1,47 @@
+{
+  "_resourceType": "actor",
+  "id": "2b7995ec-5fed-4083-96d2-51940baa29c1",
+  "name": "Gear02-Backward",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3b6df77a-e7f9-4218-91bf-be293c4bee30",
+  "prefabId": "7c498527-1c58-48dc-9971-b7e8a6f49492",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
+      },
+      "id": "072489a7-5a43-40f4-9c82-95b8d5ebf5ce"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Backwards",
+        "loopAnim": true
+      },
+      "id": "140ffa5a-2ac6-46ac-bd00-c168fa64eead"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 30,
+  "y": 21,
+  "_index": 15
+}

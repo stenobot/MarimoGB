@@ -163,8 +163,8 @@
     },
     {
       "id": "f0702ca7-e766-425e-a313-af02876c89af__L0",
-      "name": "isSwitchOn",
-      "symbol": "var_isswitchon"
+      "name": "isSwitchOneOn",
+      "symbol": "var_isswitchoneon"
     },
     {
       "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L0",
@@ -290,6 +290,21 @@
       "id": "79220b60-434c-4714-a6a8-744235ced9ef__L5",
       "name": "starTwinkleThreeState",
       "symbol": "var_startwinklethreestate_2"
+    },
+    {
+      "id": "afb23f0a-1909-46fa-b160-79a01191bd4a__L0",
+      "name": "dronePositions",
+      "symbol": "var_dronepositions"
+    },
+    {
+      "id": "19df1789-6409-49b6-a260-0a7b22df16e1__L0",
+      "name": "isSwitchOn",
+      "symbol": "var_isswitchon_0"
+    },
+    {
+      "id": "1262431e-3593-420d-a886-74f66e11bae2__L0",
+      "name": "isSwitchTwoOn",
+      "symbol": "var_isswitchtwoon"
     }
   ],
   "constants": []
