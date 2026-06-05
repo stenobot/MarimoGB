@@ -2,31 +2,32 @@
   "_resourceType": "scene",
   "id": "7a7f1de7-3de9-40ec-8e3d-d1f572442d30",
   "_index": 2,
+  "type": "ADVENTURE",
   "name": "area00-02b",
-  "backgroundId": "dea0a9d0-19d7-4f38-82ad-0bce23b16a7a",
-  "tilesetId": "",
+  "symbol": "scene_0",
+  "x": 792,
+  "y": 816,
   "width": 40,
   "height": 36,
-  "type": "ADVENTURE",
+  "backgroundId": "dea0a9d0-19d7-4f38-82ad-0bce23b16a7a",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "1dc485ac-0af7-4380-be21-3cc3fba02d25",
     "9a194040-cb3e-465d-8a1f-221dffe36e96",
     "96730ff1-f44a-4f51-8604-eba0aa421d7d",
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
     "b0610724-d97c-4523-98cd-a548de4cbaf6"
   ],
   "spritePaletteIds": [
     "59f86781-0cb7-466d-8ca6-4d6a7118502a"
   ],
-  "collisions": "007a+0fa+003+0f17+004+0f2+0021+0f!004+0f2+0021+0f!004+0f4+001f+0f!004+0f!002+0f!001f+0f!004+0f!002+0f3+001d+0f!004+0f1c+007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f10+004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0020+0f3+004+0f!0022+0f!004+0f!0022+0f!005+0f22+0053+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_0",
-  "x": 792,
-  "y": 816,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "876ca42f-281f-423b-bfa9-e426764dacc6",
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -249,6 +250,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "876ca42f-281f-423b-bfa9-e426764dacc6"
+  "collisions": "007a+0fa+003+0f17+004+0f2+0021+0f!004+0f2+0021+0f!004+0f4+001f+0f!004+0f!002+0f!001f+0f!004+0f!002+0f3+001d+0f!004+0f1c+007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f10+004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0020+0f3+004+0f!0022+0f!004+0f!0022+0f!005+0f22+0053+"
 }

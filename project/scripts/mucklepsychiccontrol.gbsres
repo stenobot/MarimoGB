@@ -149,7 +149,8 @@
               "timer": 4,
               "duration": 0.6,
               "frames": 30,
-              "__scriptTabs": "end"
+              "__scriptTabs": "end",
+              "__collapse": true
             },
             "children": {
               "script": [

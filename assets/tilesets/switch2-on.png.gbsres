@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "ac80dafe-849a-449f-b1e8-461ad131715f",
+  "name": "switch2-on",
+  "symbol": "tileset_switch2_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "switch2-on.png"
+}

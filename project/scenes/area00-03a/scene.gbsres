@@ -10,7 +10,14 @@
   "type": "PLATFORM",
   "colorModeOverride": "none",
   "paletteIds": [
-    "9a194040-cb3e-465d-8a1f-221dffe36e96"
+    "9a194040-cb3e-465d-8a1f-221dffe36e96",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "7a08a73f-96de-450b-ba31-44463f5fa0b5"
   ],
   "spritePaletteIds": [
     "59f86781-0cb7-466d-8ca6-4d6a7118502a",
@@ -39,7 +46,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -81,7 +88,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

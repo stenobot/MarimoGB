@@ -3,8 +3,8 @@
   "id": "5f7a667a-f6af-42ef-9084-829fe8b3fe45",
   "name": "Switch",
   "prefabId": "",
-  "x": 11,
-  "y": 7,
+  "x": 9,
+  "y": 9,
   "symbol": "trigger_36",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -21,7 +21,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -40,11 +40,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 11
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 7
+                "value": 9
               },
               "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
               "tileIndex": {
@@ -71,11 +71,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 11
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 7
+                "value": 9
               },
               "tilesetId": "8566e0cd-ea90-4c32-89ce-e7df94b20cc4",
               "tileIndex": {

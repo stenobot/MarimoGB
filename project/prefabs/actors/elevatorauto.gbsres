@@ -1,7 +1,7 @@
 {
   "_resourceType": "actorPrefab",
   "id": "eb988bec-0140-4604-9a9c-737da0734417",
-  "name": "Elevator",
+  "name": "ElevatorAuto",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "a58bbdda-55bc-4e95-b5c6-361bb2085496",

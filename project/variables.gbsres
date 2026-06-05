@@ -87,6 +87,11 @@
       "symbol": "var_boostspd"
     },
     {
+      "id": "17",
+      "name": "isSwitchOn_00_06",
+      "symbol": "var_isswitchon_00_06"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -303,8 +308,8 @@
     },
     {
       "id": "1262431e-3593-420d-a886-74f66e11bae2__L0",
-      "name": "isSwitchTwoOn",
-      "symbol": "var_isswitchtwoon"
+      "name": "Local 0",
+      "symbol": "var_local_0"
     },
     {
       "id": "5f7a667a-f6af-42ef-9084-829fe8b3fe45__L0",
@@ -312,9 +317,9 @@
       "symbol": "var_isswitchon"
     },
     {
-      "id": "17",
-      "name": "isSwitchOn_00_06",
-      "symbol": "var_isswitchon_00_06"
+      "id": "1262431e-3593-420d-a886-74f66e11bae2__L1",
+      "name": "isSwitchTwoOn",
+      "symbol": "var_isswitchtwoon_0"
     }
   ],
   "constants": []

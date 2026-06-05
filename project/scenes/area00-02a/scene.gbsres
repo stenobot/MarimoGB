@@ -2,29 +2,28 @@
   "_resourceType": "scene",
   "id": "79220b60-434c-4714-a6a8-744235ced9ef",
   "_index": 18,
-  "name": "area00-02a",
-  "backgroundId": "b904ec00-0a5f-4af2-a7fe-5c2ada78c5e5",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "PLATFORM",
-  "colorModeOverride": "none",
-  "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "b0610724-d97c-4523-98cd-a548de4cbaf6"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "002a+0f10+004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f7+008+0f!004+0f!005+0f3+006+0f!004+0f!006+0f4+004+0f!004+0f!00e+0f!004+0f!00b+01!002+0f!004+0f!00d+01!0f!004+0f!002+10!00b+0f!002+0f5+10!0fe+005+10!0013+10!0013+10!00e+",
-  "autoFadeSpeed": 1,
+  "name": "area00-02a",
   "symbol": "scene_19",
   "x": 792,
   "y": 624,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "b904ec00-0a5f-4af2-a7fe-5c2ada78c5e5",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "b0610724-d97c-4523-98cd-a548de4cbaf6"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -204,5 +203,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "002a+0f10+004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f7+008+0f!004+0f!005+0f3+006+0f!004+0f!006+0f4+004+0f!004+0f!00e+0f!004+0f!00b+01!002+0f!004+0f!00d+01!0f!004+0f!002+10!00b+0f!002+0f5+10!0fe+005+10!0013+10!0013+10!00e+"
 }

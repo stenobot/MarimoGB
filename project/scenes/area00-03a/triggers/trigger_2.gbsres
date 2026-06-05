@@ -17,7 +17,7 @@
           "type": "not",
           "value": {
             "type": "variable",
-            "value": "L0"
+            "value": "L1"
           }
         },
         "__collapseElse": false
@@ -27,11 +27,11 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "L0",
+              "variable": "L1",
               "value": {
                 "type": "true"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "545c6db1-0bad-4d15-980e-069124f6339f"
           },
@@ -46,12 +46,12 @@
                 "type": "number",
                 "value": 5
               },
-              "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
+              "tilesetId": "ac80dafe-849a-449f-b1e8-461ad131715f",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "3f740092-1be4-45a6-af30-53d3a81004ba"
           },
@@ -68,7 +68,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "L0",
+              "variable": "L1",
               "value": {
                 "type": "false"
               }
@@ -86,7 +86,7 @@
                 "type": "number",
                 "value": 5
               },
-              "tilesetId": "8566e0cd-ea90-4c32-89ce-e7df94b20cc4",
+              "tilesetId": "d591af6a-11c6-445e-8db6-90728249246e",
               "tileIndex": {
                 "type": "number",
                 "value": 0
