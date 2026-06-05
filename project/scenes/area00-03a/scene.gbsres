@@ -2,21 +2,24 @@
   "_resourceType": "scene",
   "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61",
   "_index": 3,
+  "type": "PLATFORM",
   "name": "area00-03a",
-  "backgroundId": "67a696fc-4f7b-44d4-84cd-eaafcedc7264",
-  "tilesetId": "",
+  "symbol": "scene_4",
+  "x": 1176,
+  "y": 624,
   "width": 60,
   "height": 18,
-  "type": "PLATFORM",
+  "backgroundId": "67a696fc-4f7b-44d4-84cd-eaafcedc7264",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "9a194040-cb3e-465d-8a1f-221dffe36e96",
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "7a08a73f-96de-450b-ba31-44463f5fa0b5"
   ],
   "spritePaletteIds": [
@@ -24,17 +27,14 @@
     "036a0caf-5c3b-4888-965e-3ee33cb4ba6d",
     "7c645ab4-029c-41fd-b38b-76caa9c2f5eb"
   ],
-  "collisions": "001d+0f16+002+0f!0023+0f!00e+0f!005+0f!002+0f5+001b+0f5+007+10!006+0f!00c+0f!001b+0f!003+0f!005+0f2+10!006+0f!00c+0f!001b+0f!00a+0f!10!006+0fb+002+0f!003+0f6+0012+0f!00a+0f!10!0013+0f!003+0f!004+0f1a+004+0f!10!0013+0f!003+0f!001d+0f!004+0f!10!0013+0f!003+0f!001d+0f!004+0f!01!0013+0f!003+0f!0022+0f!002+01!0011+0f!003+0f!0022+0f!004+01!00f+0f!003+0f!0016+0f2+00a+0f!0014+0f!003+0f!005+0f2a+004+10!003+0f!003+0f!005+0f2+0027+0f5+10!0f4+003+0f7+002c+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!005+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_4",
-  "x": 1176,
-  "y": 624,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9c3d04b5-fa5e-4aad-b8f6-a13ee957b20b"
     },
@@ -58,7 +58,8 @@
                 "type": "variable",
                 "value": "2"
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -68,7 +69,7 @@
                     "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
                     "$actor[0]$": "66d599f2-b886-4567-9b74-3b92022fa904",
                     "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "516a3240-8e35-4ed2-99ec-35b5ef0b2fb3"
                 }
@@ -215,7 +216,7 @@
                 "value": 4
               },
               "variable": "L2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a1e201dc-952d-4a27-b31f-51fee24d8302"
           }
@@ -227,5 +228,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "collisions": "001d+0f16+002+0f!0023+0f!00e+0f!005+0f!002+0f5+001b+0f5+007+10!006+0f!00c+0f!001b+0f!003+0f!005+0f2+10!006+0f!00c+0f!001b+0f!00a+0f!10!006+0fb+002+0f!003+0f6+0012+0f!00a+0f!10!0013+0f!003+0f!004+0f1a+004+0f!10!0013+0f!003+0f!00b+0f3+00f+0f!004+0f!10!0013+0f!003+0f!00b+0f2+0010+0f!004+0f!01!0013+0f!003+0f!0022+0f!002+01!0011+0f!003+0f!0022+0f!004+01!00f+0f!003+0f!0016+0f2+00a+0f!0014+0f!003+0f!005+0f2a+004+10!003+0f!003+0f!005+0f2+0027+0f5+10!0f4+003+0f7+002c+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!005+"
 }

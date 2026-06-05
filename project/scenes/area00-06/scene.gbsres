@@ -2,29 +2,28 @@
   "_resourceType": "scene",
   "id": "453b3b74-4679-4b51-ae03-d32403093292",
   "_index": 15,
-  "name": "area00-06",
-  "backgroundId": "35a1dcf8-16bd-4dac-9485-63812ff6b996",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "PLATFORM",
-  "colorModeOverride": "none",
-  "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "7a08a73f-96de-450b-ba31-44463f5fa0b5"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "0015+0f13+00!0f!0013+0f!002+10!0010+0f3+10!0ff+00!0f!002+10!005+0f!007+0f!002+0f!002+10!005+0f!007+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0fa+002+0f!004+0f!00b+0f!002+0f!004+0f!00b+0f!002+0f!004+0f!00b+0f!002+0f!004+0f2+00a+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f7+00a+0f!002+0f!006+",
-  "autoFadeSpeed": 1,
+  "name": "area00-06",
   "symbol": "scene_16",
   "x": 1520,
   "y": 336,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "35a1dcf8-16bd-4dac-9485-63812ff6b996",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "7a08a73f-96de-450b-ba31-44463f5fa0b5"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_IF",
@@ -64,5 +63,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0015+0f13+00!0f!0013+0f!002+10!0010+0f3+10!0ff+00!0f!002+10!005+0f!007+0f!002+0f!002+10!005+0f!007+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0fa+002+0f!004+0f!00b+0f!002+0f!004+0f!00b+0f!002+0f!004+0f!00b+0f!002+0f!004+0f2+00a+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f7+00a+0f!002+0f!006+"
 }

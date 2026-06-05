@@ -7,7 +7,7 @@
     {
       "id": "133e3024-e725-4549-b7ad-656fa41700c3",
       "name": "",
-      "animationType": "horizontal",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {

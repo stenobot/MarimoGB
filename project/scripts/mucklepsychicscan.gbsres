@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "7aeaa8f6-95c3-4304-a875-de03386607cd",
   "name": "MucklePsychicScan",
-  "description": "Muckle goes into trance, starts scanning for a robot. This script contains a while loop so we can hold this state while B button is being held. There is a script attaching chain that happens here. First, this script must be called as an attached script on B button when a scene is initiated, and Robot actor must be passed in as parameter. Second, this script attaches the PsychicControl script to the A button. Third, that script attaches the ReactivateMuckle script to the A button which cancels the psychic control. ",
+  "description": "Muckle goes into trance, starts scanning for a robot in range. \nContains a while loop so we can hold this state while B button is being held. \nScript-attaching chain: \n1.) This script must be called as an attached script on B button when a scene is initiated and pass Robot actor as parameter. \n2.) Attaches the PsychicControl script to the A button. \n3.) PsychicControl script attaches the ReactivateMuckle script to the A button, which cancels the psychic control. ",
   "variables": {},
   "actors": {
     "0": {
@@ -125,12 +125,12 @@
         "actorId": "player",
         "operator": "<=",
         "distance": {
-          "type": "number",
-          "value": 9
+          "type": "variable",
+          "value": "18"
         },
         "otherActorId": "0",
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -153,7 +153,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -358,7 +358,9 @@
                     "input": [
                       "left",
                       "right"
-                    ]
+                    ],
+                    "__comment": false,
+                    "__collapse": true
                   },
                   "id": "e7953e7c-360a-408e-8757-82d2c1844a0e"
                 }

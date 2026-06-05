@@ -21,6 +21,22 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "right",
+                "left"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
+            },
+            "children": {
+              "true": []
+            },
+            "id": "24f30d0f-92b5-42c9-8cbe-1b1e8ee9a039"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "5",
@@ -87,7 +103,8 @@
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "64cc096d-84bf-4346-a494-e1741bdda85e",
-              "__collapse": true
+              "__collapse": true,
+              "__comment": false
             },
             "id": "e422be1a-ac95-4b03-86a7-191b4d36ccf2"
           },
@@ -142,31 +159,6 @@
               "__collapse": true
             },
             "id": "f2f4f34e-a1ce-4ce2-bb07-1c52a35f44ad"
-          },
-          {
-            "command": "EVENT_SET_TIMER_SCRIPT",
-            "args": {
-              "timer": 4,
-              "duration": 0.6,
-              "frames": 30,
-              "__scriptTabs": "end",
-              "__collapse": true
-            },
-            "children": {
-              "script": [
-                {
-                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
-                  "args": {
-                    "input": [
-                      "left",
-                      "right"
-                    ]
-                  },
-                  "id": "11699d45-4af5-48db-ace7-69eded91c8d0"
-                }
-              ]
-            },
-            "id": "396245bf-ad58-4018-b848-418dc95e05ca"
           }
         ],
         "false": [

@@ -92,6 +92,11 @@
       "symbol": "var_isswitchon_00_06"
     },
     {
+      "id": "18",
+      "name": "psychicRange",
+      "symbol": "var_psychicrange"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -320,6 +325,16 @@
       "id": "1262431e-3593-420d-a886-74f66e11bae2__L1",
       "name": "isSwitchTwoOn",
       "symbol": "var_isswitchtwoon_0"
+    },
+    {
+      "id": "782efbac-d4e4-4706-8704-e47439ee0e1a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "4bd4fc53-aaaa-4ebe-b265-1cb3875315db__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ],
   "constants": []
