@@ -32,7 +32,7 @@
       "args": {
         "actorId": "$self$",
         "speed": 1,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3e71a272-eb67-4c64-99a8-0546b2488b9b",
       "children": {}
@@ -64,7 +64,7 @@
         ],
         "lockDirection": [],
         "moveType": "horizontal",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "94b14b8e-47f8-4f8d-8b64-3cf428888eb3",
       "children": {}
@@ -90,7 +90,7 @@
       "args": {
         "actorId": "$self$",
         "speed": 0.5,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "4e1b57db-3882-41ce-82dc-5062644beb30",
       "children": {}
