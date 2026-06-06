@@ -79,7 +79,7 @@
     },
     {
       "id": "INPUT_PLATFORM_INTERACT",
-      "value": "INPUT_B"
+      "value": "INPUT_UP"
     }
   ]
 }

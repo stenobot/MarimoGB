@@ -365,6 +365,11 @@
       "id": "a14d732c-10c8-4fb7-97d8-a32925913a91__L2",
       "name": "starTwinkleThreeState",
       "symbol": "var_startwinklethreestate_3"
+    },
+    {
+      "id": "22",
+      "name": "hasPsychicAbility",
+      "symbol": "var_haspsychicability"
     }
   ],
   "constants": []

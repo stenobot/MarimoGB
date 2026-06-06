@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "01dbfe0c-222d-48dc-8972-ac29581ea4f6",
-  "startX": 4,
-  "startY": 3,
+  "startSceneId": "d2d55065-ed8e-4d5d-8d4c-1bd58dfc5323",
+  "startX": 25,
+  "startY": 14,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "right",
@@ -28,8 +28,8 @@
     "4e6cd991-0584-4158-aaa8-0a2f51198bcd",
     "765daa51-61ea-47bb-ac12-458c658615bf",
     "bca69fc2-9fb2-4e0c-ac33-a2603e63f596",
-    "default-sprite",
-    "default-sprite"
+    "6a12a151-f5ef-44f4-82c6-140110f8431f",
+    "a0df2f18-9d13-4dac-a3d4-67bf3b2b9b40"
   ],
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",

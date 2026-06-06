@@ -79,9 +79,9 @@
       "args": {
         "text": "This is\nMuckle.",
         "x": 2,
-        "y": 2,
+        "y": 3,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ede7d826-c090-48f7-8c0e-5cd87cf737f7"
     },
