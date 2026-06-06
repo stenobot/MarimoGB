@@ -24,13 +24,64 @@
       "args": {
         "actorId": "$self$",
         "spriteStateId": "Swimming",
-        "loopAnim": true
+        "loopAnim": true,
+        "__collapse": true
       },
       "id": "6d5f01bc-e7ab-4046-87fb-ab0a564948ef"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "19"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "ef5f0117-a792-4a5b-9621-f78c546d9f5b"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "50d100c9-56a5-4b4c-bbce-591a89cea370"
+            },
+            "id": "1ada0872-a300-43aa-98be-f79ac86bdc8d"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "03890fbd-2f56-4141-b79a-13497676abe3"
+            },
+            "id": "6f7c345f-162d-4423-ba84-4cff2e09e91a"
+          }
+        ],
+        "false": []
+      },
+      "id": "a10586c5-c194-468f-b5fa-42bdfcb78419"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
+  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
+  "autoFadeEventCollapse": true
 }

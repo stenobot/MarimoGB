@@ -89,7 +89,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -152,7 +152,7 @@
         "duration": 2.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -191,7 +191,7 @@
         "duration": 3.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -223,10 +223,102 @@
         ]
       },
       "id": "566aa220-69e9-49f3-bc70-1a2c8ce90b75"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "20"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 28
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "c1282c43-5635-4c9b-82ce-0643d015df74"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "23082aec-3c78-4eb7-8e5a-948911af999e"
+            },
+            "id": "d96c6660-bb5d-4f48-9f7c-a41016143fcc"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "cc6fb09b-7e19-4419-81cf-b0dbe9160090"
+            },
+            "id": "570194b7-a3af-4974-9242-7429dfd291b8"
+          }
+        ],
+        "false": []
+      },
+      "id": "d03e5e28-fc86-47bc-a5cd-0e96f1297bf3"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "21"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "tilesetId": "ac80dafe-849a-449f-b1e8-461ad131715f",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "aa7db43f-127f-4697-b68c-4e5bb065a81a"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "c901e884-40b1-4172-9bdb-b7ee6e557ea1"
+            },
+            "id": "35f32c91-7a51-43a8-89eb-31e13d637d94"
+          }
+        ],
+        "false": []
+      },
+      "id": "a810c04e-bbeb-453d-a987-7a7b1b062512"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "001d+0f16+002+0f!0023+0f!00e+0f!005+0f!002+0f5+001b+0f5+007+10!006+0f!00c+0f!001b+0f!003+0f!005+0f2+10!006+0f!00c+0f!001b+0f!00a+0f!10!006+0fb+002+0f!003+0f6+0012+0f!00a+0f!10!0013+0f!003+0f!004+0f1a+004+0f!10!0013+0f!003+0f!00b+0f3+00f+0f!004+0f!10!0013+0f!003+0f!00b+0f2+0010+0f!004+0f!01!0013+0f!003+0f!0022+0f!002+01!0011+0f!003+0f!0022+0f!004+01!00f+0f!003+0f!0016+0f2+00a+0f!0014+0f!003+0f!005+0f2a+004+10!003+0f!003+0f!005+0f2+0027+0f5+10!0f4+003+0f7+002c+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!005+"
+  "collisions": "001d+0f16+002+0f!0023+0f!00e+0f!005+0f!002+0f5+001b+0f5+007+10!006+0f!00c+0f!001b+0f!003+0f!005+0f2+10!006+0f!00c+0f!001b+0f!00a+0f!10!006+0fb+002+0f!003+0f6+0012+0f!00a+0f!10!0013+0f!003+0f!004+0f1a+004+0f!10!0013+0f!003+0f!001d+0f!004+0f!10!0013+0f!003+0f!001d+0f!004+0f!01!0013+0f!003+0f!0022+0f!002+01!0011+0f!003+0f!0022+0f!004+01!00f+0f!003+0f!0016+0f2+00a+0f!0014+0f!003+0f!005+0f2a+004+10!003+0f!003+0f!005+0f2+0027+0f5+10!0f4+003+0f7+002c+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!005+"
 }

@@ -17,7 +17,7 @@
           "type": "not",
           "value": {
             "type": "variable",
-            "value": "L1"
+            "value": "21"
           }
         },
         "__collapseElse": false
@@ -27,7 +27,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "L1",
+              "variable": "21",
               "value": {
                 "type": "true"
               },
@@ -68,7 +68,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "L1",
+              "variable": "21",
               "value": {
                 "type": "false"
               }

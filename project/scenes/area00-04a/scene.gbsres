@@ -25,9 +25,59 @@
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
   "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "19"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "5838e32d-56bc-403a-b427-3e55efb8a6fb"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "9eb8de42-93d4-4a7d-8260-fce375908d8c"
+            },
+            "id": "d8df6b99-a53a-4bcf-9a70-ecd48ea72c25"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "77f06ef1-5d47-4577-a06d-4da0c5b6147a"
+            },
+            "id": "5a970d41-7cc6-457f-b6c1-5e6022e314f0"
+          }
+        ],
+        "false": []
+      },
+      "id": "eb12053b-08d8-4b5c-b357-ea0a73d944c2"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00e+10!006+0fd+10!0f5+00!0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f8+00!0f!00!10!008+0f!005+0f!002+0f2+10!0f9+005+0f!002+0f!00!10!00e+0f!002+0f!00!10!00e+0f!002+0f!00!10!008+0f!005+0f!002+0fc+005+0f!002+0f!00a+0f!005+0f!002+0f!00a+0f!005+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f12+0015+"
+  "collisions": "00e+10!006+0fd+10!0f5+00!0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f8+00!0f!00!10!008+0f!005+0f!002+0f2+10!0f9+005+0f!002+0f!00!10!00e+0f!002+0f!00!10!00e+0f!002+0f!00!10!007+0f!006+0f!002+0fb+006+0f!00!0f2+009+0f!002+0f5+00c+0f!006+0f!0013+0f!0013+0f!00!0f13+0015+"
 }

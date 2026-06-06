@@ -32,7 +32,7 @@
           "type": "variable",
           "value": "17"
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -51,7 +51,8 @@
               "tileIndex": {
                 "type": "number",
                 "value": 0
-              }
+              },
+              "__collapse": true
             },
             "id": "f6e0051a-e93a-43fc-b1a6-51477884ff21"
           }

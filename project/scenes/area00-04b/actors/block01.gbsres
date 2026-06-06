@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "9eb8de42-93d4-4a7d-8260-fce375908d8c",
+  "id": "50d100c9-56a5-4b4c-bbce-591a89cea370",
   "name": "Block01",
   "frame": 0,
   "animate": false,
@@ -13,11 +13,9 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "collisionExtraFlags": [
-    "solid"
-  ],
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_24",
+  "symbol": "actor_32",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -27,5 +25,5 @@
   "coordinateType": "tiles",
   "x": 11,
   "y": 15,
-  "_index": 0
+  "_index": 1
 }

@@ -3,7 +3,7 @@
   "id": "19df1789-6409-49b6-a260-0a7b22df16e1",
   "name": "Switch",
   "prefabId": "",
-  "x": 10,
+  "x": 6,
   "y": 10,
   "symbol": "trigger_31",
   "prefabScriptOverrides": {},
@@ -17,7 +17,7 @@
           "type": "not",
           "value": {
             "type": "variable",
-            "value": "L0"
+            "value": "19"
           }
         },
         "__collapseElse": false,
@@ -28,7 +28,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "L0",
+              "variable": "19",
               "value": {
                 "type": "true"
               }
@@ -40,7 +40,7 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 10
+                "value": 6
               },
               "y": {
                 "type": "number",
@@ -73,11 +73,11 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "L0",
+              "variable": "19",
               "value": {
                 "type": "false"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "91ea79ac-32cb-47cc-82bb-d1bde0fb06be"
           },
@@ -86,7 +86,7 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 10
+                "value": 6
               },
               "y": {
                 "type": "number",
@@ -97,7 +97,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "8403e151-f75a-4ae0-85a8-0c7e4d89b566"
           },
