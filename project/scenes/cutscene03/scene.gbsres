@@ -65,26 +65,6 @@
       "id": "196d6d07-8c97-42df-ab93-afcfb788e86b"
     },
     {
-      "command": "EVENT_OVERLAY_SHOW",
-      "args": {
-        "color": "black",
-        "x": 0,
-        "y": 0,
-        "__collapse": true
-      },
-      "id": "34805c45-79f4-403b-8101-ee5b85999330"
-    },
-    {
-      "command": "EVENT_OVERLAY_MOVE_TO",
-      "args": {
-        "x": 20,
-        "y": 0,
-        "speed": 0,
-        "__collapse": true
-      },
-      "id": "c6f328e5-67b8-4341-9a7c-42a0ec509136"
-    },
-    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
@@ -98,7 +78,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "Muckle is\nfriendly with \ntheir neighbors.",
+              "text": "They are\nfriendly with\ntheir neighbors.",
               "x": 2,
               "y": 13,
               "location": "background",

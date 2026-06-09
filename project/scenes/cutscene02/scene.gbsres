@@ -51,6 +51,47 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "They collect\ntrinkets.",
+              "x": 1,
+              "y": 8,
+              "location": "background"
+            },
+            "id": "1283e105-0a4a-4e51-9d8d-1cfb3c8dadfb"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 2
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": false
+            },
+            "id": "25b93ba7-d7ce-444d-90ba-fcb785caef2c"
+          },
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "speed": 1,
+              "__collapse": false
+            },
+            "id": "b4c9ad0e-119a-42cd-84d6-1b8460fd8218"
+          },
+          {
             "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
               "input": [
@@ -64,65 +105,21 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_TEXT_DRAW",
+                  "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "text": "They collect\ntrinkets.",
-                    "x": 1,
-                    "y": 5,
-                    "location": "background",
-                    "__comment": false
-                  },
-                  "id": "abdd07ab-b2ed-4816-8b98-f2a872d6e02a"
-                },
-                {
-                  "command": "EVENT_CAMERA_MOVE_TO",
-                  "args": {
+                    "sceneId": "e18df9b7-02cf-415c-93ee-460450c90822",
                     "x": {
                       "type": "number",
-                      "value": 20
+                      "value": 0
                     },
                     "y": {
                       "type": "number",
                       "value": 0
                     },
-                    "speed": 1,
-                    "__collapse": false
+                    "direction": "",
+                    "fadeSpeed": "2"
                   },
-                  "id": "b4c9ad0e-119a-42cd-84d6-1b8460fd8218"
-                },
-                {
-                  "command": "EVENT_SET_INPUT_SCRIPT",
-                  "args": {
-                    "input": [
-                      "b",
-                      "a",
-                      "start"
-                    ],
-                    "override": true,
-                    "__scriptTabs": "press"
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_SWITCH_SCENE",
-                        "args": {
-                          "sceneId": "e18df9b7-02cf-415c-93ee-460450c90822",
-                          "x": {
-                            "type": "number",
-                            "value": 0
-                          },
-                          "y": {
-                            "type": "number",
-                            "value": 0
-                          },
-                          "direction": "",
-                          "fadeSpeed": "2"
-                        },
-                        "id": "efb37da7-fbad-45b4-bbc1-0c868948e654"
-                      }
-                    ]
-                  },
-                  "id": "ed82f97f-1ff0-4586-a993-7c3a9a966957"
+                  "id": "efb37da7-fbad-45b4-bbc1-0c868948e654"
                 }
               ]
             },

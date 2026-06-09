@@ -3,7 +3,7 @@
   "id": "eb4d2ca5-2b93-48fc-b2ca-4e8bd42fdaca",
   "_index": 11,
   "name": "Cutscene06",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "a14dfd22-8ffd-48cb-8a6c-aa9a4d7161a3",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -18,6 +18,123 @@
   "y": 48,
   "script": [
     {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.7,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "tilesetId": "4ec6933c-9625-4083-8b41-c1b91ec4ff26",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0"
+            },
+            "id": "aee71c01-bd1b-4ee7-ad54-cef9bc98868a"
+          }
+        ]
+      },
+      "id": "6753fe41-e1be-4e24-92e4-a4633a58e63b"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 1.1,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "tilesetId": "47beb51f-1911-46e1-8ef1-234f98bd7a3e",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L1"
+            },
+            "id": "fee77396-6a6d-474c-a053-bded01ecf561"
+          }
+        ]
+      },
+      "id": "caf27e9a-5908-4709-9de2-44d09ebfa3a5"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 3,
+        "duration": 1.6,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "tilesetId": "e353b8e8-5818-4cb3-8d37-8cd0f240e815",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L2"
+            },
+            "id": "65f544a1-1c63-4857-b200-1b82882365ca"
+          }
+        ]
+      },
+      "id": "eece13e5-0c21-4e1b-b3ce-94e0a60b5c81"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -27,7 +144,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -55,7 +172,8 @@
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "c3cf48e4-4e5a-4ca3-bc53-3b4f0e822b7e"
     },
@@ -65,7 +183,8 @@
         "text": "When Muckle awoke,\nthey were inside\na giant machine,\nlost and alone.",
         "x": 1,
         "y": 7,
-        "location": "background"
+        "location": "background",
+        "__collapse": true
       },
       "id": "a13b41ee-3878-46a8-bf2f-573478d7ac70"
     }

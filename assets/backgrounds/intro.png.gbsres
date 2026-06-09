@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "beb5b91c-bfdc-46d8-bff1-6f9473010641",
+  "name": "intro",
+  "symbol": "bg_intro",
+  "tileColors": "0043+036+00e+037+0021+036+00e+036+00e+036+00d+035+00f+035+0010+037+00d+036+00e+036+0057+",
+  "filename": "intro.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
