@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "afb23f0a-1909-46fa-b160-79a01191bd4a",
-  "name": "",
+  "name": "DroneBug",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "53e0e59a-db4d-4954-9c75-4ca08b166888",
@@ -11,7 +11,7 @@
   "animSpeed": 127,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
@@ -43,7 +43,8 @@
         "timer": 4,
         "duration": 1,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -118,11 +119,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 10
+                      "value": 11
                     },
                     "y": {
                       "type": "number",
-                      "value": 13
+                      "value": 21
                     },
                     "collideWith": [
                       "walls"
@@ -141,11 +142,11 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 10
+                      "value": 18
                     },
                     "y": {
                       "type": "number",
-                      "value": 10
+                      "value": 17
                     },
                     "collideWith": [
                       "walls"
@@ -157,6 +158,27 @@
                 }
               ],
               "true3": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "__section": "movement",
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 27
+                    },
+                    "collideWith": [
+                      "walls"
+                    ],
+                    "lockDirection": [],
+                    "moveType": "horizontal"
+                  },
+                  "id": "7cfeb554-ef42-41a3-a9f7-e16018aae95b"
+                },
                 {
                   "command": "EVENT_ACTOR_MOVE_TO",
                   "args": {
@@ -247,6 +269,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 8,
-  "y": 13,
-  "_index": 16
+  "y": 14,
+  "_index": 13
 }

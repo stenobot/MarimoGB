@@ -20,7 +20,7 @@
     "",
     "",
     "",
-    "b0610724-d97c-4523-98cd-a548de4cbaf6"
+    "afb8a816-aa66-426a-b766-7cff8fb88d54"
   ],
   "spritePaletteIds": [
     "59f86781-0cb7-466d-8ca6-4d6a7118502a"
@@ -57,10 +57,10 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 0.8,
+        "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -125,7 +125,7 @@
         "duration": 1.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -186,10 +186,10 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 3,
-        "duration": 1.9,
+        "duration": 0.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -250,5 +250,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "007a+0fa+003+0f17+004+0f2+0021+0f!004+0f2+0021+0f!004+0f4+001f+0f!004+0f!002+0f!001f+0f!004+0f!002+0f3+001d+0f!004+0f1c+007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f10+004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0020+0f3+004+0f!0022+0f!004+0f!0022+0f!005+0f22+0053+"
+  "collisions": "007a+0fa+003+0f17+004+0f2+0021+0f!004+0f2+0021+0f!004+0f4+001f+0f!004+0f!002+0f!001f+0f!004+0f!002+0f3+001d+0f!004+0f1c+007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f10+004+0f!0022+0f!004+0f!0022+0f!004+0f!0020+0f3+004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!005+0f22+0053+"
 }

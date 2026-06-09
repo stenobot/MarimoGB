@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "b406928c-e05b-4e16-824e-5035134baa32",
+  "id": "2cb47a6e-c36e-4a4e-8cb3-233e13e30ed2",
   "name": "Gear01-Forward",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_14",
+  "symbol": "actor_61",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 28,
-  "y": 16,
-  "_index": 7
+  "x": 20,
+  "y": 21,
+  "_index": 15
 }
