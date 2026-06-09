@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "3995d5c6-9e69-4918-8450-4896a323e0c3",
+  "name": "sky-dark",
+  "symbol": "tileset_sky_dark",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "sky-dark.png"
+}

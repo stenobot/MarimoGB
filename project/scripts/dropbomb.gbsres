@@ -1,0 +1,154 @@
+{
+  "_resourceType": "script",
+  "id": "c9a11316-f1e0-43b2-b6ef-9ea04585c41e",
+  "name": "DropBomb",
+  "description": "Drop a bomb from starting position to land and explode at target position, deactivating a target Actor.",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "startX",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "startY",
+      "passByReference": false
+    },
+    "V2": {
+      "id": "V2",
+      "name": "targetX",
+      "passByReference": false
+    },
+    "V3": {
+      "id": "V3",
+      "name": "targetY",
+      "passByReference": false
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Bomb"
+    },
+    "1": {
+      "id": "1",
+      "name": "Explosion"
+    },
+    "3": {
+      "id": "3",
+      "name": "Target"
+    }
+  },
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "80ec68cd-05c4-4c5a-94c2-cca0b2a0d2f1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "__collapse": false
+      },
+      "id": "9902880a-2997-46bd-babb-3424b99f830f"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V2"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V3"
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": false
+      },
+      "id": "e612b948-fbe3-44a6-930c-426b37e9c97d"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "3",
+        "__collapse": true
+      },
+      "id": "bda5df64-ff6d-45ae-9233-c33aeca8b4eb"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "1",
+        "x": {
+          "type": "variable",
+          "value": "V2"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V3"
+        },
+        "__collapse": false
+      },
+      "id": "bd90e707-e23a-4019-8008-dcc62f8bd194"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "56a6257e-2dac-4a23-9e5d-ebb1b571ae7c"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "1",
+        "__collapse": true
+      },
+      "id": "d98065d7-8c57-411d-9ab0-979eb1fbc5d1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__comment": false,
+        "__collapse": true
+      },
+      "id": "b6e385c5-4d44-40aa-9954-6a082ed850b5"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "1",
+        "__comment": false,
+        "__collapse": false
+      },
+      "id": "39d60da3-f7c9-446e-8afd-cb87b0b6dcc2"
+    }
+  ]
+}

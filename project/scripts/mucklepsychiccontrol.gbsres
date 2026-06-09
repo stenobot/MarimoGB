@@ -102,8 +102,8 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "64cc096d-84bf-4346-a494-e1741bdda85e",
-              "__collapse": true,
+              "spriteSheetId": "c35a6cf3-bfe4-4183-82b3-f3124a3ac736",
+              "__collapse": false,
               "__comment": false
             },
             "id": "e422be1a-ac95-4b03-86a7-191b4d36ccf2"

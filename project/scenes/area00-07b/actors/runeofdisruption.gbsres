@@ -18,21 +18,22 @@
   "symbol": "actor_35",
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "96d787b7-0649-48d1-964d-18daa7ac6914"
+      },
+      "id": "40ccd669-59b3-47f1-b477-4e9f03405b5a"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "22",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "74313503-5a48-4cb9-8164-19c47318610f"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "69baac12-b571-4e71-8b14-ec9985756ed1"
     },
     {
       "command": "EVENT_TEXT",
@@ -40,7 +41,7 @@
         "text": [
           "Muckle found the\nRUNE OF DISRUPTION."
         ],
-        "__section": "presets",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -53,11 +54,35 @@
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "any",
+        "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "0a542124-ff23-4b3c-95ed-eaaa7bfd7a26"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "69baac12-b571-4e71-8b14-ec9985756ed1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.4
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "79f1a39c-9e36-42d8-a2b4-8898f80a0843"
     },
     {
       "command": "EVENT_TEXT",
@@ -65,7 +90,7 @@
         "text": [
           "Muckle remembered\nPSYCHIC TRANCE."
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -78,25 +103,12 @@
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "any",
+        "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "ac245cfd-4da1-4dcd-bb6d-c84e475a1234"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 0.2
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "79f1a39c-9e36-42d8-a2b4-8898f80a0843"
     },
     {
       "command": "EVENT_TEXT",
@@ -119,7 +131,8 @@
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "38aa04f8-c69d-4bac-bce8-50a3e1ab38d4"
     },
@@ -129,7 +142,7 @@
         "text": [
           "While holding B,\npress A to control\nan object in range."
         ],
-        "__section": "layout",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 5,
         "maxHeight": 7,
@@ -142,16 +155,18 @@
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "any",
+        "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "7e3a9213-4837-4651-abf7-1cca358c861d"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "9d515715-6c0a-48d7-8a32-7a5adf080c12"
     }
@@ -162,7 +177,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 4,
-  "y": 13,
+  "x": 5,
+  "y": 9,
   "_index": 1
 }

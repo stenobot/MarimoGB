@@ -1,0 +1,207 @@
+{
+  "_resourceType": "trigger",
+  "id": "b170677f-0bbb-41c9-bc45-b7c2dd2737b0",
+  "name": "BlockFallTrigger",
+  "prefabId": "",
+  "x": 15,
+  "y": 13,
+  "symbol": "trigger_42",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "expression",
+          "value": "!$24$"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350"
+            },
+            "id": "d37aaf05-e85e-4700-9809-39dbe7fd205a"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "f817e16c-c918-40ac-a239-1723ebc50d65",
+              "__collapse": true
+            },
+            "id": "6a31ec0f-0b8b-4131-923f-c742f3a5b375"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "f817e16c-c918-40ac-a239-1723ebc50d65",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "a7b1eab4-5440-463b-afd3-48e13fd7047b"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "5e0bbc6c-8c65-416b-9384-0d546722957b",
+              "__collapse": true
+            },
+            "id": "63f4a4dd-e641-4d65-9222-60e6463afdc0"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "5e0bbc6c-8c65-416b-9384-0d546722957b",
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "38b2e55c-7f9f-4277-8630-18f15fb96a42"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "243d32b1-019b-413c-91d9-c8ea52fde36b",
+              "__collapse": true
+            },
+            "id": "19edacca-48ef-41c5-aa64-9922c61d4cf2"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "243d32b1-019b-413c-91d9-c8ea52fde36b",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "866c882f-0587-4433-a02e-19272bdd3f71"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "ea441c75-8e87-4c50-96d2-681580c6be8b",
+              "__collapse": true
+            },
+            "id": "f0f7d132-f456-448b-bf7a-e29319150b28"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "ea441c75-8e87-4c50-96d2-681580c6be8b",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "4081bc79-22da-4a5b-a678-6424e4731c46"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "bcaf9cf7-1cb9-431b-a526-c31f82001c51",
+              "__collapse": true
+            },
+            "id": "79560d05-95cd-4570-a6bd-fb1775adf00a"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "bcaf9cf7-1cb9-431b-a526-c31f82001c51",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "876d4c14-9bc0-4386-86f0-15447928f95f"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
+            },
+            "id": "e4dbd29d-3431-4ded-bd23-1d0eb6689e70"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "24",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "1f12f11a-441d-4805-a577-3bee217cf359"
+          }
+        ],
+        "false": []
+      },
+      "id": "72b25f2e-de56-4955-8945-23c830a490d2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

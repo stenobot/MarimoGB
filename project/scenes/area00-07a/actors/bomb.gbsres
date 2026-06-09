@@ -1,31 +1,30 @@
 {
   "_resourceType": "actor",
-  "id": "5e0bbc6c-8c65-416b-9384-0d546722957b",
-  "name": "Block02",
+  "id": "6c9aceb9-6378-41a6-88f8-f9e9211086f3",
+  "name": "Bomb",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "2816a3f8-4a59-4d35-9c61-99048b18e829",
+  "spriteSheetId": "6ae575d6-93ab-4407-b072-97ff24b17e8e",
   "prefabId": "",
-  "direction": "down",
-  "moveSpeed": 1,
+  "direction": "right",
+  "moveSpeed": 2,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "collisionExtraFlags": [
-    "solid"
-  ],
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_36",
+  "symbol": "actor_58",
   "script": [],
   "startScript": [
     {
-      "command": "EVENT_ACTOR_DEACTIVATE",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__comment": false
       },
-      "id": "ee7e1541-2f93-4643-93b2-057765e3dbb7"
+      "id": "6adc9270-90fd-414d-911c-3d86c28d8223"
     }
   ],
   "updateScript": [],
@@ -33,7 +32,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 22,
-  "y": 3,
-  "_index": 3
+  "x": 2,
+  "y": 0,
+  "_index": 8
 }

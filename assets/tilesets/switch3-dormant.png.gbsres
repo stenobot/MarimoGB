@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "b90c8288-8a25-45b9-9472-eac0b71fc862",
+  "name": "switch3-dormant",
+  "symbol": "tileset_switch3_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "switch3-dormant.png"
+}

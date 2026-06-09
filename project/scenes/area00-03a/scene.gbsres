@@ -5,7 +5,7 @@
   "type": "PLATFORM",
   "name": "area00-03a",
   "symbol": "scene_4",
-  "x": 1176,
+  "x": 1160,
   "y": 624,
   "width": 60,
   "height": 18,
@@ -34,7 +34,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "9c3d04b5-fa5e-4aad-b8f6-a13ee957b20b"
     },
@@ -46,7 +46,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -55,8 +55,8 @@
             "command": "EVENT_IF",
             "args": {
               "condition": {
-                "type": "variable",
-                "value": "2"
+                "type": "expression",
+                "value": "$02$ && $22$"
               },
               "__collapseElse": true,
               "__collapse": true
@@ -69,7 +69,7 @@
                     "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
                     "$actor[0]$": "66d599f2-b886-4567-9b74-3b92022fa904",
                     "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "516a3240-8e35-4ed2-99ec-35b5ef0b2fb3"
                 }
@@ -89,7 +89,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -152,7 +152,7 @@
         "duration": 2.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -185,46 +185,6 @@
       "id": "2163ae82-3f4a-42dd-b611-c579c54fd63f"
     },
     {
-      "command": "EVENT_SET_TIMER_SCRIPT",
-      "args": {
-        "timer": 3,
-        "duration": 3.1,
-        "frames": 30,
-        "__scriptTabs": "end",
-        "__collapse": false
-      },
-      "children": {
-        "script": [
-          {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 14
-              },
-              "y": {
-                "type": "number",
-                "value": 3
-              },
-              "tilesetId": "e353b8e8-5818-4cb3-8d37-8cd0f240e815",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "frames": {
-                "type": "number",
-                "value": 4
-              },
-              "variable": "L2",
-              "__collapse": false
-            },
-            "id": "a1e201dc-952d-4a27-b31f-51fee24d8302"
-          }
-        ]
-      },
-      "id": "566aa220-69e9-49f3-bc70-1a2c8ce90b75"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -232,7 +192,7 @@
           "value": "20"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -281,7 +241,8 @@
           "type": "variable",
           "value": "21"
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
