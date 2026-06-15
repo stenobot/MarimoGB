@@ -490,6 +490,11 @@
       "id": "32c51220-5432-4b58-b2bb-6107ba99d928__L0",
       "name": "Local 0",
       "symbol": "var_local_12"
+    },
+    {
+      "id": "29",
+      "name": "isBoosterBotUnlocked",
+      "symbol": "var_isboosterbotunlocked"
     }
   ],
   "constants": []
