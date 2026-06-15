@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "c35a6cf3-bfe4-4183-82b3-f3124a3ac736",
-  "name": "robot-possessed",
+  "name": "robot01-possessed",
   "symbol": "sprite_robot_possessed",
   "states": [
     {
@@ -234,7 +234,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "robot-possessed.png",
+  "filename": "robot01-possessed.png",
   "width": 32,
   "height": 16,
   "checksum": "9902c5a44ffa1f227b246b636c4acf2abf6d135c"

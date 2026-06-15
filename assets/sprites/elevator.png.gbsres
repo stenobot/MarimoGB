@@ -25,7 +25,7 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "objPalette": "OBP0",
                   "priority": false
                 },
@@ -38,8 +38,39 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "68bd7565-797e-47e8-8898-c87982e9b923",
+              "tiles": [
+                {
+                  "id": "7d61c96c-9874-49f0-8233-59f3feea22d2",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
+                  "priority": false
+                },
+                {
+                  "id": "eb3693ea-1bb1-4458-ad13-6190c01c2ae3",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -161,29 +192,60 @@
               "id": "ea17943a-f7f3-432d-a0b7-d7a8e9b179b6",
               "tiles": [
                 {
-                  "id": "6392247d-28c7-4a78-a5a5-618a8ee0063a",
+                  "id": "6dabb301-4a5f-4281-b331-8d0e481f984c",
                   "x": 0,
                   "y": 0,
-                  "sliceX": 0,
+                  "sliceX": 48,
                   "sliceY": 0,
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
-                  "id": "290b4e0a-81fb-4f1d-bb12-7564ffca6c0c",
+                  "id": "1200e246-4783-4c8a-8dee-cb62c0b0f414",
                   "x": 8,
                   "y": 0,
-                  "sliceX": 8,
+                  "sliceX": 56,
                   "sliceY": 0,
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "602249bc-eb37-4e4e-ae0a-4db5c83bcb44",
+              "tiles": [
+                {
+                  "id": "f5a2f23b-2dcf-4c83-bc77-32efcd020fa6",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
+                  "priority": false
+                },
+                {
+                  "id": "8b73d0e3-c838-499e-b276-acabef40a686",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -242,7 +304,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -255,7 +317,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -273,7 +335,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -286,7 +348,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -304,7 +366,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -317,7 +379,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -335,7 +397,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -348,7 +410,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 2,
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -407,5 +469,5 @@
   "filename": "elevator.png",
   "width": 64,
   "height": 16,
-  "checksum": "146acdf42636ad3bbb31d3f0137740e8586d0788"
+  "checksum": "49fcfecca0b1905223e9f25ca0e5a75302f3e9b2"
 }

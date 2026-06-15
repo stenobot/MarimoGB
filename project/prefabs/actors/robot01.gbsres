@@ -216,13 +216,49 @@
             "children": {}
           },
           {
-            "command": "EVENT_ACTOR_HIDE",
+            "command": "EVENT_IF",
             "args": {
-              "actorId": "$self$",
+              "condition": {
+                "type": "variable",
+                "value": "25"
+              },
+              "__collapseElse": true,
               "__collapse": true
             },
-            "id": "b3eed777-348f-467b-b460-e0972d65634c",
-            "children": {}
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_HIDE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "be17ace5-8f3e-4462-b73e-e77c4a817d77",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "c35a6cf3-bfe4-4183-82b3-f3124a3ac736",
+                    "__collapse": true
+                  },
+                  "id": "aa0b364f-f2f5-4395-a0cc-395ba5465250"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "25",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "96858d76-e5c9-4acc-8b03-a564d30dc220"
+                }
+              ],
+              "false": []
+            },
+            "id": "aa515903-4ba6-427c-b147-31e1f9bf19f9"
           }
         ]
       },

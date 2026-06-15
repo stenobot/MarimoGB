@@ -153,7 +153,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -174,29 +174,50 @@
                     ],
                     "override": true,
                     "__scriptTabs": "press",
-                    "__collapse": true,
+                    "__collapse": false,
                     "__comment": false
                   },
                   "children": {
                     "true": [
                       {
-                        "command": "EVENT_ACTOR_GET_POSITION",
+                        "command": "EVENT_IF",
                         "args": {
-                          "actorId": "$self$",
-                          "vectorX": "3",
-                          "vectorY": "4",
-                          "__collapse": true
+                          "condition": {
+                            "type": "not",
+                            "value": {
+                              "type": "variable",
+                              "value": "28"
+                            }
+                          },
+                          "__collapseElse": true
                         },
-                        "id": "4d6b42cc-3035-4b31-aafb-cbf0ba6e5e99"
-                      },
-                      {
-                        "command": "EVENT_ACTOR_GET_DIRECTION",
-                        "args": {
-                          "actorId": "$self$",
-                          "direction": "13",
-                          "__collapse": true
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_GET_POSITION",
+                              "args": {
+                                "actorId": "$self$",
+                                "vectorX": "3",
+                                "vectorY": "4",
+                                "__collapse": true,
+                                "__comment": false
+                              },
+                              "id": "4d6b42cc-3035-4b31-aafb-cbf0ba6e5e99"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_GET_DIRECTION",
+                              "args": {
+                                "actorId": "$self$",
+                                "direction": "13",
+                                "__collapse": true,
+                                "__comment": false
+                              },
+                              "id": "c2e284db-7be7-4094-8de2-75e0589961ec"
+                            }
+                          ],
+                          "false": []
                         },
-                        "id": "c2e284db-7be7-4094-8de2-75e0589961ec"
+                        "id": "990e1e9f-497d-4938-9e94-a3a95360f2a5"
                       },
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",

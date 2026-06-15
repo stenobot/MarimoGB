@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "ad6401ae-2a67-46f1-91e8-22f09bb460c5",
+  "id": "9b67c383-1a1a-4b34-8581-c625397f15d5",
   "name": "Algae",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_8",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 15,
-  "y": 17,
+  "x": 23,
+  "y": 13,
   "_index": 3
 }

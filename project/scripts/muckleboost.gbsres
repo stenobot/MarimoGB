@@ -77,7 +77,7 @@
                 "value": "right"
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -136,7 +136,7 @@
                     ],
                     "lockDirection": [],
                     "moveType": "horizontal",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "8e947881-2262-461b-9e5b-a8785e971d97"
                 }

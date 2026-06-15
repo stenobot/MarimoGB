@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "24054190-fb46-434d-b591-668644ce373f",
+  "name": "gear-md2",
+  "symbol": "tileset_gear_med5",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "gear-md2.png"
+}

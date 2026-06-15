@@ -134,6 +134,28 @@
       "id": "599d498b-7110-49b2-85b0-f024cb9c8514"
     },
     {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "number",
+          "value": 1351
+        }
+      },
+      "id": "41ed0be1-5fca-4950-9745-4612366279ca"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_slide",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "74173513-4d6e-4bde-9074-a3d571f05797"
+    },
+    {
       "command": "EVENT_REMOVE_INPUT_SCRIPT",
       "args": {
         "input": [

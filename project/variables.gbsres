@@ -58,8 +58,8 @@
     },
     {
       "id": "11",
-      "name": "setRobotSpriteSheet",
-      "symbol": "var_setrobotspritesheet"
+      "name": "setRobotSpriteScanned",
+      "symbol": "var_setrobotspritescanned"
     },
     {
       "id": "12",
@@ -120,6 +120,31 @@
       "id": "23",
       "name": "isComplete_00_07",
       "symbol": "var_iscomplete_00_07"
+    },
+    {
+      "id": "24",
+      "name": "isTriggered_00_07",
+      "symbol": "var_istriggered_00_07"
+    },
+    {
+      "id": "25",
+      "name": "setPlayerSpriteRobot",
+      "symbol": "var_setplayerspriterobot"
+    },
+    {
+      "id": "26",
+      "name": "isSwitchOneOn_01_03",
+      "symbol": "var_isswitchoneon_01_03"
+    },
+    {
+      "id": "27",
+      "name": "isSwitchTwoOn_01_03",
+      "symbol": "var_isswitchtwoon_01_03"
+    },
+    {
+      "id": "28",
+      "name": "isRobotJumping",
+      "symbol": "var_isrobotjumping"
     },
     {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
@@ -328,8 +353,8 @@
     },
     {
       "id": "afb23f0a-1909-46fa-b160-79a01191bd4a__L0",
-      "name": "dronePositions",
-      "symbol": "var_dronepositions"
+      "name": "droneOnePositions",
+      "symbol": "var_droneonepositions"
     },
     {
       "id": "19df1789-6409-49b6-a260-0a7b22df16e1__L0",
@@ -387,14 +412,84 @@
       "symbol": "var_isblocktriggeractivated"
     },
     {
-      "id": "24",
-      "name": "isTriggered_00_07",
-      "symbol": "var_istriggered_00_07"
-    },
-    {
       "id": "78db93a1-3fb6-41a7-876b-180d03e3b03e__L0",
       "name": "bombIndex",
       "symbol": "var_bombindex"
+    },
+    {
+      "id": "9f379f2e-6db4-4717-92a9-c19259ca3c69__L0",
+      "name": "dronePositions",
+      "symbol": "var_dronepositions_0"
+    },
+    {
+      "id": "9f379f2e-6db4-4717-92a9-c19259ca3c69__L1",
+      "name": "droneTwoPositions",
+      "symbol": "var_dronetwopositions"
+    },
+    {
+      "id": "386371ec-e37a-45a9-ba18-9d6ff0614b2f__L1",
+      "name": "droneTwoPositions",
+      "symbol": "var_dronetwopositions_0"
+    },
+    {
+      "id": "8cdbb866-2c52-4c64-8b99-d0e91209e936__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "7587a410-6230-4dcb-a6ba-277f22761856__L0",
+      "name": "isSwitchOneOn",
+      "symbol": "var_isswitchoneon_1"
+    },
+    {
+      "id": "6ee62c82-562a-4d3e-914e-f16241b07577__L1",
+      "name": "Local 1",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "698e61a8-d506-49b0-89ab-f368a326f04c__L0",
+      "name": "isSwitchOneOn",
+      "symbol": "var_isswitchoneon_2"
+    },
+    {
+      "id": "2a616aa5-1cf9-4939-909a-34e5a441eb11__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "f245a91b-428e-4c33-82e9-db0beb74cdd5__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "138c95f7-5a72-4486-bdea-2ad11a89af9f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "4a5180ec-670f-433e-98fe-aa764723ce89__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "88116a29-4a78-4ea9-bfba-404fa687bc95__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "e06f70c7-52aa-4160-ae17-7bc29258df22__L0",
+      "name": "Local 0",
+      "symbol": "var_local_10"
+    },
+    {
+      "id": "f8282355-6aab-4170-b610-27746e121ce3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_11"
+    },
+    {
+      "id": "32c51220-5432-4b58-b2bb-6107ba99d928__L0",
+      "name": "Local 0",
+      "symbol": "var_local_12"
     }
   ],
   "constants": []

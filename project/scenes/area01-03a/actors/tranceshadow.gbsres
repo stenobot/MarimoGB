@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "9b67c383-1a1a-4b34-8581-c625397f15d5",
-  "name": "Algae",
+  "id": "94ae6f84-76c3-47a9-8682-cb2ff4b13385",
+  "name": "TranceShadow",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "5679b23f-5aab-4eaa-bb5b-6a213d0aa3ec",
+  "prefabId": "4bd4fc53-aaaa-4ebe-b265-1cb3875315db",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_8",
+  "symbol": "actor_20",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 23,
-  "y": 13,
-  "_index": 4
+  "x": 1,
+  "y": 0,
+  "_index": 3
 }

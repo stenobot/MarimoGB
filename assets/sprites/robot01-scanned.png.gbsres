@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "430473d4-8810-4cb2-a848-e3aba37672de",
-  "name": "robot-scanned",
+  "name": "robot01-scanned",
   "symbol": "sprite_robot_scanned",
   "states": [
     {
@@ -215,7 +215,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "robot-scanned.png",
+  "filename": "robot01-scanned.png",
   "width": 48,
   "height": 32,
   "checksum": "a9a573a69971736416df5ff4f3cdc53056860043"

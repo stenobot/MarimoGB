@@ -100,13 +100,15 @@
             "id": "0646a834-c82e-4031-a784-07d1bb5f7871"
           },
           {
-            "command": "EVENT_PLAYER_SET_SPRITE",
+            "command": "EVENT_SET_VALUE",
             "args": {
-              "spriteSheetId": "c35a6cf3-bfe4-4183-82b3-f3124a3ac736",
-              "__collapse": false,
-              "__comment": false
+              "variable": "25",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
             },
-            "id": "e422be1a-ac95-4b03-86a7-191b4d36ccf2"
+            "id": "c80c5a21-d3ab-49cf-87bb-1a8cfa8160d3"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
@@ -123,6 +125,14 @@
               "__collapse": true
             },
             "id": "8258039a-e94b-4a7b-81db-5a5caf04de76"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "plat_wall_slide",
+              "__collapse": true
+            },
+            "id": "50109831-8052-4a28-804c-e5c947e7ce91"
           },
           {
             "command": "EVENT_ENGINE_FIELD_SET",
@@ -179,7 +189,8 @@
               "actorId": "$self$",
               "vectorX": "3",
               "vectorY": "4",
-              "__collapse": true
+              "__collapse": true,
+              "__comment": false
             },
             "id": "eb1fb948-a792-4327-ad7c-625f6c1fa04a"
           },
@@ -188,7 +199,7 @@
             "args": {
               "actorId": "$self$",
               "direction": "8",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b5b586d8-b0e7-4886-9cbf-f989a2740b9a"
           },

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "b405afbc-96c4-410e-aa31-ae71ec9f26c3",
+  "name": "concrete-block03",
+  "symbol": "sprite_concrete_block03",
+  "states": [
+    {
+      "id": "3cb33253-b499-479e-9310-ddb5869e9042",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "ae91e3aa-98ae-4c6d-b6df-76ab2a3e02ab",
+          "frames": [
+            {
+              "id": "ac4973ff-703d-4225-afaf-5826d81463d5",
+              "tiles": [
+                {
+                  "id": "85cbe0d5-39b6-4d63-967f-95461753fc45",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 6,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "2c0948ea-37a2-4a55-908c-e68223cd3366",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 6,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "91282d6f-72b2-4e7d-a863-f075bf6b2c59",
+          "frames": [
+            {
+              "id": "51b6642b-99cb-45a4-8823-9874805eadd0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e2a58a6c-f5a1-41a2-8e43-b088730af40a",
+          "frames": [
+            {
+              "id": "d9353aca-2240-496e-86a2-f409b4107e58",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "63924f9b-5f91-467e-9fe1-8a8de9700f65",
+          "frames": [
+            {
+              "id": "ca328201-d8fb-4020-8ea5-3ed2ff999ac8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7c39de07-52c3-401e-93c9-4752c83b26ed",
+          "frames": [
+            {
+              "id": "0cf0c768-75e4-496f-8bf3-1b1fb5375f37",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8fb86e25-4798-46e7-99ff-c267ea797ed6",
+          "frames": [
+            {
+              "id": "a039a304-a38a-4cb6-8c70-105cbaeaa737",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fcee8068-7c0a-47f5-9b57-8cdb80d9fa25",
+          "frames": [
+            {
+              "id": "96cf4c0f-eb33-4851-908c-8e667f312fd9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "284498e3-6d27-466a-9c0d-f9134fff93e5",
+          "frames": [
+            {
+              "id": "4fa6c0bb-d30f-486a-8bba-14454992ab63",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "concrete-block03.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "63e92b8fdc5043a41c5db966577762799eb1858b"
+}

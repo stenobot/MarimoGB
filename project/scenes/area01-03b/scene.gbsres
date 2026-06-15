@@ -1,0 +1,35 @@
+{
+  "_resourceType": "scene",
+  "id": "be4d17a3-3763-4a0c-bacd-5635799b0fc8",
+  "_index": 22,
+  "name": "area01-03b",
+  "backgroundId": "73ea5152-4ad8-4ccc-83eb-8e6e48de9265",
+  "tilesetId": "",
+  "width": 37,
+  "height": 27,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001b1+0f3+0022+0f!00!0f!0015+0fe+00!0f!0015+0f!00e+0f!0015+0f!00!0fe+0015+0f!00!0f!0022+0f!00!0f!001b+0f3+004+0f!00!0f!006+0f3+0012+0f!00!0f!004+0f!00!0f!006+0f!00!0f!0012+0f!00!0f!004+0f3+006+0f!00!0f!0012+0f!00!0f!00d+0f!00!0f!0012+0f!00!0f!00d+0f!00!0f!0012+0f!00!0ff+00!0f!0012+0f!0011+0f!0012+0f13+0031+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_23",
+  "x": 2248,
+  "y": 296,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Swimming",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "76e98a03-a7df-4a5a-9925-571ac6a04f57"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
+}

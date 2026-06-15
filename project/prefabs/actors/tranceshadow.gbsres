@@ -33,7 +33,8 @@
           "type": "variable",
           "value": "10"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "dea94a6e-609e-4c9a-9759-22e42c2d61ad",
+  "name": "gear-sml",
+  "symbol": "tileset_gear_small1",
+  "width": 2,
+  "height": 1,
+  "imageWidth": 16,
+  "imageHeight": 8,
+  "filename": "gear-sml.png"
+}

@@ -1,0 +1,155 @@
+{
+  "_resourceType": "sprite",
+  "id": "973ef95a-58a1-4e8e-8873-51d1320031f2",
+  "name": "concrete-platform01",
+  "symbol": "sprite_concrete_platform_sm",
+  "states": [
+    {
+      "id": "ab15c771-5d46-44c2-92b0-9170658994e4",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "520f2154-7fa6-4bc6-a695-215d18468284",
+          "frames": [
+            {
+              "id": "ef36e3c6-595b-45ac-8cba-b416593030ce",
+              "tiles": [
+                {
+                  "id": "65bfc2f0-1c28-48b4-b894-4b385beecf2f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "a260de7b-f85f-48af-a2aa-10494583bfe0",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "24e0a01e-87ef-4ebd-82e9-a38893b81d62",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "b43575b9-b66b-4338-8be8-769e007e2dee",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a4b71772-d964-4480-8a1c-b51d50cc0684",
+          "frames": [
+            {
+              "id": "7b296bb6-f163-46ce-93ff-98035a820345",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e53cad7-91a2-4095-9858-466b5fc8328f",
+          "frames": [
+            {
+              "id": "4aebbb94-70b4-4011-bfa8-27c77d1b24f2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8edad8a0-5074-44d3-a115-cb3299adb21d",
+          "frames": [
+            {
+              "id": "5b0d59f5-7121-4375-9719-d91cb451fc33",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d025a82c-4d9f-40ba-924c-d16155c596a2",
+          "frames": [
+            {
+              "id": "d71ec2fd-e581-4a33-ab84-79d5dcf33a60",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c68d1eb6-514a-4a87-b0c8-9e83d82e9bf5",
+          "frames": [
+            {
+              "id": "db96aa1a-0101-4f64-b429-c9d674495758",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8d519e49-bd20-40ca-8060-af23d02a7434",
+          "frames": [
+            {
+              "id": "e0eddc64-9167-47a5-841f-f18963ddd391",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7f80452e-6176-4171-8753-024648e28fa9",
+          "frames": [
+            {
+              "id": "a845764d-66c2-41d3-9ddd-9148e13aea55",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 8,
+  "animSpeed": 15,
+  "filename": "concrete-platform01.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "a418d3dd3d7b7f61dcfd7dfbdd72d5ad6f79d5d5"
+}
