@@ -40,18 +40,18 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 10
+                "value": 6
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 5
               },
               "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "e83ed307-8a52-46e2-8314-7b34c48d905a"
           },

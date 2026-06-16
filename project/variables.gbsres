@@ -495,6 +495,11 @@
       "id": "29",
       "name": "isBoosterBotUnlocked",
       "symbol": "var_isboosterbotunlocked"
+    },
+    {
+      "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L0",
+      "name": "isGearTicked",
+      "symbol": "var_isgearticked"
     }
   ],
   "constants": []

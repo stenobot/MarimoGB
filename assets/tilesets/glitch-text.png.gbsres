@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "1a357a0d-dfea-4c5c-bab3-4c42eef52ef0",
+  "name": "glitch-text",
+  "symbol": "tileset_glitch_text",
+  "width": 8,
+  "height": 1,
+  "imageWidth": 64,
+  "imageHeight": 8,
+  "filename": "glitch-text.png"
+}

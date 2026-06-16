@@ -28,16 +28,26 @@
           "type": "variable",
           "value": "26"
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 7,
+              "__collapse": true
+            },
+            "id": "39eeadf4-d386-4520-a637-3d95bfcf73bc"
+          },
           {
             "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
             "args": {
               "actorId": "$self$",
               "speed": 0.5,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "478da2f3-d20f-4071-bd32-e2a4aed92620"
           },
@@ -59,7 +69,7 @@
               ],
               "lockDirection": [],
               "moveType": "horizontal",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "3b5c4206-2801-41a5-a4a4-cd77fbfc48a1",
             "children": {}
@@ -69,7 +79,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 0.7
+                "value": 1
               },
               "frames": {
                 "type": "number",
@@ -81,11 +91,19 @@
             "children": {}
           },
           {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1
+            },
+            "id": "699f74e8-4aae-4a41-8365-1860adbb7980"
+          },
+          {
             "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
             "args": {
               "actorId": "$self$",
               "speed": 1,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "3d72952c-15d2-489f-9393-98a3462889da",
             "children": {}
@@ -108,7 +126,7 @@
               ],
               "lockDirection": [],
               "moveType": "horizontal",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "8fb3bc05-b082-4798-8f74-05fd5e32036c",
             "children": {}
