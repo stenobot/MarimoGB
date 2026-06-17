@@ -505,6 +505,41 @@
       "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L1",
       "name": "isDoorFadeTicked",
       "symbol": "var_isdoorfadeticked"
+    },
+    {
+      "id": "160ed646-c7a7-4f5e-973d-f6afdec91d60__L0",
+      "name": "glitchFrameCounter",
+      "symbol": "var_glitchframecounter"
+    },
+    {
+      "id": "160ed646-c7a7-4f5e-973d-f6afdec91d60__L1",
+      "name": "glitchTimerTick",
+      "symbol": "var_glitchtimertick"
+    },
+    {
+      "id": "fc6f0fdd-0d30-4c1a-8a79-64e7190a1a29__L0",
+      "name": "glitchFrameCounter",
+      "symbol": "var_glitchframecounter_0"
+    },
+    {
+      "id": "fc6f0fdd-0d30-4c1a-8a79-64e7190a1a29__L1",
+      "name": "glitchTimerTick",
+      "symbol": "var_glitchtimertick_0"
+    },
+    {
+      "id": "0462a5c5-1234-441b-b71f-5d90befa7148__L1",
+      "name": "glitchTimerTick",
+      "symbol": "var_glitchtimertick_1"
+    },
+    {
+      "id": "0462a5c5-1234-441b-b71f-5d90befa7148__L0",
+      "name": "glitchAnimationFrameCounter",
+      "symbol": "var_glitchanimationframecou"
+    },
+    {
+      "id": "b2a37be0-94be-4c21-8ce9-30d4ebd2a9f7__L0",
+      "name": "isGearTicked",
+      "symbol": "var_isgearticked_0"
     }
   ],
   "constants": []
