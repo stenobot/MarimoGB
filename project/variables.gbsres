@@ -500,6 +500,11 @@
       "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L0",
       "name": "isGearTicked",
       "symbol": "var_isgearticked"
+    },
+    {
+      "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L1",
+      "name": "isDoorFadeTicked",
+      "symbol": "var_isdoorfadeticked"
     }
   ],
   "constants": []

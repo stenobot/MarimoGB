@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "10fc746e-bdce-4641-9a3a-dcd4f38cfbac",
+  "name": "door-fade-03",
+  "symbol": "tileset_door_fade_03",
+  "width": 8,
+  "height": 1,
+  "imageWidth": 64,
+  "imageHeight": 8,
+  "filename": "door-fade-03.png"
+}

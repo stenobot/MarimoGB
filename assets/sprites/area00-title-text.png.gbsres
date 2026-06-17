@@ -7,7 +7,7 @@
     {
       "id": "8a1e20f1-60b2-4d12-a2f6-62920986d55c",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -242,7 +242,7 @@
       ]
     }
   ],
-  "numTiles": 11,
+  "numTiles": 12,
   "canvasOriginX": -8,
   "canvasOriginY": 0,
   "canvasWidth": 32,
@@ -255,5 +255,5 @@
   "filename": "area00-title-text.png",
   "width": 32,
   "height": 40,
-  "checksum": "41349e347692a2dbb9f02bd1f71e46d90db82936"
+  "checksum": "893b9df60bf6a3aee3326ec6b1b56bede156cab8"
 }

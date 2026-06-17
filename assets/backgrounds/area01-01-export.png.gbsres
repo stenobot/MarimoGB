@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "88a67d63-dfca-461e-a3bd-03f11e198a3f",
+  "name": "area01-01-export",
+  "symbol": "bg_area01_01_export",
+  "tileColors": "",
+  "filename": "area01-01-export.png",
+  "width": 44,
+  "height": 18,
+  "imageWidth": 352,
+  "imageHeight": 144
+}
