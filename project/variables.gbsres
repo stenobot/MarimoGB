@@ -540,6 +540,31 @@
       "id": "b2a37be0-94be-4c21-8ce9-30d4ebd2a9f7__L0",
       "name": "isGearTicked",
       "symbol": "var_isgearticked_0"
+    },
+    {
+      "id": "c4f13ede-3868-4fbd-87de-44b14b95011a__L1",
+      "name": "doorFadeAnimFrameCounter",
+      "symbol": "var_doorfadeanimframecounte"
+    },
+    {
+      "id": "c4f13ede-3868-4fbd-87de-44b14b95011a__L0",
+      "name": "gearTick",
+      "symbol": "var_geartick"
+    },
+    {
+      "id": "9b946892-be2f-4642-a989-b6f68fac1150__L1",
+      "name": "doorFadeAnimCounter",
+      "symbol": "var_doorfadeanimcounter"
+    },
+    {
+      "id": "9b946892-be2f-4642-a989-b6f68fac1150__L0",
+      "name": "gearTick",
+      "symbol": "var_geartick_0"
+    },
+    {
+      "id": "30",
+      "name": "isSwitchOn_01_02",
+      "symbol": "var_isswitchon_01_02"
     }
   ],
   "constants": []

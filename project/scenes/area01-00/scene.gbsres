@@ -30,9 +30,10 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 2,
-        "duration": 0.1,
+        "duration": 0.7,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -59,6 +60,30 @@
               "variable": "L1"
             },
             "id": "15f9bf5a-b010-47b4-aad7-767faeea9450"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "tilesetId": "37c06b91-51b7-4030-bc43-3170f7e53dd5",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 2
+              },
+              "variable": "L0"
+            },
+            "id": "f61c8ff2-0296-4244-8689-f56619fabeb8"
           }
         ]
       },
@@ -85,7 +110,8 @@
                   "value": "L0"
                 }
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": true
             },
             "children": {
               "true": [
