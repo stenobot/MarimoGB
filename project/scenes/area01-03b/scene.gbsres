@@ -9,7 +9,16 @@
   "height": 27,
   "type": "ADVENTURE",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "",
+    "b855fd74-454c-4949-80b5-df6418a63242",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e3168ce3-462a-490c-ade0-cf80afe44baa"
+  ],
   "spritePaletteIds": [],
   "collisions": "00190+0f3+001f+0f!00!0f!0012+0fe+00!0f!0012+0f!00e+0f!0012+0f!00!0fe+0012+0f!00!0f!001f+0f!00!0f!0018+0f3+004+0f!00!0f!006+0f3+00f+0f!00!0f!004+0f!00!0f!006+0f!00!0f!00f+0f!00!0f!004+0f3+006+0f!00!0f!00f+0f!00!0f!00d+0f!00!0f!00f+0f!00!0f!00d+0f!00!0f!00f+0f!00!0ff+00!0f!00f+0f!0011+0f!00f+0f13+002b+",
   "autoFadeSpeed": 1,

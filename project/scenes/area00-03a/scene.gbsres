@@ -113,7 +113,8 @@
                 "type": "number",
                 "value": 4
               },
-              "variable": "L0"
+              "variable": "L0",
+              "__collapse": true
             },
             "id": "0f985fa8-8f53-48d5-820d-8be96611a785"
           },

@@ -133,7 +133,7 @@
         "duration": 3.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -173,7 +173,7 @@
         "duration": 5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -198,7 +198,7 @@
                 "value": 4
               },
               "variable": "L2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "7e25b5d4-90b5-49fb-ad9b-ec5d03b44601"
           }

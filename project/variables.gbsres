@@ -147,6 +147,21 @@
       "symbol": "var_isrobotjumping"
     },
     {
+      "id": "29",
+      "name": "isBoosterBotUnlocked",
+      "symbol": "var_isboosterbotunlocked"
+    },
+    {
+      "id": "30",
+      "name": "isSwitchOn_01_02",
+      "symbol": "var_isswitchon_01_02"
+    },
+    {
+      "id": "31",
+      "name": "isSwitchOn_00-02c",
+      "symbol": "var_isswitchon_00_02c"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -492,11 +507,6 @@
       "symbol": "var_local_12"
     },
     {
-      "id": "29",
-      "name": "isBoosterBotUnlocked",
-      "symbol": "var_isboosterbotunlocked"
-    },
-    {
       "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L0",
       "name": "isGearTicked",
       "symbol": "var_isgearticked"
@@ -560,16 +570,6 @@
       "id": "9b946892-be2f-4642-a989-b6f68fac1150__L0",
       "name": "gearTick",
       "symbol": "var_geartick_0"
-    },
-    {
-      "id": "30",
-      "name": "isSwitchOn_01_02",
-      "symbol": "var_isswitchon_01_02"
-    },
-    {
-      "id": "31",
-      "name": "isSwitchOn_00-02c",
-      "symbol": "var_isswitchon_00_02c"
     }
   ],
   "constants": []

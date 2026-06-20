@@ -18,9 +18,46 @@
   "y": 467.29998779296875,
   "script": [
     {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_RESET_STATE",
+            "args": {},
+            "id": "685cd0c4-6130-462e-a930-653822123db2"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "d2d55065-ed8e-4d5d-8d4c-1bd58dfc5323",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "56ce5db9-f63b-4eb9-bdda-32fc7838a785"
+          }
+        ]
+      },
+      "id": "a3de3456-2004-4e40-9171-3cc3d7d055fc"
+    },
+    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "To be continued...",
+        "text": "To be continued.\nPress START to reset.",
         "x": 1,
         "y": 8,
         "location": "background"
