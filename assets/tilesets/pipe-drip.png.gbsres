@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "0c8a837a-1cf8-4f69-95ec-a452b9f89de0",
+  "name": "pipe-drip",
+  "symbol": "tileset_pipe_drip",
+  "width": 5,
+  "height": 1,
+  "imageWidth": 40,
+  "imageHeight": 8,
+  "filename": "pipe-drip.png"
+}

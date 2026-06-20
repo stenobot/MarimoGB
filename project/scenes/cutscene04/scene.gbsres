@@ -152,7 +152,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -169,7 +169,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "2fd336a0-8e3f-408e-ad29-272cd81b7171"
           }
@@ -183,30 +184,10 @@
         "text": "One day, massive\nmachines appeared \nand began\nterraforming the\nland and water,\ndestroying\nMuckle's home.",
         "x": 1,
         "y": 6,
-        "location": "overlay",
+        "location": "background",
         "__collapse": true
       },
       "id": "8a1fd861-61f7-4e5f-a839-5d4181329190"
-    },
-    {
-      "command": "EVENT_OVERLAY_SHOW",
-      "args": {
-        "color": "black",
-        "x": 20,
-        "y": 0,
-        "__collapse": true
-      },
-      "id": "b24fc3e5-c2b3-4d31-a722-c3ab0f30cb00"
-    },
-    {
-      "command": "EVENT_OVERLAY_MOVE_TO",
-      "args": {
-        "x": 0,
-        "y": 0,
-        "speed": 0,
-        "__collapse": true
-      },
-      "id": "1af7c1f3-a0dc-4451-99b2-fde517917c1d"
     }
   ],
   "playerHit1Script": [],

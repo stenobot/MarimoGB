@@ -15,18 +15,7 @@
   ],
   "prefabScriptOverrides": {},
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "$self$",
-        "spriteStateId": "",
-        "loopAnim": true,
-        "__collapse": false
-      },
-      "id": "a873e565-c7b2-4e85-89e7-6ca72fcb1c69"
-    }
-  ],
+  "startScript": [],
   "updateScript": [
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -34,7 +23,7 @@
         "actorId": "$self$",
         "spriteStateId": "",
         "loopAnim": true,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "db04ed89-65a1-4968-ac58-b2c0e54bbaf5"
     },
@@ -75,7 +64,7 @@
         ],
         "lockDirection": [],
         "moveType": "horizontal",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "94b14b8e-47f8-4f8d-8b64-3cf428888eb3",
       "children": {}
@@ -133,7 +122,7 @@
         ],
         "lockDirection": [],
         "moveType": "horizontal",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "6750f8d1-a1a6-45cb-ad43-e69c96a4ad58",
       "children": {}

@@ -185,29 +185,9 @@
         "x": 1,
         "y": 6,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "49d6a088-3f62-410a-b1f4-a5c58dbfda34"
-    },
-    {
-      "command": "EVENT_OVERLAY_SHOW",
-      "args": {
-        "color": "black",
-        "x": 0,
-        "y": 0,
-        "__collapse": true
-      },
-      "id": "70e1c392-6756-449b-874d-87ebded5aabe"
-    },
-    {
-      "command": "EVENT_OVERLAY_MOVE_TO",
-      "args": {
-        "x": 20,
-        "y": 0,
-        "speed": 0,
-        "__collapse": true
-      },
-      "id": "65253cb8-9ebd-4dfb-a7ae-ed2c814a2fdf"
     }
   ],
   "playerHit1Script": [],

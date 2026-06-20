@@ -184,7 +184,7 @@
         "x": 1,
         "y": 7,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "a13b41ee-3878-46a8-bf2f-573478d7ac70"
     }
