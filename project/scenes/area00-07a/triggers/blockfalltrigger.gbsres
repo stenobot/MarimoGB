@@ -24,7 +24,8 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350"
+              "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+              "__collapse": true
             },
             "id": "d37aaf05-e85e-4700-9809-39dbe7fd205a"
           },

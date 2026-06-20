@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "6fc2022b-e145-4d25-854d-42573acffbc5",
+  "name": "MuckleStill",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_97",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7846a1bd-58fe-408d-8c3d-08a8ded1f92d"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 13,
+  "y": 15,
+  "_index": 7
+}
