@@ -1,0 +1,34 @@
+{
+  "_resourceType": "scene",
+  "id": "ed0e09f4-f610-46c2-81fd-04633f6e7758",
+  "_index": 31,
+  "name": "area00-02d-pipes",
+  "backgroundId": "38df873f-e5a6-4d69-a1cf-893ed586d05c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "004a+0f6+00e+0f!0013+0f6+00f0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_32",
+  "x": 984,
+  "y": 616,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Swimming",
+        "loopAnim": true
+      },
+      "id": "f58be5f4-0baa-42ff-a32a-75ebbbb53491"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
+}

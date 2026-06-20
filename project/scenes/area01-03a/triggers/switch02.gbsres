@@ -30,7 +30,8 @@
               "variable": "27",
               "value": {
                 "type": "true"
-              }
+              },
+              "__collapse": true
             },
             "id": "5428ec24-e8a0-4203-8d32-06ba6b47fb54"
           },
@@ -49,7 +50,8 @@
               "tileIndex": {
                 "type": "number",
                 "value": 0
-              }
+              },
+              "__collapse": true
             },
             "id": "e17cd7cf-da50-4249-9724-0307fd249691"
           },
@@ -68,7 +70,8 @@
               "tileIndex": {
                 "type": "number",
                 "value": 0
-              }
+              },
+              "__collapse": true
             },
             "id": "d915706a-202c-46ef-84ae-a595b1a01b7e"
           },

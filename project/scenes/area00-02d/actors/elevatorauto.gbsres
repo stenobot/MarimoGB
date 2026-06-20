@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "e78d5c54-383e-4d30-a2d8-aefa157605e5",
+  "name": "ElevatorAuto",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "eb988bec-0140-4604-9a9c-737da0734417",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "94b14b8e-47f8-4f8d-8b64-3cf428888eb3": {
+      "id": "94b14b8e-47f8-4f8d-8b64-3cf428888eb3",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "x": {
+          "type": "number",
+          "value": 7
+        }
+      }
+    },
+    "6750f8d1-a1a6-45cb-ad43-e69c96a4ad58": {
+      "id": "6750f8d1-a1a6-45cb-ad43-e69c96a4ad58",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "x": {
+          "type": "number",
+          "value": 7
+        }
+      }
+    }
+  },
+  "symbol": "actor_82",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 7,
+  "y": 12,
+  "_index": 0
+}

@@ -5,8 +5,8 @@
   "type": "ADVENTURE",
   "name": "area00-02b",
   "symbol": "scene_0",
-  "x": 632,
-  "y": 808,
+  "x": 584,
+  "y": 816,
   "width": 40,
   "height": 36,
   "backgroundId": "dea0a9d0-19d7-4f38-82ad-0bce23b16a7a",
@@ -60,7 +60,7 @@
         "duration": 1.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -124,35 +124,10 @@
         "duration": 0.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
-          {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 34
-              },
-              "y": {
-                "type": "number",
-                "value": 29
-              },
-              "tilesetId": "f45b2d70-9a14-4edf-80d8-796fbe74476f",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "frames": {
-                "type": "number",
-                "value": 4
-              },
-              "variable": "L0",
-              "__collapse": true
-            },
-            "id": "1e8f5df3-03e7-412a-81a5-7a6b877601d2"
-          },
           {
             "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
             "args": {
@@ -174,7 +149,7 @@
                 "value": 10
               },
               "variable": "L1",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "5eaea0db-ea5d-446e-aa7a-5e6b5134f7d7"
           },
@@ -235,5 +210,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "007a+0fa+003+0f17+004+0f2+0021+0f!004+0f2+0021+0f!004+0f4+001f+0f!004+0f!002+0f!001f+0f!004+0f!002+0f3+001d+0f!004+0f1c+007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f10+004+0f!0022+0f!004+0f!0022+0f!004+0f!0020+0f3+004+0f!0022+0f!004+0f!0022+0f!004+0f!0022+0f!005+0f22+0053+"
+  "collisions": "007a+0fa+003+0f17+004+0f2+0021+0f!004+0f2+0021+0f!004+0f4+001f+0f!004+0f!002+0f!001f+0f!004+0f!002+0f3+001d+0f!004+0f1c+007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!001a+0f!007+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f!00e+0f!004+0f!0013+0f12+002+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0028+0f25+0050+"
 }

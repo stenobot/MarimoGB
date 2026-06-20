@@ -565,6 +565,11 @@
       "id": "30",
       "name": "isSwitchOn_01_02",
       "symbol": "var_isswitchon_01_02"
+    },
+    {
+      "id": "31",
+      "name": "isSwitchOn_00-02c",
+      "symbol": "var_isswitchon_00_02c"
     }
   ],
   "constants": []

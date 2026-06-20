@@ -40,11 +40,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 6
+                "value": 10
               },
               "y": {
                 "type": "number",
-                "value": 5
+                "value": 8
               },
               "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
               "tileIndex": {
@@ -71,7 +71,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "bcfd00c8-e04b-4c4e-b34b-1aeb4a6da6bf"
           },

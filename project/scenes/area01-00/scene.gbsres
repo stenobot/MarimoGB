@@ -546,6 +546,14 @@
         ]
       },
       "id": "85ba9dbc-2a8f-4b0b-a50c-ba955f80d5bb"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0d273747-3ae0-41ed-a3c6-9f2f4b2854b2",
+        "__collapse": false
+      },
+      "id": "554da4b1-7f3e-4a07-bab0-f37684301756"
     }
   ],
   "playerHit1Script": [],
