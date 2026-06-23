@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "3ff8a87e-ab50-4091-9a15-610db034a8ff",
+  "name": "switch-block05-on",
+  "symbol": "tileset_switch_block05_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "switch-block05-on.png"
+}

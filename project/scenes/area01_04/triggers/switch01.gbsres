@@ -73,6 +73,25 @@
               }
             },
             "id": "f447a783-9280-4965-b3ad-0ac8415f02bb"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 38
+              },
+              "tilesetId": "aaa30a6f-9834-4a25-95d7-fcdf8a6ccbbc",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "fa26be65-24dc-4a4f-9f0c-52291c99fdbe"
           }
         ],
         "false": [
@@ -115,6 +134,25 @@
               }
             },
             "id": "8a4df972-a977-402c-9657-9a76adc9de6c"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 38
+              },
+              "tilesetId": "20ca72c6-1bf9-472f-adfc-2b9718a33e4d",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "5cd20383-77d4-4cfa-b2c0-5aa8179f1d3f"
           },
           {
             "command": "EVENT_SET_VALUE",

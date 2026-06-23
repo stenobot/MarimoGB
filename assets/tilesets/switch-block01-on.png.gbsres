@@ -1,11 +1,11 @@
 {
   "_resourceType": "tileset",
   "id": "267aec76-a124-4759-afdd-36b42b796b9a",
-  "name": "concrete-switch1-on",
+  "name": "switch-block01-on",
   "symbol": "tileset_concrete_switch_dua_0",
   "width": 1,
   "height": 1,
   "imageWidth": 8,
   "imageHeight": 8,
-  "filename": "concrete-switch1-on.png"
+  "filename": "switch-block01-on.png"
 }

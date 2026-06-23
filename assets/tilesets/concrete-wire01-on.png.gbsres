@@ -1,8 +1,8 @@
 {
   "_resourceType": "tileset",
-  "id": "586ef8bd-5e13-4399-9d87-9f8c55e7265a",
+  "id": "9f4e5b1f-42e9-4d29-a00f-8d99aa40ee01",
   "name": "concrete-wire01-on",
-  "symbol": "tileset_concrete_switch3_on",
+  "symbol": "tileset_concrete_wire01_on",
   "width": 1,
   "height": 1,
   "imageWidth": 8,

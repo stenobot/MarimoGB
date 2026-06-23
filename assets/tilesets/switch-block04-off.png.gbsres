@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "20ca72c6-1bf9-472f-adfc-2b9718a33e4d",
+  "name": "switch-block04-off",
+  "symbol": "tileset_concrete_wire11_off",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "switch-block04-off.png"
+}
