@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "efe89758-8b1b-4f79-86b2-bbb9719dd4a6",
+  "name": "switch-ud-on",
+  "symbol": "tileset_switch_ud_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "switch-ud-on.png"
+}

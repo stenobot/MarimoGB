@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "940b18b9-6ff2-4727-b59f-bb6e426223dc",
+  "name": "concrete-wire04-on",
+  "symbol": "tileset_concrete_wire04_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "concrete-wire04-on.png"
+}

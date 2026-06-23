@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "dd6f91e4-f480-4d30-8c9e-3ee7cc9fefdf",
+  "name": "concrete-wire06-on",
+  "symbol": "tileset_concrete_wire06_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "concrete-wire06-on.png"
+}

@@ -25,11 +25,8 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "32"
-          }
+          "type": "variable",
+          "value": "32"
         },
         "__collapseElse": true,
         "__collapse": false
@@ -114,6 +111,28 @@
         "false": []
       },
       "id": "19d0dfcd-7860-42c5-9386-6f4df4d05ae7"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 19
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal",
+        "__collapse": true
+      },
+      "id": "3b8c56fd-d603-4746-935e-90a25cf5fe45"
     }
   ],
   "hit1Script": [],

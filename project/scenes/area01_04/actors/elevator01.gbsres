@@ -25,8 +25,11 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "variable",
-          "value": "32"
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "32"
+          }
         },
         "__collapseElse": false
       },
@@ -52,7 +55,7 @@
               "moveType": "horizontal",
               "__collapse": true
             },
-            "id": "2b35382b-a541-4548-84a2-4bdfece8e30c"
+            "id": "aaf7fe8f-c434-410a-bda8-ac5d1fdb394f"
           },
           {
             "command": "EVENT_WAIT",
@@ -67,7 +70,7 @@
               },
               "__collapse": true
             },
-            "id": "3768f5ba-aada-4e1b-9157-c569c75fd6f0"
+            "id": "6bcc8381-daf5-44bc-9846-7e5eab51b65c"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -89,7 +92,7 @@
               "moveType": "horizontal",
               "__collapse": true
             },
-            "id": "9ff97765-e715-4ccc-a499-42d44d701d69"
+            "id": "6a413481-512b-4a97-804e-bd143974b33b"
           },
           {
             "command": "EVENT_WAIT",
@@ -104,12 +107,35 @@
               },
               "__collapse": true
             },
-            "id": "460a6fdd-17df-4f9c-ad48-2bf716440f98"
+            "id": "8413a0cd-8583-4daa-aa2c-ae5f7edb06b6"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "e7cbee99-2be3-40a6-b621-478eae850e1f"
+          }
+        ]
       },
-      "id": "1c28e60c-a966-45a8-80f1-c83d530ad617"
+      "id": "92bfebf2-e27e-46b5-a4ea-651b8267fd58"
     }
   ],
   "hit1Script": [],
