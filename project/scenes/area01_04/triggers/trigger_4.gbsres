@@ -50,7 +50,7 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 5
+                "value": 4
               },
               "y": {
                 "type": "number",
@@ -102,7 +102,7 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 5
+                "value": 4
               },
               "y": {
                 "type": "number",
