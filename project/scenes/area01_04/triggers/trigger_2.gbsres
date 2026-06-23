@@ -1,0 +1,91 @@
+{
+  "_resourceType": "trigger",
+  "id": "de9f36af-835d-4dab-afb1-500340e95130",
+  "name": "",
+  "prefabId": "",
+  "x": 5,
+  "y": 16,
+  "symbol": "trigger_83",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "32"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "32",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "cf058a5f-ca8f-4e66-a839-83b10413b2ad"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "tilesetId": "d591af6a-11c6-445e-8db6-90728249246e",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "f8a19c5a-c032-4e49-86a4-05db58222bc1"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "32",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "38b8ec13-723a-456b-ae06-2a78dbe5675f"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "tilesetId": "ac80dafe-849a-449f-b1e8-461ad131715f",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "eecd58fd-000b-47c2-9323-f211c57d15a0"
+          }
+        ]
+      },
+      "id": "df29eb95-693b-488e-8af4-f1663fe345f6"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

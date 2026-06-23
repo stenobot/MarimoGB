@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c6dbf85c-13fe-4903-af34-385da20ea8d0",
+  "name": "concrete-switch3-off",
+  "symbol": "tileset_concrete_switch3_of",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "concrete-switch3-off.png"
+}

@@ -28,7 +28,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Muckle lives a\nsimple life.",
+        "text": "MUCKLE lives a\nsimple life.",
         "x": 1,
         "y": 2,
         "location": "background",

@@ -1,42 +1,34 @@
 {
-  "_resourceType": "actorPrefab",
-  "id": "2ebacdb2-b997-407a-86b7-cdb18ecaba93",
-  "name": "ElevatorSwitch",
+  "_resourceType": "actor",
+  "id": "c6511055-3ce0-4c4a-a576-7ff7046a663c",
+  "name": "Elevator01",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "a58bbdda-55bc-4e95-b5c6-361bb2085496",
-  "moveSpeed": 0.5,
-  "animSpeed": 7,
+  "spriteSheetId": "50833134-e23e-4249-9f16-af9b9242e294",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
   "paletteId": "",
+  "isPinned": false,
   "persistent": true,
   "collisionGroup": "",
   "collisionExtraFlags": [
     "platform"
   ],
   "prefabScriptOverrides": {},
+  "symbol": "actor_103",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "$self$",
-        "spriteStateId": "Flipped",
-        "loopAnim": true
-      },
-      "id": "7503052a-7710-4a49-ade7-2236a7797d7e",
-      "children": {}
-    }
-  ],
+  "startScript": [],
   "updateScript": [
     {
       "command": "EVENT_IF",
       "args": {
         "condition": {
           "type": "variable",
-          "value": "17"
+          "value": "32"
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -47,20 +39,20 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 14
+                "value": 1
               },
               "y": {
                 "type": "number",
-                "value": 12
+                "value": 38
               },
               "collideWith": [
                 "walls"
               ],
               "lockDirection": [],
-              "moveType": "horizontal"
+              "moveType": "horizontal",
+              "__collapse": true
             },
-            "id": "104bba00-4650-4c5c-b6bf-d40cb3e471e2",
-            "children": {}
+            "id": "2b35382b-a541-4548-84a2-4bdfece8e30c"
           },
           {
             "command": "EVENT_WAIT",
@@ -72,10 +64,10 @@
               "frames": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
-            "id": "fc0d2e64-2d8b-4134-849e-61c01bed3025",
-            "children": {}
+            "id": "3768f5ba-aada-4e1b-9157-c569c75fd6f0"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -84,7 +76,7 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 14
+                "value": 1
               },
               "y": {
                 "type": "number",
@@ -94,10 +86,10 @@
                 "walls"
               ],
               "lockDirection": [],
-              "moveType": "horizontal"
+              "moveType": "horizontal",
+              "__collapse": true
             },
-            "id": "6ba30544-6b67-4610-8e23-f076670efd96",
-            "children": {}
+            "id": "9ff97765-e715-4ccc-a499-42d44d701d69"
           },
           {
             "command": "EVENT_WAIT",
@@ -109,18 +101,22 @@
               "frames": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
-            "id": "4b645807-2977-4ddf-9e2b-d2872d6facec",
-            "children": {}
+            "id": "460a6fdd-17df-4f9c-ad48-2bf716440f98"
           }
         ],
         "false": []
       },
-      "id": "9e02a63d-36c1-4117-930d-8bb5364bbd7b"
+      "id": "1c28e60c-a966-45a8-80f1-c83d530ad617"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": []
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 1,
+  "y": 15,
+  "_index": 3
 }

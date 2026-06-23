@@ -1,0 +1,31 @@
+{
+  "_resourceType": "actor",
+  "id": "9d81df60-493a-4c28-9a71-5675f4e7f183",
+  "name": "Block03",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5ae73f0f-75f2-4f60-af6f-cbaf1a1dffb7",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_104",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 16,
+  "_index": 5
+}

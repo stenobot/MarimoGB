@@ -570,6 +570,16 @@
       "id": "9b946892-be2f-4642-a989-b6f68fac1150__L0",
       "name": "gearTick",
       "symbol": "var_geartick_0"
+    },
+    {
+      "id": "32",
+      "name": "isSwitchOn_01_04_01",
+      "symbol": "var_isswitchon_01_04_01"
+    },
+    {
+      "id": "33",
+      "name": "isSwitchOn_01_04_00",
+      "symbol": "var_isswitchon_01_04_00"
     }
   ],
   "constants": []

@@ -1,0 +1,136 @@
+{
+  "_resourceType": "trigger",
+  "id": "a49f3e02-d005-4a9c-af70-2a430130419a",
+  "name": "",
+  "prefabId": "",
+  "x": 4,
+  "y": 20,
+  "symbol": "trigger_84",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "33"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "d021e190-ca10-4ebc-8b15-582835601c24"
+            },
+            "id": "78975e0a-1cff-492f-a5e2-c06b4d9d7e3d"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "f7b2deb8-d0af-44ca-a5ae-e769b6fed65c"
+            },
+            "id": "6a82dbef-d3ce-4824-a44b-e035778bd9fb"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "9d81df60-493a-4c28-9a71-5675f4e7f183"
+            },
+            "id": "92e1971a-3acd-42cd-a9f5-b0dcacebe75b"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 20
+              },
+              "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "f1e8db6e-6ad2-4112-9020-183e0e1b4e93"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "33",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "f447a783-9280-4965-b3ad-0ac8415f02bb"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "d021e190-ca10-4ebc-8b15-582835601c24"
+            },
+            "id": "9c5ba703-bca8-45c6-a2e4-92f4c3d3de3f"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "f7b2deb8-d0af-44ca-a5ae-e769b6fed65c"
+            },
+            "id": "f04f3cb6-fd64-45ba-bee9-9bdb89c67692"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "9d81df60-493a-4c28-9a71-5675f4e7f183"
+            },
+            "id": "27ead7a8-7755-4a9c-b463-40f8e39820ab"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 20
+              },
+              "tilesetId": "8566e0cd-ea90-4c32-89ce-e7df94b20cc4",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "8a4df972-a977-402c-9657-9a76adc9de6c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "33",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "3b5ceaca-9abd-4d9a-91a0-6273b575ac6e"
+          }
+        ]
+      },
+      "id": "7c700730-b8a4-449d-862d-90e65b930def"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}
