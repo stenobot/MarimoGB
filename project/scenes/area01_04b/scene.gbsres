@@ -1,0 +1,44 @@
+{
+  "_resourceType": "scene",
+  "id": "e4845092-6efd-4838-9921-ada240e45dc1",
+  "_index": 33,
+  "name": "area01_04b",
+  "backgroundId": "601a02bc-9b62-42df-9196-acbba91cb970",
+  "tilesetId": "",
+  "width": 23,
+  "height": 45,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "b855fd74-454c-4949-80b5-df6418a63242",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e3168ce3-462a-490c-ade0-cf80afe44baa"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0051+0f6+0011+0f!004+0f!0011+0f4+00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0012+0f3+00!0f!0012+0f!003+0f!0012+0f!00!0f3+0012+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f!0014+0f!00!0f4+0011+0f!004+0f!0011+0f6+00101+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_34",
+  "x": 3248,
+  "y": 442.79998779296875,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Swimming",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "efde5268-ef8a-4363-8b3b-d9b76becc588"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
+}
