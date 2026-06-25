@@ -162,6 +162,21 @@
       "symbol": "var_isswitchon_00_02c"
     },
     {
+      "id": "32",
+      "name": "isSwitchOn_01_04_01",
+      "symbol": "var_isswitchon_01_04_01"
+    },
+    {
+      "id": "33",
+      "name": "isSwitchOn_01_04_00",
+      "symbol": "var_isswitchon_01_04_00"
+    },
+    {
+      "id": "34",
+      "name": "isSwitchOn_01_05",
+      "symbol": "var_isswitchon_01_05"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -572,14 +587,29 @@
       "symbol": "var_geartick_0"
     },
     {
-      "id": "32",
-      "name": "isSwitchOn_01_04_01",
-      "symbol": "var_isswitchon_01_04_01"
+      "id": "c818b03b-0d99-4776-9628-3994ab152b6c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_13"
     },
     {
-      "id": "33",
-      "name": "isSwitchOn_01_04_00",
-      "symbol": "var_isswitchon_01_04_00"
+      "id": "5aca0f21-5412-41c8-b7b7-2eaba5aaa70c__L0",
+      "name": "gearTick",
+      "symbol": "var_geartick_1"
+    },
+    {
+      "id": "5aca0f21-5412-41c8-b7b7-2eaba5aaa70c__L1",
+      "name": "doorFadeAnimCounter",
+      "symbol": "var_doorfadeanimcounter_0"
+    },
+    {
+      "id": "5aca0f21-5412-41c8-b7b7-2eaba5aaa70c__L2",
+      "name": "pipeEntranceAnimCounter",
+      "symbol": "var_pipeentranceanimcounter"
+    },
+    {
+      "id": "7a38a5fa-14f5-4740-8519-ae441a8b9e88__L0",
+      "name": "gearTick",
+      "symbol": "var_geartick_2"
     }
   ],
   "constants": []

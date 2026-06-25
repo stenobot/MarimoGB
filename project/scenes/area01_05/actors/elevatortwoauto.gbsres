@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "65f3e494-4f58-4002-b1fb-d5e32db3e745",
+  "name": "ElevatorTwoAuto",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "15dea06b-2b1f-4141-a196-8da544bd88c1",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "c4c087ef-f2e1-4c7e-b42e-75a0babb672f": {
+      "id": "c4c087ef-f2e1-4c7e-b42e-75a0babb672f",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "x": {
+          "type": "number",
+          "value": 3
+        }
+      }
+    },
+    "650b23b9-d95e-4ca5-9362-4500a0f6fae7": {
+      "id": "650b23b9-d95e-4ca5-9362-4500a0f6fae7",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        }
+      }
+    }
+  },
+  "symbol": "actor_109",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 3,
+  "y": 13,
+  "_index": 2
+}

@@ -495,7 +495,7 @@
   "boundsX": 0,
   "boundsY": -8,
   "boundsWidth": 16,
-  "boundsHeight": 16,
+  "boundsHeight": 8,
   "animSpeed": 15,
   "filename": "elevator.png",
   "width": 64,

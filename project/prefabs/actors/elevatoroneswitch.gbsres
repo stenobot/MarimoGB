@@ -1,0 +1,126 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "2ebacdb2-b997-407a-86b7-cdb18ecaba93",
+  "name": "ElevatorOneSwitch",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a58bbdda-55bc-4e95-b5c6-361bb2085496",
+  "moveSpeed": 0.5,
+  "animSpeed": 7,
+  "paletteId": "",
+  "persistent": true,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "platform"
+  ],
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Flipped",
+        "loopAnim": true
+      },
+      "id": "7503052a-7710-4a49-ade7-2236a7797d7e",
+      "children": {}
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "17"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "104bba00-4650-4c5c-b6bf-d40cb3e471e2",
+            "children": {}
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 2
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "fc0d2e64-2d8b-4134-849e-61c01bed3025",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "6ba30544-6b67-4610-8e23-f076670efd96",
+            "children": {}
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 2
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "4b645807-2977-4ddf-9e2b-d2872d6facec",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "9e02a63d-36c1-4117-930d-8bb5364bbd7b"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

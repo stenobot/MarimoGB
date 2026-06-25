@@ -1,0 +1,215 @@
+{
+  "_resourceType": "trigger",
+  "id": "8b24c420-6be3-4a72-9e76-ed4b5aedbcf3",
+  "name": "Switch02",
+  "prefabId": "",
+  "x": 23,
+  "y": 10,
+  "symbol": "trigger_50",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "27"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "27",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "1b7d39ac-59c8-422a-a082-93a58e02e093"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "tilesetId": "ac80dafe-849a-449f-b1e8-461ad131715f",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "e6d57514-8bfa-41a6-9cdf-be0248b29dac"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "tilesetId": "ac80dafe-849a-449f-b1e8-461ad131715f",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "43488eeb-dfa1-4af1-9a24-482a24a0b177"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "tilesetId": "3ff8a87e-ab50-4091-9a15-610db034a8ff",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "88561e9b-fedd-4b77-a236-d2ffc208ba4b"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "1e559294-3405-49c6-8878-b885f94966b7"
+            },
+            "id": "6fd9b5f0-11f2-4715-9588-b282b29efd49"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "819181b2-d757-408b-a772-27b977212f58"
+            },
+            "id": "eed62890-acd8-40a4-869a-0d140ac38759"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "57a488a5-43e0-40f2-b423-21b9bfecf405"
+            },
+            "id": "3131aac3-0c23-49ff-9ff4-35c615257ab7"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "27",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "9de53ad4-e34f-480f-9399-7e24a07236d1"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "tilesetId": "d591af6a-11c6-445e-8db6-90728249246e",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "53f90b13-3765-4f95-83d3-ef8bb3cc7057"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "tilesetId": "d591af6a-11c6-445e-8db6-90728249246e",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "c63257b9-b877-42ff-b6a9-161ca2afd148"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "tilesetId": "7c6a4719-3e1e-4163-b54a-ae7538f88595",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "299fbde1-82e8-4ad0-88c2-96c5a42406e0"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "1e559294-3405-49c6-8878-b885f94966b7"
+            },
+            "id": "b7949ac8-0463-42b2-b2dd-cbf25ab03f0d"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "819181b2-d757-408b-a772-27b977212f58"
+            },
+            "id": "4d1e6b5b-f617-4efb-8ed4-90ab128a325e"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "57a488a5-43e0-40f2-b423-21b9bfecf405"
+            },
+            "id": "3dc7a642-b20a-42ba-a769-61b2db3bd331"
+          }
+        ]
+      },
+      "id": "bb881511-aa3e-4ded-844a-c8c98ba6a414"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 8
+}

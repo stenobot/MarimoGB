@@ -8,7 +8,7 @@
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 1,
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
@@ -25,16 +25,29 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "32"
-          }
+          "type": "variable",
+          "value": "32"
         },
         "__collapseElse": false
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 0.5
+            },
+            "id": "ef615095-86b3-41e7-8bec-a18c91f4a845"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 7
+            },
+            "id": "5e473aa3-e6e0-4375-be89-0da901df60af"
+          },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
@@ -71,6 +84,22 @@
               "__collapse": true
             },
             "id": "6bcc8381-daf5-44bc-9846-7e5eab51b65c"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1
+            },
+            "id": "f011b0c3-9b9f-415e-bf09-71888a07d458"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1
+            },
+            "id": "1a8261a5-2078-43ad-9d0f-9444a0c84c83"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
