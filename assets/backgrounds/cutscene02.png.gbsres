@@ -3,7 +3,7 @@
   "id": "c76c41fe-a421-4192-9add-73b626e2abf7",
   "name": "cutscene02",
   "symbol": "bg_cutscene02",
-  "tileColors": "002d0+",
+  "tileColors": "002+073+006+075+005+073+005+079+003+0710+002+0713+003+0725+003+0722+006+0721+007+079+00!0711+003+073+00a+076+005+07d+001c4+",
   "filename": "cutscene02.png",
   "width": 40,
   "height": 18,

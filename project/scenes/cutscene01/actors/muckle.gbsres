@@ -44,10 +44,10 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 0.9,
+        "duration": 0.7,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -154,10 +154,10 @@
             "args": {
               "condition": {
                 "type": "expression",
-                "value": "$00$==17"
+                "value": "$00$==15"
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -203,10 +203,10 @@
             "args": {
               "condition": {
                 "type": "expression",
-                "value": "$00$==11"
+                "value": "$00$==9"
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [

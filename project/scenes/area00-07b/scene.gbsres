@@ -9,7 +9,16 @@
   "height": 18,
   "type": "PLATFORM",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
+  ],
   "spritePaletteIds": [],
   "collisions": "0065+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f3+00!0f2+0013+0f2+0012+0f12+0014+",
   "autoFadeSpeed": 1,

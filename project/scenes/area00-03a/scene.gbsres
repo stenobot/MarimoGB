@@ -19,7 +19,7 @@
     "",
     "",
     "",
-    "",
+    "e290e40a-e719-41cf-87d9-65f2a2d0e34c",
     "7a08a73f-96de-450b-ba31-44463f5fa0b5"
   ],
   "spritePaletteIds": [
@@ -89,7 +89,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -138,7 +138,8 @@
                 "type": "number",
                 "value": 3
               },
-              "variable": "L3"
+              "variable": "L3",
+              "__collapse": true
             },
             "id": "5fcb52d9-092e-40a1-a6cb-4bcf7b85019e"
           }
@@ -153,7 +154,7 @@
         "duration": 2.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -162,11 +163,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 6
               },
               "y": {
                 "type": "number",
-                "value": 1
+                "value": 0
               },
               "tilesetId": "47beb51f-1911-46e1-8ef1-234f98bd7a3e",
               "tileIndex": {
@@ -177,9 +178,35 @@
                 "type": "number",
                 "value": 4
               },
-              "variable": "L1"
+              "variable": "L1",
+              "__collapse": true
             },
             "id": "c3936124-f8c1-436e-a229-9f9ec6677454"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "tilesetId": "e353b8e8-5818-4cb3-8d37-8cd0f240e815",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L2",
+              "__collapse": true
+            },
+            "id": "1d4dfe3c-a0bd-493e-a115-66924f3c7533"
           }
         ]
       },
