@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "7a38a5fa-14f5-4740-8519-ae441a8b9e88",
-  "startX": 7,
-  "startY": 26,
+  "startSceneId": "e18df9b7-02cf-415c-93ee-460450c90822",
+  "startX": 9,
+  "startY": 42,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "right",
@@ -112,5 +112,6 @@
   "romFilename": "",
   "defaultSceneTypeId": "TOPDOWN",
   "disabledSceneTypeIds": [],
-  "autoTileFlipEnabled": true
+  "autoTileFlipEnabled": true,
+  "webTemplate": ""
 }

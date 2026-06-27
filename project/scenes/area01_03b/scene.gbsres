@@ -35,6 +35,35 @@
         "__collapse": true
       },
       "id": "76e98a03-a7df-4a5a-9925-571ac6a04f57"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1.2,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "script": []
+      },
+      "id": "9a5e78b4-76ba-4601-9098-3ee70219caee"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.7,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": []
+      },
+      "id": "4a5fcb97-ca98-4740-b4ef-ede70d534a96"
     }
   ],
   "playerHit1Script": [],

@@ -13,7 +13,16 @@
     "default-bg-6",
     "default-bg-1"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "7fef332b-6718-4bee-a1bc-055b15a51439",
+    ""
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
@@ -79,8 +88,8 @@
             "command": "EVENT_TEXT_DRAW",
             "args": {
               "text": "They are\nfriendly with\ntheir neighbors.",
-              "x": 2,
-              "y": 13,
+              "x": 1,
+              "y": 14,
               "location": "background",
               "__collapse": false
             },
