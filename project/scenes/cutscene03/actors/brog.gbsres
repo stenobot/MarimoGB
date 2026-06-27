@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
   "id": "fc427d8e-425c-49f8-a741-6a120f117922",
-  "name": "",
+  "name": "Brog",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "39efe1a0-8b89-458a-8795-0f0601b15507",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 63,
   "paletteId": "",
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 17,
-  "y": 14,
+  "x": 1,
+  "y": 12,
   "_index": 2
 }

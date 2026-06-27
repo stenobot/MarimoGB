@@ -88,7 +88,7 @@
             "command": "EVENT_TEXT_DRAW",
             "args": {
               "text": "They are\nfriendly with\ntheir neighbors.",
-              "x": 1,
+              "x": 2,
               "y": 14,
               "location": "background",
               "__collapse": false
@@ -104,7 +104,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 7
               },
               "tilesetId": "1198bea1-0096-467e-bf40-994c8abb9d52",
               "tileIndex": {
