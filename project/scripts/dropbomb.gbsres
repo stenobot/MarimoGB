@@ -126,6 +126,19 @@
       "id": "d98065d7-8c57-411d-9ab0-979eb1fbc5d1"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "e0fec32d-afa3-4330-a4cb-b87a2de1f878"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": {
