@@ -40,9 +40,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Muckle found the\nRUNE OF DISRUPTION."
+          "MUCKLE found the\nRUNE OF DISRUPTION."
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -58,7 +58,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "0a542124-ff23-4b3c-95ed-eaaa7bfd7a26"
     },
@@ -89,9 +89,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Muckle remembered\nPSYCHIC TRANCE."
+          "MUCKLE remembered\nPSYCHIC TRANCE."
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -107,7 +107,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ac245cfd-4da1-4dcd-bb6d-c84e475a1234"
     },
@@ -143,7 +143,7 @@
         "text": [
           "While holding B,\npress A to control\nan object in range."
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 5,
         "maxHeight": 7,
@@ -159,7 +159,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "7e3a9213-4837-4651-abf7-1cca358c861d"
     },

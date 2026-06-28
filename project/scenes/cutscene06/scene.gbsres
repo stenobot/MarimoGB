@@ -189,7 +189,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "When Muckle awoke,\nthey were inside\na giant machine,\nlost and alone.",
+        "text": "When MUCKLE awoke,\nthey were inside\na giant machine,\nlost and alone.",
         "x": 1,
         "y": 7,
         "location": "background",

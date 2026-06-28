@@ -16,15 +16,15 @@
     "",
     "",
     "",
-    "",
-    "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
+    "e290e40a-e719-41cf-87d9-65f2a2d0e34c",
+    "96730ff1-f44a-4f51-8604-eba0aa421d7d"
   ],
   "spritePaletteIds": [],
   "collisions": "0065+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f3+00!0f2+0013+0f2+0012+0f12+0014+",
   "autoFadeSpeed": 1,
   "symbol": "scene_21",
   "x": 1280,
-  "y": 840,
+  "y": 832,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

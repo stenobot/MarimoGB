@@ -43,7 +43,7 @@
         "duration": 1.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -499,7 +499,7 @@
         "duration": 0.7,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -514,7 +514,7 @@
                 "type": "number",
                 "value": 4
               },
-              "tilesetId": "281912f6-dc1a-4f58-a0db-889656b1befc",
+              "tilesetId": "87519eb7-61b3-486c-bd8e-b6370fbbe328",
               "tileIndex": {
                 "type": "number",
                 "value": 0
@@ -526,6 +526,30 @@
               "variable": "L2"
             },
             "id": "6838a416-8421-43b8-a380-1a7e65fb8545"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 32
+              },
+              "tilesetId": "d8d48619-6592-410a-9833-034bab10bf5f",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 6
+              },
+              "variable": "L3"
+            },
+            "id": "72c2c917-25d3-4e1c-a6c3-7705fb9f4d5f"
           }
         ]
       },

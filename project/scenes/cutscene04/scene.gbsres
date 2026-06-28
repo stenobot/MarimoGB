@@ -161,7 +161,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -190,11 +190,11 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "One day, massive\nmachines appeared \nand began\nterraforming the\nland and water,\ndestroying\nMuckle's home.",
+        "text": "One day, massive\nmachines appeared \nand began\nterraforming the\nland and water,\ndestroying\nMUCKLE's home.",
         "x": 1,
         "y": 6,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "8a1fd861-61f7-4e5f-a839-5d4181329190"
     }

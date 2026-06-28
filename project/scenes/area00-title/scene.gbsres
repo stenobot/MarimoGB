@@ -9,7 +9,16 @@
   "height": 18,
   "type": "ADVENTURE",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
+  ],
   "spritePaletteIds": [
     "e3168ce3-462a-490c-ade0-cf80afe44baa",
     "",

@@ -77,7 +77,7 @@
             "command": "EVENT_ACTOR_SHOW",
             "args": {
               "actorId": "0174d8be-2b80-4d00-98ab-f7fc0391b8ef",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "4dbdfbbc-52d6-45d1-bb2c-2e65b738d13b"
           },

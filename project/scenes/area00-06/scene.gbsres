@@ -16,9 +16,9 @@
     "",
     "",
     "",
+    "58f7da3c-bfc2-47ff-b834-22be8d3a8cbd",
     "",
-    "",
-    "",
+    "b34adae2-005b-4a40-9c4e-871a952bbf59",
     "e290e40a-e719-41cf-87d9-65f2a2d0e34c",
     "7a08a73f-96de-450b-ba31-44463f5fa0b5"
   ],
@@ -26,50 +26,13 @@
   "autoFadeSpeed": 1,
   "script": [
     {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "17"
-        },
-        "__collapseElse": false,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_REPLACE_TILE_XY",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 9
-              },
-              "y": {
-                "type": "number",
-                "value": 9
-              },
-              "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "f6e0051a-e93a-43fc-b1a6-51477884ff21"
-          }
-        ],
-        "false": []
-      },
-      "id": "d54a80c5-8725-420a-9635-14abc64859ad"
-    },
-    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
         "duration": 0.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -108,7 +71,7 @@
         "duration": 1.7,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -163,6 +126,13 @@
         ]
       },
       "id": "83918402-816f-4f7f-9e45-412aa3f58517"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "46feb5ff-3b20-4341-aa70-65385ebc17f5"
+      },
+      "id": "d9caef93-4350-4d6f-a27f-5f91f5b67f48"
     }
   ],
   "playerHit1Script": [],
