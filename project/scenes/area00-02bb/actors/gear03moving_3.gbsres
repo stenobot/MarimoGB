@@ -1,0 +1,60 @@
+{
+  "_resourceType": "actor",
+  "id": "e36ccccc-2fed-4724-b5ad-80ce73c10afb",
+  "name": "Gear03Moving",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "6fd43468-d084-463f-9495-754a97a24ee9",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "f227b887-6410-4689-9bef-a1104870b7f5": {
+      "id": "f227b887-6410-4689-9bef-a1104870b7f5",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 48
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "__section": "options",
+        "moveType": "diagonal"
+      }
+    },
+    "10355bc0-c34d-4ffc-9825-ed179b6ce56e": {
+      "id": "10355bc0-c34d-4ffc-9825-ed179b6ce56e",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 40
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "__section": "options",
+        "moveType": "diagonal"
+      }
+    }
+  },
+  "symbol": "actor_122",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 40,
+  "y": 6,
+  "_index": 10
+}

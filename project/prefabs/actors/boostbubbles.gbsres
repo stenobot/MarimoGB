@@ -1,21 +1,18 @@
 {
-  "_resourceType": "actor",
-  "id": "af42eb9c-ada6-4861-ac72-659b5556d9be",
+  "_resourceType": "actorPrefab",
+  "id": "c225be67-ea64-42d2-bc9e-947c9243ec74",
   "name": "BoostBubbles",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "7db46f51-52d3-464c-8359-c44a02aad9a7",
-  "prefabId": "c225be67-ea64-42d2-bc9e-947c9243ec74",
-  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 3,
   "paletteId": "",
-  "isPinned": false,
   "persistent": true,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_9",
+  "_index": 4,
   "script": [],
   "startScript": [
     {
@@ -23,7 +20,8 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "7f374273-6cdf-4d90-b3d4-b9bb7893fd5d"
+      "id": "6e467c86-3e32-46b4-a5b0-da28f0ff3691",
+      "children": {}
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -34,7 +32,8 @@
           "value": 7
         }
       },
-      "id": "23adc25c-2c76-40f5-accb-2eb5505804df"
+      "id": "36523492-0dd9-4dc7-8cf2-fa493588ba0a",
+      "children": {}
     }
   ],
   "updateScript": [
@@ -61,14 +60,16 @@
                 "value": 1
               }
             },
-            "id": "91a7e7f9-fd63-48fd-a013-5a9c7b484ed4"
+            "id": "a55867d2-4c32-4845-969c-03bf5674649b",
+            "children": {}
           },
           {
             "command": "EVENT_ACTOR_HIDE",
             "args": {
               "actorId": "$self$"
             },
-            "id": "3e258ca6-d070-44a1-98f9-8f68efff9245"
+            "id": "491361a6-24ab-46d5-9898-f9271e6970b8",
+            "children": {}
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -78,19 +79,16 @@
                 "type": "false"
               }
             },
-            "id": "80f70227-3c96-4612-bc5a-25d22ce9b21e"
+            "id": "f99143f0-1b3b-4453-ac95-6b58c7c58b4f",
+            "children": {}
           }
         ],
         "false": []
       },
-      "id": "42d142f4-f676-4c44-866b-8b420280749f"
+      "id": "260f6c66-d1c6-4007-af94-332fbdfa1f78"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "coordinateType": "tiles",
-  "x": 0,
-  "y": 0,
-  "_index": 4
+  "hit3Script": []
 }
