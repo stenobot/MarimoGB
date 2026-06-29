@@ -34,7 +34,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -42,7 +42,7 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "b77c74a5-577a-401c-932d-89feccc0327a",
-              "$actor[0]$": "af42eb9c-ada6-4861-ac72-659b5556d9be"
+              "$actor[0]$": "9646ad93-2dad-4927-8ae3-5185ebe4f0d9"
             },
             "id": "437da5b8-ec96-42d4-929e-9733a7b871b4"
           }

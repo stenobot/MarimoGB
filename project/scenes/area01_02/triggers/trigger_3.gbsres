@@ -11,6 +11,19 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 129,
+        "duration": 0.01,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "3817f5c2-c522-437d-a1ab-8ed3cdd20f6f"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {

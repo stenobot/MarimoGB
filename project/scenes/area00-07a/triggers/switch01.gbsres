@@ -11,6 +11,19 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 129,
+        "duration": 0.01,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "df4b48fa-f1d6-4a45-b771-60438a167ff3"
+    },
+    {
       "command": "EVENT_REPLACE_TILE_XY",
       "args": {
         "x": {
@@ -277,6 +290,19 @@
     }
   ],
   "leaveScript": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 129,
+        "duration": 0.01,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "1d268f2d-26ac-445a-8c97-7713293bedfb"
+    },
     {
       "command": "EVENT_REPLACE_TILE_XY",
       "args": {
