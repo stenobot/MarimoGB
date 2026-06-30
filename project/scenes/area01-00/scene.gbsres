@@ -551,12 +551,20 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "0d273747-3ae0-41ed-a3c6-9f2f4b2854b2",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "554da4b1-7f3e-4a07-bab0-f37684301756"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f"
+      },
+      "id": "86fb4407-b87a-42c3-8616-a6c341805b49"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

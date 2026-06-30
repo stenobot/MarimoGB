@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "89d3b718-2b2f-45bd-9805-87dc43418e6f",
+  "name": "Collect.vgm",
+  "symbol": "sound_click_vgm",
+  "type": "vgm",
+  "filename": "Collect.vgm"
+}

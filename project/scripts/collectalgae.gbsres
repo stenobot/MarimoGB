@@ -22,21 +22,22 @@
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "tone",
+        "type": "89d3b718-2b2f-45bd-9805-87dc43418e6f",
         "priority": "medium",
         "pitch": 6,
         "frequency": 400,
         "duration": 0.01,
         "wait": true,
         "effect": 0,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "ed314eca-0a2b-47c1-9a13-000f3447ec6e"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "0"
+        "actorId": "0",
+        "__collapse": true
       },
       "id": "02299b4b-a436-44e2-a89e-c61768bca1a6"
     },

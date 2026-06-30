@@ -54,7 +54,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": []
@@ -77,7 +77,7 @@
             "command": "EVENT_ACTOR_SHOW",
             "args": {
               "actorId": "0174d8be-2b80-4d00-98ab-f7fc0391b8ef",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "4dbdfbbc-52d6-45d1-bb2c-2e65b738d13b"
           },
@@ -228,14 +228,6 @@
                                 "__collapse": false
                               },
                               "id": "c6aa5254-d90c-4c1b-96ee-837b84c4de52"
-                            },
-                            {
-                              "command": "EVENT_MUSIC_PLAY",
-                              "args": {
-                                "musicId": "4c857ad0-2d88-4c3c-8a9c-0a33ee34c0e9",
-                                "__collapse": true
-                              },
-                              "id": "efb2e675-9279-4bfe-89be-9f5d9105a096"
                             },
                             {
                               "command": "EVENT_ACTOR_HIDE",

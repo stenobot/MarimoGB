@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "bf025463-085b-445a-b481-158f1d580638",
+  "name": "Switch.vgm",
+  "symbol": "sound_bump_vgm",
+  "type": "vgm",
+  "filename": "Switch.vgm"
+}

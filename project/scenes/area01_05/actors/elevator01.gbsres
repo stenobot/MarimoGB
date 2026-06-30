@@ -16,7 +16,26 @@
   "collisionExtraFlags": [
     "platform"
   ],
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "c4c087ef-f2e1-4c7e-b42e-75a0babb672f": {
+      "id": "c4c087ef-f2e1-4c7e-b42e-75a0babb672f",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 42
+        }
+      }
+    },
+    "650b23b9-d95e-4ca5-9362-4500a0f6fae7": {
+      "id": "650b23b9-d95e-4ca5-9362-4500a0f6fae7",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 28
+        }
+      }
+    }
+  },
   "symbol": "actor_107",
   "script": [],
   "startScript": [],
@@ -137,6 +156,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 4,
-  "y": 42,
+  "y": 28,
   "_index": 0
 }

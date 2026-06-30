@@ -52,7 +52,7 @@
       "args": {
         "event": "jumpStart",
         "__scriptTabs": "scriptinput",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -60,14 +60,15 @@
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "type": "tone",
-              "priority": "medium",
-              "pitch": 4,
+              "type": "20ff3988-3705-472c-8947-443fd11adadf",
+              "priority": "low",
+              "pitch": 8,
               "frequency": 270,
               "duration": 0.01,
               "wait": false,
               "effect": 0,
-              "__collapse": false
+              "__collapse": false,
+              "__comment": true
             },
             "id": "7c975a17-5ce1-41a3-8b5b-6dc30e674bf2"
           }

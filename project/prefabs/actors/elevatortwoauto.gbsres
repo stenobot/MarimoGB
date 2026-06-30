@@ -55,7 +55,7 @@
         ],
         "lockDirection": [],
         "moveType": "horizontal",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "c4c087ef-f2e1-4c7e-b42e-75a0babb672f",
       "children": {}
