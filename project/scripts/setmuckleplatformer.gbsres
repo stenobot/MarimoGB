@@ -67,8 +67,7 @@
               "duration": 0.01,
               "wait": false,
               "effect": 0,
-              "__collapse": false,
-              "__comment": true
+              "__collapse": false
             },
             "id": "7c975a17-5ce1-41a3-8b5b-6dc30e674bf2"
           }

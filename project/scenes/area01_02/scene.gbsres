@@ -36,14 +36,6 @@
   "y": 432,
   "script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
-        "__collapse": true
-      },
-      "id": "099cd293-4417-4557-accb-c5a5a785fdc6"
-    },
-    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 2,
@@ -540,6 +532,13 @@
         ]
       },
       "id": "c26ef3da-d69e-4835-92eb-4f853bb2ecac"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f"
+      },
+      "id": "099cd293-4417-4557-accb-c5a5a785fdc6"
     }
   ],
   "playerHit1Script": [],
