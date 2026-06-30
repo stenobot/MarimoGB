@@ -26,6 +26,14 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
+        "__collapse": true
+      },
+      "id": "f9c397fe-57a8-45d9-8ffe-97756b5e0a0e"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
@@ -130,7 +138,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "46feb5ff-3b20-4341-aa70-65385ebc17f5"
+        "customEventId": "46feb5ff-3b20-4341-aa70-65385ebc17f5",
+        "__collapse": true
       },
       "id": "d9caef93-4350-4d6f-a27f-5f91f5b67f48"
     }
@@ -138,5 +147,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0015+0f13+00!0f!0013+0f!002+10!0010+0f3+10!0ff+00!0f!002+10!005+0f!007+0f!002+0f!002+10!005+0f!007+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0fa+002+0f!004+0f!00b+0f!002+0f!004+0f!00b+0f!002+0f!004+0f!00b+0f!002+0f!004+0f2+00a+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f7+00a+0f!002+0f!006+"
+  "collisions": "0015+0f13+00!0f!0013+0f!002+10!0010+0f3+10!0ff+00!0f!002+10!005+0f!007+0f!002+0f!002+10!005+0f!007+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0f!002+10!005+0f!002+0f!004+0f!002+0fa+002+0f!004+0f!00b+0f!002+0f!004+0f!00b+0f!002+0f!004+0f!00b+0f!002+0f!004+0f2+00a+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f7+00a+0f!002+0f!006+",
+  "autoFadeEventCollapse": true
 }

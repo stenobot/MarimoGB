@@ -2749,9 +2749,103 @@
       ],
       "animationType": "horizontal",
       "flipLeft": true
+    },
+    {
+      "id": "46d8ca83-f6ae-499a-a47e-1017bdf766b6",
+      "name": "Falling",
+      "animations": [
+        {
+          "id": "3f8bf95f-6677-4d57-bfc3-637190e6c9a8",
+          "frames": [
+            {
+              "id": "13eaaef0-403a-4692-bd45-9be26b674a6f",
+              "tiles": [
+                {
+                  "id": "e1fbba3a-b957-4223-a74d-71f071e8a2c5",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "738961d6-30c0-4119-998a-c7bec16dfae3",
+          "frames": [
+            {
+              "id": "bde73893-29d9-4d56-b42b-c1d3428b4561",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f9cf973c-c331-43c6-9bc7-3bfea319be38",
+          "frames": [
+            {
+              "id": "8894d8c4-1a5a-4f6e-8edc-7b4c9fd0ea45",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9f3f71a7-5b90-47aa-a832-4b70f3d469b4",
+          "frames": [
+            {
+              "id": "3b0235fa-51a5-4fa7-8235-944b26bcc04c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "aeb4c0ed-61dc-48dc-8997-4c59d16580bd",
+          "frames": [
+            {
+              "id": "c7448ff5-fc26-41c8-be0b-d169309d868d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4c7bec1e-e0d9-4930-a48b-91cf89745003",
+          "frames": [
+            {
+              "id": "00f415d3-8b79-4202-8b17-5e169ed7605a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "46f63614-508d-42b7-a29a-1cead3d292c9",
+          "frames": [
+            {
+              "id": "7f2df726-b55c-4923-b858-7f304b4e29c9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "74269cad-4091-4667-8fbd-ef2f9acf3045",
+          "frames": [
+            {
+              "id": "3c19ab65-3cf9-4ad0-aef4-51617cb1cbae",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "horizontal",
+      "flipLeft": true
     }
   ],
-  "numTiles": 29,
+  "numTiles": 30,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 8,
@@ -2764,5 +2858,5 @@
   "filename": "muckle.png",
   "width": 48,
   "height": 96,
-  "checksum": "644be0fb7e53ea0d3ceac46a978ad9f0080e31ca"
+  "checksum": "13e4838cabd54927c3f7151fa89d3a696abf49cb"
 }

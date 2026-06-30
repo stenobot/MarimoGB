@@ -27,13 +27,20 @@
   "y": 616,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f"
+      },
+      "id": "13aeb21b-daad-4021-bed4-9af3f673e702"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
         "duration": 0.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -232,5 +239,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

@@ -58,7 +58,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -514,14 +514,14 @@
                 "type": "number",
                 "value": 4
               },
-              "tilesetId": "87519eb7-61b3-486c-bd8e-b6370fbbe328",
+              "tilesetId": "ba9a4946-52ce-4217-88ba-4f3bd3f84ddb",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
               "frames": {
                 "type": "number",
-                "value": 6
+                "value": 4
               },
               "variable": "L2"
             },
@@ -532,24 +532,48 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 17
+                "value": 16
               },
               "y": {
                 "type": "number",
                 "value": 32
               },
-              "tilesetId": "d8d48619-6592-410a-9833-034bab10bf5f",
+              "tilesetId": "369cc599-7dc7-4c8b-b09b-e2c6841caa0a",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
               "frames": {
                 "type": "number",
-                "value": 6
+                "value": 8
               },
               "variable": "L3"
             },
             "id": "72c2c917-25d3-4e1c-a6c3-7705fb9f4d5f"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 28
+              },
+              "tilesetId": "369cc599-7dc7-4c8b-b09b-e2c6841caa0a",
+              "tileIndex": {
+                "type": "number",
+                "value": 2
+              },
+              "frames": {
+                "type": "number",
+                "value": 7
+              },
+              "variable": "L4"
+            },
+            "id": "7a278aae-9b20-45d0-b765-9735bb553a04"
           }
         ]
       },

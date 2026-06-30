@@ -42,7 +42,7 @@
     {
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
-        "spriteSheetId": "c4a975bf-5d73-473e-b8c7-717ee1b8faf6",
+        "spriteSheetId": "8037334e-aea4-4585-b26f-0990cc4e36e3",
         "__collapse": true
       },
       "id": "86a84024-c2f5-4a20-a2e7-9b496f14ca68"
@@ -130,7 +130,7 @@
         },
         "otherActorId": "0",
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -153,7 +153,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -302,7 +302,7 @@
                       "type": "number",
                       "value": 1
                     },
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "6e6e04ab-725d-419c-8e64-a3a40753c15a"
                 }

@@ -36,13 +36,21 @@
       "id": "b4306dde-1c8d-4474-9f5d-95f32cd6ce7d"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
+        "__collapse": true
+      },
+      "id": "270d9b49-39e7-4260-82f9-bc7476a3d90b"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -133,7 +141,7 @@
         "duration": 3.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -173,7 +181,7 @@
         "duration": 5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -211,5 +219,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "collisions": "0fa+001a+0f!003+0f!008+0f!001a+0f!003+0f!008+0f!001a+0f!003+0f!008+0f!001a+0f!003+0f!008+0f!001a+0f!003+0f2+003+10!003+0f19+002+0f!005+0f3+10!0f4+001a+0f!005+0f!002+10!001e+0f!005+0f!002+10!001e+0f!005+0f!002+10!00a+0f15+005+0f!002+0f!00a+0f2+007+0f!00a+0f!005+0f!008+0f6+008+0f!00a+0f!005+0f2+007+0f2+00c+0f!00a+0f!004+0f!002+0f8+00d+0f!00a+0f!004+0f!0017+0f7+004+0f!004+0f!0017+0f!00a+0f2+003+0f!0017+0f!00b+0f!003+0f!008+0f2+00d+0f!00b+0f!003+0fd+00b+0f!00b+0f!009+0f!004+0fa+003+0f!00b+0f!009+0f!0011+0f!00b+0f!009+0f!0011+0f!00b+0f!009+0f!0010+0f2+00b+0f!009+0f!004+0f!00b+0f!00c+0f2+008+0f!004+0f!00!01!008+0f2+00d+0f!008+0f!004+0f!004+01!005+0f!00e+0f!008+0f!004+0f!007+01!00!0f2+00e+0f!008+0f!004+0f!009+0f!00d+10!00!0f!008+0f!004+0fb+005+01!002+0f5+10!00!0f!008+0f!001c+10!00!0f!008+0f!001c+10!00!0f!008+0f6+0017+10!00!0f!00c+0f1c+0079+",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }

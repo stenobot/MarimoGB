@@ -199,7 +199,7 @@
             "args": {
               "actorId": "$self$",
               "direction": "8",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "b5b586d8-b0e7-4886-9cbf-f989a2740b9a"
           },

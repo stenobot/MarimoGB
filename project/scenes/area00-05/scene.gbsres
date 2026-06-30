@@ -26,6 +26,14 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
+        "__collapse": true
+      },
+      "id": "9b663a6f-c4e0-4a7c-ae9b-88a6d8024d87"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
@@ -131,5 +139,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0029+0f7+00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00c+0f2+005+0f!0013+0f!0013+0f!00c+0f3+004+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00c+0f2+005+0f!0012+01!0f!0013+0f!00c+0f3+004+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00c+0f2+005+0f!0013+0f!0012+0f2+00c+0f8+0034+"
+  "collisions": "0029+0f7+00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00c+0f2+005+0f!0013+0f!0013+0f!00c+0f3+004+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00c+0f2+005+0f!0012+01!0f!0013+0f!00c+0f3+004+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00c+0f2+005+0f!0013+0f!0012+0f2+00c+0f8+0034+",
+  "autoFadeEventCollapse": true
 }

@@ -20,7 +20,7 @@
       "args": {
         "y": {
           "type": "number",
-          "value": 10
+          "value": 19
         },
         "x": {
           "type": "number",
@@ -33,7 +33,7 @@
       "args": {
         "y": {
           "type": "number",
-          "value": 19
+          "value": 11
         },
         "x": {
           "type": "number",
@@ -60,6 +60,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 5,
-  "y": 19,
+  "y": 11,
   "_index": 1
 }

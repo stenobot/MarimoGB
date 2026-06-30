@@ -19,7 +19,8 @@
         "frequency": 129,
         "duration": 0.01,
         "wait": true,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
       "id": "71638be7-abae-4854-873e-d5bc2bd09f1d"
     },

@@ -22,9 +22,100 @@
       "args": {
         "actorId": "$self$",
         "spriteStateId": "Swimming",
-        "loopAnim": true
+        "loopAnim": true,
+        "__collapse": true
       },
       "id": "f58be5f4-0baa-42ff-a32a-75ebbbb53491"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.8,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "tilesetId": "ba9a4946-52ce-4217-88ba-4f3bd3f84ddb",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "40b3d665-827b-4d01-bc27-76c1d1e10aca"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "tilesetId": "369cc599-7dc7-4c8b-b09b-e2c6841caa0a",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 7
+              },
+              "variable": "L1",
+              "__collapse": false
+            },
+            "id": "729d20c1-73b7-4eff-afa2-89c68f62a4d3"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "tilesetId": "369cc599-7dc7-4c8b-b09b-e2c6841caa0a",
+              "tileIndex": {
+                "type": "number",
+                "value": 3
+              },
+              "frames": {
+                "type": "number",
+                "value": 8
+              },
+              "variable": "L2",
+              "__collapse": false
+            },
+            "id": "4dc746dd-685b-4157-a261-678080efba7b"
+          }
+        ]
+      },
+      "id": "1a12deed-60c0-4754-aedb-5786e1145efe"
     }
   ],
   "playerHit1Script": [],

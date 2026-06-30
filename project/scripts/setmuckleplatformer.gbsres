@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "40429d15-954f-4724-82d9-d46a9886638f",
-  "name": "SetMucklePlatform",
+  "name": "SetMucklePlatformer",
   "description": "Sets various properties to initiate Muckle for a platformer level",
   "variables": {},
   "actors": {},
@@ -38,6 +38,46 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
+        "variable": "18",
+        "value": {
+          "type": "number",
+          "value": 9
+        },
+        "__collapse": true
+      },
+      "id": "f3d74bda-2d8f-49e6-afe7-280c945c1ec6"
+    },
+    {
+      "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
+      "args": {
+        "event": "jumpStart",
+        "__scriptTabs": "scriptinput",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "tone",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 270,
+              "duration": 0.01,
+              "wait": false,
+              "effect": 0,
+              "__collapse": false
+            },
+            "id": "7c975a17-5ce1-41a3-8b5b-6dc30e674bf2"
+          }
+        ]
+      },
+      "id": "ccf07ce3-1a5c-4d04-b5c5-2c5eb74846b8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
         "variable": "2",
         "value": {
           "type": "true"
@@ -45,17 +85,6 @@
         "__collapse": true
       },
       "id": "0040765a-f210-4495-bbbc-0aef7afc600f"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "18",
-        "value": {
-          "type": "number",
-          "value": 9
-        }
-      },
-      "id": "f3d74bda-2d8f-49e6-afe7-280c945c1ec6"
     }
   ]
 }

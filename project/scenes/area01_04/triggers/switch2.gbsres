@@ -18,8 +18,9 @@
         "pitch": 4,
         "frequency": 129,
         "duration": 0.01,
-        "wait": true,
-        "effect": 0
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
       },
       "id": "9c158c67-2618-4d10-8f6f-9825e87437a3"
     },

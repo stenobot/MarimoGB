@@ -72,7 +72,7 @@
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
         "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "a845371f-98ba-4547-a894-3523574c880d"
     },
@@ -140,7 +140,8 @@
         "value": {
           "type": "number",
           "value": 1351
-        }
+        },
+        "__collapse": true
       },
       "id": "41ed0be1-5fca-4950-9745-4612366279ca"
     },
@@ -151,7 +152,8 @@
         "value": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "74173513-4d6e-4bde-9074-a3d571f05797"
     },

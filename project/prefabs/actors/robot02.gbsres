@@ -344,17 +344,30 @@
                     ],
                     "override": true,
                     "__scriptTabs": "press",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "crash",
+                          "priority": "medium",
+                          "pitch": 1,
+                          "frequency": 50,
+                          "duration": 0.5,
+                          "wait": false,
+                          "effect": 0
+                        },
+                        "id": "7b563b30-a986-4589-b332-facae3e01ed0"
+                      },
                       {
                         "command": "EVENT_ACTOR_GET_POSITION",
                         "args": {
                           "actorId": "player",
                           "vectorX": "3",
                           "vectorY": "4",
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "id": "d964a335-6445-473f-b7d9-4173610ed510"
                       },
@@ -364,14 +377,16 @@
                           "variable": "28",
                           "value": {
                             "type": "true"
-                          }
+                          },
+                          "__collapse": true
                         },
                         "id": "a1e29bc6-8191-4694-be88-37581de4a0be"
                       },
                       {
                         "command": "EVENT_PLAYER_BOUNCE",
                         "args": {
-                          "height": "low"
+                          "height": "low",
+                          "__collapse": false
                         },
                         "id": "c6f697ef-2844-4b70-8e02-2cc27dbc4fa9"
                       },
@@ -380,12 +395,13 @@
                         "args": {
                           "time": {
                             "type": "number",
-                            "value": 0.6
+                            "value": 0.8
                           },
                           "frames": {
                             "type": "number",
                             "value": 1
-                          }
+                          },
+                          "__collapse": false
                         },
                         "id": "b294e64e-a0fd-4efb-8811-d339f4966f8d"
                       },
@@ -395,7 +411,8 @@
                           "variable": "28",
                           "value": {
                             "type": "false"
-                          }
+                          },
+                          "__collapse": true
                         },
                         "id": "e4368927-f597-4cbc-9f07-a81394fbb200"
                       }

@@ -57,14 +57,14 @@
                 "type": "number",
                 "value": 3
               },
-              "tilesetId": "87519eb7-61b3-486c-bd8e-b6370fbbe328",
+              "tilesetId": "ba9a4946-52ce-4217-88ba-4f3bd3f84ddb",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
               "frames": {
                 "type": "number",
-                "value": 3
+                "value": 4
               },
               "variable": "L0",
               "__comment": false,
@@ -83,7 +83,7 @@
         "duration": 1.4,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [

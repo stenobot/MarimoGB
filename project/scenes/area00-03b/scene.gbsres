@@ -24,13 +24,105 @@
       "args": {
         "actorId": "$self$",
         "spriteStateId": "Swimming",
-        "loopAnim": true
+        "loopAnim": true,
+        "__collapse": true
       },
       "id": "e90b5a0c-6f07-45b8-a853-7acdf6b1680b"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.8,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "tilesetId": "ba9a4946-52ce-4217-88ba-4f3bd3f84ddb",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "0de5b9ff-0dc0-47a9-a618-a3f88b30533c"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "tilesetId": "369cc599-7dc7-4c8b-b09b-e2c6841caa0a",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 7
+              },
+              "variable": "L1",
+              "__collapse": false
+            },
+            "id": "646b4916-1678-4219-bb4e-aa8a047b982f"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "tilesetId": "369cc599-7dc7-4c8b-b09b-e2c6841caa0a",
+              "tileIndex": {
+                "type": "number",
+                "value": 2
+              },
+              "frames": {
+                "type": "number",
+                "value": 8
+              },
+              "variable": "L2",
+              "__collapse": false
+            },
+            "id": "81d0204e-8394-4e06-a449-f6d97bc50109"
+          }
+        ]
+      },
+      "id": "d4b09e80-d7f6-4cb3-9c14-22b6083a1cbe"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
+  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
+  "autoFadeEventCollapse": true
 }

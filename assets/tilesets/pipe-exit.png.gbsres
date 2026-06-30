@@ -1,11 +1,11 @@
 {
   "_resourceType": "tileset",
   "id": "ba9a4946-52ce-4217-88ba-4f3bd3f84ddb",
-  "name": "pipe-exit-top",
+  "name": "pipe-exit",
   "symbol": "tileset_pipe_exit_top",
-  "width": 3,
+  "width": 4,
   "height": 1,
-  "imageWidth": 24,
+  "imageWidth": 32,
   "imageHeight": 8,
-  "filename": "pipe-exit-top.png"
+  "filename": "pipe-exit.png"
 }

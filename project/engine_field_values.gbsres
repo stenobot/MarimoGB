@@ -47,7 +47,7 @@
     },
     {
       "id": "plat_max_fall_vel",
-      "value": 15769
+      "value": 13025
     },
     {
       "id": "plat_climb_vel",
@@ -80,6 +80,14 @@
     {
       "id": "INPUT_PLATFORM_INTERACT",
       "value": "INPUT_UP"
+    },
+    {
+      "id": "PLATFORM_FALL_ANIM",
+      "value": ""
+    },
+    {
+      "id": "plat_camera_block",
+      "value": "PLATFORM_CAMERA_LOCK_SCREEN_BOTH"
     }
   ]
 }

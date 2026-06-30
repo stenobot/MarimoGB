@@ -27,9 +27,18 @@
   "y": 88,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
+        "__collapse": true
+      },
+      "id": "4d1e4630-eec9-4070-a29f-c241ad9aeec5"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "4c857ad0-2d88-4c3c-8a9c-0a33ee34c0e9"
+        "musicId": "4c857ad0-2d88-4c3c-8a9c-0a33ee34c0e9",
+        "__collapse": true
       },
       "id": "fcaec2c3-1260-4ee0-8cce-31336e0634c4"
     },
@@ -40,7 +49,7 @@
         "duration": 0.7,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -79,7 +88,7 @@
         "duration": 1.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -118,7 +127,7 @@
         "duration": 1.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -156,7 +165,8 @@
         "timer": 4,
         "duration": 0.1,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -192,5 +202,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }
