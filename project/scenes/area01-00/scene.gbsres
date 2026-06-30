@@ -550,8 +550,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "0d273747-3ae0-41ed-a3c6-9f2f4b2854b2",
-        "__collapse": true
+        "musicId": "94c82dc8-a16b-4ec4-a510-4baead22d083",
+        "__collapse": false
       },
       "id": "554da4b1-7f3e-4a07-bab0-f37684301756"
     },
