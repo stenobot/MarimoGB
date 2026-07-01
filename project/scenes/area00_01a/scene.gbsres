@@ -213,6 +213,44 @@
         ]
       },
       "id": "f15a1b99-23d4-49e3-bc5e-fe4a7225ed08"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 4,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "tilesetId": "0c8a837a-1cf8-4f69-95ec-a452b9f89de0",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 5
+              },
+              "variable": "L5"
+            },
+            "id": "53248408-c49d-460c-a38d-88569546b812"
+          }
+        ]
+      },
+      "id": "02151873-0663-4b68-87a0-3fd07a7c1abc"
     }
   ],
   "playerHit1Script": [],

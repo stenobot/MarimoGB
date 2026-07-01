@@ -610,6 +610,11 @@
       "id": "7a38a5fa-14f5-4740-8519-ae441a8b9e88__L0",
       "name": "gearTick",
       "symbol": "var_geartick_2"
+    },
+    {
+      "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L5",
+      "name": "pipeDripState",
+      "symbol": "var_pipedripstate"
     }
   ],
   "constants": []

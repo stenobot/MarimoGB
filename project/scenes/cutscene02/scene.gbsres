@@ -27,6 +27,13 @@
   "y": 640,
   "script": [
     {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "1080dca5-15a2-4e57-b68f-1f175ec502bc"
+      },
+      "id": "6f99c95e-4086-4902-98cb-dbf4abc43f64"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",

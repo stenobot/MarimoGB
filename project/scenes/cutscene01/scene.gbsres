@@ -11,7 +11,13 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "default-bg-6",
-    "default-bg-1"
+    "default-bg-1",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-bg-6"
   ],
   "spritePaletteIds": [],
   "collisions": "",
@@ -23,7 +29,8 @@
     {
       "command": "EVENT_SET_FONT",
       "args": {
-        "fontId": "1080dca5-15a2-4e57-b68f-1f175ec502bc"
+        "fontId": "53046f09-8a82-43cc-9c7f-8dbaec871259",
+        "__collapse": true
       },
       "id": "7b8ad4ab-22ea-4ff6-ac67-77bc3617d6fb"
     },
@@ -45,7 +52,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -84,9 +91,9 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "This is MUCKLE.",
+        "text": "This is MUCKLE. ",
         "x": 2,
-        "y": 3,
+        "y": 4,
         "location": "background",
         "__collapse": false
       },
