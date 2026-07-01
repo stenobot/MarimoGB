@@ -95,7 +95,7 @@
         "x": 2,
         "y": 4,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "ede7d826-c090-48f7-8c0e-5cd87cf737f7"
     },
@@ -114,5 +114,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }

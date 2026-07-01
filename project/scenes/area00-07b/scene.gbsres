@@ -35,6 +35,13 @@
       "id": "2cba821a-869d-4c47-b6bd-7915469ff7e1"
     },
     {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427"
+      },
+      "id": "e0fe57be-6c66-4c01-b2de-ee68f863cd8c"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,

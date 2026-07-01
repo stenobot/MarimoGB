@@ -44,7 +44,7 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 0.7,
+        "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": false
@@ -224,7 +224,7 @@
                   "args": {
                     "time": {
                       "type": "number",
-                      "value": 0.6
+                      "value": 2.5
                     },
                     "frames": {
                       "type": "number",
