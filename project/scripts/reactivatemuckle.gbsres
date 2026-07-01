@@ -19,6 +19,13 @@
       "id": "e8ac0490-25b7-4e80-9bbe-e03c7c68f52c"
     },
     {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 4
+      },
+      "id": "7079bb3d-fa11-4710-813e-71f121fce890"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "9",
@@ -72,7 +79,7 @@
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
         "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "a845371f-98ba-4547-a894-3523574c880d"
     },

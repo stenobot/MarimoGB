@@ -48,6 +48,14 @@
             "id": "15023c34-8a07-470e-b934-c6e73ca35d9f"
           },
           {
+            "command": "EVENT_TIMER_DISABLE",
+            "args": {
+              "timer": 4,
+              "__collapse": true
+            },
+            "id": "36b85070-7c40-4a1b-8ba5-f46611f4c6c6"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "9",

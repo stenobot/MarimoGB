@@ -46,7 +46,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -211,6 +211,45 @@
         ]
       },
       "id": "2163ae82-3f4a-42dd-b611-c579c54fd63f"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 3,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "tilesetId": "0c8a837a-1cf8-4f69-95ec-a452b9f89de0",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 5
+              },
+              "variable": "L4"
+            },
+            "id": "1e18458d-ea11-422d-b284-e43aab3a2137"
+          }
+        ]
+      },
+      "id": "ea420198-6f1a-481f-abf7-581ab3c5a96f"
     },
     {
       "command": "EVENT_IF",

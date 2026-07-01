@@ -13,6 +13,34 @@
   "symbol": "script_1",
   "script": [
     {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 4,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 46
+            },
+            "id": "74b9ccf9-5558-4b5f-887a-eb7eec2c99da"
+          }
+        ]
+      },
+      "id": "26e5817b-3565-477d-a264-25a9c7f61a48"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -130,7 +158,7 @@
         },
         "otherActorId": "0",
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -153,7 +181,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -174,7 +202,7 @@
                     ],
                     "override": true,
                     "__scriptTabs": "press",
-                    "__collapse": false,
+                    "__collapse": true,
                     "__comment": false
                   },
                   "children": {
@@ -367,6 +395,13 @@
                     "__collapse": true
                   },
                   "id": "e7953e7c-360a-408e-8757-82d2c1844a0e"
+                },
+                {
+                  "command": "EVENT_TIMER_DISABLE",
+                  "args": {
+                    "timer": 4
+                  },
+                  "id": "6b478cad-2e66-4a75-9ed3-3b9d208fb72d"
                 }
               ]
             },
