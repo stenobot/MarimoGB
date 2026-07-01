@@ -11,6 +11,19 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+        "priority": "low",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 31
+      },
+      "id": "d901a519-9795-469a-966c-ccf9cb3cb4bd"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "01dbfe0c-222d-48dc-8972-ac29581ea4f6",

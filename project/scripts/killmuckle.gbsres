@@ -28,10 +28,23 @@
       "id": "67533ece-5da6-44ed-bdaa-8daca9fff36e"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 21
+      },
+      "id": "b4f20b8b-c36c-47dd-8615-1f95bed49d32"
+    },
+    {
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
         "spriteSheetId": "0eb8dae6-b868-46e2-a18b-e512ee5227af",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "a1eb0b99-1aa2-40bb-9fdb-f2082cb487d9"
     },
@@ -39,7 +52,8 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 7
+        "speed": 7,
+        "__collapse": true
       },
       "id": "011fdb22-b0a3-4f18-8c3e-f77eab987bf1"
     },
@@ -54,14 +68,15 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "b873b988-1589-4846-98dd-44ffc5f4e073"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "676a3dd4-697c-438e-b94e-01799aa7c6e3"
     },

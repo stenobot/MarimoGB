@@ -21,6 +21,13 @@
   "y": 456,
   "script": [
     {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "1080dca5-15a2-4e57-b68f-1f175ec502bc"
+      },
+      "id": "7b8ad4ab-22ea-4ff6-ac67-77bc3617d6fb"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
@@ -77,7 +84,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "This is\nMUCKLE.",
+        "text": "This is MUCKLE.",
         "x": 2,
         "y": 3,
         "location": "background",

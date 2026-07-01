@@ -23,7 +23,14 @@
     "afb8a816-aa66-426a-b766-7cff8fb88d54"
   ],
   "spritePaletteIds": [
-    "59f86781-0cb7-466d-8ca6-4d6a7118502a"
+    "59f86781-0cb7-466d-8ca6-4d6a7118502a",
+    "",
+    "",
+    "",
+    "",
+    "1dc485ac-0af7-4380-be21-3cc3fba02d25",
+    "",
+    ""
   ],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,

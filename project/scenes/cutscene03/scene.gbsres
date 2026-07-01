@@ -38,46 +38,10 @@
       "id": "e29d8105-bc45-4a6f-8144-f01b72658e37"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "a",
-          "start",
-          "b"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "22892697-cc3b-43f1-848b-08b0c5b89d1f",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2",
-              "__collapse": true
-            },
-            "id": "25da6adb-910c-4d22-b30a-5fd54809e1fd"
-          }
-        ]
-      },
-      "id": "196d6d07-8c97-42df-ab93-afcfb788e86b"
-    },
-    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 1.5,
+        "duration": 2.5,
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": false
@@ -87,8 +51,8 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "They are\nfriendly with\ntheir neighbors.",
-              "x": 2,
+              "text": "They are friendly \n\nwith their neighbors.",
+              "x": 1,
               "y": 14,
               "location": "background",
               "__collapse": false
@@ -96,28 +60,40 @@
             "id": "84f3c323-d2fb-4d38-891a-e26f15adf954"
           },
           {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
-              "x": {
-                "type": "number",
-                "value": 16
-              },
-              "y": {
-                "type": "number",
-                "value": 7
-              },
-              "tilesetId": "1198bea1-0096-467e-bf40-994c8abb9d52",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "frames": {
-                "type": "number",
-                "value": 1
-              },
-              "variable": "L0"
+              "input": [
+                "a",
+                "start",
+                "b"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
             },
-            "id": "73cbe4ff-d8dc-4a63-8bd0-1fa8bc854afd"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "22892697-cc3b-43f1-848b-08b0c5b89d1f",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2",
+                    "__collapse": true
+                  },
+                  "id": "25da6adb-910c-4d22-b30a-5fd54809e1fd"
+                }
+              ]
+            },
+            "id": "196d6d07-8c97-42df-ab93-afcfb788e86b"
           }
         ]
       },
@@ -129,7 +105,8 @@
         "timer": 2,
         "duration": 0.7,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -171,6 +148,31 @@
       },
       "children": {
         "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "tilesetId": "1198bea1-0096-467e-bf40-994c8abb9d52",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "73cbe4ff-d8dc-4a63-8bd0-1fa8bc854afd"
+          },
           {
             "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
             "args": {

@@ -37,7 +37,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "MUCKLE lives a\nsimple life.",
+        "text": "MUCKLE lives a\n\nsimple life.",
         "x": 1,
         "y": 2,
         "location": "background",
@@ -62,7 +62,7 @@
           {
             "command": "EVENT_TEXT_DRAW",
             "args": {
-              "text": "They collect\ntrinkets.",
+              "text": "They collect\n\ntrinkets.",
               "x": 1,
               "y": 8,
               "location": "background"

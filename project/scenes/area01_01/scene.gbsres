@@ -27,6 +27,14 @@
   "y": 320,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
+        "__collapse": true
+      },
+      "id": "eef2aa2c-b5aa-44ac-a753-63eab57fee56"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 2,

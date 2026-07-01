@@ -13,14 +13,14 @@
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "tone",
+        "type": "bf025463-085b-445a-b481-158f1d580638",
         "priority": "medium",
         "pitch": 4,
         "frequency": 129,
         "duration": 0.01,
         "wait": false,
         "effect": 0,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e9906aba-3b3d-42bb-bec6-61e67de309e3"
     },

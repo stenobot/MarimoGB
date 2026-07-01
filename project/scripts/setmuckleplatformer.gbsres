@@ -52,7 +52,7 @@
       "args": {
         "event": "jumpStart",
         "__scriptTabs": "scriptinput",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -60,13 +60,13 @@
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "type": "20ff3988-3705-472c-8947-443fd11adadf",
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
               "priority": "low",
               "pitch": 8,
               "frequency": 270,
               "duration": 0.01,
               "wait": false,
-              "effect": 0,
+              "effect": 55,
               "__collapse": false
             },
             "id": "7c975a17-5ce1-41a3-8b5b-6dc30e674bf2"
@@ -74,6 +74,33 @@
         ]
       },
       "id": "ccf07ce3-1a5c-4d04-b5c5-2c5eb74846b8"
+    },
+    {
+      "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
+      "args": {
+        "event": "jumpEnd",
+        "__scriptTabs": "scriptinput",
+        "__comment": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+              "priority": "low",
+              "pitch": 8,
+              "frequency": 270,
+              "duration": 0.01,
+              "wait": false,
+              "effect": 32,
+              "__collapse": false
+            },
+            "id": "e47c9068-d7dc-47bc-8779-e463eba8e1ef"
+          }
+        ]
+      },
+      "id": "163fb8ec-0e3d-4684-9a66-23a03c033f7d"
     },
     {
       "command": "EVENT_SET_VALUE",

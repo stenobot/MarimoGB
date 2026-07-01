@@ -188,11 +188,25 @@
       "id": "42b06d33-b160-4097-9375-2c427abb971d"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 26,
+        "__collapse": true
+      },
+      "id": "a4120849-b5cf-4553-a61d-0d6bc1a285be"
+    },
+    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "One day, massive\nmachines appeared \nand began\nterraforming the\nland and water,\ndestroying\nMUCKLE's home.",
+        "text": "One day, massive \n\nmachines appeared \n\nand began terraforming \n\nthe land and\n\nwater, destroying \n\nMUCKLE's home.",
         "x": 1,
-        "y": 6,
+        "y": 3,
         "location": "background",
         "__collapse": false
       },

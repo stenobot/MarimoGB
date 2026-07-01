@@ -190,9 +190,9 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "Amidst the chaos,\nMUCKLE became\ntrapped inside a\nwater pipe and\nlost consciousness.",
+        "text": "Amidst the chaos,\n\nMUCKLE became\n\ntrapped inside a\n\nwater pipe and\n\nlost consciousness.",
         "x": 1,
-        "y": 6,
+        "y": 4,
         "location": "background",
         "__collapse": false
       },

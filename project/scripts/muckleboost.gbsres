@@ -41,6 +41,19 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 23
+            },
+            "id": "e17d9a72-1391-4c22-bef1-2c5a326ccaae"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "15",
@@ -154,7 +167,7 @@
                 "value": "left"
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -230,7 +243,7 @@
                 "value": "up"
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -306,7 +319,7 @@
                 "value": "down"
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
