@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f00c9e25-05de-4879-b5bd-ec04eb7547bf",
+  "name": "debug01",
+  "symbol": "bg_debug01",
+  "tileColors": "",
+  "filename": "debug01.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

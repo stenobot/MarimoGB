@@ -23,8 +23,8 @@
   "collisions": "002d0+",
   "autoFadeSpeed": 4,
   "symbol": "scene_7",
-  "x": 96,
-  "y": 640,
+  "x": 128,
+  "y": 888,
   "script": [
     {
       "command": "EVENT_SET_FONT",

@@ -5,8 +5,8 @@
   "type": "LOGO",
   "name": "Title",
   "symbol": "scene_5",
-  "x": 184,
-  "y": 256,
+  "x": 120,
+  "y": 472,
   "width": 20,
   "height": 18,
   "backgroundId": "803be8ef-01f8-4340-842b-0204528e3998",
@@ -52,7 +52,7 @@
               "sceneId": "a2336f98-aba8-4674-84be-b1814a7420d8",
               "x": {
                 "type": "number",
-                "value": 16
+                "value": 9
               },
               "y": {
                 "type": "number",
