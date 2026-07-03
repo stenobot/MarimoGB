@@ -62,7 +62,8 @@
               "value": {
                 "type": "false"
               },
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "id": "6f96f401-c42e-4a95-b3f1-522bec18d762"
           },

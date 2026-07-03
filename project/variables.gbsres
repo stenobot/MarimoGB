@@ -48,8 +48,8 @@
     },
     {
       "id": "9",
-      "name": "isUnpossessedRobotActive",
-      "symbol": "var_isunpossessedrobotactiv"
+      "name": "setUnpossessedRobot",
+      "symbol": "var_setunpossessedrobot"
     },
     {
       "id": "10",
@@ -620,6 +620,11 @@
       "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L4",
       "name": "pipeDripState",
       "symbol": "var_pipedripstate_0"
+    },
+    {
+      "id": "cf313a82-40f7-415f-8447-dd8ad27fc0f2__L0",
+      "name": "isShockStickMovedLeft",
+      "symbol": "var_isshockstickmovedleft"
     }
   ],
   "constants": []

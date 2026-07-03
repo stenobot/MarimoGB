@@ -5,8 +5,8 @@
   "type": "PLATFORM",
   "name": "area00-07a",
   "symbol": "scene_20",
-  "x": 1536,
-  "y": 1040,
+  "x": 1560,
+  "y": 1088,
   "width": 40,
   "height": 18,
   "backgroundId": "5c8c2987-2a3c-407f-8701-a447bc965675",
@@ -30,7 +30,7 @@
     "",
     "",
     "6a12a151-f5ef-44f4-82c6-140110f8431f",
-    "a0df2f18-9d13-4dac-a3d4-67bf3b2b9b40"
+    "edccfcfe-6235-48de-9ff2-9235af271dcc"
   ],
   "autoFadeSpeed": 1,
   "script": [

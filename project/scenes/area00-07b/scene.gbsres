@@ -23,8 +23,8 @@
   "collisions": "0065+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f3+00!0f2+0013+0f2+0012+0f12+0014+",
   "autoFadeSpeed": 1,
   "symbol": "scene_21",
-  "x": 1344,
-  "y": 1040,
+  "x": 1384,
+  "y": 1088,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

@@ -5,8 +5,8 @@
   "type": "PLATFORM",
   "name": "area00-04a",
   "symbol": "scene_10",
-  "x": 1888,
-  "y": 1040,
+  "x": 1896,
+  "y": 1088,
   "width": 20,
   "height": 18,
   "backgroundId": "24377387-5433-4dce-94b4-3ae13ae69845",
@@ -33,6 +33,50 @@
         "__collapse": true
       },
       "id": "e1566bee-dd45-4431-bcd7-a3caabc56b77"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$02$ && $22$"
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
+                    "$actor[0]$": "47cae92a-94ba-4fcf-910f-ccbff597ec05",
+                    "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "__collapse": false
+                  },
+                  "id": "99f5b934-9225-458e-ae1a-abeba5f0f57c"
+                }
+              ],
+              "false": []
+            },
+            "id": "a76b3b78-0d3a-4d9a-a8be-0ae566541ef2"
+          }
+        ]
+      },
+      "id": "f4079a31-b3b5-434d-b9dd-c1983f5683b9"
     },
     {
       "command": "EVENT_IF",
@@ -193,6 +237,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00e+10!006+0fd+10!0f5+00!0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f8+00!0f!00!10!008+0f!005+0f!002+0f2+10!0f9+005+0f!002+0f!00!10!00e+0f!002+0f!00!10!00e+0f!002+0f!00!10!007+0f!006+0f!002+0fb+006+0f!00!0f2+009+0f!002+0f5+00c+0f!006+0f!0013+0f!0013+0f!00!0f13+0015+",
+  "collisions": "00e+10!006+0fd+10!0f5+00!0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f8+00!0f!00!10!008+0f!005+0f!002+0f2+10!0f9+005+0f!002+0f!00!10!007+0f!006+0f!002+0f!00!10!007+0f!006+0f!002+0f!00!10!002+10!004+0f!006+0f!002+0f5+10!0f5+006+0f!00!0f2+004+10!004+0f8+007+10!004+0f!006+0f!007+10!004+0f!006+0f!007+10!004+0f!006+0f!00!0f3+002+0f7+002+0f5+0015+",
   "autoFadeEventCollapse": true
 }

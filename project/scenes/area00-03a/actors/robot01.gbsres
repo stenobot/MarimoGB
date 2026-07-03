@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "66d599f2-b886-4567-9b74-3b92022fa904",
-  "name": "Robot",
+  "name": "Robot01",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "64cc096d-84bf-4346-a494-e1741bdda85e",
@@ -14,14 +14,7 @@
   "persistent": true,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {
-    "1bdfb180-d066-4a66-9d53-701778052cb8": {
-      "id": "1bdfb180-d066-4a66-9d53-701778052cb8",
-      "args": {
-        "palette2": "036a0caf-5c3b-4888-965e-3ee33cb4ba6d"
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "symbol": "actor_0",
   "script": [],
   "startScript": [

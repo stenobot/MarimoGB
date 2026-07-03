@@ -1,0 +1,170 @@
+{
+  "_resourceType": "sprite",
+  "id": "c52433d1-5cd2-4494-8877-2ccda2e02163",
+  "name": "shockstick",
+  "symbol": "sprite_shockstick",
+  "states": [
+    {
+      "id": "d8eef681-5c2a-4391-a1c4-3578d3f81604",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "599c641e-12d3-4442-8244-e00506aac4c1",
+          "frames": [
+            {
+              "id": "1fe8903a-ab66-4131-abc9-c94816d3a1e6",
+              "tiles": [
+                {
+                  "id": "4bea097c-20f2-4e76-b1ca-03efc87df112",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 4,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "f73263dd-6a4d-46f7-9961-f88104243118",
+              "tiles": [
+                {
+                  "id": "077eb033-151a-4fb4-b659-1ab11d36a89e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "c0f1fec5-6929-458c-854a-f749907a1e65",
+              "tiles": [
+                {
+                  "id": "6d9ffd23-2316-4324-b8f1-5d567a72c610",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "28fa3d69-5476-4e8c-b789-22cb5c958cec",
+              "tiles": [
+                {
+                  "id": "53311943-6ee5-4f7c-8931-6fe647e5ab1f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "da2db92e-b048-49a0-94c2-91e87e153f18",
+          "frames": [
+            {
+              "id": "861a5ac1-7844-46a9-85cf-6a315eda1434",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "080e02a9-9923-425d-88f3-6c99606b545a",
+          "frames": [
+            {
+              "id": "5793cf1f-c601-4055-9df0-904589cb2866",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "19ace79e-12f5-43c6-87e1-6ce207f19bb8",
+          "frames": [
+            {
+              "id": "7d173b51-80f1-48d2-840c-8ebbee33d814",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fb5500c7-7f2e-4e5b-9fea-9369b6399dbb",
+          "frames": [
+            {
+              "id": "e31c62be-aa6b-4cf0-9367-fb9c6141758e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1625ff74-ae22-49d1-a25d-1cd0ea021208",
+          "frames": [
+            {
+              "id": "2b3725d5-cf9a-4ef4-bed2-b6643a59b304",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ad57bf1c-5142-4f05-87c5-96874e28b15b",
+          "frames": [
+            {
+              "id": "2d084f00-40e5-4e0b-acd5-94ed72145ebd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cc5f83b3-6b7f-4dbe-afe9-5e9d7a116944",
+          "frames": [
+            {
+              "id": "7b062b52-c290-41b2-adf8-1adf14772eed",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
+  "boundsX": 2,
+  "boundsY": -8,
+  "boundsWidth": 4,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "shockstick.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "298ffba755e6c8eab774b9bccdb6ac9a0b115d78"
+}
