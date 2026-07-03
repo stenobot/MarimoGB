@@ -76,13 +76,6 @@
         "actorId": "5600f5d9-a17c-4a5a-902e-516292498e13"
       },
       "id": "5e7459a5-01e0-4764-9838-a24f2f660513"
-    },
-    {
-      "command": "EVENT_ACTOR_ACTIVATE",
-      "args": {
-        "actorId": "c94fa797-b4d3-4479-86b4-03e85046d3b2"
-      },
-      "id": "6c728282-ad05-48b6-be11-a83737b7b80d"
     }
   ],
   "leaveScript": [
@@ -167,14 +160,6 @@
               "__collapse": true
             },
             "id": "7658560f-fabc-4c49-ad14-4e41ef0eae07"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "c94fa797-b4d3-4479-86b4-03e85046d3b2",
-              "__collapse": true
-            },
-            "id": "5b0b846f-607c-4b11-bae7-8c08cfbdeb79"
           }
         ],
         "false": []

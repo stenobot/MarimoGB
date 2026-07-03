@@ -17,45 +17,6 @@
               "id": "95fbc87c-b41f-47f4-aed9-23cabfd1ee59",
               "tiles": [
                 {
-                  "id": "e9894266-d739-45ff-b878-c9c482bbc3f6",
-                  "x": -12,
-                  "y": 0,
-                  "sliceX": 0,
-                  "sliceY": 0,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 6,
-                  "priority": false
-                },
-                {
-                  "id": "6b7fa20c-37fa-4087-bc0b-3ec6983d4e14",
-                  "x": -4,
-                  "y": 0,
-                  "sliceX": 8,
-                  "sliceY": 0,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 6,
-                  "priority": false
-                },
-                {
-                  "id": "fe124e56-d0c4-46d8-a2ff-4924d6c39288",
-                  "x": 4,
-                  "y": 0,
-                  "sliceX": 16,
-                  "sliceY": 0,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 6,
-                  "priority": false
-                },
-                {
                   "id": "a3ade658-c1f9-46a3-9f35-7497b90ac8f1",
                   "x": 12,
                   "y": 0,
@@ -69,10 +30,36 @@
                   "priority": false
                 },
                 {
-                  "id": "1ee37f3b-bd2b-47c7-8c3a-8b357ca6f274",
-                  "x": 20,
+                  "id": "ea25a77e-6da2-46af-9de8-9d27277875a7",
+                  "x": -4,
                   "y": 0,
-                  "sliceX": 32,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "cb84d017-0dc4-4691-9829-53aa5d16186d",
+                  "x": 4,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "97cf406d-59dc-46df-8387-686e9b07bb76",
+                  "x": 12,
+                  "y": 0,
+                  "sliceX": 16,
                   "sliceY": 0,
                   "palette": 0,
                   "flipX": false,
@@ -151,18 +138,18 @@
       ]
     }
   ],
-  "numTiles": 5,
-  "canvasOriginX": -12,
+  "numTiles": 3,
+  "canvasOriginX": -4,
   "canvasOriginY": 0,
-  "canvasWidth": 40,
+  "canvasWidth": 24,
   "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": 0,
-  "boundsWidth": 40,
+  "boundsWidth": 24,
   "boundsHeight": 8,
   "animSpeed": 15,
   "filename": "concrete-block02.png",
-  "width": 40,
+  "width": 24,
   "height": 16,
-  "checksum": "8b1eda143171a145e1862af4349d0dae0c3464ae"
+  "checksum": "9e9ec65b0560e7d095c7c10610390ea8fdbb4a46"
 }
