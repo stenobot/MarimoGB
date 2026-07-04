@@ -48,8 +48,8 @@
     },
     {
       "id": "9",
-      "name": "setUnpossessedRobot",
-      "symbol": "var_setunpossessedrobot"
+      "name": "setRobotUnpossessedState",
+      "symbol": "var_setrobotunpossessedstat"
     },
     {
       "id": "10",
@@ -58,8 +58,8 @@
     },
     {
       "id": "11",
-      "name": "setRobotSpriteScanned",
-      "symbol": "var_setrobotspritescanned"
+      "name": "setRobotScannedState",
+      "symbol": "var_setrobotscannedstate"
     },
     {
       "id": "12",
@@ -128,8 +128,8 @@
     },
     {
       "id": "25",
-      "name": "setPlayerSpriteRobot",
-      "symbol": "var_setplayerspriterobot"
+      "name": "setRobotPossessedState",
+      "symbol": "var_setrobotpossessedstate"
     },
     {
       "id": "26",

@@ -1,51 +1,58 @@
 {
   "_resourceType": "script",
   "id": "9d0fa92a-a334-4062-a0f7-cec976b7d717",
-  "name": "ReactivateMuckle",
-  "description": "",
+  "name": "StopPsychicControl",
+  "description": "Transfers Muckle back to normal player properties and original position.\n\nRemoves UP/DOWN button script, which cancels psychic control while in Robot form.",
   "variables": {},
   "actors": {},
   "symbol": "script_4",
   "script": [
     {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "f8822e1c-b748-40a8-966d-afff71ea5eb7"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "b5dee110-379d-46be-a26f-1631f67ba633"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "33eecfe1-d943-4dab-992a-bd1e1fde8ba1"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "2",
+        "variable": "36",
         "value": {
           "type": "true"
         },
         "__collapse": true
       },
-      "id": "e8ac0490-25b7-4e80-9bbe-e03c7c68f52c"
-    },
-    {
-      "command": "EVENT_TIMER_DISABLE",
-      "args": {
-        "timer": 4
-      },
-      "id": "7079bb3d-fa11-4710-813e-71f121fce890"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "9",
-        "value": {
-          "type": "true"
-        },
-        "__collapse": true
-      },
-      "id": "cf260f77-9585-4933-9969-56d0d876ab96"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "35",
-        "value": {
-          "type": "true"
-        },
-        "__collapse": true
-      },
-      "id": "b2253a89-5def-45a7-8613-35c78939c6ed"
+      "id": "84ad64ba-0eed-4a00-a6a3-70de3f7e7621"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",
@@ -76,12 +83,15 @@
       "id": "37e1c24c-0c0d-4eac-943d-50edc7922200"
     },
     {
-      "command": "EVENT_PLAYER_SET_SPRITE",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+        "variable": "9",
+        "value": {
+          "type": "true"
+        },
         "__collapse": true
       },
-      "id": "a845371f-98ba-4547-a894-3523574c880d"
+      "id": "cf260f77-9585-4933-9969-56d0d876ab96"
     },
     {
       "command": "EVENT_CAMERA_LOCK",
@@ -91,7 +101,8 @@
           "x",
           "y"
         ],
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       },
       "id": "c69e1939-2eb2-4b84-820f-238a97d3e0e5"
     },
@@ -100,7 +111,7 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 0.2
+          "value": 1
         },
         "frames": {
           "type": "number",
@@ -108,7 +119,18 @@
         },
         "__collapse": true
       },
-      "id": "37969f6a-2cfd-46d5-8563-bb1cabca8c7a"
+      "id": "af5f60f0-ccae-414a-97ec-2a73c8f09cca"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "35",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "b2253a89-5def-45a7-8613-35c78939c6ed"
     },
     {
       "command": "EVENT_PLAYER_SET_SPRITE",
@@ -118,6 +140,25 @@
         "__comment": false
       },
       "id": "2fccd6ad-88ff-4ff8-becb-99ebc6350940"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "7ae1a0d4-8bbe-4627-97a2-6c8ce8125b5e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "e8ac0490-25b7-4e80-9bbe-e03c7c68f52c"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -180,24 +221,23 @@
       "command": "EVENT_REMOVE_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "up",
+          "down"
         ],
         "__collapse": true
       },
       "id": "910617d6-78a0-4141-9c52-9a2859cc79d7"
     },
     {
-      "command": "EVENT_CAMERA_LOCK",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
       "args": {
-        "speed": 2,
-        "axis": [
-          "x",
-          "y"
+        "input": [
+          "right",
+          "left"
         ],
-        "__collapse": true,
-        "__comment": false
+        "__collapse": true
       },
-      "id": "93094e67-55b0-4651-b4ff-7939776a4a73"
+      "id": "637c8e13-459d-4239-b5a0-4bd798432eee"
     }
   ]
 }

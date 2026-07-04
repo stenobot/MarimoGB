@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "49c8748d-d85b-4694-a442-a566b820659e",
-  "name": "MucklePsychicControl",
+  "name": "StartPsychicControl",
   "description": "Muckle activates psychic control over another creature. Switch player from Muckle to Robot, and set player position at Robot's last position. Additionally, we set variables so that Robot actor and Trance Shadow actor can react in their own update events.",
   "variables": {},
   "actors": {},
@@ -239,7 +239,8 @@
             "command": "EVENT_REMOVE_INPUT_SCRIPT",
             "args": {
               "input": [
-                "a"
+                "down",
+                "up"
               ],
               "__collapse": true
             },

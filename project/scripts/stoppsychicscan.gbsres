@@ -1,0 +1,116 @@
+{
+  "_resourceType": "script",
+  "id": "ca5fb226-962b-4e32-9746-73b08536dcf9",
+  "name": "StopPsychicScan",
+  "description": "Stops Muckle's psychic scanning without transferring psychic control to Robot.\n\nTo avoid graphic glitch, set Muckle's sprite to single -> short wait -> set Muckle's sprite to sheet.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_14",
+  "script": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 4,
+        "__collapse": true
+      },
+      "id": "0e85b796-9bb2-4c09-a12c-7ef9d72fe031"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "59b27512-4804-4b0b-8883-b2a43a3700da"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "c6ebb942-b572-4cb9-8f36-71c65063d511"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+        "__collapse": true
+      },
+      "id": "98eaeed7-38c0-4b28-a00c-e099cc50a54a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "fe2bef8e-221d-48bc-93ad-9b8907b5a494"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
+        "__collapse": true
+      },
+      "id": "da18c42a-a711-4afa-b9b7-60b7342a8418"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "081a53e4-fae8-41db-8326-0fdd22caa3fc"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right",
+          "left"
+        ],
+        "__collapse": true
+      },
+      "id": "7ee63d76-86d1-4ce2-8c08-e75f2eb5b8c5"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__collapse": true
+      },
+      "id": "ec2328ce-71fa-48d8-8c61-3ecbe5fdef1c"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapse": true
+      },
+      "id": "2b3a77a7-9687-466a-94f7-9ee557160326"
+    }
+  ]
+}
