@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "f59b66fc-4fd0-49cd-9040-18e80d5bc014",
+  "name": "ShockStick",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "9a274c3f-8595-4c69-ab35-7744317dca03",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "990e19c7-4e21-40d1-a98e-6479c5c593f6": {
+      "id": "990e19c7-4e21-40d1-a98e-6479c5c593f6",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        }
+      }
+    },
+    "038bf8b1-4a96-4613-9300-c35301e41480": {
+      "id": "038bf8b1-4a96-4613-9300-c35301e41480",
+      "args": {
+        "__section": "movement",
+        "x": {
+          "type": "number",
+          "value": 25
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        }
+      }
+    }
+  },
+  "symbol": "actor_138",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 25,
+  "y": 3,
+  "_index": 13
+}

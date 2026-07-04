@@ -89,7 +89,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -142,6 +142,30 @@
               "__collapse": true
             },
             "id": "5fcb52d9-092e-40a1-a6cb-4bcf7b85019e"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 38
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "tilesetId": "37c06b91-51b7-4030-bc43-3170f7e53dd5",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 2
+              },
+              "variable": "L5"
+            },
+            "id": "601aa14f-a194-49ce-aa3f-d12b14d84aee"
           }
         ]
       },
@@ -154,7 +178,7 @@
         "duration": 2.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -219,7 +243,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [

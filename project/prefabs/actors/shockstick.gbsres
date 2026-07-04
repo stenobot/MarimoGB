@@ -42,7 +42,7 @@
           "x"
         ],
         "moveType": "horizontal",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "990e19c7-4e21-40d1-a98e-6479c5c593f6",
       "children": {}
@@ -65,7 +65,7 @@
           "x"
         ],
         "moveType": "horizontal",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "038bf8b1-4a96-4613-9300-c35301e41480",
       "children": {}

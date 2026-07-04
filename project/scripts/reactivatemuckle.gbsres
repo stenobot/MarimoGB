@@ -39,13 +39,13 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "10",
+        "variable": "35",
         "value": {
-          "type": "false"
+          "type": "true"
         },
         "__collapse": true
       },
-      "id": "81e3bc9c-0b61-4a3c-81eb-a9e3ca31e564"
+      "id": "b2253a89-5def-45a7-8613-35c78939c6ed"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",
@@ -82,6 +82,18 @@
         "__collapse": true
       },
       "id": "a845371f-98ba-4547-a894-3523574c880d"
+    },
+    {
+      "command": "EVENT_CAMERA_LOCK",
+      "args": {
+        "speed": 2,
+        "axis": [
+          "x",
+          "y"
+        ],
+        "__collapse": true
+      },
+      "id": "c69e1939-2eb2-4b84-820f-238a97d3e0e5"
     },
     {
       "command": "EVENT_WAIT",

@@ -39,6 +39,17 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
+              "variable": "36",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "2085f4aa-0228-401e-bd6f-cb1f29b477cb"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
               "variable": "5",
               "value": {
                 "type": "false"
@@ -54,18 +65,6 @@
               "__collapse": true
             },
             "id": "36b85070-7c40-4a1b-8ba5-f46611f4c6c6"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "9",
-              "value": {
-                "type": "false"
-              },
-              "__collapse": true,
-              "__comment": true
-            },
-            "id": "6f96f401-c42e-4a95-b3f1-522bec18d762"
           },
           {
             "command": "EVENT_SET_VALUE",

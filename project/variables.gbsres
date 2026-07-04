@@ -53,8 +53,8 @@
     },
     {
       "id": "10",
-      "name": "isTranceShadowActive",
-      "symbol": "var_istranceshadowactive"
+      "name": "setTranceShadowActive",
+      "symbol": "var_settranceshadowactive"
     },
     {
       "id": "11",
@@ -623,8 +623,33 @@
     },
     {
       "id": "cf313a82-40f7-415f-8447-dd8ad27fc0f2__L0",
-      "name": "isShockStickMovedLeft",
-      "symbol": "var_isshockstickmovedleft"
+      "name": "starTwinkleOneState",
+      "symbol": "var_startwinkleonestate_4"
+    },
+    {
+      "id": "35",
+      "name": "setTranceShadowInactive",
+      "symbol": "var_settranceshadowinactive"
+    },
+    {
+      "id": "36",
+      "name": "setShadowTransferActive",
+      "symbol": "var_setshadowtransferactive"
+    },
+    {
+      "id": "cf313a82-40f7-415f-8447-dd8ad27fc0f2__L1",
+      "name": "starTwinkleTwoState",
+      "symbol": "var_startwinkletwostate_3"
+    },
+    {
+      "id": "cf313a82-40f7-415f-8447-dd8ad27fc0f2__L2",
+      "name": "starTwinkleThreeState",
+      "symbol": "var_startwinklethreestate_4"
+    },
+    {
+      "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L5",
+      "name": "doorFadeState",
+      "symbol": "var_doorfadestate_2"
     }
   ],
   "constants": []
