@@ -58,7 +58,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "0a542124-ff23-4b3c-95ed-eaaa7bfd7a26"
     },
@@ -107,7 +107,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "ac245cfd-4da1-4dcd-bb6d-c84e475a1234"
     },
@@ -141,7 +141,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "While holding B,\npress A to control\nan object in range."
+          "While holding B,\npress UP to control\nan object in range."
         ],
         "__section": "text",
         "avatarId": "",

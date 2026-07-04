@@ -14,51 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {
-    "7347445c-5e9a-4f9a-b067-0ee403ba0885": {
-      "id": "7347445c-5e9a-4f9a-b067-0ee403ba0885",
-      "args": {
-        "variable": "29"
-      }
-    },
-    "353063aa-c114-4f9c-8a74-93e92801407c": {
-      "id": "353063aa-c114-4f9c-8a74-93e92801407c",
-      "args": {
-        "text": [
-          "Press UP to boost."
-        ]
-      }
-    },
-    "6dbace33-01da-4c6d-801f-eb6bce5e6a46": {
-      "id": "6dbace33-01da-4c6d-801f-eb6bce5e6a46",
-      "args": {
-        "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "29"
-          }
-        }
-      }
-    },
-    "a39cac7f-c19f-4a99-a62b-af73e3b320ca": {
-      "id": "a39cac7f-c19f-4a99-a62b-af73e3b320ca",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 1
-        }
-      }
-    },
-    "e78d2f2d-debd-4432-87a8-91f899979e66": {
-      "id": "e78d2f2d-debd-4432-87a8-91f899979e66",
-      "args": {
-        "text": [
-          "TEST TIMING"
-        ]
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "symbol": "actor_6",
   "script": [],
   "startScript": [],

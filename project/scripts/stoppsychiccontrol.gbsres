@@ -222,22 +222,14 @@
       "args": {
         "input": [
           "up",
-          "down"
-        ],
-        "__collapse": true
-      },
-      "id": "910617d6-78a0-4141-9c52-9a2859cc79d7"
-    },
-    {
-      "command": "EVENT_REMOVE_INPUT_SCRIPT",
-      "args": {
-        "input": [
+          "down",
+          "a",
           "right",
           "left"
         ],
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "637c8e13-459d-4239-b5a0-4bd798432eee"
+      "id": "910617d6-78a0-4141-9c52-9a2859cc79d7"
     }
   ]
 }

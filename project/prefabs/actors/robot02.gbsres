@@ -56,7 +56,7 @@
           "value": "9"
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -122,7 +122,7 @@
           "value": "25"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -148,7 +148,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 0.5
+                "value": 1
               },
               "frames": {
                 "type": "number",
@@ -166,7 +166,7 @@
                 "type": "not",
                 "value": {
                   "type": "variable",
-                  "value": "0"
+                  "value": "29"
                 }
               },
               "__collapseElse": true,
@@ -177,7 +177,9 @@
                 {
                   "command": "EVENT_TEXT",
                   "args": {
-                    "text": "",
+                    "text": [
+                      "Press A to boost."
+                    ],
                     "__section": "text",
                     "avatarId": "",
                     "minHeight": 4,
@@ -194,7 +196,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true,
+                    "__collapse": false,
                     "__comment": false
                   },
                   "id": "353063aa-c114-4f9c-8a74-93e92801407c"
@@ -202,7 +204,7 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "0",
+                    "variable": "29",
                     "value": {
                       "type": "true"
                     },
@@ -241,11 +243,11 @@
             "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
               "input": [
-                "up"
+                "a"
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -352,7 +354,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

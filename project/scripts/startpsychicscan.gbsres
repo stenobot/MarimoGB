@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "7aeaa8f6-95c3-4304-a875-de03386607cd",
   "name": "StartPsychicScan",
-  "description": "Holding B sends Muckle into psychic trance, scanning for a robot in range. Contains a while loop so we can hold this state while B button is held. \n\nThere a lot of scripts being attached and removed during this process, but this is the core script-attaching chain which begins here: \n1.) This script must be called as an attached script on B button on scene Init and pass Robot actor as parameter. \n2.) Attaches the StartPsychicControl script to the UP/DOWN button. \n3.) StartPsychicControl script then attaches the StopPsychicControl script to the UP/DOWN button, which cancels the psychic control. ",
+  "description": "Holding B sends Muckle into psychic trance, scanning for a robot in range. Contains a while loop so we can hold this state while B button is held. If UP/DOWN is pressed while a Robot is in range, psychic control is passed to Robot. If B is released, StopPsychicScan script is called to cancel scanning. \n\nThere a lot of scripts being attached and removed during this sequence, but this is the core script-attaching chain: \n1.) This script must be called as an attached script on B button on scene Init and pass Robot actor as parameter. \n2.) If there's a Robot in range, this script attaches the StartPsychicControl script to the UP/DOWN button. \n3.) StartPsychicControl script then attaches the StopPsychicControl script to the UP/DOWN button, which cancels the psychic control. ",
   "variables": {},
   "actors": {},
   "symbol": "script_1",
@@ -258,7 +258,7 @@
             "type": "true"
           }
         },
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
