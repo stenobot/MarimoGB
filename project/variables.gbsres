@@ -633,8 +633,8 @@
     },
     {
       "id": "36",
-      "name": "setShadowTransferActive",
-      "symbol": "var_setshadowtransferactive"
+      "name": "setTransferToRobotState",
+      "symbol": "var_settransfertorobotstate"
     },
     {
       "id": "cf313a82-40f7-415f-8447-dd8ad27fc0f2__L1",
@@ -650,6 +650,11 @@
       "id": "b100f11b-0c0c-4b5f-973c-690a57a39e61__L5",
       "name": "doorFadeState",
       "symbol": "var_doorfadestate_2"
+    },
+    {
+      "id": "37",
+      "name": "setTransferToMuckleState",
+      "symbol": "var_settransfertomucklestat"
     }
   ],
   "constants": []

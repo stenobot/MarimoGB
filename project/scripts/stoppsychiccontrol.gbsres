@@ -8,6 +8,17 @@
   "symbol": "script_4",
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "e8ac0490-25b7-4e80-9bbe-e03c7c68f52c"
+    },
+    {
       "command": "EVENT_ENGINE_FIELD_SET",
       "args": {
         "engineFieldKey": "plat_walk_vel",
@@ -46,13 +57,13 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "36",
+        "variable": "37",
         "value": {
           "type": "true"
         },
         "__collapse": true
       },
-      "id": "84ad64ba-0eed-4a00-a6a3-70de3f7e7621"
+      "id": "41950a10-e7f7-46bb-b437-e1a41dd48228"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",
@@ -148,17 +159,6 @@
         "__collapse": true
       },
       "id": "7ae1a0d4-8bbe-4627-97a2-6c8ce8125b5e"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "2",
-        "value": {
-          "type": "true"
-        },
-        "__collapse": true
-      },
-      "id": "e8ac0490-25b7-4e80-9bbe-e03c7c68f52c"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",

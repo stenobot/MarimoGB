@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "c52433d1-5cd2-4494-8877-2ccda2e02163",
   "moveSpeed": 0.5,
-  "animSpeed": 7,
+  "animSpeed": 3,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "1",

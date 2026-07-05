@@ -14,7 +14,23 @@
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "3d19dee4-6fd3-4e63-a920-da4f1b1e7660": {
+      "id": "3d19dee4-6fd3-4e63-a920-da4f1b1e7660",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "37"
+        }
+      }
+    },
+    "92e8c382-e439-47e2-a266-9edd0d1e4864": {
+      "id": "92e8c382-e439-47e2-a266-9edd0d1e4864",
+      "args": {
+        "variable": "37"
+      }
+    }
+  },
   "symbol": "actor_136",
   "script": [],
   "startScript": [],
