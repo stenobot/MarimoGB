@@ -8,6 +8,14 @@
   "symbol": "script_14",
   "script": [
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Stop sound effect",
+        "__collapse": true
+      },
+      "id": "a9cc98a7-9935-4c85-b66b-81ae2b779c83"
+    },
+    {
       "command": "EVENT_TIMER_DISABLE",
       "args": {
         "timer": 4,
@@ -36,6 +44,14 @@
         "__collapse": true
       },
       "id": "c6ebb942-b572-4cb9-8f36-71c65063d511"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Graphic glitch workaround",
+        "__collapse": true
+      },
+      "id": "f7e7c6bd-0d7f-4000-a052-a08b9f5f2a14"
     },
     {
       "command": "EVENT_PLAYER_SET_SPRITE",
@@ -76,6 +92,14 @@
         "__collapse": true
       },
       "id": "081a53e4-fae8-41db-8326-0fdd22caa3fc"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Re-enable movement",
+        "__collapse": true
+      },
+      "id": "be0d6fce-0177-4a50-b4e2-cb9d9cb37b27"
     },
     {
       "command": "EVENT_REMOVE_INPUT_SCRIPT",

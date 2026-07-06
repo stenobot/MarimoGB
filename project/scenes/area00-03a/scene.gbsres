@@ -69,7 +69,7 @@
                     "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
                     "$actor[0]$": "66d599f2-b886-4567-9b74-3b92022fa904",
                     "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "516a3240-8e35-4ed2-99ec-35b5ef0b2fb3"
                 }
@@ -89,7 +89,7 @@
         "duration": 0.8,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -178,7 +178,7 @@
         "duration": 2.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -243,7 +243,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

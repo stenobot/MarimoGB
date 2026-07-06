@@ -57,8 +57,8 @@
           "type": "variable",
           "value": "9"
         },
-        "__collapseElse": true,
-        "__collapse": true,
+        "__collapseElse": false,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -114,7 +114,7 @@
           "value": "25"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -150,10 +150,19 @@
             "children": {}
           },
           {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 15,
+              "__collapse": true
+            },
+            "id": "e2300a4f-486c-464c-a50c-f96041c7e25d"
+          },
+          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "c35a6cf3-bfe4-4183-82b3-f3124a3ac736",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "aa0b364f-f2f5-4395-a0cc-395ba5465250"
           },
@@ -188,7 +197,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -204,6 +213,15 @@
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 7,
+                    "__collapse": true
+                  },
+                  "id": "8f4a259f-5d79-4499-8320-486e2fcaa614"
+                },
                 {
                   "command": "EVENT_ACTOR_SET_SPRITE",
                   "args": {

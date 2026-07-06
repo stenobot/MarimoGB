@@ -45,6 +45,68 @@
               ]
             },
             {
+              "id": "e8d3e397-03b5-4f40-8f39-3f88082889b5",
+              "tiles": [
+                {
+                  "id": "998b591e-a83d-4dc0-8b29-80fa6f5493f6",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                },
+                {
+                  "id": "5a891be4-a391-4e1d-8074-4d5c45bdbe86",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "de2e6e52-62fe-492d-8f47-ce1a897e7169",
+              "tiles": [
+                {
+                  "id": "87259362-38f0-4305-84b0-ed325818de5c",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                },
+                {
+                  "id": "00b88a52-4286-40fb-959f-195900e3d1cd",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                }
+              ]
+            },
+            {
               "id": "408c46b4-51f3-4a8f-9872-1620bf4a88ce",
               "tiles": [
                 {
@@ -205,7 +267,7 @@
       ]
     }
   ],
-  "numTiles": 8,
+  "numTiles": 12,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,

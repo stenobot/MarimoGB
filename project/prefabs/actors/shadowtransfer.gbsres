@@ -127,7 +127,7 @@
       "args": {
         "condition": {
           "type": "variable",
-          "value": "0"
+          "value": "37"
         },
         "__collapseElse": true
       },
@@ -204,7 +204,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "0",
+              "variable": "37",
               "value": {
                 "type": "false"
               },

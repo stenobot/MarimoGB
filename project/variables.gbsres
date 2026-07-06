@@ -528,8 +528,8 @@
     },
     {
       "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L1",
-      "name": "isDoorFadeTicked",
-      "symbol": "var_isdoorfadeticked"
+      "name": "isDoorFadeOneTicked",
+      "symbol": "var_isdoorfadeoneticked"
     },
     {
       "id": "160ed646-c7a7-4f5e-973d-f6afdec91d60__L0",
@@ -655,6 +655,11 @@
       "id": "37",
       "name": "setTransferToMuckleState",
       "symbol": "var_settransfertomucklestat"
+    },
+    {
+      "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L2",
+      "name": "isDoorFadeTwoTicked",
+      "symbol": "var_isdoorfadetwoticked"
     }
   ],
   "constants": []

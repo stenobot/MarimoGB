@@ -102,6 +102,24 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "1a306256-b798-450d-a66b-f6a283e462ed",
+              "tiles": [
+                {
+                  "id": "6e8a34eb-3856-4d53-8d46-877663d74774",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -171,7 +189,7 @@
       ]
     }
   ],
-  "numTiles": 5,
+  "numTiles": 6,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 8,
@@ -182,7 +200,7 @@
   "boundsHeight": 11,
   "animSpeed": 15,
   "filename": "robot02-scanned.png",
-  "width": 40,
+  "width": 48,
   "height": 16,
-  "checksum": "f1315598feec09bdd24685bd9cae3bbf22a58cef"
+  "checksum": "951ecc2a4c54a41d82e5dfa0fb5aa2fe37656ace"
 }

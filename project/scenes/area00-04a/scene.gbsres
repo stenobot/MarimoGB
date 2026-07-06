@@ -85,7 +85,7 @@
           "type": "variable",
           "value": "19"
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {
@@ -95,11 +95,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 6
+                "value": 17
               },
               "y": {
                 "type": "number",
-                "value": 10
+                "value": 11
               },
               "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
               "tileIndex": {
@@ -135,7 +135,7 @@
         "duration": 0.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -225,7 +225,7 @@
         "duration": 1.3,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

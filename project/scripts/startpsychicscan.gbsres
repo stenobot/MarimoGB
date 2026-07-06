@@ -2,11 +2,19 @@
   "_resourceType": "script",
   "id": "7aeaa8f6-95c3-4304-a875-de03386607cd",
   "name": "StartPsychicScan",
-  "description": "Holding B sends Muckle into psychic trance, scanning for a robot in range. Contains a while loop so we can hold this state while B button is held. If UP/DOWN is pressed while a Robot is in range, psychic control is passed to Robot. If B is released, StopPsychicScan script is called to cancel scanning. \n\nThere a lot of scripts being attached and removed during this sequence, but this is the core script-attaching chain: \n1.) This script must be called as an attached script on B button on scene Init and pass Robot actor as parameter. \n2.) If there's a Robot in range, this script attaches the StartPsychicControl script to the UP/DOWN button. \n3.) StartPsychicControl script then attaches the StopPsychicControl script to the UP/DOWN button, which cancels the psychic control. ",
+  "description": "Holding B sends Muckle into psychic trance, scanning for a robot in range. Contains a while loop so we can hold this state while B button is held. If B is released, StopPsychicScan script is called to cancel scanning.  If UP is pressed while B is still held, StartPsychicControl is called to pass control to Robot. Then, B will call StopPsychicControl.\n\nThere a lot of scripts being attached to and removed from Buttons during this sequence for various reasons. This is the core script-attaching chain for psychic control:\n1.) StartPsychicScan must be called as an attached script on B button on scene Init.\n2.) If there's a Robot in range, this script attaches the StartPsychicControl script to the UP button. \n3.) If UP is pressed, StartPsychicControl script attaches the StopPsychicControl script to the B button.\n4.) StopPsychicControl then re-attaches StartPsychicScan to the B button.",
   "variables": {},
   "actors": {},
   "symbol": "script_1",
   "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Start sound effect",
+        "__collapse": true
+      },
+      "id": "6aa8eb76-8527-4f37-abf1-9178dad36546"
+    },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
@@ -37,6 +45,14 @@
       "id": "26e5817b-3565-477d-a264-25a9c7f61a48"
     },
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Stop movement",
+        "__collapse": true
+      },
+      "id": "85c0fde5-80c2-4635-a244-ba1f72637214"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -51,6 +67,38 @@
         "true": []
       },
       "id": "7397a367-eada-4c69-af78-fdb2851143a3"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "04ad05ce-4439-49c8-a1bd-b739a7899d47"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "2db17701-71b8-4ad3-9577-d1b6fcd59f23"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Set properties, trigger scanning Actor",
+        "__collapse": true
+      },
+      "id": "07279de3-3613-4cbb-bb1e-0f7b1d148bae"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -81,30 +129,6 @@
       "id": "99d648ea-1f69-492e-b6d9-c8460bb52dde"
     },
     {
-      "command": "EVENT_ENGINE_FIELD_SET",
-      "args": {
-        "engineFieldKey": "plat_walk_vel",
-        "value": {
-          "type": "number",
-          "value": 0
-        },
-        "__collapse": true
-      },
-      "id": "04ad05ce-4439-49c8-a1bd-b739a7899d47"
-    },
-    {
-      "command": "EVENT_ENGINE_FIELD_SET",
-      "args": {
-        "engineFieldKey": "plat_jump_vel",
-        "value": {
-          "type": "number",
-          "value": 0
-        },
-        "__collapse": true
-      },
-      "id": "2db17701-71b8-4ad3-9577-d1b6fcd59f23"
-    },
-    {
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
@@ -124,6 +148,14 @@
       "id": "fa0961f7-d59e-4bd0-9263-5efd162c69fe"
     },
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Attach and call scripts",
+        "__collapse": true
+      },
+      "id": "d4bb60d4-24b6-4a96-b72b-7737443a7520"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -139,12 +171,11 @@
             "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
               "input": [
-                "up",
-                "down"
+                "up"
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -161,12 +192,11 @@
                   "command": "EVENT_SET_INPUT_SCRIPT",
                   "args": {
                     "input": [
-                      "up",
-                      "down"
+                      "b"
                     ],
                     "override": true,
                     "__scriptTabs": "press",
-                    "__collapse": true,
+                    "__collapse": false,
                     "__comment": false
                   },
                   "children": {
@@ -258,7 +288,7 @@
             "type": "true"
           }
         },
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

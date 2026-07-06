@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "49c8748d-d85b-4694-a442-a566b820659e",
   "name": "StartPsychicControl",
-  "description": "Muckle activates psychic control over another creature. Switch player from Muckle to Robot, and set player position at Robot's last position. Additionally, we set variables so that Robot actor and Trance Shadow actor can react in their own update events.",
+  "description": "Muckle activates psychic control over a Robot. Switch Player from Muckle to Robot, and set player position at Robot's last position. \n\nAdditionally, we set variables so that Unpossessed Robot actor, Trance Shadow actor, and Shadow Transfer actor can set state in their own Update events.",
   "variables": {},
   "actors": {},
   "symbol": "script_2",
@@ -20,6 +20,22 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Stop sound effect",
+              "__collapse": true
+            },
+            "id": "626c390c-a551-46ed-91d4-3ec54dbe7a44"
+          },
+          {
+            "command": "EVENT_TIMER_DISABLE",
+            "args": {
+              "timer": 4,
+              "__collapse": true
+            },
+            "id": "36b85070-7c40-4a1b-8ba5-f46611f4c6c6"
+          },
           {
             "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
@@ -59,12 +75,14 @@
             "id": "15023c34-8a07-470e-b934-c6e73ca35d9f"
           },
           {
-            "command": "EVENT_TIMER_DISABLE",
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
             "args": {
-              "timer": 4,
+              "input": [
+                "up"
+              ],
               "__collapse": true
             },
-            "id": "36b85070-7c40-4a1b-8ba5-f46611f4c6c6"
+            "id": "e903f5bd-76db-442e-b636-0cf9fd60717b"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -239,7 +257,6 @@
             "command": "EVENT_REMOVE_INPUT_SCRIPT",
             "args": {
               "input": [
-                "down",
                 "up"
               ],
               "__collapse": true

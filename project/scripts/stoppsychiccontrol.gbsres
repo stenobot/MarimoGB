@@ -4,7 +4,16 @@
   "name": "StopPsychicControl",
   "description": "Transfers Muckle back to normal player properties and original position.\n\nRemoves UP/DOWN button script, which cancels psychic control while in Robot form.",
   "variables": {},
-  "actors": {},
+  "actors": {
+    "e6b02566-5916-4ada-ae2a-885466123387": {
+      "id": "e6b02566-5916-4ada-ae2a-885466123387",
+      "name": "Actor \u0000"
+    },
+    "66d599f2-b886-4567-9b74-3b92022fa904": {
+      "id": "66d599f2-b886-4567-9b74-3b92022fa904",
+      "name": "Actor "
+    }
+  },
   "symbol": "script_4",
   "script": [
     {
@@ -222,14 +231,58 @@
       "args": {
         "input": [
           "up",
-          "down",
-          "a",
           "right",
-          "left"
+          "left",
+          "b",
+          "a"
         ],
-        "__collapse": false
+        "__collapse": true
       },
       "id": "910617d6-78a0-4141-9c52-9a2859cc79d7"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$02$ && $22$"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
+                    "$actor[0]$": "e6b02566-5916-4ada-ae2a-885466123387",
+                    "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "__collapse": true
+                  },
+                  "id": "00713720-ba18-4e31-b8c9-761935a426c1"
+                }
+              ],
+              "false": []
+            },
+            "id": "adcceba5-6cb0-45d1-918c-802484d50f61"
+          }
+        ]
+      },
+      "id": "adf1124b-7a4b-493e-bd7b-8e81b792ea01"
     }
   ]
 }
