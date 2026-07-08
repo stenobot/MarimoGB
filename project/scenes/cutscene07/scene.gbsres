@@ -1,30 +1,30 @@
 {
   "_resourceType": "scene",
-  "id": "e6fea264-be80-4c34-9252-efe42a71a318",
-  "_index": 8,
-  "name": "Cutscene05",
-  "backgroundId": "59cd426c-af62-41a2-8377-216055fcaf03",
+  "id": "eb4d2ca5-2b93-48fc-b2ca-4e8bd42fdaca",
+  "_index": 11,
+  "name": "Cutscene07",
+  "backgroundId": "cabbeebd-d379-4013-90f9-0a9153e0d60c",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
-    "1225c19f-4be6-4fbf-ac48-c5c511a6f142",
     "",
     "",
     "",
     "",
     "",
     "",
-    "1225c19f-4be6-4fbf-ac48-c5c511a6f142"
+    "",
+    "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
   ],
   "spritePaletteIds": [],
   "collisions": "00168+",
-  "autoFadeSpeed": 1,
-  "symbol": "scene_9",
+  "autoFadeSpeed": 2,
+  "symbol": "scene_13",
   "x": 120,
-  "y": 1488,
+  "y": 1888,
   "script": [
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -33,7 +33,7 @@
         "duration": 0.7,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -42,11 +42,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 2
+                "value": 6
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 2
               },
               "tilesetId": "4ec6933c-9625-4083-8b41-c1b91ec4ff26",
               "tileIndex": {
@@ -59,11 +59,11 @@
               },
               "variable": "L0"
             },
-            "id": "de3da65d-6c16-45c5-aa81-aef301c1d435"
+            "id": "aee71c01-bd1b-4ee7-ad54-cef9bc98868a"
           }
         ]
       },
-      "id": "8b50b4ed-6ccc-4c1c-b8cf-e8dee76c50ae"
+      "id": "6753fe41-e1be-4e24-92e4-a4633a58e63b"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -72,7 +72,7 @@
         "duration": 1.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -85,7 +85,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 1
               },
               "tilesetId": "47beb51f-1911-46e1-8ef1-234f98bd7a3e",
               "tileIndex": {
@@ -98,11 +98,11 @@
               },
               "variable": "L1"
             },
-            "id": "d362d0e7-da45-4caa-8b4b-665f2becba37"
+            "id": "fee77396-6a6d-474c-a053-bded01ecf561"
           }
         ]
       },
-      "id": "56f9f9bd-ab00-4d73-8cbe-8fa768531010"
+      "id": "caf27e9a-5908-4709-9de2-44d09ebfa3a5"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -111,7 +111,7 @@
         "duration": 1.6,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -120,11 +120,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 2
               },
               "tilesetId": "e353b8e8-5818-4cb3-8d37-8cd0f240e815",
               "tileIndex": {
@@ -137,43 +137,11 @@
               },
               "variable": "L2"
             },
-            "id": "f853ec06-3380-4ea0-8550-379810efb4ca"
-          },
-          {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 17
-              },
-              "tilesetId": "9e26d93d-4340-48df-81b4-88dd29eb9edf",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "frames": {
-                "type": "number",
-                "value": 4
-              },
-              "variable": "L3"
-            },
-            "id": "63abdb04-a6f2-4b15-ac91-109b580c107a"
+            "id": "65f544a1-1c63-4857-b200-1b82882365ca"
           }
         ]
       },
-      "id": "4fdf67d7-a0bc-4f3c-aef3-9897ee1d8ad3"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "9c3fbc9f-b912-493d-b8ce-af9c03186fc7"
+      "id": "eece13e5-0c21-4e1b-b3ce-94e0a60b5c81"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -192,40 +160,46 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "e0207f89-2aa5-43b4-927c-e804cec92131",
+              "sceneId": "4a55c275-d1e3-464d-976e-850b90740355",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 47
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 12
               },
               "direction": "right",
-              "fadeSpeed": "2",
-              "__collapse": false
+              "fadeSpeed": "2"
             },
-            "id": "ecee124f-e8bc-4111-bc04-a85877fd2f69"
+            "id": "5645bc28-b27b-49b3-8fdb-dc7fb979c4e3"
           }
         ]
       },
-      "id": "3dcadc27-f0ee-42d3-b76a-e47cc358428f"
+      "id": "c924b7c6-48de-47bd-97b3-f14b14c3b328"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c3cf48e4-4e5a-4ca3-bc53-3b4f0e822b7e"
     },
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "They began\n\nterraforming the\n\nland and water,\n\nblackening the sky\n\nand destroying \n\nMUCKLE's home.",
+        "text": "When MUCKLE awoke,\n\nthey were inside\n\na giant machine,\n\nlost and alone.",
         "x": 1,
-        "y": 3,
+        "y": 5,
         "location": "background",
         "__collapse": false
       },
-      "id": "09c4fba0-6e0d-48f3-8eb1-be7d61cc49a1"
+      "id": "a13b41ee-3878-46a8-bf2f-573478d7ac70"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
-  "autoFadeEventCollapse": true
+  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350"
 }

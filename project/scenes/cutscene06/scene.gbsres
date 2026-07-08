@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "eb4d2ca5-2b93-48fc-b2ca-4e8bd42fdaca",
-  "_index": 11,
+  "id": "e0207f89-2aa5-43b4-927c-e804cec92131",
+  "_index": 40,
   "name": "Cutscene06",
-  "backgroundId": "a14dfd22-8ffd-48cb-8a6c-aa9a4d7161a3",
+  "backgroundId": "cabbeebd-d379-4013-90f9-0a9153e0d60c",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -20,12 +20,23 @@
     "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
   ],
   "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 2,
-  "symbol": "scene_13",
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_41",
   "x": 120,
-  "y": 1680,
+  "y": 1688,
   "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Amidst the chaos,\n\nMUCKLE became\n\ntrapped inside a\n\nwater pipe and\n\nlost consciousness.",
+        "x": 1,
+        "y": 4,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "463299c8-45cd-4653-bc1e-defe67daa597"
+    },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
@@ -59,11 +70,11 @@
               },
               "variable": "L0"
             },
-            "id": "aee71c01-bd1b-4ee7-ad54-cef9bc98868a"
+            "id": "77174030-4cc9-4777-a57a-e2a57e05a5b2"
           }
         ]
       },
-      "id": "6753fe41-e1be-4e24-92e4-a4633a58e63b"
+      "id": "cdce9425-465d-414c-9b30-2793a1ba02a8"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -98,11 +109,11 @@
               },
               "variable": "L1"
             },
-            "id": "fee77396-6a6d-474c-a053-bded01ecf561"
+            "id": "c24725c8-377d-4e35-8be8-65f77b4c3821"
           }
         ]
       },
-      "id": "caf27e9a-5908-4709-9de2-44d09ebfa3a5"
+      "id": "47eb8d86-e72f-43e5-ad0b-4ed466c80acf"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -137,11 +148,19 @@
               },
               "variable": "L2"
             },
-            "id": "65f544a1-1c63-4857-b200-1b82882365ca"
+            "id": "51ff1592-f457-401e-be88-e04204510709"
           }
         ]
       },
-      "id": "eece13e5-0c21-4e1b-b3ce-94e0a60b5c81"
+      "id": "405d0e85-d0e8-4391-821b-1beb29b54eef"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "e88722d8-deb0-4e05-b2fb-66981d285f5b"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -153,53 +172,34 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "4a55c275-d1e3-464d-976e-850b90740355",
+              "sceneId": "eb4d2ca5-2b93-48fc-b2ca-4e8bd42fdaca",
               "x": {
                 "type": "number",
-                "value": 47
+                "value": 0
               },
               "y": {
                 "type": "number",
-                "value": 12
+                "value": 0
               },
               "direction": "right",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": false
             },
-            "id": "5645bc28-b27b-49b3-8fdb-dc7fb979c4e3"
+            "id": "5abbc44a-8217-4ee7-9470-6f04c56aaa6a"
           }
         ]
       },
-      "id": "c924b7c6-48de-47bd-97b3-f14b14c3b328"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "c3cf48e4-4e5a-4ca3-bc53-3b4f0e822b7e"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "When MUCKLE awoke,\n\nthey were inside\n\na giant machine,\n\nlost and alone.",
-        "x": 1,
-        "y": 5,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "a13b41ee-3878-46a8-bf2f-573478d7ac70"
+      "id": "60d3ba2e-3d6b-49b7-8c52-6a09f97f990d"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
-  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350"
+  "playerHit3Script": []
 }
