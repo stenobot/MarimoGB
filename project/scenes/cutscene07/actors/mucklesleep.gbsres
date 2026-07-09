@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "a3fd0cff-ed96-4fcc-87b3-fe895e0dce82",
+  "name": "MuckleSleep",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "64a6321d-6ac4-461c-8553-683bce2e25e1",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_144",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8f473131-bf26-4d6b-bbfd-8b92336dccff"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 30,
+  "_index": 0
+}

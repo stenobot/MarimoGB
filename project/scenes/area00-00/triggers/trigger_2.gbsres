@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "12567347-7c8a-4a7d-9e5b-5c7dec1313f4",
+  "name": "",
+  "prefabId": "",
+  "x": 29,
+  "y": 10,
+  "symbol": "trigger_158",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hold DOWN and \npress A."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "442a178d-206e-47a6-82a9-59c24ae66f9a"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

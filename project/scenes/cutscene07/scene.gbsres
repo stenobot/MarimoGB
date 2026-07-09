@@ -3,10 +3,10 @@
   "id": "eb4d2ca5-2b93-48fc-b2ca-4e8bd42fdaca",
   "_index": 11,
   "name": "Cutscene07",
-  "backgroundId": "cabbeebd-d379-4013-90f9-0a9153e0d60c",
+  "backgroundId": "4c21ea69-87b8-4ff9-bb44-59f9c961e8fe",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
+  "height": 42,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [
@@ -26,6 +26,14 @@
   "x": 120,
   "y": 1888,
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c3cf48e4-4e5a-4ca3-bc53-3b4f0e822b7e"
+    },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
@@ -144,6 +152,29 @@
       "id": "eece13e5-0c21-4e1b-b3ce-94e0a60b5c81"
     },
     {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "speed": 1,
+        "__collapse": false
+      },
+      "id": "4d5a64fd-bd1b-45fb-a805-be4e1d1c6efb"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "a3fd0cff-ed96-4fcc-87b3-fe895e0dce82"
+      },
+      "id": "c590d849-a422-4457-a105-c2f24deb1a6c"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -179,19 +210,11 @@
       "id": "c924b7c6-48de-47bd-97b3-f14b14c3b328"
     },
     {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "c3cf48e4-4e5a-4ca3-bc53-3b4f0e822b7e"
-    },
-    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": "When MUCKLE awoke,\n\nthey were inside\n\na giant machine,\n\nlost and alone.",
         "x": 1,
-        "y": 5,
+        "y": 17,
         "location": "background",
         "__collapse": false
       },
@@ -201,5 +224,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350"
+  "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
+  "autoFadeEventCollapse": false
 }

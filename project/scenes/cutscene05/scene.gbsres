@@ -180,12 +180,13 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 1
+          "value": 0.5
         },
         "frames": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": false
       },
       "id": "2b8ea331-86ec-4b91-be25-f151a0aee511"
     },
@@ -232,7 +233,7 @@
         "x": 1,
         "y": 3,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "09c4fba0-6e0d-48f3-8eb1-be7d61cc49a1"
     }

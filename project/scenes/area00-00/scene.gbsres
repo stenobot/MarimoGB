@@ -27,6 +27,14 @@
   "y": 272,
   "script": [
     {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
+        "__collapse": true
+      },
+      "id": "bbec8125-eec4-44da-838a-57bfd76f6226"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
@@ -166,7 +174,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
