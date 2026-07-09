@@ -3,7 +3,7 @@
   "id": "e0207f89-2aa5-43b4-927c-e804cec92131",
   "_index": 40,
   "name": "Cutscene06",
-  "backgroundId": "cabbeebd-d379-4013-90f9-0a9153e0d60c",
+  "backgroundId": "f98edc74-2e9d-45b9-9885-f8294c73631f",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,12 +12,12 @@
   "paletteIds": [
     "",
     "",
+    "313bf726-7a9d-4230-b79b-9a96077a9f8b",
     "",
     "",
     "",
-    "",
-    "",
-    "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
+    "ffbb3e3c-39ec-489b-a90e-a93d408505b4",
+    "1a0c53ef-e69b-45d8-bdc9-bf7496112c57"
   ],
   "spritePaletteIds": [],
   "collisions": "00168+",
@@ -26,17 +26,6 @@
   "x": 120,
   "y": 1688,
   "script": [
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Amidst the chaos,\n\nMUCKLE became\n\ntrapped inside a\n\nwater pipe and\n\nlost consciousness.",
-        "x": 1,
-        "y": 4,
-        "location": "background",
-        "__collapse": true
-      },
-      "id": "463299c8-45cd-4653-bc1e-defe67daa597"
-    },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
@@ -53,13 +42,13 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 6
+                "value": 1
               },
               "y": {
                 "type": "number",
-                "value": 2
+                "value": 6
               },
-              "tilesetId": "4ec6933c-9625-4083-8b41-c1b91ec4ff26",
+              "tilesetId": "b1515784-3997-4889-a441-842d14589a60",
               "tileIndex": {
                 "type": "number",
                 "value": 0
@@ -92,13 +81,13 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 1
+                "value": 7
               },
               "y": {
                 "type": "number",
-                "value": 1
+                "value": 8
               },
-              "tilesetId": "47beb51f-1911-46e1-8ef1-234f98bd7a3e",
+              "tilesetId": "49f1926f-b8a8-4693-bd60-ba7422324d9e",
               "tileIndex": {
                 "type": "number",
                 "value": 0
@@ -131,13 +120,13 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 12
               },
               "y": {
                 "type": "number",
-                "value": 2
+                "value": 8
               },
-              "tilesetId": "e353b8e8-5818-4cb3-8d37-8cd0f240e815",
+              "tilesetId": "1a286887-8b43-4101-9355-86deecfb7d6d",
               "tileIndex": {
                 "type": "number",
                 "value": 0
@@ -163,6 +152,31 @@
       "id": "e88722d8-deb0-4e05-b2fb-66981d285f5b"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "98636c9b-8f0e-4e69-8f95-ee45e5b16ef6"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Amidst the chaos,\n\nMUCKLE became\n\ntrapped inside a\n\nwater pipe and\n\nlost consciousness.",
+        "x": 1,
+        "y": 4,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "463299c8-45cd-4653-bc1e-defe67daa597"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -172,7 +186,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

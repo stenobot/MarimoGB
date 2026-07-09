@@ -3,7 +3,7 @@
   "id": "a14dfd22-8ffd-48cb-8a6c-aa9a4d7161a3",
   "name": "cutscene04",
   "symbol": "bg_cutscene04",
-  "tileColors": "0714+002+0714+002+0714+002+0715+00!07160+",
+  "tileColors": "061b8+",
   "filename": "cutscene04.png",
   "width": 22,
   "height": 20,

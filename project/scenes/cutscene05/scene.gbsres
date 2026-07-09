@@ -33,7 +33,7 @@
         "duration": 0.7,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -72,7 +72,7 @@
         "duration": 1.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -111,7 +111,7 @@
         "duration": 1.6,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -176,6 +176,20 @@
       "id": "9c3fbc9f-b912-493d-b8ce-af9c03186fc7"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "2b8ea331-86ec-4b91-be25-f151a0aee511"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -214,7 +228,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "They began\n\nterraforming the\n\nland and water,\n\nblackening the sky\n\nand destroying \n\nMUCKLE's home.",
+        "text": "The machines began\n\nterraforming the\n\nland and water.\n\nThey blackened the\n\nsky and destroyed\n\nMUCKLE's home.",
         "x": 1,
         "y": 3,
         "location": "background",

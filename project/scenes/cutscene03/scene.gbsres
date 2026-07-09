@@ -38,66 +38,66 @@
       "id": "e29d8105-bc45-4a6f-8144-f01b72658e37"
     },
     {
-      "command": "EVENT_SET_TIMER_SCRIPT",
+      "command": "EVENT_WAIT",
       "args": {
-        "timer": 1,
-        "duration": 2.5,
-        "frames": 30,
-        "__scriptTabs": "end",
-        "__collapse": false
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "7770fa9f-bb4f-4ff8-84c2-cb9fd211be8a"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "They are friendly \n\nwith their neighbors.",
+        "x": 1,
+        "y": 14,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "84f3c323-d2fb-4d38-891a-e26f15adf954"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "start",
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
-        "script": [
+        "true": [
           {
-            "command": "EVENT_TEXT_DRAW",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "text": "They are friendly \n\nwith their neighbors.",
-              "x": 1,
-              "y": 14,
-              "location": "background",
-              "__collapse": false
-            },
-            "id": "84f3c323-d2fb-4d38-891a-e26f15adf954"
-          },
-          {
-            "command": "EVENT_SET_INPUT_SCRIPT",
-            "args": {
-              "input": [
-                "a",
-                "start",
-                "b"
-              ],
-              "override": true,
-              "__scriptTabs": "press",
+              "sceneId": "22892697-cc3b-43f1-848b-08b0c5b89d1f",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
               "__collapse": true
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_SWITCH_SCENE",
-                  "args": {
-                    "sceneId": "22892697-cc3b-43f1-848b-08b0c5b89d1f",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "direction": "",
-                    "fadeSpeed": "2",
-                    "__collapse": true
-                  },
-                  "id": "25da6adb-910c-4d22-b30a-5fd54809e1fd"
-                }
-              ]
-            },
-            "id": "196d6d07-8c97-42df-ab93-afcfb788e86b"
+            "id": "25da6adb-910c-4d22-b30a-5fd54809e1fd"
           }
         ]
       },
-      "id": "54e5d71e-266b-4e78-8586-297571039f46"
+      "id": "196d6d07-8c97-42df-ab93-afcfb788e86b"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -144,7 +144,8 @@
         "timer": 3,
         "duration": 1.2,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [

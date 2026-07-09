@@ -3,7 +3,7 @@
   "id": "cabbeebd-d379-4013-90f9-0a9153e0d60c",
   "name": "cutscene-generic",
   "symbol": "bg_cutscene_generic",
-  "tileColors": "07168+",
+  "tileColors": "06168+",
   "filename": "cutscene-generic.png",
   "width": 20,
   "height": 18,

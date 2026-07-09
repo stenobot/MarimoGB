@@ -21,7 +21,7 @@
   ],
   "spritePaletteIds": [],
   "collisions": "002d0+",
-  "autoFadeSpeed": 4,
+  "autoFadeSpeed": 2,
   "symbol": "scene_7",
   "x": 128,
   "y": 888,
@@ -29,7 +29,8 @@
     {
       "command": "EVENT_SET_FONT",
       "args": {
-        "fontId": "1080dca5-15a2-4e57-b68f-1f175ec502bc"
+        "fontId": "1080dca5-15a2-4e57-b68f-1f175ec502bc",
+        "__collapse": true
       },
       "id": "6f99c95e-4086-4902-98cb-dbf4abc43f64"
     },
@@ -62,7 +63,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -267,5 +268,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": false
 }

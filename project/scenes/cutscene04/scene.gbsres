@@ -16,8 +16,8 @@
     "",
     "",
     "",
-    "",
-    "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
+    "e290e40a-e719-41cf-87d9-65f2a2d0e34c",
+    "c99308e2-927e-4706-90b4-45a7914d3e57"
   ],
   "spritePaletteIds": [],
   "collisions": "001b8+",
@@ -128,21 +128,6 @@
       "id": "f507ed60-f79a-48c7-8952-63f30140a8b5"
     },
     {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": {
-          "type": "number",
-          "value": 0.5
-        },
-        "frames": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapse": true
-      },
-      "id": "67f00b1a-bc78-4663-8f64-83121cd28413"
-    },
-    {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
         "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
@@ -179,13 +164,28 @@
       "id": "5199c09c-9f27-4617-b50b-53e41e7c410e"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "67f00b1a-bc78-4663-8f64-83121cd28413"
+    },
+    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": "One day, massive\n\nmachines appeared.",
         "x": 3,
         "y": 2,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "8a1fd861-61f7-4e5f-a839-5d4181329190"
     },
@@ -221,9 +221,9 @@
     {
       "command": "EVENT_CAMERA_SHAKE",
       "args": {
-        "time": 1,
+        "time": 0.8,
         "frames": 30,
-        "shakeDirection": "horizontal",
+        "shakeDirection": "vertical",
         "magnitude": {
           "type": "number",
           "value": 2
@@ -258,7 +258,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -315,9 +315,9 @@
     {
       "command": "EVENT_CAMERA_SHAKE",
       "args": {
-        "time": 1,
+        "time": 0.8,
         "frames": 30,
-        "shakeDirection": "horizontal",
+        "shakeDirection": "diagonal",
         "magnitude": {
           "type": "number",
           "value": 2
@@ -374,7 +374,7 @@
     {
       "command": "EVENT_CAMERA_SHAKE",
       "args": {
-        "time": 1,
+        "time": 1.3,
         "frames": 30,
         "shakeDirection": "horizontal",
         "magnitude": {
@@ -435,7 +435,7 @@
       "args": {
         "time": 1,
         "frames": 30,
-        "shakeDirection": "horizontal",
+        "shakeDirection": "vertical",
         "magnitude": {
           "type": "number",
           "value": 2
