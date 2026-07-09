@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "12567347-7c8a-4a7d-9e5b-5c7dec1313f4",
+  "id": "3f8edb00-6df6-4eac-90e0-8dce7c57e0ee",
   "name": "",
   "prefabId": "",
-  "x": 23,
+  "x": 36,
   "y": 10,
-  "symbol": "trigger_158",
+  "symbol": "trigger_159",
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 3,
@@ -14,7 +14,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Hold DOWN and \npress A to fall."
+          "Press A to jump."
         ],
         "__section": "text",
         "avatarId": "",
@@ -33,9 +33,9 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "442a178d-206e-47a6-82a9-59c24ae66f9a"
+      "id": "951a2a00-38f6-4206-bdd3-188d46aa40fd"
     }
   ],
   "leaveScript": [],
-  "_index": 1
+  "_index": 2
 }
