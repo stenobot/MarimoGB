@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "85cf63d9-12b2-49c2-9114-2e2b4c3b3cfa",
+  "name": "area01-06",
+  "symbol": "bg_area01_06",
+  "tileColors": "0053b+072+0026+072+0026+072+0026+072+0013+",
+  "filename": "area01-06.png",
+  "width": 40,
+  "height": 37,
+  "imageWidth": 320,
+  "imageHeight": 296
+}

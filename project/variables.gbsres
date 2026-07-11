@@ -660,6 +660,11 @@
       "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L2",
       "name": "isDoorFadeTwoTicked",
       "symbol": "var_isdoorfadetwoticked"
+    },
+    {
+      "id": "38",
+      "name": "wallJumps",
+      "symbol": "var_walljumps"
     }
   ],
   "constants": []
