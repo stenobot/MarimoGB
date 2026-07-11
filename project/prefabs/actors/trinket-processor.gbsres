@@ -1,10 +1,10 @@
 {
   "_resourceType": "actorPrefab",
-  "id": "4943e23c-7035-452d-b9f0-f845d24b21c4",
-  "name": "Trinket-Resistor",
+  "id": "e42a6732-efc9-4a0d-ab56-ab402f866d2d",
+  "name": "Trinket-Processor",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "41ebc8f3-dfbc-45be-8b1a-e8243973a19a",
+  "spriteSheetId": "026dc7d9-3373-44bc-963d-d919c5dd2a0f",
   "moveSpeed": 1,
   "animSpeed": 0,
   "paletteId": "",

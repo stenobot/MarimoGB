@@ -14,12 +14,21 @@
     "",
     "",
     "",
-    "",
-    "",
-    "",
-    "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
+    "e290e40a-e719-41cf-87d9-65f2a2d0e34c",
+    "f7a93fdd-9972-4020-80d1-2acc674cb860",
+    "95c80f8e-ffa1-4791-a7ec-6d7177b2a030",
+    "b734aafa-21d2-461c-9c36-3051d9132e63"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "a773de67-7612-4df2-b6f5-257f37711482"
+  ],
   "collisions": "002d0+",
   "autoFadeSpeed": 2,
   "symbol": "scene_7",

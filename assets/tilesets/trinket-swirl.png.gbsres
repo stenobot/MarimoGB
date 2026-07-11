@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "a9e0ab62-fdb6-4ab2-83dd-cb6f62812e06",
+  "name": "trinket-swirl",
+  "symbol": "tileset_trinket_swirl",
+  "width": 19,
+  "height": 1,
+  "imageWidth": 152,
+  "imageHeight": 8,
+  "filename": "trinket-swirl.png"
+}
