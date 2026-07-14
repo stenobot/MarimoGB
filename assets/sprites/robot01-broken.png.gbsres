@@ -1,0 +1,155 @@
+{
+  "_resourceType": "sprite",
+  "id": "0ea4ac7d-6e6f-4b51-8f9b-71d6f7fe1229",
+  "name": "robot01-broken",
+  "symbol": "sprite_robot01_broken",
+  "states": [
+    {
+      "id": "19d61463-d5f9-4dfb-8bbc-49ada6c16fb2",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "8bff3eb2-1ee8-4181-b6cd-010cf1b231c3",
+          "frames": [
+            {
+              "id": "aea51ee0-1454-4b6a-b9ba-988178558f7f",
+              "tiles": [
+                {
+                  "id": "ea688f32-c24a-4e52-9913-552952b78161",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "0c15ebc4-3b54-45ab-b847-e9d129b1d7bd",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "778969e1-b2b2-4e97-92fe-081772cab534",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                },
+                {
+                  "id": "c43091a6-e6fc-4858-9fff-765c2d62fd0e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a3da9a09-1e79-40d0-8ab6-f203d718ed77",
+          "frames": [
+            {
+              "id": "92bf4d06-25f6-4241-be22-4044108945ac",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6d802ca6-7b5b-4727-9cc6-0760c3e056af",
+          "frames": [
+            {
+              "id": "d1e37bde-cd21-4772-9938-7a9818245fdb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ffa68a0-318f-41aa-928a-3965920f9f6b",
+          "frames": [
+            {
+              "id": "d1d6ff64-e653-41e9-81ad-f3aee9964f6e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ebe38440-61e4-405b-add2-07e93ef022cd",
+          "frames": [
+            {
+              "id": "ff5e223a-21f8-422c-b9a1-df8412ef25f1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0c1fae0-1a15-411f-a9e6-ec347fe42070",
+          "frames": [
+            {
+              "id": "0fde3676-129a-4e73-9c0a-c527f121a26b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b5b3508e-2d3b-4363-b89b-26aea846634f",
+          "frames": [
+            {
+              "id": "eca212c7-95a5-4c17-b3df-bbadce0d1e05",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a5fc838f-0a86-420b-a1fb-fa66512b3291",
+          "frames": [
+            {
+              "id": "0d660515-7d0e-4dc8-92d8-8643b9bef42a",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "robot01-broken.png",
+  "width": 16,
+  "height": 32,
+  "checksum": "f8e73fb1bd532d41f58f4aafdc813a2fbc02eed3"
+}

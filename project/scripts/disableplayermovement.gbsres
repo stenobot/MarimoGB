@@ -1,0 +1,51 @@
+{
+  "_resourceType": "script",
+  "id": "ef1a30eb-e07d-491c-bc6c-54b055abbfe7",
+  "name": "DisablePlayerMovement",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_15",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "3dad0104-a2df-4331-be8e-e686e605c323"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "48356af8-7cdb-47bb-86f3-cee36ab2e812"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "b1cdcc82-c65c-473f-a4e6-99e5e3bf98c6"
+    }
+  ]
+}

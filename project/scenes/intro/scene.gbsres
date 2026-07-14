@@ -27,6 +27,14 @@
   "y": 264,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d5ae795f-bcc0-48a9-b912-ba2691b1ac36",
+        "__collapse": false
+      },
+      "id": "a1866f3f-9993-4922-affb-7b8ab845ece4"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",

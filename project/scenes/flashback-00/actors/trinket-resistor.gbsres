@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "4ed30b23-6a11-45c3-a3e6-21e470c4270a",
+  "name": "Trinket-Resistor",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "41ebc8f3-dfbc-45be-8b1a-e8243973a19a",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_43",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "ae02243b-b52b-4dee-9610-53be7fa7a1c9"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 148,
+  "y": 9,
+  "_index": 4
+}

@@ -1,0 +1,46 @@
+{
+  "_resourceType": "script",
+  "id": "4b195414-f921-4a2c-a198-454bad59123f",
+  "name": "EnablePlayerMovement",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_16",
+  "script": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right"
+        ],
+        "__collapse": true
+      },
+      "id": "f80a45f8-01be-4421-9b9e-fa08d9cebac7"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__collapse": true
+      },
+      "id": "9175cd19-55b7-4d3c-9cf6-29ee8c286886"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapse": true
+      },
+      "id": "1cdeaa73-ebc2-4b06-90cf-f4c3ff27b908"
+    }
+  ]
+}

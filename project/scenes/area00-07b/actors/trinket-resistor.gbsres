@@ -14,7 +14,72 @@
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "2d4d8bd6-8b29-4907-9672-17f777219d6a": {
+      "id": "2d4d8bd6-8b29-4907-9672-17f777219d6a",
+      "args": {
+        "text": [
+          "MUCKLE found\na TRINKET."
+        ]
+      }
+    },
+    "de9b100a-4ee3-4ea5-9805-852b82376737": {
+      "id": "de9b100a-4ee3-4ea5-9805-852b82376737",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.1
+        }
+      }
+    },
+    "a25f9f3e-9069-4d40-963d-f70af58532cb": {
+      "id": "a25f9f3e-9069-4d40-963d-f70af58532cb",
+      "args": {
+        "sceneId": "086450c8-f4c4-4443-a956-58f48b519f38"
+      }
+    },
+    "183b0565-35fd-4210-8a9e-df07ba8a07cc": {
+      "id": "183b0565-35fd-4210-8a9e-df07ba8a07cc",
+      "args": {
+        "engineFieldKey": "adv_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    "a9f4e338-f78c-48bd-a254-85280f7feb48": {
+      "id": "a9f4e338-f78c-48bd-a254-85280f7feb48",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    "a529f837-0544-4a14-8d7b-532da70eb537": {
+      "id": "a529f837-0544-4a14-8d7b-532da70eb537",
+      "args": {
+        "customEventId": "ef1a30eb-e07d-491c-bc6c-54b055abbfe7"
+      }
+    },
+    "de5ef773-1311-495d-8fec-f44f53847a6f": {
+      "id": "de5ef773-1311-495d-8fec-f44f53847a6f",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        }
+      }
+    },
+    "16bcc2f0-f06a-4366-93a5-2248fc9e7d23": {
+      "id": "16bcc2f0-f06a-4366-93a5-2248fc9e7d23",
+      "args": {
+        "customEventId": "4b195414-f921-4a2c-a198-454bad59123f"
+      }
+    }
+  },
   "symbol": "actor_143",
   "script": [],
   "startScript": [],
@@ -24,6 +89,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 3,
-  "y": 12,
-  "_index": 8
+  "y": 10,
+  "_index": 7
 }

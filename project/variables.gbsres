@@ -177,6 +177,56 @@
       "symbol": "var_isswitchon_01_05"
     },
     {
+      "id": "35",
+      "name": "setTranceShadowInactive",
+      "symbol": "var_settranceshadowinactive"
+    },
+    {
+      "id": "36",
+      "name": "setTransferToRobotState",
+      "symbol": "var_settransfertorobotstate"
+    },
+    {
+      "id": "37",
+      "name": "setTransferToMuckleState",
+      "symbol": "var_settransfertomucklestat"
+    },
+    {
+      "id": "38",
+      "name": "wallJumps",
+      "symbol": "var_walljumps"
+    },
+    {
+      "id": "39",
+      "name": "isRobotGravityDisabled",
+      "symbol": "var_isrobotgravitydisabled"
+    },
+    {
+      "id": "40",
+      "name": "isRobotBrokenWiggleEnabled",
+      "symbol": "var_isrobotbrokenwiggleenab"
+    },
+    {
+      "id": "41",
+      "name": "robotWiggleCount",
+      "symbol": "var_robotwigglecount"
+    },
+    {
+      "id": "42",
+      "name": "setDropItemState",
+      "symbol": "var_setdropitemstate"
+    },
+    {
+      "id": "43",
+      "name": "playerGravity",
+      "symbol": "var_playergravity"
+    },
+    {
+      "id": "44",
+      "name": "isRobotCancelDisabled",
+      "symbol": "var_isrobotcanceldisabled"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -627,16 +677,6 @@
       "symbol": "var_startwinkleonestate_4"
     },
     {
-      "id": "35",
-      "name": "setTranceShadowInactive",
-      "symbol": "var_settranceshadowinactive"
-    },
-    {
-      "id": "36",
-      "name": "setTransferToRobotState",
-      "symbol": "var_settransfertorobotstate"
-    },
-    {
       "id": "cf313a82-40f7-415f-8447-dd8ad27fc0f2__L1",
       "name": "starTwinkleTwoState",
       "symbol": "var_startwinkletwostate_3"
@@ -652,19 +692,19 @@
       "symbol": "var_doorfadestate_2"
     },
     {
-      "id": "37",
-      "name": "setTransferToMuckleState",
-      "symbol": "var_settransfertomucklestat"
-    },
-    {
       "id": "bfc05baf-f5c3-4bee-96e6-d8ec416fbed8__L2",
       "name": "isDoorFadeTwoTicked",
       "symbol": "var_isdoorfadetwoticked"
     },
     {
-      "id": "38",
-      "name": "wallJumps",
-      "symbol": "var_walljumps"
+      "id": "bb7bc3cb-af10-4669-b074-56f8cb2d48ca__L3",
+      "name": "isPsychicControlTriggered",
+      "symbol": "var_ispsychiccontroltrigger"
+    },
+    {
+      "id": "45",
+      "name": "isRobotMovementDisabled",
+      "symbol": "var_isrobotmovementdisabled"
     }
   ],
   "constants": []

@@ -1,0 +1,127 @@
+{
+  "_resourceType": "script",
+  "id": "40429d15-954f-4724-82d9-d46a9886638f",
+  "name": "SetMucklePlatformerProps",
+  "description": "Sets various properties to initiate Muckle for a platformer level",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "bf3475b8-e312-46d8-90d6-06b562a01305"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "7214fe2c-e782-432d-aaab-ddd677dca0e4"
+    },
+    {
+      "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
+      "args": {
+        "event": "jumpStart",
+        "__scriptTabs": "scriptinput",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+              "priority": "low",
+              "pitch": 8,
+              "frequency": 270,
+              "duration": 0.01,
+              "wait": false,
+              "effect": 55,
+              "__collapse": false
+            },
+            "id": "c1089e73-467e-4460-8cbc-f7650c4989d8"
+          }
+        ]
+      },
+      "id": "5979bc75-99f3-4387-941d-537b80b558cf"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_jump_max",
+        "value": {
+          "type": "variable",
+          "value": "38"
+        },
+        "__collapse": true
+      },
+      "id": "23b1eb28-a850-4e7d-a3b0-9e776dd86b40"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__collapse": true
+      },
+      "id": "4fc5a61d-4cd3-4d4e-a8aa-c941c0ed8fe0"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "variable",
+          "value": "43"
+        },
+        "__collapse": true
+      },
+      "id": "8224add4-a778-4f04-96c7-6ff88339271e"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapse": true
+      },
+      "id": "8709e7e3-ed45-4b84-8bf7-4240b3e74998"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_slide",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "6a02a976-385f-431a-873e-f5a672d29ebc"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "0040765a-f210-4495-bbbc-0aef7afc600f"
+    }
+  ]
+}

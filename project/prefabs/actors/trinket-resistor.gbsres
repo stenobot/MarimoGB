@@ -6,13 +6,103 @@
   "animate": false,
   "spriteSheetId": "41ebc8f3-dfbc-45be-8b1a-e8243973a19a",
   "moveSpeed": 1,
-  "animSpeed": 0,
+  "animSpeed": 1,
   "paletteId": "",
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "c8697c66-1b1c-4523-a361-dc54835d536d",
+        "__collapse": true
+      },
+      "id": "31495c5f-2146-45e7-aa78-e14a5225bbbc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "MUCKLE found the\nRUNE OF DISRUPTION."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "2d4d8bd6-8b29-4907-9672-17f777219d6a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "__collapse": true
+      },
+      "id": "a529f837-0544-4a14-8d7b-532da70eb537"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "56c07e16-697d-4cd6-a7df-60befd3fb89e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "de5ef773-1311-495d-8fec-f44f53847a6f"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "__collapse": true
+      },
+      "id": "16bcc2f0-f06a-4366-93a5-2248fc9e7d23"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "086450c8-f4c4-4443-a956-58f48b519f38",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "a25f9f3e-9069-4d40-963d-f70af58532cb"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

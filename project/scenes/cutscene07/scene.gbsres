@@ -163,14 +163,15 @@
           "value": 15
         },
         "speed": 1,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "4d5a64fd-bd1b-45fb-a805-be4e1d1c6efb"
     },
     {
       "command": "EVENT_ACTOR_ACTIVATE",
       "args": {
-        "actorId": "a3fd0cff-ed96-4fcc-87b3-fe895e0dce82"
+        "actorId": "a3fd0cff-ed96-4fcc-87b3-fe895e0dce82",
+        "__collapse": true
       },
       "id": "c590d849-a422-4457-a105-c2f24deb1a6c"
     },
@@ -216,7 +217,7 @@
         "x": 1,
         "y": 17,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "a13b41ee-3878-46a8-bf2f-573478d7ac70"
     }
@@ -225,5 +226,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "f9760ea5-3e19-4eca-a7b5-c1bb904d4350",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }

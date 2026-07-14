@@ -17,10 +17,10 @@
     "",
     "",
     "",
-    "",
+    "af0ba7ea-05a9-4350-b6f5-1735046e4ba2",
     "e290e40a-e719-41cf-87d9-65f2a2d0e34c",
     "7a08a73f-96de-450b-ba31-44463f5fa0b5",
-    "af0ba7ea-05a9-4350-b6f5-1735046e4ba2"
+    "b734aafa-21d2-461c-9c36-3051d9132e63"
   ],
   "spritePaletteIds": [
     "",
@@ -58,7 +58,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -313,5 +313,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0051+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!008+0f!007+0f!00c+0f!009+0f!008+0f9+00c+0f!009+0f!001d+0f!009+0f!001d+0fb+0062+0f!002+0f!0010+0f15+002+0f11+0015+0f2+0011+"
+  "collisions": "0051+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!001d+0f!009+0f!008+0f!007+0f!00c+0f!009+0f!008+0f9+00c+0f!009+0f!001d+0f!009+0f!001d+0fb+0062+0f!002+0f!0010+0f15+002+0f11+0015+0f2+0011+",
+  "autoFadeEventCollapse": true
 }

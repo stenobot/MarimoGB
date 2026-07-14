@@ -58,7 +58,7 @@
           "value": "9"
         },
         "__collapseElse": false,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -162,7 +162,7 @@
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "c35a6cf3-bfe4-4183-82b3-f3124a3ac736",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "aa0b364f-f2f5-4395-a0cc-395ba5465250"
           },

@@ -35,9 +35,62 @@
       "id": "2cba821a-869d-4c47-b6bd-7915469ff7e1"
     },
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Remove special cases for broken robot",
+        "__collapse": true
+      },
+      "id": "78abaaa2-e2e4-4e6f-8a2d-9e91050cb41b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "39",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "35ffe53a-5b4d-4f21-b7d5-833c6637bff2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "40",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "5fb283cb-d76e-4bdd-86f2-6c66e9d91414"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "45",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "8e0eb71f-c7fb-429e-95d5-decd54ff1cb7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "44",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "3b2a4fac-c3d4-44c1-8978-71743bd4c576"
+    },
+    {
       "command": "EVENT_SET_FONT",
       "args": {
-        "fontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427"
+        "fontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
+        "__collapse": true
       },
       "id": "e0fe57be-6c66-4c01-b2de-ee68f863cd8c"
     },
@@ -135,11 +188,11 @@
             "command": "EVENT_IF",
             "args": {
               "condition": {
-                "type": "variable",
-                "value": "2"
+                "type": "expression",
+                "value": "$02$ && $22$"
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -167,7 +220,7 @@
           "type": "variable",
           "value": "22"
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {
@@ -175,7 +228,7 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "311d4123-23d9-4c85-976e-55e8af658880"
+              "actorId": "be64efec-c5a4-407e-957b-febb5e3eab6d"
             },
             "id": "8d88312d-d4ca-4dce-88fe-30a95763b6b6"
           },

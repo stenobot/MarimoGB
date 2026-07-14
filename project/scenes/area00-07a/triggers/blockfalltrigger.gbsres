@@ -69,7 +69,7 @@
               "duration": 0.01,
               "wait": true,
               "effect": 17,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "b1ae0199-d658-4da1-ba23-10a091de9a13"
           },
@@ -82,7 +82,8 @@
               "magnitude": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
             "id": "6d41adb2-f78c-4425-8a55-b5d3574e23c9"
           },
@@ -126,7 +127,7 @@
               "duration": 0.01,
               "wait": true,
               "effect": 17,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "aa79e2f9-112f-4ac3-8e4e-e9b3ad56d773"
           },
@@ -139,7 +140,8 @@
               "magnitude": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
             "id": "b5199079-4c27-4213-a0a8-1f5f094211ce"
           },
@@ -183,7 +185,7 @@
               "duration": 0.01,
               "wait": true,
               "effect": 17,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "b656b1c5-6400-42cb-9c59-40429714b99d"
           },
@@ -196,7 +198,8 @@
               "magnitude": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
             "id": "bb952e1a-e8ee-4d4d-a4e4-00bfd2b9efd9"
           },
@@ -240,7 +243,7 @@
               "duration": 0.01,
               "wait": true,
               "effect": 17,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "61cd9625-c363-4a14-9333-a794a6f633f5"
           },
@@ -253,7 +256,8 @@
               "magnitude": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
             "id": "292238c5-ab8f-48a2-b4fb-1d452e105119"
           },
@@ -261,7 +265,7 @@
             "command": "EVENT_ACTOR_SHOW",
             "args": {
               "actorId": "bcaf9cf7-1cb9-431b-a526-c31f82001c51",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "79560d05-95cd-4570-a6bd-fb1775adf00a"
           },
@@ -297,7 +301,7 @@
               "duration": 0.01,
               "wait": true,
               "effect": 17,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "20a0c143-2947-4b1b-a8e8-eec5c760ca31"
           },
@@ -310,7 +314,8 @@
               "magnitude": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
             "id": "42447894-bcaa-4c1a-9e06-6fd64c3ac960"
           },

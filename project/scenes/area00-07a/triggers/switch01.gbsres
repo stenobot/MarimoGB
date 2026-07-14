@@ -244,7 +244,7 @@
                     "$actor[0]$": "6c9aceb9-6378-41a6-88f8-f9e9211086f3",
                     "$actor[1]$": "a7851c7f-69bb-42f8-8582-5ee250e208c7",
                     "$actor[3]$": "f817e16c-c918-40ac-a239-1723ebc50d65",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "73d2f066-6b4d-43b3-a188-15cc580a2bc0"
                 },
@@ -258,6 +258,32 @@
                     "__collapse": true
                   },
                   "id": "93aa5c87-7b2e-4588-b0c2-faab52b63b66"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Press B to stop\nPSYCHIC TRANCE."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "87065664-23df-4dcd-bfb9-9f1f58faed97"
                 }
               ],
               "true5": [],

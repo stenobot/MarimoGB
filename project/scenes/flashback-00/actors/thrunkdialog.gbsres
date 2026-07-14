@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "5d471408-f33a-48ec-a28d-53b4a8bdfd0f",
+  "name": "ThrunkDialog",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "450ab5b9-88e0-49c4-9a8a-ec330b542fe9",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_35",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7b4ead49-f94b-4425-8c81-6a641504c500"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 41,
+  "y": 5,
+  "_index": 5
+}
