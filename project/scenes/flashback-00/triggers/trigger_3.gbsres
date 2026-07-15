@@ -25,6 +25,19 @@
         "loopAnim": false
       },
       "id": "6a453e54-c607-400b-ab76-a8d723cf28b7"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 40
+      },
+      "id": "e3f4f235-0ae9-4e26-ad5e-dd8f16f8369b"
     }
   ],
   "leaveScript": [

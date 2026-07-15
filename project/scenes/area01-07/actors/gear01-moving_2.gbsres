@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "ff0aa048-32bf-45da-9ebd-6c9b18644975",
+  "name": "Gear01-Moving",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "e152d9d2-4689-4dc9-bdad-3e9750a6552a",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "030839d8-2c28-47ca-a96f-02cca0f30716": {
+      "id": "030839d8-2c28-47ca-a96f-02cca0f30716",
+      "args": {
+        "__section": "movement",
+        "x": {
+          "type": "number",
+          "value": 28
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        }
+      }
+    },
+    "3cf98712-e2c2-4bd2-8d96-0369f6ce0d96": {
+      "id": "3cf98712-e2c2-4bd2-8d96-0369f6ce0d96",
+      "args": {
+        "__section": "movement",
+        "x": {
+          "type": "number",
+          "value": 25
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        }
+      }
+    }
+  },
+  "symbol": "actor_45",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 25,
+  "y": 12,
+  "_index": 2
+}

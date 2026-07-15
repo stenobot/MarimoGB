@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "0ea4ac7d-6e6f-4b51-8f9b-71d6f7fe1229",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -142,29 +142,6 @@
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_ACTOR_GET_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "vectorX": "3",
-              "vectorY": "4",
-              "__collapse": true,
-              "__comment": true
-            },
-            "id": "9293c44f-0aac-43bf-9871-8ff89cf26c93",
-            "children": {}
-          },
-          {
-            "command": "EVENT_ACTOR_GET_DIRECTION",
-            "args": {
-              "actorId": "$self$",
-              "direction": "13",
-              "__collapse": true,
-              "__comment": true
-            },
-            "id": "c2b696b2-6727-4b2f-ab34-59bc7bc6aaa7",
-            "children": {}
-          },
           {
             "command": "EVENT_ACTOR_HIDE",
             "args": {
@@ -351,6 +328,20 @@
             "id": "21dbb71c-6c56-42a5-b535-f1973a76108a"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 37,
+              "__collapse": true
+            },
+            "id": "92008dbe-7b63-4c2c-821a-a9b684f6666a"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "__section": "movement",
@@ -373,11 +364,25 @@
             "id": "00678368-5519-4fed-96bb-03116a1c3d1b"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 42,
+              "__collapse": true
+            },
+            "id": "bd6a73c0-5ee7-4974-b3b9-f2336cf74744"
+          },
+          {
             "command": "EVENT_WAIT",
             "args": {
               "time": {
                 "type": "number",
-                "value": 1.5
+                "value": 2.5
               },
               "frames": {
                 "type": "number",

@@ -21,7 +21,7 @@
   ],
   "spritePaletteIds": [],
   "collisions": "0065+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f3+00!0f2+0013+0f2+0012+0f12+0014+",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 4,
   "symbol": "scene_21",
   "x": 1384,
   "y": 1088,
@@ -249,5 +249,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": false
 }
