@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "d2ef4ea0-dcaf-48bb-abcc-a07edb9c96ee",
+  "name": "bubbles-draft-down",
+  "symbol": "tileset_bubbles_draft_down",
+  "width": 10,
+  "height": 1,
+  "imageWidth": 80,
+  "imageHeight": 8,
+  "filename": "bubbles-draft-down.png"
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "a725ba40-d7f0-4e31-b87e-c4f54658c4ea",
+  "name": "bubbles-draft-right",
+  "symbol": "tileset_bubbles_draft_right",
+  "width": 10,
+  "height": 1,
+  "imageWidth": 80,
+  "imageHeight": 8,
+  "filename": "bubbles-draft-right.png"
+}

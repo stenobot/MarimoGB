@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5be466f5-42af-48ea-afde-e18d41a83612",
+  "name": "bubbles-draft-left",
+  "symbol": "tileset_bubbles_draft_left",
+  "width": 10,
+  "height": 1,
+  "imageWidth": 80,
+  "imageHeight": 8,
+  "filename": "bubbles-draft-left.png"
+}

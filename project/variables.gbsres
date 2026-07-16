@@ -227,6 +227,11 @@
       "symbol": "var_isrobotcanceldisabled"
     },
     {
+      "id": "45",
+      "name": "isRobotMovementDisabled",
+      "symbol": "var_isrobotmovementdisabled"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -700,11 +705,6 @@
       "id": "bb7bc3cb-af10-4669-b074-56f8cb2d48ca__L3",
       "name": "isPsychicControlTriggered",
       "symbol": "var_ispsychiccontroltrigger"
-    },
-    {
-      "id": "45",
-      "name": "isRobotMovementDisabled",
-      "symbol": "var_isrobotmovementdisabled"
     }
   ],
   "constants": []

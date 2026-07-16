@@ -1,0 +1,104 @@
+{
+  "_resourceType": "actor",
+  "id": "9f3cf8a9-4989-4bb6-b930-f12bd0061d99",
+  "name": "WaterDrone01",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "53e0e59a-db4d-4954-9c75-4ca08b166888",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_147",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
+      },
+      "id": "88026a98-989a-41e0-9d16-ca14d0db376b"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "9f3cf8a9-4989-4bb6-b930-f12bd0061d99",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "9ddc0e38-05ab-4271-9c5a-d2aed3b40970"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "95607fb8-0f07-426e-8a01-ab56bb257a3e"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "9f3cf8a9-4989-4bb6-b930-f12bd0061d99",
+        "x": {
+          "type": "number",
+          "value": 19
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "8908fe40-a450-4516-b2e7-e65b6a34060a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "70d7e19d-5763-48d4-a2d8-1f3cc394c60f"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 19,
+  "y": 11,
+  "_index": 0
+}

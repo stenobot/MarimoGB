@@ -32,6 +32,82 @@
         "customEventId": "40429d15-954f-4724-82d9-d46a9886638f"
       },
       "id": "8866d324-d650-46f4-9f57-73c31dd64cb4"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.7,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 34
+              },
+              "tilesetId": "cc46d964-da02-465c-8b4c-e6bc8aba45a6",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 2
+              },
+              "variable": "L5"
+            },
+            "id": "d82e8de5-ddf9-49a8-bca5-8a353362e37d"
+          }
+        ]
+      },
+      "id": "a21b45ec-f2b1-43cf-ab7b-66b606920316"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.4,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 34
+              },
+              "tilesetId": "cc46d964-da02-465c-8b4c-e6bc8aba45a6",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 2
+              },
+              "variable": "L4"
+            },
+            "id": "3b20f872-9469-4323-a31c-cb4d5f2d8708"
+          }
+        ]
+      },
+      "id": "a04edb15-62d1-423c-974a-370c1ed18618"
     }
   ],
   "playerHit1Script": [],

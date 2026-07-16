@@ -1,0 +1,99 @@
+{
+  "_resourceType": "trigger",
+  "id": "6cacca60-af38-45e7-b051-17c7ac940cbd",
+  "name": "",
+  "prefabId": "",
+  "x": 16,
+  "y": 9,
+  "symbol": "trigger_174",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "54ff2252-e13e-4861-a765-6252f9f9a217"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "adv_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 16384
+        },
+        "__collapse": true
+      },
+      "id": "0114c62a-47f9-4081-8be1-60266572bb1d"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 95
+        },
+        "y": {
+          "type": "number",
+          "value": 44
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "vertical",
+        "units": "pixels",
+        "__collapse": true
+      },
+      "id": "2fdf778f-1f28-4271-8ba0-6bd0738286bd"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "adv_walk_vel",
+        "value": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__collapse": true
+      },
+      "id": "3e36c8e6-b615-4650-80fa-6b4c30c367cd"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "94ae1b39-9780-482c-8f67-bf9bc982e80b"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": -3
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "collideWith": [],
+        "lockDirection": [
+          "x"
+        ],
+        "moveType": "horizontal",
+        "__collapse": true
+      },
+      "id": "430aca03-eaee-4256-978c-95ada3c17fd7"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}
