@@ -33,7 +33,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_46",
   "x": 4280,
-  "y": 904,
+  "y": 928,
   "script": [
     {
       "command": "EVENT_SET_TIMER_SCRIPT",

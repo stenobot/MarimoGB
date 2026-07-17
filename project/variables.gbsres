@@ -705,6 +705,11 @@
       "id": "bb7bc3cb-af10-4669-b074-56f8cb2d48ca__L3",
       "name": "isPsychicControlTriggered",
       "symbol": "var_ispsychiccontroltrigger"
+    },
+    {
+      "id": "46",
+      "name": "isSwitchOn_01_09",
+      "symbol": "var_isswitchon_01_09"
     }
   ],
   "constants": []

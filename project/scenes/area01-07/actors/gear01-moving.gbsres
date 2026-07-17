@@ -14,7 +14,28 @@
   "persistent": false,
   "collisionGroup": "1",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "030839d8-2c28-47ca-a96f-02cca0f30716": {
+      "id": "030839d8-2c28-47ca-a96f-02cca0f30716",
+      "args": {
+        "__section": "movement",
+        "y": {
+          "type": "number",
+          "value": 19
+        }
+      }
+    },
+    "3cf98712-e2c2-4bd2-8d96-0369f6ce0d96": {
+      "id": "3cf98712-e2c2-4bd2-8d96-0369f6ce0d96",
+      "args": {
+        "__section": "movement",
+        "y": {
+          "type": "number",
+          "value": 10
+        }
+      }
+    }
+  },
   "symbol": "actor_46",
   "script": [
     {
@@ -175,6 +196,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 7,
-  "y": 8,
+  "y": 10,
   "_index": 1
 }

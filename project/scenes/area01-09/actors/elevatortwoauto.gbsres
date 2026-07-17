@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "44ab82be-402d-4181-8156-42ee2e0e746a",
-  "name": "Gear01-Moving",
+  "id": "2926ac6a-b7c7-4103-ad7f-7007f9255146",
+  "name": "ElevatorTwoAuto",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "e152d9d2-4689-4dc9-bdad-3e9750a6552a",
+  "prefabId": "15dea06b-2b1f-4141-a196-8da544bd88c1",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -15,36 +15,34 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {
-    "030839d8-2c28-47ca-a96f-02cca0f30716": {
-      "id": "030839d8-2c28-47ca-a96f-02cca0f30716",
+    "c4c087ef-f2e1-4c7e-b42e-75a0babb672f": {
+      "id": "c4c087ef-f2e1-4c7e-b42e-75a0babb672f",
       "args": {
-        "__section": "movement",
+        "y": {
+          "type": "number",
+          "value": 14
+        },
         "x": {
           "type": "number",
-          "value": 20
+          "value": 23
+        }
+      }
+    },
+    "650b23b9-d95e-4ca5-9362-4500a0f6fae7": {
+      "id": "650b23b9-d95e-4ca5-9362-4500a0f6fae7",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 23
         },
         "y": {
           "type": "number",
           "value": 23
         }
       }
-    },
-    "3cf98712-e2c2-4bd2-8d96-0369f6ce0d96": {
-      "id": "3cf98712-e2c2-4bd2-8d96-0369f6ce0d96",
-      "args": {
-        "__section": "movement",
-        "x": {
-          "type": "number",
-          "value": 27
-        },
-        "y": {
-          "type": "number",
-          "value": 30
-        }
-      }
     }
   },
-  "symbol": "actor_49",
+  "symbol": "actor_157",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -52,7 +50,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 27,
-  "y": 30,
-  "_index": 5
+  "x": 23,
+  "y": 23,
+  "_index": 2
 }

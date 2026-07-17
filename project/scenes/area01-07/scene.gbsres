@@ -6,7 +6,7 @@
   "backgroundId": "da28b277-2b18-4aa7-873c-0e5ecd1bfd2e",
   "tilesetId": "",
   "width": 38,
-  "height": 37,
+  "height": 39,
   "type": "ADVENTURE",
   "colorModeOverride": "none",
   "paletteIds": [
@@ -17,7 +17,7 @@
     "",
     "",
     "3c54d74e-6ede-4964-a88a-54a27df1ad69",
-    "59f86781-0cb7-466d-8ca6-4d6a7118502a"
+    "afb8a816-aa66-426a-b766-7cff8fb88d54"
   ],
   "spritePaletteIds": [
     "",
@@ -29,7 +29,7 @@
     "",
     ""
   ],
-  "collisions": "0035+0f3+002+0f3+001b+0f3+008+0f3+0016+0f2+00e+0f2+0013+0f!0012+0f!0011+0f!0014+0f!00f+0f!0016+0f!00d+0f!0018+0f!00b+0f!001a+0f!00a+0f!001a+0f!009+0f!001c+0f!008+0f!001c+0f!007+0f!001e+0f!006+0f!001e+0f!006+0f!001e+0f!005+0f!0020+0f!004+0f!0020+0f3+002+0f!0025+0f!0025+0f!0025+0f!0020+0f3+002+0f!0020+0f!005+0f!001e+0f!006+0f!001e+0f!006+0f!001e+0f!007+0f!001c+0f!008+0f!001c+0f!009+0f!001a+0f!00b+0f!0018+0f!00d+0f!0016+0f!00f+0f!0014+0f!0011+0f!0012+0f!0013+0f!0010+0f!0015+0f2+00c+0f2+0018+0f3+006+0f3+001d+0f6+0036+",
+  "collisions": "0012+0f2+0023+0f!002+0f!0022+0f!002+0f!0020+0f3+002+0f3+001b+0f3+008+0f3+0016+0f2+00e+0f2+0013+0f!0012+0f!0011+0f!0014+0f!00f+0f!0016+0f!00d+0f!0018+0f!00b+0f!001a+0f!00a+0f!001a+0f!009+0f!001c+0f!008+0f!001c+0f!007+0f!001e+0f!006+0f!001e+0f!006+0f!001e+0f!005+0f!0020+0f!004+0f!0020+0f3+002+0f!0025+0f!0025+0f!0025+0f!0020+0f3+002+0f!0020+0f!005+0f!001e+0f!006+0f!001e+0f!006+0f!001e+0f!007+0f!001c+0f!008+0f!001c+0f!009+0f!001a+0f!00b+0f!0018+0f!00d+0f!0016+0f!00f+0f!0014+0f!0011+0f!0012+0f!0013+0f!0010+0f!0015+0f2+00c+0f2+0018+0f3+006+0f3+001d+0f6+0036+",
   "autoFadeSpeed": 1,
   "symbol": "scene_45",
   "x": 3936,
@@ -55,7 +55,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 4
+                "value": 6
               },
               "tilesetId": "319a39e0-a97b-4e38-bc8f-8bc53a902d6c",
               "tileIndex": {
@@ -70,6 +70,30 @@
               "__collapse": false
             },
             "id": "b7a9e3a7-c491-4238-b958-c68d512f242c"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "tilesetId": "cc46d964-da02-465c-8b4c-e6bc8aba45a6",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 2
+              },
+              "variable": "L5"
+            },
+            "id": "aa299594-807e-42e5-afd8-5c29b2507d4f"
           }
         ]
       },
@@ -95,7 +119,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 6
+                "value": 8
               },
               "tilesetId": "0a1b5069-ea60-4007-a97c-b7fe6bf444e5",
               "tileIndex": {
@@ -120,7 +144,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 7
+                "value": 9
               },
               "tilesetId": "1198bea1-0096-467e-bf40-994c8abb9d52",
               "tileIndex": {
@@ -135,6 +159,30 @@
               "__collapse": false
             },
             "id": "7e538cc3-689b-4578-934f-5f9966c408ca"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "tilesetId": "cc46d964-da02-465c-8b4c-e6bc8aba45a6",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 2
+              },
+              "variable": "L4"
+            },
+            "id": "2aa61643-4460-4e9c-bc41-953aa6e8d75b"
           }
         ]
       },

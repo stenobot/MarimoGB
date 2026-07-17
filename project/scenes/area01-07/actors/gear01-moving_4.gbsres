@@ -25,7 +25,7 @@
         },
         "y": {
           "type": "number",
-          "value": 28
+          "value": 30
         }
       }
     },
@@ -39,7 +39,7 @@
         },
         "y": {
           "type": "number",
-          "value": 21
+          "value": 23
         }
       }
     }
@@ -53,6 +53,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 16,
-  "y": 21,
+  "y": 23,
   "_index": 4
 }

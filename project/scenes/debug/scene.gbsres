@@ -25,7 +25,13 @@
   "symbol": "scene_37",
   "x": 480,
   "y": 40,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {},
+      "id": "de6b0baa-a2fe-4a84-9d71-ff7806c891b9"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

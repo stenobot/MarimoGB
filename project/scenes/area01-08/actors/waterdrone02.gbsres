@@ -38,7 +38,7 @@
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 3
         },
         "collideWith": [],
         "lockDirection": [],
@@ -63,7 +63,7 @@
     {
       "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
-        "__section": "options",
+        "__section": "movement",
         "actorId": "92e0646e-af5b-4d96-8399-a90342777e1c",
         "x": {
           "type": "number",
