@@ -86,7 +86,7 @@
           "value": "19"
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -256,6 +256,45 @@
         ]
       },
       "id": "a170c93e-3511-49b7-9c8a-936b289dfa9a"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 3,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "tilesetId": "0c8a837a-1cf8-4f69-95ec-a452b9f89de0",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 5
+              },
+              "variable": "L2"
+            },
+            "id": "49fc3eb1-5c75-4121-ba0b-de0cf3fb9ac5"
+          }
+        ]
+      },
+      "id": "58d666e4-97d5-4b3b-8b3c-ca049e1bd664"
     }
   ],
   "playerHit1Script": [],

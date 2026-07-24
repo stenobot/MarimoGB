@@ -20,16 +20,6 @@
   "y": 1000,
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "$self$",
-        "spriteStateId": "Swimming",
-        "loopAnim": true,
-        "__collapse": true
-      },
-      "id": "6d5f01bc-e7ab-4046-87fb-ab0a564948ef"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -63,14 +53,14 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "50d100c9-56a5-4b4c-bbce-591a89cea370"
+              "actorId": "709b928e-81fe-49c4-bd57-f7fbcf02a19c"
             },
             "id": "1ada0872-a300-43aa-98be-f79ac86bdc8d"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "03890fbd-2f56-4141-b79a-13497676abe3"
+              "actorId": "50e890c5-a2e6-42a6-9779-1585d9a271da"
             },
             "id": "6f7c345f-162d-4423-ba84-4cff2e09e91a"
           }
@@ -85,7 +75,8 @@
         "timer": 1,
         "duration": 0.8,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": true
       },
       "children": {
         "script": [

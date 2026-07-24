@@ -105,7 +105,7 @@
         "duration": 1.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -561,7 +561,7 @@
         "duration": 0.7,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -617,6 +617,44 @@
         ]
       },
       "id": "43f4d105-4b5b-445c-a8d2-9c5faa43166d"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 3,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 20
+              },
+              "tilesetId": "0c8a837a-1cf8-4f69-95ec-a452b9f89de0",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 5
+              },
+              "variable": "L3"
+            },
+            "id": "8d7034f0-bc89-4ca6-9cfb-826734000623"
+          }
+        ]
+      },
+      "id": "27287a1f-b2cc-41b7-a778-66ce5217d63a"
     }
   ],
   "playerHit1Script": [],

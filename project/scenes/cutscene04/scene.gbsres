@@ -19,7 +19,16 @@
     "e290e40a-e719-41cf-87d9-65f2a2d0e34c",
     "c99308e2-927e-4706-90b4-45a7914d3e57"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "f54c164c-55dd-48f8-b620-3102c6ab5641",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
   "collisions": "001b8+",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",

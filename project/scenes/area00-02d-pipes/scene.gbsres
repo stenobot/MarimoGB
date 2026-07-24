@@ -18,16 +18,6 @@
   "y": 816,
   "script": [
     {
-      "command": "EVENT_ACTOR_SET_STATE",
-      "args": {
-        "actorId": "$self$",
-        "spriteStateId": "Swimming",
-        "loopAnim": true,
-        "__collapse": true
-      },
-      "id": "f58be5f4-0baa-42ff-a32a-75ebbbb53491"
-    },
-    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
@@ -121,5 +111,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351"
+  "playerSpriteSheetId": "876ca42f-281f-423b-bfa9-e426764dacc6"
 }

@@ -134,7 +134,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "13ba532e-1f67-425b-9c41-1233acb9d716"
           },
