@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "7a6771b7-d765-4f38-934d-809971c4192b",
+  "name": "hot-treads-on",
+  "symbol": "tileset_hot_treads_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "hot-treads-on.png"
+}

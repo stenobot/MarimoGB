@@ -35,7 +35,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "d1fe114e-3a5e-4dfe-a714-7f3f2b588312"
           },
@@ -197,7 +197,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "369535f9-afbe-493c-a8a1-7cba1d4e1ff4"
           },
@@ -297,7 +297,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "3e52dc69-4492-4353-a19a-43b7268085e5"
           }

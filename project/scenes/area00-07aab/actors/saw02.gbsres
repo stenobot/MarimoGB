@@ -1,0 +1,108 @@
+{
+  "_resourceType": "actor",
+  "id": "2216adcb-ec1f-42dd-a5bc-755ae5b2cc9a",
+  "name": "Saw02",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d495c3f4-786a-498f-8840-94c4a06e78d6",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.5,
+  "animSpeed": 3,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_176",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
+      },
+      "id": "a3c10ef3-b528-4c8b-97e2-6c9964286be2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 29
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "collideWith": [],
+        "lockDirection": [
+          "y"
+        ],
+        "moveType": "vertical"
+      },
+      "id": "0f482bf9-a115-40cb-802d-1559ef2b48d8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "867b0959-d1e4-4d4a-812b-4c8eb29c58e9"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "options",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 29
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "collideWith": [],
+        "lockDirection": [
+          "y"
+        ],
+        "moveType": "vertical"
+      },
+      "id": "23b7ae3a-16ec-4a85-9897-f06c665972e7"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "98f976d0-cc9c-453c-b4c5-be06421a606c"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 29,
+  "y": 6,
+  "_index": 2
+}

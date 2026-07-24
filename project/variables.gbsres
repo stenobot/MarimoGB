@@ -118,13 +118,13 @@
     },
     {
       "id": "23",
-      "name": "isComplete_00_07",
-      "symbol": "var_iscomplete_00_07"
+      "name": "isComplete_00_07a",
+      "symbol": "var_iscomplete_00_07a"
     },
     {
       "id": "24",
-      "name": "isTriggered_00_07",
-      "symbol": "var_istriggered_00_07"
+      "name": "isTriggered_00_07a",
+      "symbol": "var_istriggered_00_07a"
     },
     {
       "id": "25",
@@ -230,6 +230,21 @@
       "id": "45",
       "name": "isRobotMovementDisabled",
       "symbol": "var_isrobotmovementdisabled"
+    },
+    {
+      "id": "46",
+      "name": "isSwitchOn_01_09",
+      "symbol": "var_isswitchon_01_09"
+    },
+    {
+      "id": "47",
+      "name": "isSwitchOn_01_10",
+      "symbol": "var_isswitchon_01_10"
+    },
+    {
+      "id": "48",
+      "name": "bossDmgCounter_01_10",
+      "symbol": "var_bossdmgcounter_01_10"
     },
     {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
@@ -707,9 +722,29 @@
       "symbol": "var_ispsychiccontroltrigger"
     },
     {
-      "id": "46",
-      "name": "isSwitchOn_01_09",
-      "symbol": "var_isswitchon_01_09"
+      "id": "40ef1692-ed66-4ec6-82fb-2f20f7d82bad__L0",
+      "name": "Local 0",
+      "symbol": "var_local_14"
+    },
+    {
+      "id": "0b6e83a1-1e8e-4142-bf40-ab11f2418d8c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_15"
+    },
+    {
+      "id": "49",
+      "name": "bossDmgCounter_00_07aa",
+      "symbol": "var_bossdmgcounter_00_07aa"
+    },
+    {
+      "id": "50",
+      "name": "isSwitchOn_00_07aa",
+      "symbol": "var_isswitchon_00_07aa"
+    },
+    {
+      "id": "51",
+      "name": "isStarted_00_07aa",
+      "symbol": "var_isstarted_00_07aa"
     }
   ],
   "constants": []

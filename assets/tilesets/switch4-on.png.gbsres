@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "19576919-ba30-4dbb-9c01-75c97d33ac0b",
+  "name": "switch4-on",
+  "symbol": "tileset_switch4_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "switch4-on.png"
+}

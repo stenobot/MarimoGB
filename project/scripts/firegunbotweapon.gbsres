@@ -1,0 +1,102 @@
+{
+  "_resourceType": "script",
+  "id": "77821413-45da-4f90-98d3-324dd57601cb",
+  "name": "FireGunBotWeapon",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "GunBot"
+    }
+  },
+  "symbol": "script_19",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "48"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "f79d6061-ec11-479f-9618-1d1c0b53d31b",
+              "spriteStateId": "",
+              "actorId": "0",
+              "x": 0,
+              "y": 0,
+              "directionType": "target",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "player",
+              "speed": 0.5,
+              "animSpeed": 15,
+              "lifeTime": 4,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "player",
+                "1"
+              ],
+              "__collapse": false,
+              "__comment": false
+            },
+            "id": "95a9d3df-bc23-4a64-9da1-c639847524cd"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "f79d6061-ec11-479f-9618-1d1c0b53d31b",
+              "spriteStateId": "",
+              "actorId": "0",
+              "x": 0,
+              "y": 0,
+              "directionType": "target",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "player",
+              "speed": 1,
+              "animSpeed": 15,
+              "lifeTime": 3,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "player",
+                "1"
+              ],
+              "__collapse": false,
+              "__comment": false
+            },
+            "id": "4ff67ca2-722f-4928-8eb1-cc95ceea6723"
+          }
+        ]
+      },
+      "id": "2197744a-1cf3-49bc-99fc-2ca5566fe978"
+    }
+  ]
+}

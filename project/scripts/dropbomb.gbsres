@@ -135,7 +135,7 @@
         "duration": 0.5,
         "wait": true,
         "effect": 20,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e0fec32d-afa3-4330-a4cb-b87a2de1f878"
     },

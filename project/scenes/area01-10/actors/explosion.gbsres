@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "3f4fa588-6f53-44fc-bbd5-78d035f63a92",
+  "name": "Explosion",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a509ff4e-571b-4409-9860-5643b66b65ca",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_160",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "44cdd74f-873a-4d84-9708-9f3003176734"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 0,
+  "y": 0,
+  "_index": 3
+}

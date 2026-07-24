@@ -1,0 +1,262 @@
+{
+  "_resourceType": "scene",
+  "id": "d9741c1f-7018-4e4e-b208-ca6083211f94",
+  "_index": 47,
+  "name": "area01-10",
+  "backgroundId": "13d68725-5fca-4f41-87c9-422e64723fe8",
+  "tilesetId": "",
+  "width": 39,
+  "height": 25,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "b734aafa-21d2-461c-9c36-3051d9132e63",
+    "e804684e-968c-40d2-ae86-4eaedda490bf",
+    "af0ba7ea-05a9-4350-b6f5-1735046e4ba2",
+    "7a08a73f-96de-450b-ba31-44463f5fa0b5",
+    "9f2996c4-83b4-42b6-b90d-7ec54ab5752d",
+    "64a53f75-59d3-4b3e-89fe-8818599b7052",
+    "58f7da3c-bfc2-47ff-b834-22be8d3a8cbd",
+    "e5f6ad96-db4f-4a44-b112-164beb2c9ad7"
+  ],
+  "spritePaletteIds": [
+    "59f86781-0cb7-466d-8ca6-4d6a7118502a",
+    "fb28518f-8b93-40e2-901e-ba750a708fb8",
+    "",
+    "",
+    "",
+    "",
+    "dade6cc8-5522-4f0c-aca6-f076f28eabb1",
+    "765daa51-61ea-47bb-ac12-458c658615bf"
+  ],
+  "collisions": "0022+0f!00!10!00!0f!002+0f3+002+0f5+002+0f15+00!10!00!0f!00!0f!003+0f2+005+0f2+0016+10!00!0f3+003+0f2+005+0f2+0016+10!00!0f!005+0f2+005+0f2+0016+10!00!0f!0024+10!00!0f!0023+0f3+006+0f18+006+0f!004+0f2+002+0f2+001c+0f!004+0f!003+0f2+0017+01!004+0f!004+0f!003+0f2+001a+01!00!0f!004+0f!003+0f2+001c+0f!004+0f!002+01!0f2+001b+01!0f!004+0f!003+0f2+001c+0f!004+0f!003+0f2+0019+01!002+0f!004+0f!003+0f2+001c+0f!004+0f!01!002+0f2+00c+01!00f+0f!004+0f!003+0f2+0016+0f7+004+0f!003+0f2+01!0015+0f!005+0f!004+0f!003+0f2+0016+0f!005+0f!004+0f!002+01!0f2+01!003+01!003+01!0013+0f!004+0f!0021+0f!004+0f!00f+0f2+0010+0f!005+0f21+002b+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_48",
+  "x": 4632,
+  "y": 688,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
+        "__collapse": true
+      },
+      "id": "0130a860-6d8f-45d3-9f02-283e9daad4b5"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "47",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "e0c0040b-0cc7-486e-b07f-773275cc29b4"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "48"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Boss has not been defeated yet",
+              "__collapse": true
+            },
+            "id": "97169ed2-01bc-4f20-92e9-e469fa5c7531"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "f3912a82-3e24-4619-91c0-1ff7f864402a",
+              "__collapse": true
+            },
+            "id": "068bf7f7-5952-4402-85f3-6946c6bc4f5a"
+          },
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Reset boss health",
+              "__collapse": true
+            },
+            "id": "0d7d861b-02b1-40b5-996d-c048bb59eabe"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "48",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "b4fbf79f-897c-42b3-b105-9f705f162e0a"
+          },
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Hide exit block",
+              "__collapse": true
+            },
+            "id": "3e0074ab-30ed-4565-b01c-58b979e9f875"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "50fa05bd-5d24-4f16-b4ea-efe427d09d75",
+              "__collapse": true
+            },
+            "id": "b7d4571f-268f-4db4-8353-a243fd40920e"
+          },
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Door closing sequence",
+              "__collapse": true
+            },
+            "id": "87f863ea-4650-4a6a-a913-e8476c227ca7"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "743792c8-aaa2-4c6d-8e0c-bcc406b26dba"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 36,
+              "__collapse": true
+            },
+            "id": "27a57c1e-82fc-4da9-973b-91b0206074be"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "14c14a27-446b-4be4-bbcb-1419686d4084",
+              "__collapse": true
+            },
+            "id": "4dda82df-d90c-4cc6-9c4d-8f6b50443990"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "92c70398-e6c1-424d-a777-32734d803c67",
+              "__collapse": true
+            },
+            "id": "15911852-b303-4e0a-b529-cbd2e05d8d14"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 2
+              },
+              "__collapse": true
+            },
+            "id": "6838b0cf-59d2-4032-a67d-0c9bef34c078"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Boss has already been defeated",
+              "__collapse": true
+            },
+            "id": "7a6ecdfe-9e8f-4967-b321-92f195b938de"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "0d273747-3ae0-41ed-a3c6-9f2f4b2854b2",
+              "__collapse": true
+            },
+            "id": "b5dd2cc6-cc53-44bd-a34d-b3416b1ce696"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "740c39c7-2c83-4898-a6ee-e0c1de62033d",
+              "__collapse": true
+            },
+            "id": "2d3a5800-222e-4705-bb9c-6bd67567aad5"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "14c14a27-446b-4be4-bbcb-1419686d4084",
+              "__collapse": true
+            },
+            "id": "57514771-6384-4c8d-adeb-1c5d9aec1293"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "92c70398-e6c1-424d-a777-32734d803c67",
+              "__collapse": true
+            },
+            "id": "22420b4d-b33d-4c6e-8b7b-920571f0f450"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "50fa05bd-5d24-4f16-b4ea-efe427d09d75",
+              "__collapse": true
+            },
+            "id": "09615011-c023-4806-b4ae-86b6cfe1f855"
+          }
+        ]
+      },
+      "id": "7f160647-5745-4b54-99d1-5b95e162f404"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
+      },
+      "id": "4fe17d94-7ab8-458b-843d-5a8846b59f19"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}
