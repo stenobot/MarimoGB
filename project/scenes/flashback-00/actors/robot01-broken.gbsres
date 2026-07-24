@@ -68,7 +68,8 @@
         "variable": "45",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "5017dc96-5513-4378-ac78-66447a61fdf9"
     }
@@ -430,9 +431,9 @@
                 "type": "number",
                 "value": 15
               },
-              "direction": "",
+              "direction": "right",
               "fadeSpeed": "2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "bb721919-0d14-4fc4-b506-e2a800a18321"
           }

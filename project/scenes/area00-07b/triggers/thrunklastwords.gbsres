@@ -3,7 +3,7 @@
   "id": "35f16a45-03d9-4edc-bc5d-ec8f4f649894",
   "name": "ThrunkLastWords",
   "prefabId": "",
-  "x": 13,
+  "x": 12,
   "y": 12,
   "symbol": "trigger_40",
   "prefabScriptOverrides": {},
@@ -34,7 +34,7 @@
             "command": "EVENT_ACTOR_SHOW",
             "args": {
               "actorId": "6fc2022b-e145-4d25-854d-42573acffbc5",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "6e045fe7-5959-409e-8d34-4ef6092deb1c"
           },
@@ -76,7 +76,8 @@
           {
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
-              "actorId": "0174d8be-2b80-4d00-98ab-f7fc0391b8ef"
+              "actorId": "0174d8be-2b80-4d00-98ab-f7fc0391b8ef",
+              "__collapse": true
             },
             "id": "c10ed24f-689b-417e-a14a-453b22dedbfe"
           },

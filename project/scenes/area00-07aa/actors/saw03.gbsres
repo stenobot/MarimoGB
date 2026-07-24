@@ -38,7 +38,7 @@
         },
         "y": {
           "type": "number",
-          "value": 5
+          "value": 6
         },
         "collideWith": [],
         "lockDirection": [
