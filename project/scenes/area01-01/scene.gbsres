@@ -27,6 +27,13 @@
   "y": 896,
   "script": [
     {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "5ff30cd9-4751-4d6e-b382-2d2e1e08d5c0"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",

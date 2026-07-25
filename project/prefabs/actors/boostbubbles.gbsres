@@ -18,7 +18,8 @@
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "6e467c86-3e32-46b4-a5b0-da28f0ff3691",
       "children": {}
@@ -30,7 +31,8 @@
         "value": {
           "type": "number",
           "value": 7
-        }
+        },
+        "__collapse": true
       },
       "id": "36523492-0dd9-4dc7-8cf2-fa493588ba0a",
       "children": {}

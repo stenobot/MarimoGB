@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "358ffdff-445c-40eb-9c4b-5d6c1d36fc18",
+  "name": "metal-wire16-on",
+  "symbol": "tileset_metal_wire16_on",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "metal-wire16-on.png"
+}

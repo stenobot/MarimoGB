@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actor",
+  "id": "978f9cb4-a593-45cf-b03d-325c82a0eebd",
+  "name": "Block04",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "171b8fbd-b1a8-438a-aef6-faa116ec6164",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "ae3c4e9b-aef8-4f37-84e7-5b89c05ed04f"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 22,
+  "y": 10,
+  "_index": 8
+}

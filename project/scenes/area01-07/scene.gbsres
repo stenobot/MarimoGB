@@ -36,13 +36,37 @@
   "y": 848,
   "script": [
     {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "b77c74a5-577a-401c-932d-89feccc0327a",
+              "$actor[0]$": "d3ff7825-90af-4c64-881e-2bd7873aef20"
+            },
+            "id": "f1339f41-1f97-458d-aaaa-f522dd5b4399"
+          }
+        ]
+      },
+      "id": "107199b6-c4fb-4bd9-813f-712a437e49ed"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
         "duration": 1.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -106,7 +130,7 @@
         "duration": 0.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -192,5 +216,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "876ca42f-281f-423b-bfa9-e426764dacc6"
+  "playerSpriteSheetId": "876ca42f-281f-423b-bfa9-e426764dacc6",
+  "autoFadeEventCollapse": true
 }

@@ -36,6 +36,30 @@
   "y": 1400,
   "script": [
     {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "b77c74a5-577a-401c-932d-89feccc0327a",
+              "$actor[0]$": "5c311126-a8f2-4b4f-b569-02121333e457"
+            },
+            "id": "1d740ff3-0b12-43fe-9d75-8bc798e70921"
+          }
+        ]
+      },
+      "id": "78c7a077-6c94-4990-bdf4-f4694174fdc9"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 2,

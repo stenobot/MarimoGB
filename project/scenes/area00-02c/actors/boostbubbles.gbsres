@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "ad6401ae-2a67-46f1-91e8-22f09bb460c5",
-  "name": "Algae",
+  "id": "5c311126-a8f2-4b4f-b569-02121333e457",
+  "name": "BoostBubbles",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "5679b23f-5aab-4eaa-bb5b-6a213d0aa3ec",
-  "direction": "down",
+  "prefabId": "c225be67-ea64-42d2-bc9e-947c9243ec74",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_4",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 15,
-  "y": 17,
-  "_index": 2
+  "x": 0,
+  "y": 0,
+  "_index": 17
 }

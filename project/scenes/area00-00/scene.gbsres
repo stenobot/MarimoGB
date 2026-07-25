@@ -27,6 +27,13 @@
   "y": 272,
   "script": [
     {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "567b2f20-d6df-4ab8-b7e4-b05ac05769f1"
+    },
+    {
       "command": "EVENT_SET_FONT",
       "args": {
         "fontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
@@ -174,7 +181,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

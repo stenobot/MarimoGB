@@ -44,17 +44,6 @@
       "id": "0130a860-6d8f-45d3-9f02-283e9daad4b5"
     },
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "47",
-        "value": {
-          "type": "false"
-        },
-        "__collapse": true
-      },
-      "id": "e0c0040b-0cc7-486e-b07f-773275cc29b4"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -249,9 +238,33 @@
   ],
   "playerHit1Script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "47",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "665a730b-86a5-49d5-8e5b-3f3724c74e1e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "48",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "1d295a7e-7e87-4154-bb7c-81e2c7959775"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072",
+        "__collapse": true
       },
       "id": "4fe17d94-7ab8-458b-843d-5a8846b59f19"
     }

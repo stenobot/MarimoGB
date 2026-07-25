@@ -7,7 +7,7 @@
   "spriteSheetId": "d495c3f4-786a-498f-8840-94c4a06e78d6",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 0.5,
+  "moveSpeed": 2,
   "animSpeed": 3,
   "paletteId": "",
   "isPinned": false,
@@ -18,9 +18,44 @@
   "symbol": "actor_170",
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "51",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "6c0111ff-b714-4b80-9db9-74978a0e5ec3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "50",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "83377d37-ac17-4038-96f9-12d8544cda9e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "49",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "19d6826e-de41-4f3f-8c17-590e9b03198a"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072",
+        "__collapse": true
       },
       "id": "b8df848f-e812-4783-94cb-35e2db6e2c0c"
     }

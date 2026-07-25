@@ -27,6 +27,13 @@
   "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
   "script": [
     {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "c0d35124-38f3-4df2-8f55-129e17f89373"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "40429d15-954f-4724-82d9-d46a9886638f",
@@ -86,7 +93,7 @@
           "value": "19"
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -264,7 +271,7 @@
         "duration": 0.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

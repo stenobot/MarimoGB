@@ -18,9 +18,44 @@
   "symbol": "actor_168",
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "51",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "7b3b3297-4bba-48d9-9992-b3f0dfec6171"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "50",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "3afc2c4e-5299-4eb5-ba23-3840684e8250"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "49",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "a1f662d6-226e-4d64-81a7-37134b7e915a"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072"
+        "customEventId": "d6bfca80-f23b-458e-b9a7-3e1199c84072",
+        "__collapse": true
       },
       "id": "24168c99-51d9-46f0-8061-35b89376275a"
     }

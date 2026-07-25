@@ -19,7 +19,15 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_179",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8b3c3b9e-2bc9-4848-ac9f-033bf8933ba8"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

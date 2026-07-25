@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "a1a9e66e-35cd-45de-9ef0-426ceb8a475c",
+  "name": "metal-wire10-off",
+  "symbol": "tileset_metal_wire10_off",
+  "width": 1,
+  "height": 1,
+  "imageWidth": 8,
+  "imageHeight": 8,
+  "filename": "metal-wire10-off.png"
+}
