@@ -17,7 +17,7 @@
     "",
     "9f2996c4-83b4-42b6-b90d-7ec54ab5752d",
     "64a53f75-59d3-4b3e-89fe-8818599b7052",
-    "e290e40a-e719-41cf-87d9-65f2a2d0e34c"
+    "e5f6ad96-db4f-4a44-b112-164beb2c9ad7"
   ],
   "spritePaletteIds": [
     "",
@@ -54,7 +54,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -184,8 +184,8 @@
               "variable": "49",
               "choices": 4,
               "__collapseCase0": true,
-              "__collapseCase1": true,
-              "__collapseCase2": true,
+              "__collapseCase1": false,
+              "__collapseCase2": false,
               "__collapseCase3": false,
               "__collapseCase4": false,
               "__collapseCase5": false,
@@ -540,30 +540,6 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 1
-              },
-              "y": {
-                "type": "number",
-                "value": 1
-              },
-              "tilesetId": "4ec6933c-9625-4083-8b41-c1b91ec4ff26",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "frames": {
-                "type": "number",
-                "value": 4
-              },
-              "variable": "L0"
-            },
-            "id": "de984c44-3422-4f61-8e7c-b4dfcfd991ab"
-          },
-          {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
-            "args": {
-              "x": {
-                "type": "number",
                 "value": 5
               },
               "y": {
@@ -580,52 +556,13 @@
                 "value": 3
               },
               "variable": "L3",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "22b82547-a583-4ac6-8399-ace9d7e3a2c8"
           }
         ]
       },
       "id": "2077ff68-5300-4de5-851f-ccee25abd46e"
-    },
-    {
-      "command": "EVENT_SET_TIMER_SCRIPT",
-      "args": {
-        "timer": 2,
-        "duration": 1.7,
-        "frames": 30,
-        "__scriptTabs": "end",
-        "__collapse": true
-      },
-      "children": {
-        "script": [
-          {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 2
-              },
-              "y": {
-                "type": "number",
-                "value": 7
-              },
-              "tilesetId": "47beb51f-1911-46e1-8ef1-234f98bd7a3e",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "frames": {
-                "type": "number",
-                "value": 4
-              },
-              "variable": "L1"
-            },
-            "id": "91fccd17-31fa-4f12-8621-5e8b7f1db59b"
-          }
-        ]
-      },
-      "id": "53a1fb40-77c4-4608-8952-3f03d6aeb86d"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -665,6 +602,47 @@
         ]
       },
       "id": "b474d521-5f2a-4768-b65a-f5c3dd9126d3"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$02$ && $22$"
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
+                    "$actor[0]$": "b1cdc97a-a696-4d8f-b0b9-03a4a3206677"
+                  },
+                  "id": "f5a2bb9c-d091-40f0-9adc-f081a8d355f9"
+                }
+              ],
+              "false": []
+            },
+            "id": "6f551310-6011-4095-8486-4c4efd91e0a0"
+          }
+        ]
+      },
+      "id": "40c460af-e8a5-4d80-9ae6-684d089806d0"
     }
   ],
   "playerHit1Script": [],

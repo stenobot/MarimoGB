@@ -213,6 +213,50 @@
         ]
       },
       "id": "2bcab24e-e968-4330-bd46-942898f6721b"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$02$ && $22$"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
+                    "$actor[0]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "__collapse": true
+                  },
+                  "id": "c9eab45d-fed5-4e16-9e6a-9cfc972ea8f3"
+                }
+              ],
+              "false": []
+            },
+            "id": "ef49cab7-32d3-495f-aa32-78b3248743f0"
+          }
+        ]
+      },
+      "id": "325acdcc-3fee-400f-b9c2-52dbc1769d41"
     }
   ],
   "playerHit1Script": [],

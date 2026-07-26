@@ -588,6 +588,50 @@
         ]
       },
       "id": "1509fd91-7758-4fa9-b1b0-05181171cfd8"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$02$ && $22$"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
+                    "$actor[0]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "__collapse": true
+                  },
+                  "id": "c6e6fc93-7a9f-44f4-b89c-d9028a6221d4"
+                }
+              ],
+              "false": []
+            },
+            "id": "41b17ce0-81be-4694-8954-dd43090cd4b5"
+          }
+        ]
+      },
+      "id": "c9b19010-35b6-4e73-a6d4-0cc05a6e5e85"
     }
   ],
   "playerHit1Script": [],

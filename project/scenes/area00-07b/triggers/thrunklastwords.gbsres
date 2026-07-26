@@ -34,7 +34,7 @@
             "command": "EVENT_ACTOR_SHOW",
             "args": {
               "actorId": "6fc2022b-e145-4d25-854d-42573acffbc5",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "6e045fe7-5959-409e-8d34-4ef6092deb1c"
           },
@@ -74,6 +74,20 @@
             "id": "a91ab245-663e-472a-a5fd-4b04d160d5c8"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 40,
+              "__collapse": true
+            },
+            "id": "730cb42d-d9dc-41be-9a97-73a170cb3bbf"
+          },
+          {
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "0174d8be-2b80-4d00-98ab-f7fc0391b8ef",
@@ -111,14 +125,16 @@
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
                   "args": {
-                    "actorId": "0174d8be-2b80-4d00-98ab-f7fc0391b8ef"
+                    "actorId": "0174d8be-2b80-4d00-98ab-f7fc0391b8ef",
+                    "__collapse": true
                   },
                   "id": "ccb8260b-0882-4130-8d23-1a94414e157a"
                 },
                 {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
-                    "actorId": "357d359e-692b-41f1-8b89-2c99539ccaea"
+                    "actorId": "357d359e-692b-41f1-8b89-2c99539ccaea",
+                    "__collapse": true
                   },
                   "id": "e2197326-29dd-41dc-90d2-cdd9ad56824c"
                 },
@@ -132,7 +148,8 @@
                     "frames": {
                       "type": "number",
                       "value": 1
-                    }
+                    },
+                    "__collapse": true
                   },
                   "id": "dd5d2e72-bf67-46a2-ab74-2ffcaf5723a5"
                 },
@@ -143,21 +160,38 @@
                       "a"
                     ],
                     "override": true,
-                    "__scriptTabs": "press"
+                    "__scriptTabs": "press",
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
                       {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "48d4a62c-e154-495c-a6bb-33d48a597873",
+                          "priority": "medium",
+                          "pitch": 4,
+                          "frequency": 200,
+                          "duration": 0.5,
+                          "wait": true,
+                          "effect": 40,
+                          "__collapse": true
+                        },
+                        "id": "2272173e-13bd-4da9-a4b0-add9de55ac94"
+                      },
+                      {
                         "command": "EVENT_ACTOR_DEACTIVATE",
                         "args": {
-                          "actorId": "357d359e-692b-41f1-8b89-2c99539ccaea"
+                          "actorId": "357d359e-692b-41f1-8b89-2c99539ccaea",
+                          "__collapse": true
                         },
                         "id": "4464688f-edea-46dd-a3c9-79d88dff9883"
                       },
                       {
                         "command": "EVENT_ACTOR_ACTIVATE",
                         "args": {
-                          "actorId": "17abef6b-20cd-4d91-87ec-9325da3d8d10"
+                          "actorId": "17abef6b-20cd-4d91-87ec-9325da3d8d10",
+                          "__collapse": true
                         },
                         "id": "dea42e11-aad9-4bed-b2f4-95939c1ff275"
                       },
@@ -171,7 +205,8 @@
                           "frames": {
                             "type": "number",
                             "value": 1
-                          }
+                          },
+                          "__collapse": true
                         },
                         "id": "2f716010-62da-4bb9-be53-b981c2f3f927"
                       },
@@ -182,7 +217,8 @@
                             "a"
                           ],
                           "override": true,
-                          "__scriptTabs": "press"
+                          "__scriptTabs": "press",
+                          "__collapse": true
                         },
                         "children": {
                           "true": [

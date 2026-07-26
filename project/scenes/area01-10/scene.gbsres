@@ -22,7 +22,7 @@
   "spritePaletteIds": [
     "59f86781-0cb7-466d-8ca6-4d6a7118502a",
     "fb28518f-8b93-40e2-901e-ba750a708fb8",
-    "",
+    "edccfcfe-6235-48de-9ff2-9235af271dcc",
     "",
     "",
     "",
@@ -58,7 +58,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -234,6 +234,50 @@
         ]
       },
       "id": "7f160647-5745-4b54-99d1-5b95e162f404"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$02$ && $22$"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "7aeaa8f6-95c3-4304-a875-de03386607cd",
+                    "$actor[0]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "$actor[1]$": "66d599f2-b886-4567-9b74-3b92022fa904",
+                    "__collapse": true
+                  },
+                  "id": "85cdbd3f-bdcd-4645-90c2-9acb123f4308"
+                }
+              ],
+              "false": []
+            },
+            "id": "ebbb1f13-9b52-4134-9b37-8b2f71a6ea3f"
+          }
+        ]
+      },
+      "id": "4f0689b0-6064-4a53-8834-7b449689d954"
     }
   ],
   "playerHit1Script": [

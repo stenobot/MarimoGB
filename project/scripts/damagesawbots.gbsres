@@ -59,8 +59,8 @@
         "choices": 4,
         "__collapseCase0": true,
         "__collapseCase1": true,
-        "__collapseCase2": false,
-        "__collapseCase3": false,
+        "__collapseCase2": true,
+        "__collapseCase3": true,
         "__collapseCase4": false,
         "__collapseCase5": false,
         "__collapseCase6": false,
@@ -5601,7 +5601,8 @@
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "8",
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "id": "ce1a2a3d-1a02-43ec-9e0d-6cce4a3168bb"
           }

@@ -38,7 +38,7 @@
           "value": "50"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -244,12 +244,13 @@
                 "type": "number",
                 "value": 14
               },
-              "tilesetId": "cf7b7b1a-a131-452f-ade1-6332287cc774",
+              "tilesetId": "2b33e113-a818-4bd6-b6a6-5b6429e3795c",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "id": "7c395a3d-0cfb-4d1a-9d06-56a03e3e5b27"
           },
@@ -324,12 +325,13 @@
                 "type": "number",
                 "value": 8
               },
-              "tilesetId": "7dd8f188-1653-466e-85fb-ae3e322a4e2b",
+              "tilesetId": "6920f092-6a9a-4ca4-94c5-01437991f69f",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "id": "9667d925-f57d-4050-af08-4beea3e70935"
           },
@@ -362,9 +364,9 @@
               "palette3": "394bd375-c341-4ac7-951d-2686c2e5daf6",
               "palette4": "keep",
               "palette5": "keep",
-              "palette6": "767bd9e0-b0a6-48b9-84c4-ae3aa195c5a3",
-              "palette7": "keep",
-              "__collapse": true
+              "palette6": "keep",
+              "palette7": "767bd9e0-b0a6-48b9-84c4-ae3aa195c5a3",
+              "__collapse": false
             },
             "id": "89edae51-5fd7-438c-9406-5168a43fad57"
           },
@@ -560,7 +562,8 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "id": "9f0fd59e-88ed-4164-ac0b-65283c0e5f27"
           },
@@ -640,7 +643,8 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "id": "547724cf-2f14-4b19-b44b-3084f5f1ff33"
           },
@@ -674,8 +678,8 @@
               "palette4": "keep",
               "palette5": "keep",
               "palette6": "64a53f75-59d3-4b3e-89fe-8818599b7052",
-              "palette7": "keep",
-              "__collapse": true
+              "palette7": "e5f6ad96-db4f-4a44-b112-164beb2c9ad7",
+              "__collapse": false
             },
             "id": "77525d2f-91cd-4b73-9d2d-11b5421a8200"
           }

@@ -41,7 +41,7 @@
         "variable": "49",
         "choices": 4,
         "__collapseCase0": true,
-        "__collapseCase1": true,
+        "__collapseCase1": false,
         "__collapseCase2": false,
         "__collapseCase3": false,
         "__collapseCase4": false,
