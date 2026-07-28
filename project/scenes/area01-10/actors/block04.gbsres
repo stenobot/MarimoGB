@@ -4,9 +4,9 @@
   "name": "Block04",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "5ae73f0f-75f2-4f60-af6f-cbaf1a1dffb7",
+  "spriteSheetId": "b405afbc-96c4-410e-aa31-ae71ec9f26c3",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -35,5 +35,5 @@
   "coordinateType": "tiles",
   "x": 0,
   "y": 7,
-  "_index": 7
+  "_index": 5
 }

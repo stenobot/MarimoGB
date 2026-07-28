@@ -18,7 +18,7 @@
           "value": "47"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -42,7 +42,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 21
+                "value": 22
               },
               "tilesetId": "c752f301-db2d-4c20-91d7-f03084bc0c04",
               "tileIndex": {
@@ -167,13 +167,11 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "fab306b0-6131-4ad6-8af5-a9a7786d49b7",
-              "__collapse": false,
-              "__comment": false,
-              "$actor[1]$": "3f4fa588-6f53-44fc-bbd5-78d035f63a92",
-              "$actor[740c39c7-2c83-4898-a6ee-e0c1de62033d]$": "740c39c7-2c83-4898-a6ee-e0c1de62033d"
+              "customEventId": "7a08878e-27b3-41c0-b103-a2a2a1020995",
+              "$actor[0]$": "740c39c7-2c83-4898-a6ee-e0c1de62033d",
+              "__collapse": true
             },
-            "id": "98abb9ab-61a8-4a48-bcf8-04384e97ec23"
+            "id": "225a104b-9d87-484c-8506-7f200e649db6"
           },
           {
             "command": "EVENT_SWITCH",
@@ -205,7 +203,7 @@
                 "type": "number",
                 "value": 3
               },
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true0": [

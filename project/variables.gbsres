@@ -247,6 +247,21 @@
       "symbol": "var_bossdmgcounter_01_10"
     },
     {
+      "id": "49",
+      "name": "bossDmgCounter_00_07aa",
+      "symbol": "var_bossdmgcounter_00_07aa"
+    },
+    {
+      "id": "50",
+      "name": "isSwitchOn_00_07aa",
+      "symbol": "var_isswitchon_00_07aa"
+    },
+    {
+      "id": "51",
+      "name": "isStarted_00_07aa",
+      "symbol": "var_isstarted_00_07aa"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -732,19 +747,14 @@
       "symbol": "var_local_15"
     },
     {
-      "id": "49",
-      "name": "bossDmgCounter_00_07aa",
-      "symbol": "var_bossdmgcounter_00_07aa"
+      "id": "740c39c7-2c83-4898-a6ee-e0c1de62033d__L0",
+      "name": "gunBotX",
+      "symbol": "var_gunbotx"
     },
     {
-      "id": "50",
-      "name": "isSwitchOn_00_07aa",
-      "symbol": "var_isswitchon_00_07aa"
-    },
-    {
-      "id": "51",
-      "name": "isStarted_00_07aa",
-      "symbol": "var_isstarted_00_07aa"
+      "id": "740c39c7-2c83-4898-a6ee-e0c1de62033d__L1",
+      "name": "gunBotY",
+      "symbol": "var_gunboty"
     }
   ],
   "constants": []

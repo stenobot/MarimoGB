@@ -55,8 +55,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "538cb883-e90d-466f-b13f-f60a7df0bbd8"
@@ -85,8 +85,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "2d7233a0-562b-444b-847a-27ba114f2b59"
@@ -132,8 +132,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "4cd8a15b-b2a6-4ead-8e3b-cd8b6968d76b"
@@ -162,8 +162,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "8aa8a16b-a695-4f6a-8223-c9f3f3e99f99"
@@ -209,8 +209,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "e0a2d733-c851-4a53-9c4c-1a425e41b7e1"
@@ -239,8 +239,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "2b3c5446-1e8e-4eb1-b108-623a5717dba5"
@@ -286,8 +286,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "76417859-0770-4155-8b4e-1477a3eda3c4"
@@ -316,8 +316,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "18ec9544-ebff-4073-9ddb-e8c6124a36df"
@@ -363,8 +363,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "a995b64c-2b24-4f80-aae1-823b562fed13"
@@ -393,8 +393,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "18e04a3e-1fb8-4c9a-a712-430efd51d919"
@@ -440,8 +440,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "899c411d-d952-4bf6-9d18-448e0ac7156d"
@@ -470,8 +470,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "ae27a1eb-d491-414f-9d00-4068a9d109ab"
@@ -517,8 +517,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "3cd377e1-6b38-434a-b4ca-6134cf38439e"
@@ -547,8 +547,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "61189efb-cdc2-41c4-8eb7-69187901aadc"
@@ -594,8 +594,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "ec631bf9-ac94-4982-9936-10063958b79f"
@@ -624,8 +624,8 @@
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
-        "vectorX": "3",
-        "vectorY": "4",
+        "vectorX": "L0",
+        "vectorY": "L1",
         "__collapse": true
       },
       "id": "8cac5fac-e9f5-4aa3-a0c2-63617ceb92c3"

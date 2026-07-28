@@ -4,7 +4,7 @@
   "name": "BreakerSwitch",
   "prefabId": "",
   "x": 32,
-  "y": 21,
+  "y": 22,
   "symbol": "trigger_187",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -21,7 +21,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -45,7 +45,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 21
+                "value": 22
               },
               "tilesetId": "19576919-ba30-4dbb-9c01-75c97d33ac0b",
               "tileIndex": {
@@ -201,14 +201,14 @@
               },
               "y": {
                 "type": "number",
-                "value": 21
+                "value": 22
               },
               "tilesetId": "c752f301-db2d-4c20-91d7-f03084bc0c04",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "9731d32f-0ada-4367-bd4d-28ca1409b9cd"
           },
