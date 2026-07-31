@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "64d6469f-33c5-4e92-aff9-4c8d82dc2921",
-  "name": "Gear01-Forward",
+  "id": "3a240b31-80a4-40fd-ac20-3f264cf1c1de",
+  "name": "ShadowTransfer",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "ebadddfc-f8d4-41a3-9223-b66ef097df8d",
-  "direction": "down",
+  "prefabId": "c9aa2702-020d-4be2-9cd6-8e55c5a15766",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_126",
+  "symbol": "actor_210",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 38,
-  "y": 12,
-  "_index": 4
+  "x": 0,
+  "y": 0,
+  "_index": 0
 }

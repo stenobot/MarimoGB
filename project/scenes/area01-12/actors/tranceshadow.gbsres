@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "f686fe79-493b-4b94-863e-f890c3c2e4ae",
-  "name": "Gear02-Forward",
+  "id": "6f3ca3ad-fd07-453b-8f0f-bc5c3687fa31",
+  "name": "TranceShadow",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "61e556d7-b1ac-4094-a782-97098a07e342",
-  "direction": "down",
+  "prefabId": "4bd4fc53-aaaa-4ebe-b265-1cb3875315db",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_128",
+  "symbol": "actor_211",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 37,
-  "y": 11,
-  "_index": 5
+  "x": 1,
+  "y": 0,
+  "_index": 1
 }
