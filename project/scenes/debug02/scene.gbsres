@@ -1,0 +1,33 @@
+{
+  "_resourceType": "scene",
+  "id": "692a8369-07ce-4d71-9bd2-92e100a2019d",
+  "_index": 54,
+  "name": "DEBUG02",
+  "backgroundId": "2a4da824-edac-4fac-b9af-6d078cccc3e5",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "e290e40a-e719-41cf-87d9-65f2a2d0e34c",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_55",
+  "x": 2936,
+  "y": 48,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "876ca42f-281f-423b-bfa9-e426764dacc6"
+}

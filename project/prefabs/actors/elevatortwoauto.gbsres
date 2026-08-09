@@ -55,7 +55,7 @@
         ],
         "lockDirection": [],
         "moveType": "horizontal",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "c4c087ef-f2e1-4c7e-b42e-75a0babb672f",
       "children": {}
@@ -114,7 +114,7 @@
         ],
         "lockDirection": [],
         "moveType": "horizontal",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "650b23b9-d95e-4ca5-9362-4500a0f6fae7",
       "children": {}

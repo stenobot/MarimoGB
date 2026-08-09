@@ -1,0 +1,94 @@
+{
+  "_resourceType": "trigger",
+  "id": "86eac05f-6401-4774-8ac5-1318434b58ea",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 9,
+  "symbol": "trigger_221",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "92af0bd0-b3af-4468-8b89-279c6acb34aa"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "43af94e1-6dc9-4f6b-baf2-b501cd91c40f"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "3569ba5c-a840-458d-9489-cd87426d226e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0a485f89-01fd-4b8d-95f9-b234fd8c00ce",
+        "__collapse": true
+      },
+      "id": "93d3f3f6-0a62-4377-adc5-6aaf1dc8d429"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "53",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "46690561-49d4-4fae-96ff-ef5ff947657e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "54",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "e00da905-214f-4085-9481-5f01d6e8982c"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right"
+        ],
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "f871ad0b-2f46-4119-8d9f-bfce7aa76b0b"
+    }
+  ],
+  "_index": 9
+}

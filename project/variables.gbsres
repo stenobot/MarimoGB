@@ -755,6 +755,66 @@
       "id": "740c39c7-2c83-4898-a6ee-e0c1de62033d__L1",
       "name": "gunBotY",
       "symbol": "var_gunboty"
+    },
+    {
+      "id": "52",
+      "name": "onConveyor",
+      "symbol": "var_onconveyor"
+    },
+    {
+      "id": "53",
+      "name": "onConveyorMoveRight",
+      "symbol": "var_onconveyormoveright"
+    },
+    {
+      "id": "54",
+      "name": "onConveyorMoveLeft",
+      "symbol": "var_onconveyormoveleft"
+    },
+    {
+      "id": "55",
+      "name": "isConveyorRight",
+      "symbol": "var_isconveyorright"
+    },
+    {
+      "id": "20013dfe-a896-47a7-9de0-ef571cc8e861__L0",
+      "name": "Local 0",
+      "symbol": "var_local_16"
+    },
+    {
+      "id": "56",
+      "name": "isElevatorUp_02_09",
+      "symbol": "var_iselevatorup_02_09"
+    },
+    {
+      "id": "57",
+      "name": "isTriggered_02_09",
+      "symbol": "var_istriggered_02_09"
+    },
+    {
+      "id": "58",
+      "name": "isTriggered_02_10_00",
+      "symbol": "var_istriggered_02_10_00"
+    },
+    {
+      "id": "59",
+      "name": "isElevatorUp_02_10_00",
+      "symbol": "var_iselevatorup_02_10_00"
+    },
+    {
+      "id": "60",
+      "name": "isElevatorUp_02_10_01",
+      "symbol": "var_iselevatorup_02_10_01"
+    },
+    {
+      "id": "61",
+      "name": "isTriggered_02_10_01",
+      "symbol": "var_istriggered_02_10_01"
+    },
+    {
+      "id": "62",
+      "name": "isSwitchOn_02_10",
+      "symbol": "var_isswitchon_02_10"
     }
   ],
   "constants": []

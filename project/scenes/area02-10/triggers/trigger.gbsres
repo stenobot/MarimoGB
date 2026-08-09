@@ -1,0 +1,94 @@
+{
+  "_resourceType": "trigger",
+  "id": "586f99fa-db93-4f7f-bb1e-45e3f72e08d8",
+  "name": "",
+  "prefabId": "",
+  "x": 16,
+  "y": 15,
+  "symbol": "trigger_209",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "29bf6449-9965-4560-b376-7a0498e6d6ea"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "4a5b6d8b-75ea-4245-bf32-2a2a31a0a882"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "1a85e081-059c-4301-893b-6cac16ac2fa7"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0a485f89-01fd-4b8d-95f9-b234fd8c00ce",
+        "__collapse": true
+      },
+      "id": "1b1a1759-6d24-4c72-84cd-a6e6754b6738"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "53",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "8e4603db-de65-4b6b-a8bc-1219644adbe8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "54",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "1b890343-48f9-4798-9abb-1b10a9e3efff"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right"
+        ],
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "8306d243-f7e5-473f-a317-a970d2da0453"
+    }
+  ],
+  "_index": 0
+}
