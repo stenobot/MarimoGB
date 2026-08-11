@@ -34,7 +34,7 @@
             "type": "true"
           }
         },
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -45,7 +45,7 @@
                 "left"
               ],
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [

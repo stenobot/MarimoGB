@@ -65,7 +65,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "ff7be6a5-b794-4b37-8727-50c12790b69b"
           },
@@ -89,7 +89,7 @@
                       "type": "expression",
                       "value": "$02$ && $22$"
                     },
-                    "__collapseElse": true,
+                    "__collapseElse": false,
                     "__collapse": false
                   },
                   "children": {

@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "5de2b0ec-266e-4f6f-a3f0-45559ff5af77",
+  "name": "MarmaDialog",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "894c3d01-c960-4fe5-9e0d-0c4041bcc9d6",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_225",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e889f43a-937a-40ed-913f-a43ba688c0ac"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 39,
+  "_index": 3
+}

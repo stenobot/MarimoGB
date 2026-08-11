@@ -29,7 +29,7 @@
     "",
     ""
   ],
-  "collisions": "0049+0f!0034+0f!0034+0f!0020+0f14+00128+0f!00!0fd+006+0f6+006+0fe+006+0f!0020+0f!0013+0f!0020+0f!0013+0f!0020+0f!0013+0f!0020+0f!0013+0f!0020+0f!0013+0f!00!0ff+006+0f6+0018+0f!00e+0f!0025+0f!00e+0f!0025+0f!00e+0f!0025+0f!00e+0f!0025+0f!00e+0f!0025+0f!00f+0f21+003b+",
+  "collisions": "0049+0f!0034+0f!0034+0f!0020+0f14+00128+0f!00!0fd+006+0f6+006+0fd+007+0f!0020+0f!0013+0f!0020+0f!0013+0f!0020+0f!0013+0f!0020+0f!0013+0f!0020+0f!0013+0f!00!0ff+006+0f6+0018+0f!00e+0f!0025+0f!00e+0f!0025+0f!00e+0f!0025+0f!00e+0f!0025+0f!00e+0f!0025+0f!00f+0f21+003b+",
   "autoFadeSpeed": 1,
   "symbol": "scene_54",
   "x": 4376,
@@ -42,6 +42,27 @@
         "__collapse": true
       },
       "id": "2a74cde2-ebb0-41ab-a013-94481e91e00c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "62",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "06d11ad4-c5c1-4f16-8c9f-0e434ed5dd41"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9f6344f0-cca7-4351-939a-00f48b969975",
+        "$actor[2072e81a-03d7-4d2e-bcef-614622e95c40]$": "2072e81a-03d7-4d2e-bcef-614622e95c40",
+        "$actor[1c67254b-86d5-49e3-b67a-849803dc038e]$": "1c67254b-86d5-49e3-b67a-849803dc038e",
+        "__collapse": true
+      },
+      "id": "6ff22edf-c170-42ad-a047-9c10b18d589e"
     }
   ],
   "playerHit1Script": [],

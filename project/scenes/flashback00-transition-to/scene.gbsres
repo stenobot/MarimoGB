@@ -24,7 +24,7 @@
   "autoFadeSpeed": 6,
   "symbol": "scene_44",
   "x": 432,
-  "y": 1592,
+  "y": 1768,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -208,5 +208,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": false
 }

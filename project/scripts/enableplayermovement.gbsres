@@ -41,6 +41,18 @@
         "__collapse": true
       },
       "id": "1cdeaa73-ebc2-4b06-90cf-f4c3ff27b908"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_jump_max",
+        "value": {
+          "type": "variable",
+          "value": "38"
+        },
+        "__collapse": true
+      },
+      "id": "1c7cdc24-673a-427b-93a5-b34d6be9044a"
     }
   ]
 }

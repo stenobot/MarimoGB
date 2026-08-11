@@ -35,6 +35,18 @@
       "id": "3f349e4e-2676-44ed-a074-f2a4a00b4f1c"
     },
     {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_wall_jump_max",
+        "value": {
+          "type": "variable",
+          "value": "38"
+        },
+        "__collapse": true
+      },
+      "id": "39bb22b0-4c27-48b6-92dd-0a4a9f6a00c3"
+    },
+    {
       "command": "EVENT_SET_PLATFORMER_CALLBACK_SCRIPT",
       "args": {
         "event": "jumpStart",

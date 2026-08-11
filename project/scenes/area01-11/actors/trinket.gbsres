@@ -1,17 +1,21 @@
 {
-  "_resourceType": "actorPrefab",
-  "id": "4943e23c-7035-452d-b9f0-f845d24b21c4",
-  "name": "Trinket-Resistor",
+  "_resourceType": "actor",
+  "id": "a643b5f7-cce3-4294-aca3-065d0e65bb9b",
+  "name": "Trinket",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "41ebc8f3-dfbc-45be-8b1a-e8243973a19a",
+  "spriteSheetId": "026dc7d9-3373-44bc-963d-d919c5dd2a0f",
+  "prefabId": "",
+  "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 1,
+  "animSpeed": 15,
   "paletteId": "",
+  "isPinned": false,
   "persistent": false,
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
+  "symbol": "actor_208",
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -19,13 +23,13 @@
         "musicId": "c8697c66-1b1c-4523-a361-dc54835d536d",
         "__collapse": true
       },
-      "id": "31495c5f-2146-45e7-aa78-e14a5225bbbc"
+      "id": "59e3841b-a9f9-4a62-83ad-cead6f4227bf"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "MUCKLE found the\nRUNE OF DISRUPTION."
+          "MUCKLE found \na TRINKET."
         ],
         "__section": "text",
         "avatarId": "",
@@ -45,14 +49,15 @@
         "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "2d4d8bd6-8b29-4907-9672-17f777219d6a"
+      "id": "3e11f375-b74e-4810-83a3-bb4f3b6a7292"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
+        "customEventId": "ef1a30eb-e07d-491c-bc6c-54b055abbfe7",
         "__collapse": true
       },
-      "id": "a529f837-0544-4a14-8d7b-532da70eb537"
+      "id": "fd2f7903-33ba-485b-ae2c-7d0e5bd87527"
     },
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -60,14 +65,14 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "56c07e16-697d-4cd6-a7df-60befd3fb89e"
+      "id": "5f3abb56-1c2f-4c6e-a98c-22cd4c1e0d69"
     },
     {
       "command": "EVENT_WAIT",
       "args": {
         "time": {
           "type": "number",
-          "value": 0.5
+          "value": 2
         },
         "frames": {
           "type": "number",
@@ -75,19 +80,20 @@
         },
         "__collapse": true
       },
-      "id": "de5ef773-1311-495d-8fec-f44f53847a6f"
+      "id": "c7c2347d-5e17-4346-9917-78cd4fd609e1"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
+        "customEventId": "4b195414-f921-4a2c-a198-454bad59123f",
         "__collapse": true
       },
-      "id": "16bcc2f0-f06a-4366-93a5-2248fc9e7d23"
+      "id": "02c84667-f342-462c-8c2c-33ee941d0917"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "086450c8-f4c4-4443-a956-58f48b519f38",
+        "sceneId": "4c73040c-bae6-4e80-8fc4-9b1aa804a55e",
         "x": {
           "type": "number",
           "value": 0
@@ -96,16 +102,20 @@
           "type": "number",
           "value": 0
         },
-        "direction": "",
-        "fadeSpeed": "2",
+        "direction": "right",
+        "fadeSpeed": 2,
         "__collapse": false
       },
-      "id": "a25f9f3e-9069-4d40-963d-f70af58532cb"
+      "id": "c507c813-81c7-4a14-bd13-f34b054b8b6f"
     }
   ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": []
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 11,
+  "_index": 0
 }

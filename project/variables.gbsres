@@ -815,6 +815,16 @@
       "id": "62",
       "name": "isSwitchOn_02_10",
       "symbol": "var_isswitchon_02_10"
+    },
+    {
+      "id": "63",
+      "name": "isWallJumpTriggered",
+      "symbol": "var_iswalljumptriggered"
+    },
+    {
+      "id": "74cf6ef4-30a3-47d8-a346-bb758625eb1f__L0",
+      "name": "isMarmaDead",
+      "symbol": "var_ismarmadead"
     }
   ],
   "constants": []

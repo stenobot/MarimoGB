@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "8286503c-a154-4568-89be-d6bb445ef85f",
+  "name": "Dialog02",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1a019e74-2983-4c4c-ada4-e3119faa20a6",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_220",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "357d359e-692b-41f1-8b89-2c99539ccaea"
+      },
+      "id": "3e3878ee-1f6f-4657-9b82-f658562fd610"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 18,
+  "_index": 6
+}

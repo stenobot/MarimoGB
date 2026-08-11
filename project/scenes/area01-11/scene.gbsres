@@ -19,13 +19,69 @@
     "",
     ""
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "0517789f-f81a-4a9d-9b53-ec1c26f6358b",
+    "",
+    "a773de67-7612-4df2-b6f5-257f37711482"
+  ],
   "collisions": "0027+0f23+0026+0f!0024+10!00!0f!0022+0f2+10!00!0f!004+0f4+003+01!003+0f4+01!00c+01!00!0f2+10!00!0f!005+0f!00c+0f!002+0f2+00b+0f2+10!00!0f!005+0f!00f+0f!00b+01!0f2+10!00!0f!005+0f!00f+0f!00c+0f2+10!00!0f!005+0f!00e+01!0f!00a+01!00!0f2+10!00!0f2+004+0f!005+0f!0016+0f2+10!003+0f!003+0f!00!01!003+0f3+003+01!00f+01!0f2+10!002+10!0f!003+0f!005+0f!0016+0f!00!0f3+10!0f!003+0f!001a+40!60!003+0f!00!10!00!0f!002+0f!003+01!0014+40!60!005+0f!00!10!00!0f!002+0f!01!0015+40!60!007+0f!00!10!00!0f!002+0f!0014+40!60!009+0f!00!10!00!0f!002+0f!01!0011+40!60!00b+0f!00!10!00!0f!002+0f!003+01!00e+0f!00c+0f!00!10!00!0f!002+0f!0012+0f!00c+0f!00!10!00!0f!003+0f12+00d+0f!00!10!00!0f!0022+0f!00!10!00!0f!00!",
   "autoFadeSpeed": 1,
   "symbol": "scene_52",
   "x": 4640,
   "y": 456,
   "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "38"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "e8a59dcf-8ec5-470d-a604-ea8f409addd1",
+              "__collapse": true
+            },
+            "id": "4ff897f5-705f-4e18-9dce-c897013557db"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "a643b5f7-cce3-4294-aca3-065d0e65bb9b",
+              "__collapse": true
+            },
+            "id": "3ba6de35-b550-4e74-a122-8ace7972d7c1"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "94c82dc8-a16b-4ec4-a510-4baead22d083"
+            },
+            "id": "9092d492-1bc3-43e1-ae7c-f54995bd6956"
+          }
+        ],
+        "false": []
+      },
+      "id": "e5158991-00e9-4ae0-a2b1-71d07a1675bb"
+    },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
