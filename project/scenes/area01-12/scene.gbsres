@@ -24,7 +24,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_53",
   "x": 4304,
-  "y": 416,
+  "y": 424,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

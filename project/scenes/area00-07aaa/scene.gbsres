@@ -27,19 +27,19 @@
   "y": 1136,
   "script": [
     {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "6dc96b20-3d46-4ba2-b9e7-0c05af39bce9"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "4c857ad0-2d88-4c3c-8a9c-0a33ee34c0e9",
         "__collapse": true
       },
       "id": "fcc33787-3ebf-4865-8376-15e0566c8bdd"
-    },
-    {
-      "command": "EVENT_SCENE_PUSH_STATE",
-      "args": {
-        "__collapse": true
-      },
-      "id": "6dc96b20-3d46-4ba2-b9e7-0c05af39bce9"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

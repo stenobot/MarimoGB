@@ -7,7 +7,7 @@
   "spriteSheetId": "acdec941-a71b-42aa-ba51-a1a140b99401",
   "prefabId": "",
   "direction": "right",
-  "moveSpeed": 1,
+  "moveSpeed": 0.25,
   "animSpeed": 63,
   "paletteId": "",
   "isPinned": false,
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 14,
+  "x": 16,
   "y": 43,
   "_index": 0
 }

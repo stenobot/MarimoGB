@@ -1,0 +1,90 @@
+{
+  "_resourceType": "actor",
+  "id": "862a3d9e-d7e1-41c4-980d-8ea6247e05f9",
+  "name": "Rune",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0b4b4fe8-a1f9-4f94-9fa3-698ecd95ae8c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_228",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "65",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "648b5563-e9f8-4ffd-8eb7-45d3858a13de"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "MUCKLE found \na RUNE."
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "8bfaec62-f984-49cf-8131-e80e37967024"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "6a4ce4c9-3313-42eb-8daa-b5110e82e212"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "94b5ab0a-620c-495d-afc8-e666f132c452"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 13,
+  "y": 11,
+  "_index": 7
+}

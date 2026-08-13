@@ -28,7 +28,7 @@
           "value": "33"
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {

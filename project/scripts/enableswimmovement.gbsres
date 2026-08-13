@@ -1,0 +1,36 @@
+{
+  "_resourceType": "script",
+  "id": "c0a4cec8-c58a-4e82-9f13-fd9c57e3c34d",
+  "name": "EnableSwimMovement",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_25",
+  "script": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right",
+          "up",
+          "down"
+        ],
+        "__collapse": true
+      },
+      "id": "23042cc3-dc33-4c01-b6c8-6810f8d4d4d5"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__collapse": true
+      },
+      "id": "6723e510-965b-4323-96e0-11b998ca2e16"
+    }
+  ]
+}

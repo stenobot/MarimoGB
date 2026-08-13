@@ -158,8 +158,8 @@
     },
     {
       "id": "31",
-      "name": "isSwitchOn_00-02c",
-      "symbol": "var_isswitchon_00_02c"
+      "name": "isSwitchOn_00_02c",
+      "symbol": "var_isswitchon_02c_0"
     },
     {
       "id": "32",
@@ -825,6 +825,21 @@
       "id": "74cf6ef4-30a3-47d8-a346-bb758625eb1f__L0",
       "name": "isMarmaDead",
       "symbol": "var_ismarmadead"
+    },
+    {
+      "id": "64",
+      "name": "isSwitchOn_00_02",
+      "symbol": "var_isswitchon_00_02"
+    },
+    {
+      "id": "65",
+      "name": "isRuneOfChallengeFound",
+      "symbol": "var_isruneofchallengefound"
+    },
+    {
+      "id": "66",
+      "name": "isTriggered_00_02c",
+      "symbol": "var_istriggered_00_02c"
     }
   ],
   "constants": []

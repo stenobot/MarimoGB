@@ -11,7 +11,7 @@
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "collisionExtraFlags": [
     "solid"
@@ -19,21 +19,13 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_77",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "27634cd9-dd2a-42c0-9c82-60cbd63d8419"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 30,
-  "y": 17,
+  "y": 15,
   "_index": 1
 }

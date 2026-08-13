@@ -99,7 +99,7 @@
                     },
                     "y": {
                       "type": "number",
-                      "value": 25
+                      "value": 23
                     },
                     "collideWith": [
                       "walls"
@@ -141,7 +141,7 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 11
+                      "value": 14
                     },
                     "y": {
                       "type": "number",
@@ -224,7 +224,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 8,
-  "y": 25,
-  "_index": 9
+  "x": 14,
+  "y": 23,
+  "_index": 6
 }

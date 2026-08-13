@@ -100,7 +100,7 @@
       "command": "EVENT_SCENE_POP_STATE",
       "args": {
         "fadeSpeed": "2",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "a2863cc6-a80c-475d-b60f-cead5b5e6087"
     }

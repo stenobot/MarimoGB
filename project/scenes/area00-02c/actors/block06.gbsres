@@ -4,14 +4,14 @@
   "name": "Block06",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "171b8fbd-b1a8-438a-aef6-faa116ec6164",
+  "spriteSheetId": "b23eb1f1-951e-494c-aedb-876d31bee7e7",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "collisionExtraFlags": [
     "solid"
@@ -25,7 +25,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 27,
-  "y": 25,
+  "x": 30,
+  "y": 26,
   "_index": 5
 }

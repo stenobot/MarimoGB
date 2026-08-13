@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "1bd2155c-55f8-4f3b-9b9c-3ed7e079f101",
+  "name": "DisableSwimMovement",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_24",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "right",
+          "up",
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "2573d123-6b08-4c9b-9b70-ce4d753f2c65"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "16340172-7e48-432d-a283-fc9293f84ebd"
+    }
+  ]
+}
