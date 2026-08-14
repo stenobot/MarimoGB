@@ -54,7 +54,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 23
+                "value": 24
               },
               "collideWith": [
                 "walls"
@@ -107,7 +107,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 21
+                "value": 22
               },
               "collideWith": [
                 "walls"

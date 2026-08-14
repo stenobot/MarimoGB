@@ -11,6 +11,11 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {},
+      "id": "f72dcb03-71d0-4ba3-a72a-193a0857af6c"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "a14d732c-10c8-4fb7-97d8-a32925913a91",

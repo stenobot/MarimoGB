@@ -51,7 +51,7 @@
             "command": "EVENT_SWITCH",
             "args": {
               "variable": "L1",
-              "choices": 3,
+              "choices": 4,
               "__collapseCase0": false,
               "__collapseCase1": false,
               "__collapseCase2": false,
@@ -95,7 +95,7 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 19
+                      "value": 23
                     },
                     "y": {
                       "type": "number",
@@ -118,7 +118,7 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 19
+                      "value": 14
                     },
                     "y": {
                       "type": "number",
@@ -141,7 +141,7 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 14
+                      "value": 27
                     },
                     "y": {
                       "type": "number",
@@ -156,7 +156,29 @@
                   "id": "d493538a-edef-454a-a5d8-410675fdfdd1"
                 }
               ],
-              "true3": [],
+              "true3": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "__section": "movement",
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 23
+                    },
+                    "collideWith": [
+                      "walls"
+                    ],
+                    "lockDirection": [],
+                    "moveType": "horizontal"
+                  },
+                  "id": "25696e16-e5a0-4edd-a732-d72ab5d68718"
+                }
+              ],
               "true4": [],
               "true5": [],
               "true6": [],
@@ -191,7 +213,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 2
+                  "value": 3
                 }
               },
               "__collapseElse": true
@@ -224,7 +246,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 14,
+  "x": 16,
   "y": 23,
-  "_index": 6
+  "_index": 4
 }

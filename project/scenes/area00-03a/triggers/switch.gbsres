@@ -33,7 +33,8 @@
             "value": "20"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -69,20 +70,48 @@
             "id": "b3723a14-51b1-42c1-894a-5da531fcd497"
           },
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
+              "__section": "movement",
               "actorId": "23082aec-3c78-4eb7-8e5a-948911af999e",
-              "__collapse": true
+              "x": {
+                "type": "number",
+                "value": 31
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": false
             },
-            "id": "aff58fcc-9e9b-4a37-88a7-fce19a19dc0b"
+            "id": "b8e8e639-4947-4423-b6bb-f84b3d4874a2"
           },
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "actorId": "cc6fb09b-7e19-4419-81cf-b0dbe9160090",
-              "__collapse": true
+              "__section": "movement",
+              "actorId": "e40dfb82-4205-44ae-9e59-8b6c2f9febd6",
+              "x": {
+                "type": "number",
+                "value": 35
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": false
             },
-            "id": "582693b2-ac86-4c0c-9fc9-456effe17d06"
+            "id": "0f9fd0d6-48ba-4191-a58f-9836da99d44c"
           }
         ],
         "false": [
@@ -93,7 +122,7 @@
               "value": {
                 "type": "false"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "bb713f9a-388f-41d7-b7f6-da74467401d2"
           },
@@ -113,25 +142,53 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "141d05c6-6bf6-4864-8d93-6c5924df2476"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
+              "__section": "movement",
               "actorId": "23082aec-3c78-4eb7-8e5a-948911af999e",
-              "__collapse": true
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": false
             },
-            "id": "cecf2f84-2471-4331-a6ff-b8374635d245"
+            "id": "2ffea5b2-14ca-4256-9366-16063896be40"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "actorId": "cc6fb09b-7e19-4419-81cf-b0dbe9160090",
-              "__collapse": true
+              "__section": "movement",
+              "actorId": "e40dfb82-4205-44ae-9e59-8b6c2f9febd6",
+              "x": {
+                "type": "number",
+                "value": 36
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": false
             },
-            "id": "6ad346d0-9bc0-48c6-bf44-f6c6b3ee57c2"
+            "id": "f0e8c9db-f06d-4ace-ac72-3e45bee0eec5"
           }
         ]
       },

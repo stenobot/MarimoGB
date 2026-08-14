@@ -8,7 +8,7 @@
   "x": 1896,
   "y": 1088,
   "width": 20,
-  "height": 18,
+  "height": 19,
   "backgroundId": "24377387-5433-4dce-94b4-3ae13ae69845",
   "tilesetId": "",
   "colorModeOverride": "none",
@@ -26,13 +26,6 @@
   "autoFadeSpeed": 1,
   "playerSpriteSheetId": "2a3a4055-63be-42e3-bc92-0b6dbc9e9351",
   "script": [
-    {
-      "command": "EVENT_SCENE_PUSH_STATE",
-      "args": {
-        "__collapse": true
-      },
-      "id": "c0d35124-38f3-4df2-8f55-129e17f89373"
-    },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
@@ -93,7 +86,7 @@
           "value": "19"
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -112,26 +105,98 @@
               "tileIndex": {
                 "type": "number",
                 "value": 0
-              }
+              },
+              "__collapse": true
             },
             "id": "5838e32d-56bc-403a-b427-3e55efb8a6fb"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
-              "actorId": "9eb8de42-93d4-4a7d-8260-fce375908d8c"
+              "actorId": "9eb8de42-93d4-4a7d-8260-fce375908d8c",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "__collapse": true
             },
-            "id": "d8df6b99-a53a-4bcf-9a70-ecd48ea72c25"
+            "id": "6ff0478b-606e-4701-8dfc-5427f46821e9"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
-              "actorId": "77f06ef1-5d47-4577-a06d-4da0c5b6147a"
+              "actorId": "77f06ef1-5d47-4577-a06d-4da0c5b6147a",
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "__collapse": true
             },
-            "id": "5a970d41-7cc6-457f-b6c1-5e6022e314f0"
+            "id": "83766c56-0d07-4b73-8592-e67ca3d9b449"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "tilesetId": "8566e0cd-ea90-4c32-89ce-e7df94b20cc4",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": false
+            },
+            "id": "c2f24b2a-875d-4f0e-87e7-14f3b9e97d5c"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "9eb8de42-93d4-4a7d-8260-fce375908d8c",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "__collapse": false
+            },
+            "id": "efd894f6-c898-4038-b7c7-76ea044d9f47"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "77f06ef1-5d47-4577-a06d-4da0c5b6147a",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "__collapse": false
+            },
+            "id": "c67ebd86-d275-4fd7-88a7-d7bac834e5d8"
+          }
+        ]
       },
       "id": "eb12053b-08d8-4b5c-b357-ea0a73d944c2"
     },
@@ -307,6 +372,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00e+10!006+0fd+10!0f5+00!0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f8+00!0f!00!10!008+0f!005+0f!002+0f2+10!0f9+005+0f!002+0f!00!10!007+0f!006+0f!002+0f!00!10!007+0f!006+0f!002+0f!00!10!002+10!004+0f!006+0f!002+0f5+10!0f5+006+0f!00!0f2+004+10!004+0f8+007+10!004+0f!006+0f!007+10!004+0f!006+0f!007+10!004+0f!006+0f!00!0f3+002+0f7+002+0f5+0015+",
+  "collisions": "00e+10!006+0fd+10!0f5+00!0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f!00!10!006+0f!00a+0f8+00!0f!00!10!008+0f!005+0f!002+0f2+10!0f9+005+0f!002+0f!00!10!007+0f!006+0f!002+0f!00!10!007+0f!006+0f!002+0f!00!10!002+10!004+0f!006+0f!002+0f5+10!0f5+006+0f!00!0f2+004+10!004+0f8+007+10!004+0f!006+0f!007+10!004+0f!006+0f!004+10!002+10!004+0f!10!005+0f!00!0f3+10!00!0f7+10!00!0f5+0029+",
   "autoFadeEventCollapse": true
 }

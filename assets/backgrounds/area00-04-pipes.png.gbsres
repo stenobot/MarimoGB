@@ -3,10 +3,10 @@
   "id": "9d1eedaa-ec9a-4218-a7d1-229af41dc33b",
   "name": "area00-04-pipes",
   "symbol": "bg_area00_04_pipes",
-  "tileColors": "009+023+0012+02!0012+023+0011+023+00f+025+00e+026+00f+025+00e4+",
+  "tileColors": "009+023+0012+02!0012+023+0011+023+00f+025+00e+026+00f+025+00f8+",
   "filename": "area00-04-pipes.png",
   "width": 20,
-  "height": 18,
+  "height": 19,
   "imageWidth": 160,
-  "imageHeight": 144
+  "imageHeight": 152
 }

@@ -283,8 +283,8 @@
           "type": "variable",
           "value": "20"
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -303,26 +303,98 @@
               "tileIndex": {
                 "type": "number",
                 "value": 0
-              }
+              },
+              "__collapse": true
             },
             "id": "c1282c43-5635-4c9b-82ce-0643d015df74"
           },
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
-              "actorId": "23082aec-3c78-4eb7-8e5a-948911af999e"
+              "actorId": "23082aec-3c78-4eb7-8e5a-948911af999e",
+              "x": {
+                "type": "number",
+                "value": 31
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "__collapse": false
             },
-            "id": "d96c6660-bb5d-4f48-9f7c-a41016143fcc"
+            "id": "3e6a71ff-d7a7-46a1-90da-69d3a2bece3c"
           },
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
-              "actorId": "cc6fb09b-7e19-4419-81cf-b0dbe9160090"
+              "actorId": "e40dfb82-4205-44ae-9e59-8b6c2f9febd6",
+              "x": {
+                "type": "number",
+                "value": 35
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "__collapse": false
             },
-            "id": "570194b7-a3af-4974-9242-7429dfd291b8"
+            "id": "d1a033b3-8d6f-47b2-92f5-11381f354ce4"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 28
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "tilesetId": "8566e0cd-ea90-4c32-89ce-e7df94b20cc4",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": false
+            },
+            "id": "79aff352-6bee-4dd1-b337-da8de30f5513"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "23082aec-3c78-4eb7-8e5a-948911af999e",
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "__collapse": false
+            },
+            "id": "b46f53ee-1d5a-494a-8d85-334daff3f3f0"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "e40dfb82-4205-44ae-9e59-8b6c2f9febd6",
+              "x": {
+                "type": "number",
+                "value": 36
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "__collapse": false
+            },
+            "id": "b744f6f6-8468-4e40-ac72-747cdd3c21e9"
+          }
+        ]
       },
       "id": "d03e5e28-fc86-47bc-a5cd-0e96f1297bf3"
     },
@@ -333,8 +405,8 @@
           "type": "variable",
           "value": "21"
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -353,19 +425,66 @@
               "tileIndex": {
                 "type": "number",
                 "value": 0
-              }
+              },
+              "__collapse": true
             },
             "id": "aa7db43f-127f-4697-b68c-4e5bb065a81a"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
-              "actorId": "c901e884-40b1-4172-9bdb-b7ee6e557ea1"
+              "actorId": "c901e884-40b1-4172-9bdb-b7ee6e557ea1",
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "__collapse": false
             },
-            "id": "35f32c91-7a51-43a8-89eb-31e13d637d94"
+            "id": "22303988-4a0a-4245-8bda-2da229a07ae4"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "tilesetId": "d591af6a-11c6-445e-8db6-90728249246e",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": false
+            },
+            "id": "51d2bbf9-8c02-414e-84e4-a6ebfa389744"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "c901e884-40b1-4172-9bdb-b7ee6e557ea1",
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "__collapse": false
+            },
+            "id": "d10140ce-8ea9-4182-8707-63222d4f8737"
+          }
+        ]
       },
       "id": "a810c04e-bbeb-453d-a987-7a7b1b062512"
     }
@@ -373,5 +492,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "001d+0f16+002+0f!0023+0f!00e+0f!005+0f!002+0f5+001b+0f5+007+10!006+0f!008+0f!003+0f!001b+0f!003+0f!005+0f2+10!006+0f!008+0f!003+0f!001b+0f!00a+0f!10!006+0fa+003+0f!003+0f6+0012+0f!00a+0f!10!0013+0f!003+0f!004+0f1a+004+0f!10!0013+0f!003+0f!001d+0f!004+0f!10!0013+0f!003+0f!001d+0f!004+0f!01!0013+0f!003+0f!0022+0f!002+01!0011+0f!003+0f!0021+01!0f!004+01!00f+0f!003+0f!0016+0f2+00a+0f!0014+0f!003+0f!005+0f2a+004+10!003+0f!003+0f!005+0f2+0027+0f5+10!0f4+003+0f7+002c+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!005+"
+  "collisions": "001d+0f16+002+0f!0023+0f!00e+0f!005+0f!002+0f5+001b+0f5+007+10!006+0f!008+0f!003+0f!001b+0f!003+0f!002+01!002+0f2+10!006+0f!008+0f!003+0f!001b+0f!003+0f!006+0f!10!006+0fa+003+0f!003+0f6+0012+0f!00a+0f!10!0013+0f!003+0f!004+0f17+004+01!002+0f!10!0013+0f!003+0f!001a+0f4+005+10!0013+0f!003+0f!001d+0f!0019+0f!003+0f!0022+0f!002+01!0011+0f!003+0f!0022+0f!004+01!00f+0f!003+0f!0016+0f2+009+01!0f!0014+0f!003+0f!005+0f16+007+0fd+004+10!003+0f!003+0f!005+0f2+0013+0f9+00b+0f5+10!0f4+003+0f7+002c+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!0039+0f!10!0f!005+"
 }
