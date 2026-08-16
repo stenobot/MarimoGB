@@ -94,7 +94,8 @@
             "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
             "args": {
               "actorId": "$self$",
-              "speed": 1
+              "speed": 1,
+              "__collapse": true
             },
             "id": "699f74e8-4aae-4a41-8365-1860adbb7980"
           },
@@ -119,14 +120,14 @@
               },
               "y": {
                 "type": "number",
-                "value": 10
+                "value": 4
               },
               "collideWith": [
                 "walls"
               ],
               "lockDirection": [],
               "moveType": "horizontal",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "8fb3bc05-b082-4798-8f74-05fd5e32036c",
             "children": {}
@@ -158,6 +159,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 4,
-  "y": 10,
+  "y": 4,
   "_index": 6
 }

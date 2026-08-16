@@ -4,7 +4,7 @@
   "name": "Block05",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "e9f374e3-047e-474c-8713-d24bffe5c38b",
+  "spriteSheetId": "9d6fc7a5-40ba-4dcf-a8f2-8805916143d5",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -26,6 +26,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 23,
-  "y": 27,
+  "y": 28,
   "_index": 4
 }

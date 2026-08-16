@@ -1,6 +1,6 @@
 {
   "_resourceType": "trigger",
-  "id": "3bc2e3ce-be2a-478b-bc13-2a37acc02370",
+  "id": "784e04f1-1acc-4e04-9bcc-12273bc3cb1c",
   "name": "Switch01",
   "prefabId": "",
   "x": 21,
@@ -22,7 +22,7 @@
         "effect": 10,
         "__collapse": true
       },
-      "id": "4ba7a6f9-54e3-4d8e-b635-f2bd0513b320"
+      "id": "42620599-31e9-4b16-a397-46ca920ae5e0"
     },
     {
       "command": "EVENT_IF",
@@ -48,7 +48,7 @@
               },
               "__collapse": true
             },
-            "id": "412abfdb-7c40-4744-8394-01dafbdddb5b"
+            "id": "99c73189-748e-46f4-b9d2-3d3c7ee8d94b"
           },
           {
             "command": "EVENT_REPLACE_TILE_XY",
@@ -59,16 +59,16 @@
               },
               "y": {
                 "type": "number",
-                "value": 19
+                "value": 18
               },
               "tilesetId": "b310ddd7-7548-47da-81e9-6ffcfe653df1",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "872158ab-f459-4534-a261-371a1d5ec0c6"
+            "id": "8b746480-9a5d-4310-bc74-b6f6af11bc76"
           }
         ],
         "false": [
@@ -79,9 +79,9 @@
               "value": {
                 "type": "false"
               },
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "4df03591-6cba-423e-ab1a-e54011dcb642"
+            "id": "82374eba-344c-49f2-9d64-22d12bba79f0"
           },
           {
             "command": "EVENT_REPLACE_TILE_XY",
@@ -92,20 +92,20 @@
               },
               "y": {
                 "type": "number",
-                "value": 19
+                "value": 18
               },
               "tilesetId": "4261689f-2b53-4e08-80df-d5dc153df73e",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "d738bc18-8856-4ea5-a04d-f8a558c21014"
+            "id": "9b5d4805-8cba-4320-8b69-a787803d95c7"
           }
         ]
       },
-      "id": "e81b1c27-cf40-4840-923f-fe1a4c9e2cb8"
+      "id": "5dcab4f4-421a-44db-91f4-57e3104dd71e"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -116,7 +116,7 @@
         },
         "__collapse": true
       },
-      "id": "21dc7d66-71b5-4fe6-8bdc-62f0ae92f2fe"
+      "id": "eccf5f44-aa78-465f-abf1-98fc050c65f5"
     }
   ],
   "leaveScript": [],

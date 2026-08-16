@@ -262,6 +262,81 @@
       "symbol": "var_isstarted_00_07aa"
     },
     {
+      "id": "52",
+      "name": "onConveyor",
+      "symbol": "var_onconveyor"
+    },
+    {
+      "id": "53",
+      "name": "onConveyorMoveRight",
+      "symbol": "var_onconveyormoveright"
+    },
+    {
+      "id": "54",
+      "name": "onConveyorMoveLeft",
+      "symbol": "var_onconveyormoveleft"
+    },
+    {
+      "id": "55",
+      "name": "isConveyorRight",
+      "symbol": "var_isconveyorright"
+    },
+    {
+      "id": "56",
+      "name": "isElevatorUp_02_09",
+      "symbol": "var_iselevatorup_02_09"
+    },
+    {
+      "id": "57",
+      "name": "isTriggered_02_09",
+      "symbol": "var_istriggered_02_09"
+    },
+    {
+      "id": "58",
+      "name": "isTriggered_02_10_00",
+      "symbol": "var_istriggered_02_10_00"
+    },
+    {
+      "id": "59",
+      "name": "isElevatorUp_02_10_00",
+      "symbol": "var_iselevatorup_02_10_00"
+    },
+    {
+      "id": "60",
+      "name": "isElevatorUp_02_10_01",
+      "symbol": "var_iselevatorup_02_10_01"
+    },
+    {
+      "id": "61",
+      "name": "isTriggered_02_10_01",
+      "symbol": "var_istriggered_02_10_01"
+    },
+    {
+      "id": "62",
+      "name": "isSwitchOn_02_10",
+      "symbol": "var_isswitchon_02_10"
+    },
+    {
+      "id": "63",
+      "name": "isWallJumpTriggered",
+      "symbol": "var_iswalljumptriggered"
+    },
+    {
+      "id": "64",
+      "name": "isSwitchOn_00_02",
+      "symbol": "var_isswitchon_00_02"
+    },
+    {
+      "id": "65",
+      "name": "isRuneOfChallengeFound",
+      "symbol": "var_isruneofchallengefound"
+    },
+    {
+      "id": "66",
+      "name": "isTriggered_00_02c",
+      "symbol": "var_istriggered_00_02c"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -757,69 +832,9 @@
       "symbol": "var_gunboty"
     },
     {
-      "id": "52",
-      "name": "onConveyor",
-      "symbol": "var_onconveyor"
-    },
-    {
-      "id": "53",
-      "name": "onConveyorMoveRight",
-      "symbol": "var_onconveyormoveright"
-    },
-    {
-      "id": "54",
-      "name": "onConveyorMoveLeft",
-      "symbol": "var_onconveyormoveleft"
-    },
-    {
-      "id": "55",
-      "name": "isConveyorRight",
-      "symbol": "var_isconveyorright"
-    },
-    {
       "id": "20013dfe-a896-47a7-9de0-ef571cc8e861__L0",
       "name": "Local 0",
       "symbol": "var_local_16"
-    },
-    {
-      "id": "56",
-      "name": "isElevatorUp_02_09",
-      "symbol": "var_iselevatorup_02_09"
-    },
-    {
-      "id": "57",
-      "name": "isTriggered_02_09",
-      "symbol": "var_istriggered_02_09"
-    },
-    {
-      "id": "58",
-      "name": "isTriggered_02_10_00",
-      "symbol": "var_istriggered_02_10_00"
-    },
-    {
-      "id": "59",
-      "name": "isElevatorUp_02_10_00",
-      "symbol": "var_iselevatorup_02_10_00"
-    },
-    {
-      "id": "60",
-      "name": "isElevatorUp_02_10_01",
-      "symbol": "var_iselevatorup_02_10_01"
-    },
-    {
-      "id": "61",
-      "name": "isTriggered_02_10_01",
-      "symbol": "var_istriggered_02_10_01"
-    },
-    {
-      "id": "62",
-      "name": "isSwitchOn_02_10",
-      "symbol": "var_isswitchon_02_10"
-    },
-    {
-      "id": "63",
-      "name": "isWallJumpTriggered",
-      "symbol": "var_iswalljumptriggered"
     },
     {
       "id": "74cf6ef4-30a3-47d8-a346-bb758625eb1f__L0",
@@ -827,19 +842,59 @@
       "symbol": "var_ismarmadead"
     },
     {
-      "id": "64",
-      "name": "isSwitchOn_00_02",
-      "symbol": "var_isswitchon_00_02"
+      "id": "a9ba431f-4e22-4da2-a346-b25aa23a5d4d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_17"
     },
     {
-      "id": "65",
-      "name": "isRuneOfChallengeFound",
-      "symbol": "var_isruneofchallengefound"
+      "id": "c0525214-3d00-4bae-93ba-c044e325e16b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_18"
     },
     {
-      "id": "66",
-      "name": "isTriggered_00_02c",
-      "symbol": "var_istriggered_00_02c"
+      "id": "5a94047f-9cff-4886-8de0-c333578c2930__L0",
+      "name": "Local 0",
+      "symbol": "var_local_19"
+    },
+    {
+      "id": "1a063048-a4d1-4594-8882-964b35e36ca9__L0",
+      "name": "Local 0",
+      "symbol": "var_local_20"
+    },
+    {
+      "id": "954bb6b0-b0b4-4559-a3e5-c5771d723bda__L0",
+      "name": "Local 0",
+      "symbol": "var_local_21"
+    },
+    {
+      "id": "78060f29-9c74-469a-832c-91cc66a31189__L0",
+      "name": "Local 0",
+      "symbol": "var_local_22"
+    },
+    {
+      "id": "c072dbf5-2541-4d8a-bb50-cb85a5cbab87__L0",
+      "name": "Local 0",
+      "symbol": "var_local_23"
+    },
+    {
+      "id": "083b1e75-f63a-4013-beb5-bb769219da55__L0",
+      "name": "Local 0",
+      "symbol": "var_local_24"
+    },
+    {
+      "id": "b5e85917-8444-4614-a0d2-ded14137a1a3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_25"
+    },
+    {
+      "id": "67",
+      "name": "isRuneOfCommunicationFound",
+      "symbol": "var_isruneofcommunicationfo"
+    },
+    {
+      "id": "cca68512-4f6e-4d03-a019-4c57b9ea6fd0__L0",
+      "name": "Local 0",
+      "symbol": "var_local_26"
     }
   ],
   "constants": []

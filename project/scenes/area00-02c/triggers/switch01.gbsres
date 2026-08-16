@@ -4,7 +4,7 @@
   "name": "Switch01",
   "prefabId": "",
   "x": 24,
-  "y": 19,
+  "y": 18,
   "symbol": "trigger_71",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -59,14 +59,14 @@
               },
               "y": {
                 "type": "number",
-                "value": 19
+                "value": 18
               },
               "tilesetId": "b310ddd7-7548-47da-81e9-6ffcfe653df1",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "5a0bac7b-d27d-46ad-a572-0513e055e7da"
           }
@@ -79,7 +79,7 @@
               "value": {
                 "type": "false"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "e6a2ca4f-bb1e-4731-a18b-a34300c35a5e"
           },
@@ -92,14 +92,14 @@
               },
               "y": {
                 "type": "number",
-                "value": 19
+                "value": 18
               },
               "tilesetId": "4261689f-2b53-4e08-80df-d5dc153df73e",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "477ff5b3-e4e4-4d81-8404-bbdea3df60c7"
           }

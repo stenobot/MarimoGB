@@ -29,7 +29,7 @@
     "",
     ""
   ],
-  "collisions": "0081+0fb+00!0f2+003+0fb+005+0f!004+0f2+00b+0f!0010+0f!004+0f!0011+0f!0010+0f!004+0f!0011+0f!0010+0f!004+0f!0011+0f!0010+0f!004+0f!0011+0f!00c+15!0f3+005+0f!007+15!0f5+004+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!006+0fd+003+0f!003+0f!004+0f!007+0f!0016+0f!003+0f!004+0f!007+0f!0016+0f!003+0f!004+0f!007+0f!00f+0f!003+15!0f2+1a!003+0f!004+0f!007+0f!00f+0f!003+0f!006+0f!004+0f!007+0f11+003+0f!006+0f!004+0f!007+0f!00a+0f!008+0f!006+0f!004+0f!007+0f!00a+0f!008+0f!006+0f!004+0f!007+0f!0013+0f!006+0f!004+0f!007+0f!0013+0f!006+0f!004+0f!007+0f!002+0ff+009+0f!002+0f2+1a!007+0f!006+0f!0013+0f!00c+0f!006+0f!0013+0f!00c+0f!006+0f!007+0f!00b+0f!00c+0f!006+0f!007+0f!00b+0f!00c+0f!006+0f!007+0f!00b+0f!00c+0f!00e+0f!00b+0f!00c+0f!00e+0f!00b+0f!002+0fa+00!0fe+00!0fb+0053+",
+  "collisions": "0081+0fb+00!0f2+003+0fb+00b+0f!00b+0f!0010+0f!008+0f3+00b+0f!0010+0f!0016+0f!0010+0f!0016+0f!0010+0f!0016+0f!00c+15!0f3+005+0f!007+15!0f5+004+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!009+0f!00c+0f!003+0f!004+0f!007+0f!006+0fd+003+0f!003+0f!004+0f!007+0f!0016+0f!003+0f!004+0f!007+0f!0016+0f!003+0f!004+0f!007+0f!00f+0f!003+15!0f2+1a!003+0f!004+0f!007+0f11+003+0f!006+0f!004+0f!007+0f!00a+0f!008+0f!006+0f!004+0f!007+0f!00a+0f!008+0f!006+0f!004+0f!007+0f!00a+0f!008+0f!006+0f!004+0f!007+0f!0013+0f!006+0f!004+0f!007+0f!0013+0f!006+0f!004+0f!007+0f!002+0ff+009+0f!002+0f2+1a!007+0f!006+0f!0013+0f!00c+0f!006+0f!0013+0f!00c+0f!006+0f!007+0f!00b+0f!00c+0f!006+0f!007+0f!0018+0f!006+0f!007+0f!0018+0f!00e+0f!0018+0f!00e+0f!00e+0fa+00!0fe+00!0f7+0057+",
   "autoFadeSpeed": 1,
   "symbol": "scene_30",
   "x": 1560,
@@ -66,7 +66,7 @@
         "duration": 1.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -131,7 +131,7 @@
         "duration": 0.9,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -140,11 +140,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 7
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 5
+                "value": 8
               },
               "tilesetId": "0a1b5069-ea60-4007-a97c-b7fe6bf444e5",
               "tileIndex": {
@@ -224,7 +224,8 @@
             "value": "31"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -237,14 +238,14 @@
               },
               "y": {
                 "type": "number",
-                "value": 19
+                "value": 18
               },
               "tilesetId": "4261689f-2b53-4e08-80df-d5dc153df73e",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "4d23a56f-996e-408c-a1ee-4c0fd4402e7c"
           },
@@ -258,9 +259,9 @@
               },
               "y": {
                 "type": "number",
-                "value": 17
+                "value": 18
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b0affe5b-e4a3-4ffb-8049-bdc493df478b"
           },
@@ -322,9 +323,9 @@
               },
               "y": {
                 "type": "number",
-                "value": 27
+                "value": 28
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "5796603b-c4cd-4a78-8025-fc4162a6e74c"
           },
@@ -355,14 +356,14 @@
               },
               "y": {
                 "type": "number",
-                "value": 19
+                "value": 18
               },
               "tilesetId": "b310ddd7-7548-47da-81e9-6ffcfe653df1",
               "tileIndex": {
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "5fe11d9a-22f4-4093-a260-c55663b66b9d"
           },
@@ -376,7 +377,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 19
+                "value": 20
               },
               "__collapse": false
             },
@@ -440,7 +441,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 29
+                "value": 30
               },
               "__collapse": false
             },

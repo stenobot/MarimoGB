@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "1e559294-3405-49c6-8878-b885f94966b7",
+  "id": "819181b2-d757-408b-a772-27b977212f58",
   "name": "Block04",
   "frame": 0,
   "animate": false,
@@ -17,23 +17,15 @@
     "solid"
   ],
   "prefabScriptOverrides": {},
-  "symbol": "actor_69",
+  "symbol": "actor_66",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "bae8c5d3-f729-48d3-a113-ea9ddbf679b2"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 27,
-  "y": 11,
-  "_index": 5
+  "x": 22,
+  "y": 9,
+  "_index": 4
 }

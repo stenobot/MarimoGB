@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "819181b2-d757-408b-a772-27b977212f58",
+  "id": "1902eaad-eca0-4506-866f-132ebd9d2c90",
   "name": "Block05",
   "frame": 0,
   "animate": false,
@@ -17,7 +17,7 @@
     "solid"
   ],
   "prefabScriptOverrides": {},
-  "symbol": "actor_66",
+  "symbol": "actor_19",
   "script": [],
   "startScript": [
     {
@@ -25,7 +25,7 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "0983ca90-aaf5-4e68-b972-cce0c020bcc3"
+      "id": "11beb681-ee54-459a-806c-c1b742758d3b"
     }
   ],
   "updateScript": [],
@@ -33,7 +33,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 18,
-  "y": 9,
-  "_index": 4
+  "x": 8,
+  "y": 3,
+  "_index": 8
 }

@@ -1,0 +1,75 @@
+{
+  "_resourceType": "actor",
+  "id": "8a3901fd-10df-4b85-9331-9c01a3e9e576",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0ef4852b-3ff5-4fe6-9242-3ae5b479dabe",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_70",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "67",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false
+      },
+      "id": "516390de-6721-4990-9257-192b75584a28"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "MUCKLE found \na RUNE."
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "df542361-abd6-47ce-a47e-e129c99a3d6a"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c4f609b0-5e72-4639-b94e-5478367001fb"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 13,
+  "y": 3,
+  "_index": 9
+}

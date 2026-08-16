@@ -1,21 +1,23 @@
 {
   "_resourceType": "actor",
-  "id": "84ab8959-51da-4651-ace5-60a586a30363",
-  "name": "Gear01-Forward",
+  "id": "1e559294-3405-49c6-8878-b885f94966b7",
+  "name": "Block02",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "ebadddfc-f8d4-41a3-9223-b66ef097df8d",
-  "direction": "down",
+  "spriteSheetId": "973ef95a-58a1-4e8e-8873-51d1320031f2",
+  "prefabId": "",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
-  "collisionExtraFlags": [],
+  "collisionExtraFlags": [
+    "solid"
+  ],
   "prefabScriptOverrides": {},
-  "symbol": "actor_85",
+  "symbol": "actor_69",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +25,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 6,
-  "_index": 8
+  "x": 17,
+  "y": 9,
+  "_index": 5
 }
