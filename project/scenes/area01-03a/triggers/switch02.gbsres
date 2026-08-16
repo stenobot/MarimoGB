@@ -77,26 +77,6 @@
               },
               "y": {
                 "type": "number",
-                "value": 10
-              },
-              "tilesetId": "ac80dafe-849a-449f-b1e8-461ad131715f",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "d915706a-202c-46ef-84ae-a595b1a01b7e"
-          },
-          {
-            "command": "EVENT_REPLACE_TILE_XY",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 19
-              },
-              "y": {
-                "type": "number",
                 "value": 9
               },
               "tilesetId": "3ff8a87e-ab50-4091-9a15-610db034a8ff",
@@ -113,35 +93,16 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 7
+                "value": 6
               },
               "y": {
                 "type": "number",
                 "value": 0
               },
               "speed": 2,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "dd1055fa-8338-4cc8-90da-00818ce60478"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "__section": "movement",
-              "actorId": "35087cc8-4035-4679-9609-9c7f153700a6",
-              "x": {
-                "type": "number",
-                "value": 13
-              },
-              "y": {
-                "type": "number",
-                "value": 17
-              },
-              "collideWith": [],
-              "lockDirection": [],
-              "moveType": "horizontal"
-            },
-            "id": "6aa6f73b-a390-42e7-8fc8-d87550850cb0"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -221,26 +182,6 @@
               },
               "y": {
                 "type": "number",
-                "value": 10
-              },
-              "tilesetId": "d591af6a-11c6-445e-8db6-90728249246e",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "9f301e22-4c79-4f1a-afb7-e74d85acec33"
-          },
-          {
-            "command": "EVENT_REPLACE_TILE_XY",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 19
-              },
-              "y": {
-                "type": "number",
                 "value": 9
               },
               "tilesetId": "7c6a4719-3e1e-4163-b54a-ae7538f88595",
@@ -257,7 +198,7 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 7
+                "value": 6
               },
               "y": {
                 "type": "number",
@@ -266,25 +207,6 @@
               "speed": 2
             },
             "id": "f6f8e7aa-42fa-4c5e-b85f-ef3d618913d3"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "__section": "movement",
-              "actorId": "35087cc8-4035-4679-9609-9c7f153700a6",
-              "x": {
-                "type": "number",
-                "value": 13
-              },
-              "y": {
-                "type": "number",
-                "value": 15
-              },
-              "collideWith": [],
-              "lockDirection": [],
-              "moveType": "horizontal"
-            },
-            "id": "c9ca2fd1-3150-4a7c-9925-9a30641136d8"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -329,5 +251,5 @@
     }
   ],
   "leaveScript": [],
-  "_index": 1
+  "_index": 0
 }

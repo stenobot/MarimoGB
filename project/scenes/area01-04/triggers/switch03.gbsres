@@ -70,9 +70,10 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "8aec571b-8257-4704-b119-53be99c74d72"
+        "customEventId": "8aec571b-8257-4704-b119-53be99c74d72",
+        "__collapse": true
       },
-      "id": "e03f6d32-5ef2-40ce-9e9e-721d24ab2edf"
+      "id": "1940d520-f9c5-495b-a18f-08e8b8b0580b"
     }
   ],
   "leaveScript": [],

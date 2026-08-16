@@ -41,7 +41,7 @@
         "textX": 1,
         "textY": 1,
         "textHeight": 5,
-        "position": "top",
+        "position": "bottom",
         "clearPrevious": true,
         "showFrame": false,
         "speedIn": -1,
@@ -50,7 +50,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "df542361-abd6-47ce-a47e-e129c99a3d6a"
     },
@@ -71,5 +71,5 @@
   "coordinateType": "tiles",
   "x": 13,
   "y": 3,
-  "_index": 9
+  "_index": 8
 }

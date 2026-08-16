@@ -257,7 +257,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "029326f1-6cab-43e7-a0e9-1af0125963b3"
           },
@@ -277,7 +277,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "cb129821-9321-4aad-a880-cebb6d310877"
           },
@@ -297,7 +297,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "c105aa51-bde0-40f3-a46b-e22f6b60f863"
           },
@@ -317,7 +317,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "3afbc8f3-3206-4d5f-9145-46986db01cfd"
           },
@@ -337,7 +337,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "d347fc67-46bb-4d57-a0a9-235dd7185f8a"
           },
@@ -357,7 +357,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "f2c3a3a5-5915-45d5-a4ec-2d077f8b6808"
           },
@@ -377,7 +377,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "e3d62271-5354-4ded-89a0-815e3f8aacb9"
           },
