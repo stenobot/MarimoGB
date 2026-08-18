@@ -19,21 +19,13 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_19",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "11beb681-ee54-459a-806c-c1b742758d3b"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 8,
+  "x": 11,
   "y": 3,
   "_index": 7
 }

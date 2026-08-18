@@ -64,7 +64,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "50eaac70-0961-4933-a4c0-8d10dfdbd8a0"
           },
@@ -84,7 +84,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "2f1fba56-f777-4222-a9ae-0e059faaaa39"
           },
@@ -225,7 +225,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "9662f069-e42c-4ecf-85b0-271a84f19a04"
           },

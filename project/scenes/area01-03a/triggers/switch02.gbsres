@@ -119,16 +119,30 @@
               },
               "collideWith": [],
               "lockDirection": [],
-              "moveType": "horizontal"
+              "moveType": "horizontal",
+              "__collapse": true
             },
             "id": "a096af38-d691-4603-8da8-695803eaec43"
           },
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "actorId": "1902eaad-eca0-4506-866f-132ebd9d2c90"
+              "__section": "movement",
+              "actorId": "1902eaad-eca0-4506-866f-132ebd9d2c90",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": true
             },
-            "id": "92d48b43-e4ab-4165-b334-03c954ac9695"
+            "id": "7314b810-9350-4fdd-b8e9-b86239049b24"
           },
           {
             "command": "EVENT_CAMERA_LOCK",
@@ -137,7 +151,8 @@
               "axis": [
                 "x",
                 "y"
-              ]
+              ],
+              "__collapse": true
             },
             "id": "c6dd985c-11a3-4126-878e-454e289d4fec"
           }
@@ -228,11 +243,23 @@
             "id": "f46df217-2718-4a7e-91b8-1aaf1dafaf0d"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "actorId": "1902eaad-eca0-4506-866f-132ebd9d2c90"
+              "__section": "movement",
+              "actorId": "1902eaad-eca0-4506-866f-132ebd9d2c90",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "horizontal"
             },
-            "id": "01179480-7dfe-4adf-b3ee-94931616fa25"
+            "id": "c5f9b090-42c3-4070-a4b9-58e9e4e86444"
           },
           {
             "command": "EVENT_CAMERA_LOCK",

@@ -120,7 +120,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 4
+                "value": 10
               },
               "collideWith": [
                 "walls"
@@ -159,6 +159,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 4,
-  "y": 4,
+  "y": 10,
   "_index": 5
 }
