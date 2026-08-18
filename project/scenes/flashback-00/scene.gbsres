@@ -25,11 +25,11 @@
     "",
     "",
     "",
-    "",
+    "7d666054-d602-453f-97d1-940ee49d74b4",
     "a0df2f18-9d13-4dac-a3d4-67bf3b2b9b40",
     "5020053f-ed37-4e00-9d60-3090e633c8ab"
   ],
-  "collisions": "004a4+0f6+00a+0f6+0018+10!0065+0f!003+0f8+006+0f!008+0f!006+0f!004+0f!0012+10!0f!0025+0f!006+0f!0037+0f4+00c+10!00!0f!007+0f!00!10!005+0f6+0012+10!0f!0025+0f!006+0f!0023+0f8+0019+0f3+10!00!0f!007+0f!00!10!0f3+001a+10!0ff+0017+0f!006+0f!0022+0f!008+0f8+009+0f8+002+0f!10!00!0f!007+0f!00!10!0f!00e+0f3+00b+10!0f!00d+0f!0016+0f!007+0f!0021+0f!0011+0f9+00a+0f!10!00!0f!007+0f!00!10!0f!002+0fc+002+0f!00b+10!0f!00e+0fb+00b+0f!007+0f!0021+0f!0024+0f!10!00!0f9+00!10!0f!0011+0fc+0019+0f!00b+0f!008+0f!001f+0f!0025+0f!10!00b+10!0f!0036+0fc+00a+0f1f+0026+0f!10!00b+10!0f!0092+0fd+00eb+",
+  "collisions": "00554+10!0044+0f!006+0f2+0046+10!003+0f5+003+10!0f2+001b+10!0026+0f!006+0f2+0022+0f8+0019+0f3+10!003+0f!003+0f!003+10!0f!00!0f!001a+10!0ff+0017+0f!006+0f!0022+0f!008+0f8+009+0f8+002+0f!10!003+0f!003+0f!003+10!0f!00!0f!00c+0f3+00b+10!0f!00d+0f!0016+0f!007+0f!0021+0f!0011+0f9+00a+0f!10!003+0f!003+0f!003+10!0f!002+0fc+002+0f!00b+10!0f!00e+0fb+00b+0f!007+0f!0021+0f!0024+0f!10!003+0f5+003+10!0f!0011+0f5+006+10!0f!0018+0f!00b+0f!008+0f!001f+0f!0025+0f!10!00b+10!0f!001c+10!0f!0018+0fc+00a+0f1f+0026+0f!10!00b+10!0f!0016+0f7+0075+0fd+00eb+",
   "autoFadeSpeed": 4,
   "symbol": "scene_43",
   "x": 432,
@@ -50,7 +50,7 @@
         "duration": 0.7,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -89,7 +89,7 @@
         "duration": 1.1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -128,7 +128,7 @@
         "duration": 1.6,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -137,11 +137,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 8
+                "value": 16
               },
               "y": {
                 "type": "number",
-                "value": 5
+                "value": 2
               },
               "tilesetId": "e353b8e8-5818-4cb3-8d37-8cd0f240e815",
               "tileIndex": {
@@ -164,5 +164,19 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": false,
+  "parallax": [
+    {
+      "height": 5,
+      "speed": 2
+    },
+    {
+      "height": 4,
+      "speed": 1
+    },
+    {
+      "height": 0,
+      "speed": 0
+    }
+  ]
 }

@@ -166,7 +166,7 @@
                   "args": {
                     "actorId": "$self$",
                     "spriteStateId": "Curious",
-                    "loopAnim": true
+                    "loopAnim": false
                   },
                   "id": "857ead1b-0674-4091-92b4-6ed20e9060f1"
                 },
