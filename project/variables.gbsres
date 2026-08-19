@@ -337,6 +337,11 @@
       "symbol": "var_istriggered_00_02c"
     },
     {
+      "id": "67",
+      "name": "isRuneOfCommunicationFound",
+      "symbol": "var_isruneofcommunicationfo"
+    },
+    {
       "id": "dcbd1628-3f9f-41ed-8877-682de3a8b5d8__L0",
       "name": "pipeEntranceState",
       "symbol": "var_pipeentrancestate_0"
@@ -885,11 +890,6 @@
       "id": "b5e85917-8444-4614-a0d2-ded14137a1a3__L0",
       "name": "Local 0",
       "symbol": "var_local_25"
-    },
-    {
-      "id": "67",
-      "name": "isRuneOfCommunicationFound",
-      "symbol": "var_isruneofcommunicationfo"
     },
     {
       "id": "cca68512-4f6e-4d03-a019-4c57b9ea6fd0__L0",
