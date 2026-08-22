@@ -36,11 +36,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 6
+                "value": 17
               },
               "y": {
                 "type": "number",
-                "value": 10
+                "value": 11
               },
               "tilesetId": "4ff817cd-878c-4805-a1c1-c74a42813598",
               "tileIndex": {

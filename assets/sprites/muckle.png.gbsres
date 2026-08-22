@@ -2376,24 +2376,6 @@
               ]
             },
             {
-              "id": "ce8da4f9-7575-4ff2-8875-784b87d2b82b",
-              "tiles": [
-                {
-                  "id": "31badc6c-8cab-4419-9c99-ad98b5a02876",
-                  "x": 0,
-                  "y": 0,
-                  "sliceX": 0,
-                  "sliceY": 16,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
-                  "priority": false
-                }
-              ]
-            },
-            {
               "id": "3ae4813a-3b8f-4631-a6a6-96ad2c6cb775",
               "tiles": [
                 {

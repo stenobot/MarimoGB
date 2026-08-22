@@ -135,12 +135,12 @@
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 4
               },
               "collideWith": [],
               "lockDirection": [],
               "moveType": "horizontal",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "7314b810-9350-4fdd-b8e9-b86239049b24"
           },
@@ -253,7 +253,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 4
               },
               "collideWith": [],
               "lockDirection": [],

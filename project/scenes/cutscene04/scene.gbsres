@@ -194,7 +194,7 @@
         "x": 3,
         "y": 2,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "8a1fd861-61f7-4e5f-a839-5d4181329190"
     },
@@ -267,7 +267,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
